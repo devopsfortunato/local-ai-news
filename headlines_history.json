@@ -7478,6 +7478,204 @@
       "source": "La Stampa",
       "date": "2026-10-16",
       "issue": 40
+    },
+    {
+      "text": "vLLM v0.32.0 lands with low-precision KV cache across NVIDIA and AMD silicon",
+      "source": "GitHub",
+      "date": "2026-10-19",
+      "issue": 41
+    },
+    {
+      "text": "Open WebUI v0.12.3 adds browser-side end-to-end encrypted chats with MLS",
+      "source": "Open WebUI",
+      "date": "2026-10-19",
+      "issue": 41
+    },
+    {
+      "text": "AnythingLLM drops its bundled Ollama engine for AMD's Lemonade plus llama.cpp",
+      "source": "r/LocalLLaMA",
+      "date": "2026-10-19",
+      "issue": 41
+    },
+    {
+      "text": "NVIDIA denies RTX 5090 discontinuation at RTX Spark press event, admits supply constraints",
+      "source": "TechFlow",
+      "date": "2026-10-19",
+      "issue": 41
+    },
+    {
+      "text": "Nvidia's $500 billion AI financing push shows capital, not chips, is the new battleground",
+      "source": "Fortune",
+      "date": "2026-10-19",
+      "issue": 41
+    },
+    {
+      "text": "A stronger teacher lives inside your MoE, if you widen the activation budget",
+      "source": "arXiv",
+      "date": "2026-10-19",
+      "issue": 41
+    },
+    {
+      "text": "DLite: history-free speculative decoding for agentic AI",
+      "source": "HuggingFace",
+      "date": "2026-10-19",
+      "issue": 41
+    },
+    {
+      "text": "CADENCE learns how far to draft, not just what",
+      "source": "arXiv",
+      "date": "2026-10-19",
+      "issue": 41
+    },
+    {
+      "text": "ToPA: block-wise Toeplitz adaptation escapes the LoRA rank constraint",
+      "source": "arXiv",
+      "date": "2026-10-19",
+      "issue": 41
+    },
+    {
+      "text": "DeepSeek ships V4.1-Flash-1017: 77.0 on DeepSWE, Search API opened to all developers",
+      "source": "MarkTechPost",
+      "date": "2026-10-19",
+      "issue": 41
+    },
+    {
+      "text": "Tencent open-sources Hy-Memory-30B-A3B, an agent-memory writer that beats Claude Opus 5 on memory benchmarks",
+      "source": "HuggingFace",
+      "date": "2026-10-19",
+      "issue": 41
+    },
+    {
+      "text": "MOSS-Image: Apache-2.0 5B text-to-image model with native layout control trends on the Hub",
+      "source": "HuggingFace",
+      "date": "2026-10-19",
+      "issue": 41
+    },
+    {
+      "text": "NVIDIA publishes FP4-quantized Qwen3.8-Flash-Next tuned for local inference",
+      "source": "HuggingFace",
+      "date": "2026-10-19",
+      "issue": 41
+    },
+    {
+      "text": "Fish Audio Drama 3 ports land: MLX streaming and GGUF builds for the open-weight TTS leader",
+      "source": "HuggingFace",
+      "date": "2026-10-19",
+      "issue": 41
+    },
+    {
+      "text": "Show HN: WhatsApp MCP server lets an agent read your own messages, free on Cloudflare",
+      "source": "GitHub",
+      "date": "2026-10-19",
+      "issue": 41
+    },
+    {
+      "text": "Show HN: Hybro, an open interoperability engine for AI agents",
+      "source": "GitHub",
+      "date": "2026-10-19",
+      "issue": 41
+    },
+    {
+      "text": "Show HN: STROT compiles an LLM's intent once, then runs decisions locally forever",
+      "source": "GitHub",
+      "date": "2026-10-19",
+      "issue": 41
+    },
+    {
+      "text": "GPT-Load: a self-hosted AI gateway with reversible PII redaction",
+      "source": "r/selfhosted",
+      "date": "2026-10-19",
+      "issue": 41
+    },
+    {
+      "text": "lgtmaybe brings fully local AI code review to self-hosted Gitea",
+      "source": "r/selfhosted",
+      "date": "2026-10-19",
+      "issue": 41
+    },
+    {
+      "text": "r/LocalLLaMA: local Qwen3.8FN agent beats cloud on cost, slow wall-time accepted",
+      "source": "r/LocalLLaMA",
+      "date": "2026-10-19",
+      "issue": 41
+    },
+    {
+      "text": "Barclays: DDR4 contract prices up 24% in three months; memory shortage seen through 2028",
+      "source": "VGTimes",
+      "date": "2026-10-19",
+      "issue": 41
+    },
+    {
+      "text": "$470,000 in Zotac RTX 5090 GPUs disappears at Brazilian airport",
+      "source": "Tom's Hardware",
+      "date": "2026-10-19",
+      "issue": 41
+    },
+    {
+      "text": "Ollama's switch to Apple's MLX backend reshapes local LLM inference on Apple Silicon",
+      "source": "StrideNote",
+      "date": "2026-10-19",
+      "issue": 41
+    },
+    {
+      "text": "Show HN: Glider, a single-node vector database with S3 as its only durable state",
+      "source": "GitHub",
+      "date": "2026-10-19",
+      "issue": 41
+    },
+    {
+      "text": "Show HN: Cutmark, a local-first macOS video recorder and editor with MCP support",
+      "source": "GitHub",
+      "date": "2026-10-19",
+      "issue": 41
+    },
+    {
+      "text": "Local proxies per transformer block promise memory-efficient training",
+      "source": "arXiv",
+      "date": "2026-10-19",
+      "issue": 41
+    },
+    {
+      "text": "Ollama v0.40.7-rc0 adds Responses effort support on non-thinking models and MLX Decider v1.2",
+      "source": "GitHub",
+      "date": "2026-10-19",
+      "issue": 41
+    },
+    {
+      "text": "Anthropic offers Blackstone double-digit yield in $60B 'Project North Star' chip financing",
+      "source": "Shashi Bellamkonda",
+      "date": "2026-10-19",
+      "issue": 41
+    },
+    {
+      "text": "Tencent raises $5.7 billion in bond sale as AI capex doubles",
+      "source": "Embers News",
+      "date": "2026-10-19",
+      "issue": 41
+    },
+    {
+      "text": "Tether backs AI-agent infrastructure startup AIsa in seed extension past $9M total",
+      "source": "The New York Ledger",
+      "date": "2026-10-19",
+      "issue": 41
+    },
+    {
+      "text": "Start Cup Toscana 2026: ten university-born startups in the final, several agentic-AI",
+      "source": "intoscana",
+      "date": "2026-10-19",
+      "issue": 41
+    },
+    {
+      "text": "Smart cities national assembly opens in Padua with AI governance at its core",
+      "source": "City Vision",
+      "date": "2026-10-19",
+      "issue": 41
+    },
+    {
+      "text": "Meloni: extraordinary opportunities from the meeting of AI technology and Made in Italy",
+      "source": "La Cronaca 24",
+      "date": "2026-10-19",
+      "issue": 41
     }
   ]
 }
