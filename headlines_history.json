@@ -7676,6 +7676,210 @@
       "source": "La Cronaca 24",
       "date": "2026-10-19",
       "issue": 41
+    },
+    {
+      "text": "Google and Synaptics launch Astra, a next-gen edge AI chip built on Coral NPU M2",
+      "source": "RD World Online",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "llama.cpp v0.7.0 moves llama-server's default port from 8080 to 9931",
+      "source": "r/LocalLLaMA",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "Tenstorrent hits $6.2B valuation, raising $1.5B to scale open-weight AI chips",
+      "source": "TechCrunch",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "llama.cpp b11744 adds experimental --connect for p2p remote llama-server access",
+      "source": "GitHub",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "Perplexity open-sources its Firecracker orchestrator for agent sandboxing",
+      "source": "r/LocalLLaMA",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "First-order LoRA training runs directly on phone NPUs",
+      "source": "arXiv",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "Systematic comparison of parameter-efficient fine-tuning for MoE LLMs",
+      "source": "arXiv",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "What actually holds up in NVFP4 pretraining? A comparative recipe study",
+      "source": "arXiv",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "TokenGate lets LLMs skim long inputs with learned token pruning",
+      "source": "arXiv",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "ATEST adapts test-time sampling budgets to query difficulty and GPU load",
+      "source": "arXiv",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "Nesso3: a 0.4B Italian tool-calling model, and everything that failed on the way",
+      "source": "HuggingFace",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "Sort your prompts: a free throughput win for MoE batch inference",
+      "source": "HuggingFace",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "TorchNeuron public beta: run HF models on AWS Trainium with pip install",
+      "source": "Hugging Face",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "Vramkit measures LLM weight and KV-cache compression on Apple Silicon Macs",
+      "source": "GitHub",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "Yana: a local-first, human-governed AI runtime and IDE in Rust",
+      "source": "GitHub",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "Taco: LLM compression that produces identical bytes on every CPU and GPU",
+      "source": "GitHub",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "Gsearch: an MCP server giving agents real Google search via a real Firefox",
+      "source": "GitHub",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "Community warns against upgrading to Strata 2: breaking changes, halved throughput on dual GPUs",
+      "source": "r/LocalLLaMA",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "CPU bake-off of low-bit GGUF runtimes: bitnet.cpp still wrong, ik_llama.cpp with -rtr usually fastest",
+      "source": "r/LocalLLaMA",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "\"24GB is plenty if your engines take turns\": systemd service time-slices models across one GPU",
+      "source": "r/LocalLLaMA",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "Verified engine matrix for Qwen3.8-27B and Flash-Next on consumer hardware, with 2026 RAM-price costs",
+      "source": "r/LocalLLaMA",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "You can now modify Nvidia GPU vBIOS without flashing, thanks to a solo developer's project",
+      "source": "Tom's Hardware",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "DeepSeek-V4.1-Flash-1017 hits 90 tok/s single-stream on a 4-node DGX Spark cluster without a switch",
+      "source": "NVIDIA Developer Forums",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "MOSAIC finds per-layer KV-cache budgets that beat uniform allocation and token eviction",
+      "source": "arXiv",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "AI assistant startup Town hits unicorn valuation 4 months after launch with a $108M Series B",
+      "source": "TechCrunch",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "Two Minute Papers reviews Google's Gemini 4 Argon: 'really surprised' him",
+      "source": "YouTube \u2014 Two Minute Papers",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "GPU Price Index holds at 98.1 amid the memory shortage; RTX 5090 effectively gone at street",
+      "source": "videocardprices.com",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "n8n 2.43.8 ships with expression spans turned off by default",
+      "source": "GitHub (n8n-io/n8n releases)",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "\u20ac1,000 used-hardware Proxmox rack runs home services and local inference on an RX 6900 XT",
+      "source": "r/selfhosted",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "Self-hosted AI camera alerts: a Telegram photo only when your own defined situation occurs",
+      "source": "r/selfhosted",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "iphone-use-app lets LLMs control any iPhone app without a Mac",
+      "source": "GitHub",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "OpenFlow: an open-source visual builder for AI agent workflows",
+      "source": "GitHub",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "Milan approved as a dedicated AI Innovation and Development Zone with 19 public-private partners",
+      "source": "ANSA",
+      "date": "2026-10-20",
+      "issue": 42
+    },
+    {
+      "text": "AI-agent use in Italian SMEs grew 10.8x in five months \u2014 second-best in the EU",
+      "source": "AI4Business",
+      "date": "2026-10-20",
+      "issue": 42
     }
   ]
 }
