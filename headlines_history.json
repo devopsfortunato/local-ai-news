@@ -7880,6 +7880,192 @@
       "source": "AI4Business",
       "date": "2026-10-20",
       "issue": 42
+    },
+    {
+      "text": "Mistral ships Voxtral 3: a voice agent SDK with self-deployable speech models in 50+ languages",
+      "source": "Mistral AI",
+      "date": "2026-10-21",
+      "issue": 43
+    },
+    {
+      "text": "Ornith-1.5-122B: MIT-licensed 122B MoE built for single-GPU serving",
+      "source": "HuggingFace",
+      "date": "2026-10-21",
+      "issue": 43
+    },
+    {
+      "text": "Meta's Muse Glimmer 30B: Apache-2.0 on-device agentic model with 4-bit weights and a speculator head",
+      "source": "HuggingFace",
+      "date": "2026-10-21",
+      "issue": 43
+    },
+    {
+      "text": "TorchTPU goes open source \u2014 native PyTorch on TPUs lands in the Hugging Face stack",
+      "source": "Hugging Face",
+      "date": "2026-10-21",
+      "issue": 43
+    },
+    {
+      "text": "DeepSeek open-sources DeepInfer, an inference framework with Nvidia and Ascend support",
+      "source": "r/LocalLLaMA",
+      "date": "2026-10-21",
+      "issue": 43
+    },
+    {
+      "text": "Don't skip the baseline: many MoE expert-skipping methods lose to a simple calibrated baseline",
+      "source": "arXiv",
+      "date": "2026-10-21",
+      "issue": 43
+    },
+    {
+      "text": "PACT: NVFP4 data-flow LoRA fine-tuning on consumer GPUs",
+      "source": "arXiv",
+      "date": "2026-10-21",
+      "issue": 43
+    },
+    {
+      "text": "The KV-Surgeon: compensation-aware offline KV-cache compaction",
+      "source": "arXiv",
+      "date": "2026-10-21",
+      "issue": 43
+    },
+    {
+      "text": "LOOP: recovery-aligned iterative layer pruning via on-policy distillation",
+      "source": "arXiv",
+      "date": "2026-10-21",
+      "issue": 43
+    },
+    {
+      "text": "ACE-Compression: measuring which abilities survive quantization and pruning",
+      "source": "arXiv",
+      "date": "2026-10-21",
+      "issue": 43
+    },
+    {
+      "text": "Reflection Beam 501B-A23B: US lab's first open-weight model, Apache 2.0, trending on the Hub",
+      "source": "HuggingFace",
+      "date": "2026-10-21",
+      "issue": 43
+    },
+    {
+      "text": "r/LocalLLaMA debate: '72 hours, four big open-weights drops \u2014 only NVIDIA's fits in 24GB'",
+      "source": "Reddit",
+      "date": "2026-10-21",
+      "issue": 43
+    },
+    {
+      "text": "BigMoeOnEdge: a llama.cpp layer that streams frontier-size MoE models on phones and laptops",
+      "source": "GitHub",
+      "date": "2026-10-21",
+      "issue": 43
+    },
+    {
+      "text": "ane-fieldfare: reverse-engineered Apple Neural Engine runs Gemma 4 26B at ~100 tok/s",
+      "source": "GitHub",
+      "date": "2026-10-21",
+      "issue": 43
+    },
+    {
+      "text": "Harness Studio: open-source desktop coding agent for any model",
+      "source": "GitHub",
+      "date": "2026-10-21",
+      "issue": 43
+    },
+    {
+      "text": "Melra: local MCP runtime that gates risky AI-agent tool calls on approval",
+      "source": "GitHub",
+      "date": "2026-10-21",
+      "issue": 43
+    },
+    {
+      "text": "MCP Census: live change feed tracking 48,797 MCP servers",
+      "source": "MCP Census",
+      "date": "2026-10-21",
+      "issue": 43
+    },
+    {
+      "text": "ASUS reveals UGen Arc Pro B70 with 32GB ECC GDDR6 for local AI inference",
+      "source": "Guru3D",
+      "date": "2026-10-21",
+      "issue": 43
+    },
+    {
+      "text": "Perplexity Computer now runs fully local on Apple Silicon Macs, with a 36GB RAM catch",
+      "source": "AppleInsider",
+      "date": "2026-10-21",
+      "issue": 43
+    },
+    {
+      "text": "ByteDance, Alibaba and Tencent reportedly order 3 million Nvidia RTX Pro 5500 GPUs",
+      "source": "The Silicon Report",
+      "date": "2026-10-21",
+      "issue": 43
+    },
+    {
+      "text": "n8n 2.45.0 ships an AI Agent Node fix that replays Anthropic thinking turns with their tool arguments",
+      "source": "GitHub (n8n-io/n8n)",
+      "date": "2026-10-21",
+      "issue": 43
+    },
+    {
+      "text": "TideKV cuts peak prefill memory for long-context inference with delayed KV eviction",
+      "source": "arXiv",
+      "date": "2026-10-21",
+      "issue": 43
+    },
+    {
+      "text": "Controlled study of speculative decoding finds published acceptance-rate gaps shrink under alignment",
+      "source": "arXiv",
+      "date": "2026-10-21",
+      "issue": 43
+    },
+    {
+      "text": "Anthropic's Claude-designed protein binders against scorpion toxins: 17 of 211 lab-tested designs met criteria",
+      "source": "X (AnthropicAI)",
+      "date": "2026-10-21",
+      "issue": 43
+    },
+    {
+      "text": "OpenAI acquires Orchestra Bio to fold drug-development agents into its Rosalind life-sciences platform",
+      "source": "TechCrunch",
+      "date": "2026-10-21",
+      "issue": 43
+    },
+    {
+      "text": "Salesforce to acquire Braze for $5.7 billion in its latest AI marketing push",
+      "source": "TechStartups",
+      "date": "2026-10-21",
+      "issue": 43
+    },
+    {
+      "text": "Otter AI raises $320M from General Catalyst's growth fund for its meeting tool",
+      "source": "TechCrunch",
+      "date": "2026-10-21",
+      "issue": 43
+    },
+    {
+      "text": "Eka Robotics closes $150M Series A at $1.45B for its force-sensitive manipulation model",
+      "source": "TechCrunch",
+      "date": "2026-10-21",
+      "issue": 43
+    },
+    {
+      "text": "Daytona raises $60M Series B at a $1B valuation for sandboxed AI agent compute",
+      "source": "TechStartups",
+      "date": "2026-10-21",
+      "issue": 43
+    },
+    {
+      "text": "Ganiga raises \u20ac1.5M led by Vivenda to industrialize its AI food-waste monitoring system",
+      "source": "Forbes Italy",
+      "date": "2026-10-21",
+      "issue": 43
+    },
+    {
+      "text": "Nearly 19 million Italians now use AI assistants; ChatGPT loses share as Gemini advances",
+      "source": "StartupBusiness.it",
+      "date": "2026-10-21",
+      "issue": 43
     }
   ]
 }

@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOCAL AI NEWS — open-weight intelligence · October 20, 2026</title>
+  <meta name="description" content="A daily recap of local AI news from the last 24 hours: open weights, tooling, hardware, and the self-hosted stack.">
+  <link rel="stylesheet" href="style.css">
+  <style>.wt{display:flex;align-items:center;height:38px;background:var(--ink);border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule);margin:14px 0 0;overflow:hidden}.wtt{display:flex;align-items:center;white-space:nowrap;padding-left:20px;animation:ws 90s linear infinite}.wtt:hover{animation-play-state:paused}@keyframes ws{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}.ti{display:inline-flex;align-items:center;gap:7px;padding:0 22px;cursor:pointer;border-right:1px solid var(--rule);height:38px}.ti:hover{background:rgba(240,162,60,.05)}.tih{font-family:var(--serif);font-size:13px;color:var(--type)}.tis{font-family:var(--sans);font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}.mo{display:none;position:fixed;inset:0;background:rgba(10,10,12,.88);z-index:1000;justify-content:center;align-items:center;backdrop-filter:blur(8px)}.mo.a{display:flex}.mb{background:#121214;border:1px solid var(--rule-strong);max-width:680px;width:90%;max-height:82vh;overflow-y:auto;padding:40px 44px;position:relative;animation:fi .2s ease}@keyframes fi{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}.mc{position:absolute;top:14px;right:18px;background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;font-family:var(--sans);padding:4px 8px}.mh{font-family:var(--serif);font-weight:700;font-size:30px;line-height:1.1;letter-spacing:-.01em;color:var(--type);margin:0 0 14px;padding-right:32px}.mm{font-family:var(--sans);font-size:10.5px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 22px}.mm a{color:var(--lux)}.mm a:hover{text-decoration:underline}.mbd{font-family:var(--serif);font-size:16.5px;line-height:1.7;color:var(--type-dim)}.mbd .en{display:block;color:var(--lux-soft);font-style:italic;font-size:15px;margin-top:14px;padding-left:12px;border-left:2px solid var(--rule-strong)}.mbd .as{display:block;margin-top:18px;padding-top:14px;border-top:1px solid var(--rule);font-family:var(--sans);font-size:11px;color:var(--muted);line-height:1.5}.mbd .as .al{color:var(--lux-soft);font-weight:600;font-family:var(--sans);font-size:10px;letter-spacing:.06em;text-transform:uppercase}</style></head>
+  <body>
+  <div class="container">
+
+  <header class="masthead">
+    <div class="topline"></div>
+    <div class="ears">
+      <span class="left">Est. MMXXVI</span>
+      <span class="right">No. 42 <a href="/archive/" class="ar" title="Browse past issues">◆ Archive</a> <a href="#free-models" class="ar" title="Today's free AI models">⌁ Free Models</a></span>
+    </div>
+    <div class="nameplate">LOCAL <span class="lux">AI NEWS</span></div>
+      <hr class="rule-double">
+      <div class="dateline">
+        <span>October 20, 2026</span>
+        <span class="dot">◆</span>
+        <span class="tag">open weights, on your metal</span>
+        <span class="dot">◆</span>
+        <span>85 stories</span>
+      </div>
+      <div class="devocracy-credit">Inference self-hosted on a DGX Spark · models served via LiteLLM</div>
+      <hr class="rule-thin">
+    </header>
+
+    
+
+    <div class="wt"><div class="wtt"><div class="ti" onclick="openArt(this)" data-h="Hugging Face policy chief urges caution on embedded AI evaluators" data-b="AI benchmarking has become central to how labs prove their models are better than rivals, but the field is far from settled science, according to Irene Solaiman, Hugging Face&#x27;s chief policy officer, speaking at TechCrunch Disrupt last week.
+
+Solaiman stopped short of endorsing today&#x27;s evaluations as trustworthy. For her, the key question is reproducibility: whether outsiders can replicate a result, which depends on having sufficient access to the model itself — a case, she noted, where open weights matter &quot;in a big way.&quot; She also flagged that the community still lacks a meaningful way to compare different benchmarks against one another, saying tests lose value quickly and the evaluator ecosystem remains underdeveloped.
+
+Her comments land amid growing interest in &quot;embedded evaluators&quot; — supposedly neutral third parties stationed inside AI companies. The concept gained traction after a wave of safety incidents at major labs; Hugging Face itself was once the target of such an incident. Rather than face government regulation, labs have championed the third-party approach, but skepticism persists: Anthropic&#x27;s choice of Accenture as its first evaluator drew mockery from critics questioning the consultancy&#x27;s qualifications, which Solaiman said need far more standardization.
+
+She also pointed to a shift in what gets measured — from bare models to whole systems including harnesses and agents, where a weaker model in a better harness can beat a frontier one. Agentic evaluations, she said, are hard and expensive.
+
+*The evaluator debate matters less for who wins each benchmark than for whether the industry can standardize scrutiny before regulators impose it for them.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/"><span class="tih">Hugging Face policy chief urges caution on embedded AI evaluators</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Amazon targets Nvidia&#x27;s software moat with TorchNeuron porting tool" data-b="Amazon Web Services has released TorchNeuron, a PyTorch-compatible tool designed to let AI startups move their applications onto Amazon&#x27;s Trainium chips with a single configuration change and, according to Amazon, no code rewrite. As reported by TechCrunch, the release is a direct challenge to the CUDA software layer that has made Nvidia the default hardware for AI workloads.
+
+Amazon claims roughly 85% of AI apps are built with PyTorch, the open-source toolkit originally created by Facebook and now maintained by the Linux Foundation. PyTorch users can already port apps to AMD GPUs or Apple chips through simple configuration changes, but Amazon argues Trainium offers more: one chip handling both training and inference, woven into AWS&#x27;s broader cloud services.
+
+Colin Brace of AWS Annapurna Labs positioned that integration against Nvidia-aligned neoclouds such as CoreWeave, Nebius and Firmus, arguing founders should not have to assemble everything around a single-purpose compute provider. He cited voice app provider Deepgram, which he said handles 70% more audio per dollar on Trainium using native PyTorch support.
+
+Amazon also plans to contribute code to the main PyTorch project that strips out ties to specific chips, pushing the framework toward hardware agnosticism for all developers — a move that could unsettle Nvidia more deeply than any single rival chip.
+
+*The one-line port is the easy pitch; the upstream push to detach PyTorch from CUDA is where the real risk — and the real leverage — lies for Nvidia.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/"><span class="tih">Amazon targets Nvidia&#x27;s software moat with TorchNeuron porting tool</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="OpenCode breach exposes API keys for a small slice of Console users" data-b="OpenCode, an open-source AI coding agent positioned as an alternative to Claude Code and Cursor, disclosed Saturday that attackers penetrated an older system overnight and compromised API keys stored by roughly 1.4% of users of OpenCode Console, its hosted platform where some developers keep the credentials granting access to third-party AI services. According to TechCrunch, the company said all affected users were notified by email, and anyone who did not receive a message was untouched.
+
+The fallout surfaced quickly on Reddit and X, where developers reported unexpected spending alerts from OpenAI, Anthropic, and Google, with some accounts incurring charges in the hundreds of dollars and a few exceeding $1,000. Anthropic and Google blocked keys believed to be exposed; OpenAI said it coordinated with OpenCode on restoring access and refunding credits used in the attack, and OpenCode is processing refunds.
+
+Co-founder Dax Raad stressed that the breach was limited to Console and did not touch the open-source app or CLI. He said attackers probed the company&#x27;s systems for 48 hours, and that commercial AI models the team used for analysis began refusing to examine malicious code once safety filters triggered — a limitation later eased by access to OpenAI&#x27;s Daybreak Blue program for vetted defensive-security users. The company has not explained how the older system was breached and calls the incident ongoing.
+
+*The incident&#x27;s real lesson may be less about one breach than about defenders losing time to guardrails while attackers face none.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/"><span class="tih">OpenCode breach exposes API keys for a small slice of Console users</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Tenstorrent raises $1.5 billion to back independent open-weight AI chips" data-b="According to TechCrunch, Tenstorrent has closed a $1.5 billion funding round at a $6.2 billion valuation, cementing one of the most closely watched challengers to Nvidia&#x27;s grip on AI silicon. The ten-year-old startup, led by prominent microprocessor engineer Jim Keller, focuses on chips built for inference rather than training.
+
+The new valuation is more than double the $2.6 billion the company commanded in late 2024. Trace Capital, a freshly launched firm from Quiet Capital co-founder Ben Mahdavi, led the round alongside Innovation X, with Cadence Ventures, Eclipse, Fidelity, SanDisk and T. Rowe Price among other participants.
+
+Staying independent was a deliberate call: five months earlier, the company had reportedly drawn acquisition interest from both Intel and Qualcomm at valuations reaching $5 billion. Keller told Bloomberg the decision to keep raising money instead followed a demonstration that Tenstorrent&#x27;s Galaxy servers could run DeepSeek models. The fresh capital is earmarked for scaling chips tailored to serving open-weight AI models and video generation workloads.
+
+TechCrunch places the deal within a broader wave of AI hardware startups pushing against Nvidia&#x27;s dominance, pointing to chipmaker Etched, which was reportedly entertaining investment offers at valuations of $40 billion or more.
+
+*A chip startup choosing another funding round over an exit — with open-weight models as its wedge — hints that Nvidia&#x27;s moat may be shallower than the market assumed.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/"><span class="tih">Tenstorrent raises $1.5 billion to back independent open-weight AI chips</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Baseus adds a tracking spotlight to its newest outdoor security camera" data-b="Baseus has expanded its line of AI-assisted security cameras with a model designed to discourage intruders rather than merely record them. The Security PrimeSentinel U2 Pro Outdoor 3K Dual Camera, reported by The Verge, uses a motorized spotlight that locks onto a moving target and follows it across the property, making it obvious to the person that they have been detected.
+
+According to The Verge, the focused beam doubles as a low-light aid: by illuminating subjects, it improves nighttime video quality and raises the odds that an intruder can later be identified, while also helping residents with tasks like walking the dog after dark. The camera pairs a fixed 3K lens watching one area with a second 3K unit that pans, tilts and zooms a full 360 degrees, and it offers full-color night vision for distinguishing people, animals and vehicle colors.
+
+The Verge reports that AI-powered analysis sends alerts with written summaries that separate people, pets, vehicles and events like package deliveries, while filtering out irrelevant motion such as swaying branches. Footage records only on detected motion and is stored locally on an encrypted 512GB card, viewable through the Baseus app or on Alexa and Google Home devices.
+
+The camera runs on a rechargeable battery rated for up to 150 days, extended by an included 3W solar panel; Baseus says 40 minutes of sun covers a full day of use. It is sold in the US via Amazon for $269.99, with European sales at €269.99.
+
+*Active deterrence — lights that chase rather than just watch — could be the feature that finally makes camera owners feel the hardware is doing something besides archiving trouble.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/tech/1005073/baseus-security-primesentinel-u2-pro-outdoor-3k-dual-camera-tracking-spotlight"><span class="tih">Baseus adds a tracking spotlight to its newest outdoor security camera</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="Hugging Face policy chief urges caution on embedded AI evaluators" data-b="AI benchmarking has become central to how labs prove their models are better than rivals, but the field is far from settled science, according to Irene Solaiman, Hugging Face&#x27;s chief policy officer, speaking at TechCrunch Disrupt last week.
+
+Solaiman stopped short of endorsing today&#x27;s evaluations as trustworthy. For her, the key question is reproducibility: whether outsiders can replicate a result, which depends on having sufficient access to the model itself — a case, she noted, where open weights matter &quot;in a big way.&quot; She also flagged that the community still lacks a meaningful way to compare different benchmarks against one another, saying tests lose value quickly and the evaluator ecosystem remains underdeveloped.
+
+Her comments land amid growing interest in &quot;embedded evaluators&quot; — supposedly neutral third parties stationed inside AI companies. The concept gained traction after a wave of safety incidents at major labs; Hugging Face itself was once the target of such an incident. Rather than face government regulation, labs have championed the third-party approach, but skepticism persists: Anthropic&#x27;s choice of Accenture as its first evaluator drew mockery from critics questioning the consultancy&#x27;s qualifications, which Solaiman said need far more standardization.
+
+She also pointed to a shift in what gets measured — from bare models to whole systems including harnesses and agents, where a weaker model in a better harness can beat a frontier one. Agentic evaluations, she said, are hard and expensive.
+
+*The evaluator debate matters less for who wins each benchmark than for whether the industry can standardize scrutiny before regulators impose it for them.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/"><span class="tih">Hugging Face policy chief urges caution on embedded AI evaluators</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Amazon targets Nvidia&#x27;s software moat with TorchNeuron porting tool" data-b="Amazon Web Services has released TorchNeuron, a PyTorch-compatible tool designed to let AI startups move their applications onto Amazon&#x27;s Trainium chips with a single configuration change and, according to Amazon, no code rewrite. As reported by TechCrunch, the release is a direct challenge to the CUDA software layer that has made Nvidia the default hardware for AI workloads.
+
+Amazon claims roughly 85% of AI apps are built with PyTorch, the open-source toolkit originally created by Facebook and now maintained by the Linux Foundation. PyTorch users can already port apps to AMD GPUs or Apple chips through simple configuration changes, but Amazon argues Trainium offers more: one chip handling both training and inference, woven into AWS&#x27;s broader cloud services.
+
+Colin Brace of AWS Annapurna Labs positioned that integration against Nvidia-aligned neoclouds such as CoreWeave, Nebius and Firmus, arguing founders should not have to assemble everything around a single-purpose compute provider. He cited voice app provider Deepgram, which he said handles 70% more audio per dollar on Trainium using native PyTorch support.
+
+Amazon also plans to contribute code to the main PyTorch project that strips out ties to specific chips, pushing the framework toward hardware agnosticism for all developers — a move that could unsettle Nvidia more deeply than any single rival chip.
+
+*The one-line port is the easy pitch; the upstream push to detach PyTorch from CUDA is where the real risk — and the real leverage — lies for Nvidia.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/"><span class="tih">Amazon targets Nvidia&#x27;s software moat with TorchNeuron porting tool</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="OpenCode breach exposes API keys for a small slice of Console users" data-b="OpenCode, an open-source AI coding agent positioned as an alternative to Claude Code and Cursor, disclosed Saturday that attackers penetrated an older system overnight and compromised API keys stored by roughly 1.4% of users of OpenCode Console, its hosted platform where some developers keep the credentials granting access to third-party AI services. According to TechCrunch, the company said all affected users were notified by email, and anyone who did not receive a message was untouched.
+
+The fallout surfaced quickly on Reddit and X, where developers reported unexpected spending alerts from OpenAI, Anthropic, and Google, with some accounts incurring charges in the hundreds of dollars and a few exceeding $1,000. Anthropic and Google blocked keys believed to be exposed; OpenAI said it coordinated with OpenCode on restoring access and refunding credits used in the attack, and OpenCode is processing refunds.
+
+Co-founder Dax Raad stressed that the breach was limited to Console and did not touch the open-source app or CLI. He said attackers probed the company&#x27;s systems for 48 hours, and that commercial AI models the team used for analysis began refusing to examine malicious code once safety filters triggered — a limitation later eased by access to OpenAI&#x27;s Daybreak Blue program for vetted defensive-security users. The company has not explained how the older system was breached and calls the incident ongoing.
+
+*The incident&#x27;s real lesson may be less about one breach than about defenders losing time to guardrails while attackers face none.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/"><span class="tih">OpenCode breach exposes API keys for a small slice of Console users</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Tenstorrent raises $1.5 billion to back independent open-weight AI chips" data-b="According to TechCrunch, Tenstorrent has closed a $1.5 billion funding round at a $6.2 billion valuation, cementing one of the most closely watched challengers to Nvidia&#x27;s grip on AI silicon. The ten-year-old startup, led by prominent microprocessor engineer Jim Keller, focuses on chips built for inference rather than training.
+
+The new valuation is more than double the $2.6 billion the company commanded in late 2024. Trace Capital, a freshly launched firm from Quiet Capital co-founder Ben Mahdavi, led the round alongside Innovation X, with Cadence Ventures, Eclipse, Fidelity, SanDisk and T. Rowe Price among other participants.
+
+Staying independent was a deliberate call: five months earlier, the company had reportedly drawn acquisition interest from both Intel and Qualcomm at valuations reaching $5 billion. Keller told Bloomberg the decision to keep raising money instead followed a demonstration that Tenstorrent&#x27;s Galaxy servers could run DeepSeek models. The fresh capital is earmarked for scaling chips tailored to serving open-weight AI models and video generation workloads.
+
+TechCrunch places the deal within a broader wave of AI hardware startups pushing against Nvidia&#x27;s dominance, pointing to chipmaker Etched, which was reportedly entertaining investment offers at valuations of $40 billion or more.
+
+*A chip startup choosing another funding round over an exit — with open-weight models as its wedge — hints that Nvidia&#x27;s moat may be shallower than the market assumed.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/"><span class="tih">Tenstorrent raises $1.5 billion to back independent open-weight AI chips</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Baseus adds a tracking spotlight to its newest outdoor security camera" data-b="Baseus has expanded its line of AI-assisted security cameras with a model designed to discourage intruders rather than merely record them. The Security PrimeSentinel U2 Pro Outdoor 3K Dual Camera, reported by The Verge, uses a motorized spotlight that locks onto a moving target and follows it across the property, making it obvious to the person that they have been detected.
+
+According to The Verge, the focused beam doubles as a low-light aid: by illuminating subjects, it improves nighttime video quality and raises the odds that an intruder can later be identified, while also helping residents with tasks like walking the dog after dark. The camera pairs a fixed 3K lens watching one area with a second 3K unit that pans, tilts and zooms a full 360 degrees, and it offers full-color night vision for distinguishing people, animals and vehicle colors.
+
+The Verge reports that AI-powered analysis sends alerts with written summaries that separate people, pets, vehicles and events like package deliveries, while filtering out irrelevant motion such as swaying branches. Footage records only on detected motion and is stored locally on an encrypted 512GB card, viewable through the Baseus app or on Alexa and Google Home devices.
+
+The camera runs on a rechargeable battery rated for up to 150 days, extended by an included 3W solar panel; Baseus says 40 minutes of sun covers a full day of use. It is sold in the US via Amazon for $269.99, with European sales at €269.99.
+
+*Active deterrence — lights that chase rather than just watch — could be the feature that finally makes camera owners feel the hardware is doing something besides archiving trouble.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/tech/1005073/baseus-security-primesentinel-u2-pro-outdoor-3k-dual-camera-tracking-spotlight"><span class="tih">Baseus adds a tracking spotlight to its newest outdoor security camera</span> <span class="tis">— theverge.com</span></div></div></div>
+<div class="lead-zone">
+      <article class="lead">
+  <a href="https://rdworldonline.com/google-teases-synaptics-edge-ai-chip-ahead-of-oct-20-launch" target="_blank" rel="noopener">
+    <img src="images/lead_2026-10-20.jpg" alt="" class="lead-image">
+    <div class="lead-grid">
+      <div class="lead-head">
+        <p class="kicker">Edge Silicon</p>
+        <h1>Google and Synaptics launch Astra, a next-gen edge AI chip built on Coral NPU M2</h1>
+      </div>
+      <div class="lead-body">
+        <p class="deck">Synaptics formally unveiled Astra at its Tech Day in San Jose, a next-generation edge AI chip co-developed with Google Research that combines Google's Coral NPU M2 with Synaptics' Torq NPU and Arm CPUs. Google claims 40% lower energy and sub-6mW average on-device inference, targeting everything from wearables to industrial vision. The chip will also ship inside Google devices, per Synaptics CEO Rahul Patel.</p>
+        <p class="byline"><span class="src">RD World Online</span> · <span>2026-10-20</span> · <span class="more">Read the dispatch →</span></p>
+      </div>
+    </div>
+  </a>
+</article>
+
+    </div>
+
+    <div class="topstories">
+<article class="story">
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1x9tbg2/llama_servers_default_port_changed_from_8080_to/" target="_blank" rel="noopener">
+    <h3>llama.cpp v0.7.0 moves llama-server's default port from 8080 to 9931</h3>
+    <p>A silent breaking change for self-hosters: llama-server now listens on port 9931 by default, breaking firewall rules, reverse proxies and frontends like Open WebUI that assumed 8080.</p>
+    <p class="byline"><span class="src">r/LocalLLaMA</span> · 2026-10-19</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://techcrunch.com/2026-10-19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/" target="_blank" rel="noopener">
+    <h3>Tenstorrent hits $6.2B valuation, raising $1.5B to scale open-weight AI chips</h3>
+    <p>Jim Keller's Nvidia challenger closed a Series E co-led by Trace Capital and Innovation X with ARK Invest, Fidelity and Morgan Stanley participating, more than doubling its December 2024 valuation to scale Galaxy AI server production.</p>
+    <p class="byline"><span class="src">TechCrunch</span> · 2026-10-19</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://github.com/ggml-org/llama.cpp/releases/tag/b11744" target="_blank" rel="noopener">
+    <h3>llama.cpp b11744 adds experimental --connect for p2p remote llama-server access</h3>
+    <p>A new --connect flag exposes llama-server outside the LAN via a p2p tunnel with a connect code, plus a Qwen-VL resize fix and a SYCL quantized-weights fix in the b11742-b11748 builds.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-10-19</p>
+  </a>
+</article>
+
+</div>
+
+
+    <div class="sections">
+      <section class="section">
+  <div class="section-head">
+    <h2>Research &amp; Papers</h2>
+    <span class="line"></span>
+    <span class="n">05</span>
+  </div>
+  <a href="https://arxiv.org/abs/2610.24816" target="_blank" rel="noopener" class="section-hero"><img src="images/section_research_papers_2026-10-20.jpg" alt="" class="section-hero-img"><h4 class="hero-title">First-order LoRA training runs directly on phone NPUs</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://arxiv.org/abs/2610.24816" target="_blank" rel="noopener">
+    <h4>First-order LoRA training runs directly on phone NPUs</h4>
+    <p>Eliminates frozen base-model weight multiplications and activation recomputation in first-order training steps, enabling on-device LoRA fine-tuning of LLMs so a local model can learn from private user data without uploading it.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-10-17</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2610.26370" target="_blank" rel="noopener">
+    <h4>Systematic comparison of parameter-efficient fine-tuning for MoE LLMs</h4>
+    <p>Benchmarks LoRA-family and other PEFT methods for adapting mixture-of-experts LLMs under resource-constrained settings, filling a gap as MoE becomes the default for efficient inference.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-10-19</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2610.24343" target="_blank" rel="noopener">
+    <h4>What actually holds up in NVFP4 pretraining? A comparative recipe study</h4>
+    <p>Tests 4-bit floating-point LLM pretraining designs beyond small models and short token horizons to identify which low-precision training choices survive at scale.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-10-17</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2610.26754" target="_blank" rel="noopener">
+    <h4>TokenGate lets LLMs skim long inputs with learned token pruning</h4>
+    <p>Learned token pruning at the prefill stage cuts long-context processing cost and memory so models skip unimportant tokens in code repos and documents.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-10-19</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2610.25519" target="_blank" rel="noopener">
+    <h4>ATEST adapts test-time sampling budgets to query difficulty and GPU load</h4>
+    <p>Scales multi-sample inference to live GPU contention — measured up to 4.1x energy increase for the same four-sample query — improving the accuracy/energy trade-off of test-time scaling.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-10-18</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Open Weights &amp; Models</h2>
+    <span class="line"></span>
+    <span class="n">02</span>
+  </div>
+  <a href="https://huggingface.co/blog/giux78/nesso3-a-04b-model-that-calls-tools-in-italian-and" target="_blank" rel="noopener" class="section-hero"><img src="images/section_open_weights_models_2026-10-20.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Nesso3: a 0.4B Italian tool-calling model, and everything that failed on the way</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://huggingface.co/blog/giux78/nesso3-a-04b-model-that-calls-tools-in-italian-and" target="_blank" rel="noopener">
+    <h4>Nesso3: a 0.4B Italian tool-calling model, and everything that failed on the way</h4>
+    <p>An honest community write-up of training a sub-billion-parameter model that does function calling in Italian, documenting what breaks when squeezing tool use into models built for fully local, on-device assistants.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-10-19</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/blog/badaoui/sort-your-prompts" target="_blank" rel="noopener">
+    <h4>Sort your prompts: a free throughput win for MoE batch inference</h4>
+    <p>Simply sorting prompts before batched mixture-of-experts inference yields a free speed-up — no new system, no predictor — directly applicable to vLLM and SGLang local serving.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-10-19</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Tools &amp; Runtimes</h2>
+    <span class="line"></span>
+    <span class="n">05</span>
+  </div>
+  <a href="https://huggingface.co/blog/hf-torchneuron" target="_blank" rel="noopener" class="section-hero"><img src="images/section_tools_runtimes_2026-10-20.jpg" alt="" class="section-hero-img"><h4 class="hero-title">TorchNeuron public beta: run HF models on AWS Trainium with pip install</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://huggingface.co/blog/hf-torchneuron" target="_blank" rel="noopener">
+    <h4>TorchNeuron public beta: run HF models on AWS Trainium with pip install</h4>
+    <p>Hugging Face's Trainium integration opens as a public beta starting October 20, installable via pip and substantially easing the non-NVIDIA backend story for self-hosters and on-prem inference.</p>
+    <p class="byline"><span class="src">Hugging Face</span> · 2026-10-20</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/SRKRZ23/vramkit" target="_blank" rel="noopener">
+    <h4>Vramkit measures LLM weight and KV-cache compression on Apple Silicon Macs</h4>
+    <p>New open-source tool profiles how quantization and KV-cache compression behave on a MacBook, giving local runners concrete memory data per configuration.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-10-20</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/yanacuti1121/yana-ai" target="_blank" rel="noopener">
+    <h4>Yana: a local-first, human-governed AI runtime and IDE in Rust</h4>
+    <p>Show HN launch of an open-source Rust runtime and IDE for running AI agents locally with human-in-the-loop governance, positioned against cloud agent platforms.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-10-20</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/tac0mania/taco" target="_blank" rel="noopener">
+    <h4>Taco: LLM compression that produces identical bytes on every CPU and GPU</h4>
+    <p>A new open-source compression format claiming bit-identical decompressed output across CPU and GPU backends, aiming to make quantized local inference reproducible.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-10-19</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/RayenMlayeh/gsearch" target="_blank" rel="noopener">
+    <h4>Gsearch: an MCP server giving agents real Google search via a real Firefox</h4>
+    <p>Drives a genuine Firefox browser to return authentic Google results to AI agents, sidestepping bot detection and scraped-search quality issues.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-10-19</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Self-Hosted Stack</h2>
+    <span class="line"></span>
+    <span class="n">04</span>
+  </div>
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1xaflhy/do_not_upgrade_strata_tons_of_breaking_changes/" target="_blank" rel="noopener" class="section-hero"><img src="images/section_self_hosted_stack_2026-10-20.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Community warns against upgrading to Strata 2: breaking changes, halved throughput on dual GPUs</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1xaflhy/do_not_upgrade_strata_tons_of_breaking_changes/" target="_blank" rel="noopener">
+    <h4>Community warns against upgrading to Strata 2: breaking changes, halved throughput on dual GPUs</h4>
+    <p>Multiple threads report new mandatory requirements on Windows and Linux and a Strata 2 beta running at roughly half the tokens/s of 1.45 on dual RTX 4090s. Advice: hold off until fixes land.</p>
+    <p class="byline"><span class="src">r/LocalLLaMA</span> · 2026-10-20</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1xa3yqk/i_checked_bitnet_and_bonsai_on_cpu_against/" target="_blank" rel="noopener">
+    <h4>CPU bake-off of low-bit GGUF runtimes: bitnet.cpp still wrong, ik_llama.cpp with -rtr usually fastest</h4>
+    <p>A community benchmark of 1-bit/ternary/2-bit GGUF models on CPU against reference outputs finds bitnet.cpp main still produces incorrect output while Bonsai 1.7B is correct wherever it loads — a practical quant/runtime guide for CPU-only rigs.</p>
+    <p class="byline"><span class="src">r/LocalLLaMA</span> · 2026-10-19</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1xahi82/24gb_is_plenty_if_your_engines_take_turns/" target="_blank" rel="noopener">
+    <h4>"24GB is plenty if your engines take turns": systemd service time-slices models across one GPU</h4>
+    <p>A service watches GPU VRAM and swaps inference engines on demand, dedicating the full 24GB card to whichever model is active — a pattern for running multiple local engines on one consumer GPU.</p>
+    <p class="byline"><span class="src">r/LocalLLaMA</span> · 2026-10-20</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1x9tzf1/qwen3827b_and_flashnext_on_consumer_hardware/" target="_blank" rel="noopener">
+    <h4>Verified engine matrix for Qwen3.8-27B and Flash-Next on consumer hardware, with 2026 RAM-price costs</h4>
+    <p>A maintained list of which inference engines run Qwen3.8-27B and Flash-Next locally, reporting only personally verified numbers and what each setup costs given 2026 RAM prices.</p>
+    <p class="byline"><span class="src">r/LocalLLaMA</span> · 2026-10-19</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Hardware &amp; Edge</h2>
+    <span class="line"></span>
+    <span class="n">02</span>
+  </div>
+  <a href="https://www.tomshardware.com/pc-components/gpu-drivers/vbios-on-rtx-cards-can-be-modified-without-flashing-thanks-to-a-solo-developers-project-provides-a-ui-for-quick-vbios-configuration" target="_blank" rel="noopener" class="section-hero"><img src="images/section_hardware_edge_2026-10-20.jpg" alt="" class="section-hero-img"><h4 class="hero-title">You can now modify Nvidia GPU vBIOS without flashing, thanks to a solo developer's project</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://www.tomshardware.com/pc-components/gpu-drivers/vbios-on-rtx-cards-can-be-modified-without-flashing-thanks-to-a-solo-developers-project-provides-a-ui-for-quick-vbios-configuration" target="_blank" rel="noopener">
+    <h4>You can now modify Nvidia GPU vBIOS without flashing, thanks to a solo developer's project</h4>
+    <p>VBIOS Vix loads modified vBIOS images on RTX 30-50 series cards via a registry-key driver override, no flash rewrite and no brick risk. Testing reportedly lifted an RTX 5080's power limit from 360W to 500W for sustained local inference.</p>
+    <p class="byline"><span class="src">Tom's Hardware</span> · 2026-10-19</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://forums.developer.nvidia.com/t/deepseek-v4-1-flash-1017-on-4x-dgx-spark-china-oem-with-no-switch-90-tok-s-single-stream-296-tok-s-at-8-streams-1m-token-prefill-in-under-6-minut/386285" target="_blank" rel="noopener">
+    <h4>DeepSeek-V4.1-Flash-1017 hits 90 tok/s single-stream on a 4-node DGX Spark cluster without a switch</h4>
+    <p>A community builder ran the new DeepSeek checkpoint on four GB10 units with no network switch — 296 tok/s at 8 streams and a 1M-token prefill under 6 minutes — adding to the growing GB10 clustering recipes for multi-node local inference.</p>
+    <p class="byline"><span class="src">NVIDIA Developer Forums</span> · 2026-10-19</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+    </div>
+
+    <div class="trending-wrap">
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Repos on GitHub</h1>
+      <div class="t-line"></div>
+      <a href="https://github.com/trending" target="_blank" rel="noopener" class="t-link">Go to GitHub trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://github.com/MadsLorentzen/ai-job-search" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">MadsLorentzen/ai-job-search</span>
+    <span class="t-meta">Python · 57.9k ★ · +3856 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/stablyai/orca" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">stablyai/orca</span>
+    <span class="t-meta">TypeScript · 98.5k ★ · +1590 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/anomalyco/opencode" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">anomalyco/opencode</span>
+    <span class="t-meta">TypeScript · 218k ★ · +1311 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/Comfy-Org/ComfyUI" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Comfy-Org/ComfyUI</span>
+    <span class="t-meta">Python · 139.9k ★ · +1011 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/akitaonrails/ai-memory" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">akitaonrails/ai-memory</span>
+    <span class="t-meta">Rust · 11.5k ★ · +666 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/HKUDS/CLI-Anything" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">HKUDS/CLI-Anything</span>
+    <span class="t-meta">Python · 55.4k ★ · +606 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/ruvnet/ruflo" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">ruvnet/ruflo</span>
+    <span class="t-meta">TypeScript · 77.3k ★ · +564 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/headroomlabs-ai/headroom" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">headroomlabs-ai/headroom</span>
+    <span class="t-meta">Python · 76.3k ★ · +310 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/shiyu-coder/Kronos" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">shiyu-coder/Kronos</span>
+    <span class="t-meta">Python · 41.8k ★ · +363 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/anthropics/claude-code" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">anthropics/claude-code</span>
+    <span class="t-meta">TypeScript · 152.7k ★ · +167 today</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+  
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Trending on HF</h1>
+      <div class="t-line"></div>
+      <a href="https://huggingface.co/models?sort=trending" target="_blank" rel="noopener" class="t-link">Go to Hugging Face trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">deepseek-ai/DeepSeek-V4.1-Flash-1017</span>
+    <span class="t-meta">Image-Text-to-Text MoE, MIT-licensed update, ~17.9k downloads</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">black-forest-labs/flux-3-image-klein-comfy</span>
+    <span class="t-meta">Image-to-Image, ComfyUI-ready build of Flux 3 Klein</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/fishaudio/drama-3" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">fishaudio/drama-3</span>
+    <span class="t-meta">36B MoE text-to-speech (3B active), voice cloning + natural-language direction</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">openbmb/MiniCPM-V-4.7-35B-A3B</span>
+    <span class="t-meta">35B-A3B MoE vision-language, Apache 2.0, runs on-device with ~3GB memory</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/google/embeddinggemma-2" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">google/embeddinggemma-2</span>
+    <span class="t-meta">0.7B feature-extraction/embedding model, ~168k downloads</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/jialinyyzz/humanizer" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">jialinyyzz/humanizer</span>
+    <span class="t-meta">12B text-generation model, ~110k downloads</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">meta-models/Muse-Spark-Open-816B-A42B</span>
+    <span class="t-meta">816B-A42B natively multimodal MoE, 1M context, coding/agentic focus</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/LiquidAI/LFM2.5-24B-A2B" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">LiquidAI/LFM2.5-24B-A2B</span>
+    <span class="t-meta">24B-A2B reasoning model for fast on-device agents, GGUF available</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/black-forest-labs/flux-3-image-klein" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">black-forest-labs/flux-3-image-klein</span>
+    <span class="t-meta">6B image-to-image generation model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Lightricks/LTX-2.5" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">Lightricks/LTX-2.5</span>
+    <span class="t-meta">Image-to-video generation model, ~2M downloads</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+</div>
+
+
+    <section class="section" id="free-models">
+  <div class="section-head">
+    <h2>Free Models</h2>
+    <span class="line"></span>
+    <span class="n">31</span>
+  </div>
+
+  <p class="section-note">Free means $0 per token today, not unlimited or unconditional: both platforms rate-limit free use and require a free API key, some OpenRouter free endpoints may train on your prompts unless you opt out in account settings, and the roster changes daily. Verified against each provider's own pricing data at generation time — but pricing changes without notice, so confirm it's still free on the provider's own page before you rely on it.</p>
+
+  <div class="trending-wrap trending-wrap--in-section">
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenRouter</h1>
+        <div class="t-line"></div>
+        <a href="https://openrouter.ai/models?max_price=0" target="_blank" rel="noopener" class="t-link">Browse free models →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://openrouter.ai/cohere/north-mini-code:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Cohere: North Mini Code (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/dots-studio/dots-3-note-preview:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Dots Studio: Dots3-Note Preview (free)</span>
+    <span class="t-meta">512K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-26b-a4b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Google: Gemma 4 26B A4B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-31b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Google: Gemma 4 31B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/liquid/lfm-2.5-2.6b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">LiquidAI: LFM2.5-2.6B (free)</span>
+    <span class="t-meta">65K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/minimax/minimax-m3.1-flash:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">MiniMax: MiniMax M3.1 Flash (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Nano Omni (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Super (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Ultra (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Content Safety (free)</span>
+    <span class="t-meta">128K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-lightning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#11</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Lightning (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-super-vl:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#12</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Super VL (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-s-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#13</span>
+    <span class="t-name">Poolside: Laguna S 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-xs-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#14</span>
+    <span class="t-name">Poolside: Laguna XS 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#15</span>
+    <span class="t-name">Thinking Machines: Inkling (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling-small:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#16</span>
+    <span class="t-name">Thinking Machines: Inkling Small (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/xingchen-agi/xing4.0-29b-a4b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#17</span>
+    <span class="t-name">XingChen: Xing4.0 29B A4B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenCode Zen</h1>
+        <div class="t-line"></div>
+        <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener" class="t-link">See the full Zen catalog →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Big Pickle</span>
+    <span class="t-meta">big-pickle</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">GLM-5.3-Flash Free</span>
+    <span class="t-meta">glm-5.3-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">DeepSeek V4.1 Flash Free</span>
+    <span class="t-meta">deepseek-v4.1-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">MiniMax M3.1 Flash Free</span>
+    <span class="t-meta">minimax-m3.1-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Beam Free</span>
+    <span class="t-meta">beam-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">LL Alpha Free</span>
+    <span class="t-meta">ll-alpha-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">LongCat 2.5 Preview Free</span>
+    <span class="t-meta">longcat-2.5-preview-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">Exo Free</span>
+    <span class="t-meta">exo-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">MiMo-V2.6-Flash Free</span>
+    <span class="t-meta">mimo-v2.6-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">MiMo-V2.5 Free</span>
+    <span class="t-meta">mimo-v2.5-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#11</span>
+    <span class="t-name">Nemotron 3 Ultra Free</span>
+    <span class="t-meta">nemotron-3-ultra-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#12</span>
+    <span class="t-name">Nemotron 3.5 Lightning Free</span>
+    <span class="t-meta">nemotron-3.5-lightning-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#13</span>
+    <span class="t-name">Nemotron 3.5 Super VL Free</span>
+    <span class="t-meta">nemotron-3.5-super-vl-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#14</span>
+    <span class="t-name">Jev 1.13 Free</span>
+    <span class="t-meta">jev-1.13-free</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+    <section class="inbrief">
+  <div class="section-head">
+    <h2>In Brief</h2>
+    <span class="line"></span>
+    <span class="n">11</span>
+  </div>
+  <ul class="qh-list">
+    <li><a href="https://arxiv.org/abs/2610.25431" target="_blank" rel="noopener"><span class="qh-title">MOSAIC finds per-layer KV-cache budgets that beat uniform allocation and token eviction</span><span class="qh-src">arXiv</span></a></li>
+
+    <li><a href="https://techcrunch.com/2026-10-19/ai-assistant-startup-town-nabs-unicorn-valuation-four-months-after-launch/" target="_blank" rel="noopener"><span class="qh-title">AI assistant startup Town hits unicorn valuation 4 months after launch with a $108M Series B</span><span class="qh-src">TechCrunch</span></a></li>
+
+    <li><a href="https://www.youtube.com/watch?v=LWxX6vvHfrc" target="_blank" rel="noopener"><span class="qh-title">Two Minute Papers reviews Google's Gemini 4 Argon: 'really surprised' him</span><span class="qh-src">YouTube — Two Minute Papers</span></a></li>
+
+    <li><a href="https://videocardprices.com/gpu-price-index/" target="_blank" rel="noopener"><span class="qh-title">GPU Price Index holds at 98.1 amid the memory shortage; RTX 5090 effectively gone at street</span><span class="qh-src">videocardprices.com</span></a></li>
+
+    <li><a href="https://github.com/n8n-io/n8n/releases" target="_blank" rel="noopener"><span class="qh-title">n8n 2.43.8 ships with expression spans turned off by default</span><span class="qh-src">GitHub (n8n-io/n8n releases)</span></a></li>
+
+    <li><a href="https://www.reddit.com/r/selfhosted/comments/1x9r11n/my_1000_usedhardware_rack_runs_my_home_services/" target="_blank" rel="noopener"><span class="qh-title">€1,000 used-hardware Proxmox rack runs home services and local inference on an RX 6900 XT</span><span class="qh-src">r/selfhosted</span></a></li>
+
+    <li><a href="https://www.reddit.com/r/selfhosted/comments/1xa5zs7/selfhosted_custom_ai_camera_alerts_define_a/" target="_blank" rel="noopener"><span class="qh-title">Self-hosted AI camera alerts: a Telegram photo only when your own defined situation occurs</span><span class="qh-src">r/selfhosted</span></a></li>
+
+    <li><a href="https://github.com/EliotAndres/iphone-use-app" target="_blank" rel="noopener"><span class="qh-title">iphone-use-app lets LLMs control any iPhone app without a Mac</span><span class="qh-src">GitHub</span></a></li>
+
+    <li><a href="https://github.com/SeeRay11/OpenFlow" target="_blank" rel="noopener"><span class="qh-title">OpenFlow: an open-source visual builder for AI agent workflows</span><span class="qh-src">GitHub</span></a></li>
+
+    <li><a href="https://www.ansa.it/lombardia/notizie/2026-10-19/milano-punta-sullai-diventa-zona-di-innovazione-e-sviluppo-dedicata_d6a7e197-1703-40fa-887f-5fe11b8954cb.html" target="_blank" rel="noopener"><span class="qh-title">Milan approved as a dedicated AI Innovation and Development Zone with 19 public-private partners</span><span class="qh-src">ANSA</span></a></li>
+
+    <li><a href="https://www.ai4business.it/intelligenza-artificiale/agenti-ai-le-pmi-italiane-crescono-108-volte-in-cinque-mesi/" target="_blank" rel="noopener"><span class="qh-title">AI-agent use in Italian SMEs grew 10.8x in five months — second-best in the EU</span><span class="qh-src">AI4Business</span></a></li>
+
+  </ul>
+</section>
+
+
+    <footer class="colophon">
+      <p class="mark">Per aspera ad astra</p>
+      <p class="meta">Compiled by Hermes Agent · 2026-10-20 · <a href="https://github.com/MovieMaker93/local-ai-news" target="_blank" rel="noopener">source</a></p>
+      <p class="meta">Beta · <a href="making-of.html" title="Replay how this issue assembled itself">See how this issue made itself</a></p>
+    </footer>
+
+  </div>
+<div class="mo" id="mo" onclick="cm(event)"><div class="mb"><button class="mc" onclick="cm()">✕</button><h2 class="mh" id="mh"></h2><p class="mm">Source: <span id="ms"></span></p><div class="mbd" id="mbd"></div></div></div>
+<script>function openArt(el){var h=el.getAttribute('data-h'),b=el.getAttribute('data-b'),s=el.getAttribute('data-s'),u=el.getAttribute('data-u');document.getElementById('mh').textContent=h;var sl=document.getElementById('ms');if(u&&u!=='#'&&u!==''){sl.innerHTML='<a href="'+u+'" target="_blank" rel="noopener">'+s+'</a>';}else{sl.textContent=s;}var aiS='*— Written by AI (';var i=b.indexOf(aiS);if(i>=0){var bf=b.substring(0,i);var af=b.substring(i+aiS.length);var mdl=af.split(')')[0];bf=bf.split('\n').join('<br>');bf=bf.replace(/\*([^*]+)\*/g,'<em class="en">$1</em>');var sg='<div class="as"><span class="al">⬥ AI-GENERATED</span><br>Model: '+mdl+'</div>';document.getElementById('mbd').innerHTML=bf+sg;}else{document.getElementById('mbd').innerHTML=b.split('\n').join('<br>');}document.getElementById('mo').classList.add('a');document.body.style.overflow='hidden';}function cm(e){if(e&&e.target!=document.getElementById('mo'))return;document.getElementById('mo').classList.remove('a');document.body.style.overflow='';}document.addEventListener('keydown',function(e){if(e.key==='Escape')cm()});</script></body>
+</html>
