@@ -8066,6 +8066,222 @@
       "source": "StartupBusiness.it",
       "date": "2026-10-21",
       "issue": 43
+    },
+    {
+      "text": "NVIDIA opens DGX Spark to eight-unit clusters with 1TB of pooled unified memory",
+      "source": "NVIDIA Blog",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "AMD and Intel will build a single PyTorch code path for AI inference on CPUs",
+      "source": "Tom's Hardware",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "Year-old AI lab Flapping Airplanes raises $1B at a $6B valuation",
+      "source": "TechCrunch",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "Legal AI startup Legora raises $550M Series E at an $8.8B valuation",
+      "source": "TechCrunch",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "NVIDIA releases Nemotron 3.5 Embed, Rerank and Parse as open retrieval models for agents",
+      "source": "NVIDIA (Hugging Face blog)",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "SPARE allocates MoE sparsity by routing entropy instead of pruning every layer equally",
+      "source": "arXiv",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "Right On Q recovers reasoning in quantized LLMs via self-generated trajectories",
+      "source": "arXiv",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "UlaCache keeps sparse-attention KV caches available without pinning them in memory",
+      "source": "arXiv",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "RCSD trains speculative-decoding drafters with reinforcement and continual learning",
+      "source": "arXiv",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "PACE quantizes linear-attention recurrent states to four bits with channel-aligned encoding",
+      "source": "arXiv",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "NVIDIA and UW Medicine's Institute for Protein Design release open protein-design model RFD4-Proteina",
+      "source": "NVIDIA Developer",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "NVIDIA introduces Alpamayo 2 Edge, a 2B open reasoning VLA model for vehicles",
+      "source": "NVIDIA",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "Liquid AI ships DSpark, a speculative-decoding draft model for LFM2.5-24B-A2B",
+      "source": "HuggingFace",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "Omnara is an open-source, self-hostable alternative to Claude Managed Agents",
+      "source": "GitHub",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "QAmcp tests any MCP server in one command, with deterministic checks instead of AI judging",
+      "source": "GitHub",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "Renor gives coding agents a private memory shared across tools over MCP",
+      "source": "GitHub",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "VoxScribe brings offline Whisper voice typing to Android and Windows",
+      "source": "GitHub",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "Ollama v0.40.8 ships support for Recursive's Flint coding model",
+      "source": "Ollama (GitHub releases)",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "n8n 2.45.1 fixes a worker queue-job lock race and adds migration-findings triage",
+      "source": "n8n (GitHub releases)",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "Community n8n node classifies text without an LLM, API key, or subscription",
+      "source": "n8n Community Forum",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "DGX Spark October 2026 software update adds Wi-Fi Assistant and Linux 7.0 support",
+      "source": "NVIDIA Developer Forums",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "Micron's Taiwan union launches a one-day strike threatening DRAM and HBM output",
+      "source": "Tom's Hardware",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "DRAM prices seen rising 20% QoQ in 4Q26 as PC DRAM supply set to contract next year",
+      "source": "TrendForce",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "Samsung and SK Hynix upgrade Chinese fabs for advanced RAM as AI demand strains supply",
+      "source": "Yahoo Finance",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "bekko-static-embedding-v1 claims state-of-the-art multilingual static-embedding retrieval",
+      "source": "hotchpotch (Hugging Face blog)",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "Dharma AI's VocabX says vocabulary specialization cuts SLM inference cost by 77% in real apps",
+      "source": "Dharma AI (Hugging Face blog)",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "Mistral teams with NVIDIA on AI-native engineering workflows using CUDA-X and Warp",
+      "source": "Mistral AI",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "NVIDIA Kumo Relational reportedly beats supervised ML on relational data with no task-specific training",
+      "source": "NVIDIA (Hugging Face blog)",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "OpenAI says its models helped uncover critical PHP flaws in the Patch the Planet initiative",
+      "source": "OpenAI",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "LMSYS launches SGLang-TorchTPU with Google and Meta's PyTorch teams, now powering inference at Meta",
+      "source": "lmsysorg",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "Sentence Transformers v6.2.0 adds model merging with mergekit and faster loading",
+      "source": "huggingface",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "Blacksmith hits unicorn valuation after Sequoia leads a $66M Series C for its AI CI testing",
+      "source": "TechCrunch",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "ASI raises $325M Series C at a $3B valuation for physical-systems simulation models",
+      "source": "Crosswalk",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "Arda Industries emerges from stealth with $232M for AI manufacturing engineering",
+      "source": "Crosswalk",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "Dream Labs secures $90M seed for foundation models that make robots quick learners",
+      "source": "StartupReader",
+      "date": "2026-10-22",
+      "issue": 44
+    },
+    {
+      "text": "Milan's Rulen (ex LexSA) raises \u20ac1.8M to automate tax and accounting work with AI",
+      "source": "StartupItalia",
+      "date": "2026-10-22",
+      "issue": 44
     }
   ]
 }
