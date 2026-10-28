@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOCAL AI NEWS — open-weight intelligence · October 22, 2026</title>
+  <meta name="description" content="A daily recap of local AI news from the last 24 hours: open weights, tooling, hardware, and the self-hosted stack.">
+  <link rel="stylesheet" href="style.css">
+  <style>.wt{display:flex;align-items:center;height:38px;background:var(--ink);border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule);margin:14px 0 0;overflow:hidden}.wtt{display:flex;align-items:center;white-space:nowrap;padding-left:20px;animation:ws 90s linear infinite}.wtt:hover{animation-play-state:paused}@keyframes ws{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}.ti{display:inline-flex;align-items:center;gap:7px;padding:0 22px;cursor:pointer;border-right:1px solid var(--rule);height:38px}.ti:hover{background:rgba(240,162,60,.05)}.tih{font-family:var(--serif);font-size:13px;color:var(--type)}.tis{font-family:var(--sans);font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}.mo{display:none;position:fixed;inset:0;background:rgba(10,10,12,.88);z-index:1000;justify-content:center;align-items:center;backdrop-filter:blur(8px)}.mo.a{display:flex}.mb{background:#121214;border:1px solid var(--rule-strong);max-width:680px;width:90%;max-height:82vh;overflow-y:auto;padding:40px 44px;position:relative;animation:fi .2s ease}@keyframes fi{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}.mc{position:absolute;top:14px;right:18px;background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;font-family:var(--sans);padding:4px 8px}.mh{font-family:var(--serif);font-weight:700;font-size:30px;line-height:1.1;letter-spacing:-.01em;color:var(--type);margin:0 0 14px;padding-right:32px}.mm{font-family:var(--sans);font-size:10.5px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 22px}.mm a{color:var(--lux)}.mm a:hover{text-decoration:underline}.mbd{font-family:var(--serif);font-size:16.5px;line-height:1.7;color:var(--type-dim)}.mbd .en{display:block;color:var(--lux-soft);font-style:italic;font-size:15px;margin-top:14px;padding-left:12px;border-left:2px solid var(--rule-strong)}.mbd .as{display:block;margin-top:18px;padding-top:14px;border-top:1px solid var(--rule);font-family:var(--sans);font-size:11px;color:var(--muted);line-height:1.5}.mbd .as .al{color:var(--lux-soft);font-weight:600;font-family:var(--sans);font-size:10px;letter-spacing:.06em;text-transform:uppercase}</style></head>
+  <body>
+  <div class="container">
+
+  <header class="masthead">
+    <div class="topline"></div>
+    <div class="ears">
+      <span class="left">Est. MMXXVI</span>
+      <span class="right">No. 44 <a href="/archive/" class="ar" title="Browse past issues">◆ Archive</a> <a href="#free-models" class="ar" title="Today's free AI models">⌁ Free Models</a></span>
+    </div>
+    <div class="nameplate">LOCAL <span class="lux">AI NEWS</span></div>
+      <hr class="rule-double">
+      <div class="dateline">
+        <span>October 22, 2026</span>
+        <span class="dot">◆</span>
+        <span class="tag">open weights, on your metal</span>
+        <span class="dot">◆</span>
+        <span>87 stories</span>
+      </div>
+      <div class="devocracy-credit">Inference self-hosted on a DGX Spark · models served via LiteLLM</div>
+      <hr class="rule-thin">
+    </header>
+
+    
+
+    <div class="wt"><div class="wtt"><div class="ti" onclick="openArt(this)" data-h="Hackers Hit PHP Flaws Four Days Before the Public Disclosure" data-b="Attackers were probing a pair of critical PHP vulnerabilities days before the world learned about them, according to research published Wednesday evening by Amazon Web Services. The findings show at least one actor attempted to exploit the flaws — collectively dubbed PHP2Shell — on October 17, four days ahead of Wednesday&#x27;s coordinated disclosure and patch release.
+
+AWS spotted the early attempt while reviewing activity on a honeypot, a deliberately vulnerable server used to study attack behavior. The traffic came from an IP address tied to a commercial anonymization network, essentially a proxy or VPN service. AWS chief information security officer CJ Moses wrote that the anonymized targeting during the embargo period suggests a threat actor was involved, though how the exploit information was obtained beforehand remains unclear.
+
+Proof-of-concept exploits began appearing publicly on Wednesday, with some surfacing hours before the 10 am ET announcement. In the run-up, AWS honeypots absorbed multiple anonymized attacks with varied goals, pointing to several distinct actors. Moses says PHP2Shell is now being broadly exploited in the wild, while noting it is unconfirmed whether any attempts would have succeeded on real systems.
+
+AWS argues the episode shows coordinated vulnerability disclosure must speed up, since AI tools let even less skilled actors turn patch diffs into working exploits within hours or minutes. The PHP Foundation did not immediately respond to a request for comment, WIRED reports.
+
+*The four-day head start suggests the embargo model is leaking at the seams — AI-assisted exploit development is outrunning disclosure timelines.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/hackers-exploited-the-php-vulnerabilities-days-before-they-were-patched/"><span class="tih">Hackers Hit PHP Flaws Four Days Before the Public Disclosure</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Tesla&#x27;s earnings stay grounded despite a flying Roadster" data-b="Tesla posted flat revenue and slipping profits for the third quarter of 2026, according to The Verge, showing that the spectacle of a thruster-equipped Roadster prototype could not mask softness in the company&#x27;s core business. The EV maker reported $28.0 billion in revenue and $1.7 billion in net income, with earnings down 4 percent from the same quarter a year earlier. Revenue edged past the $27.9 billion Wall Street consensus compiled by LSEG, though it fell short of Tesla&#x27;s own company-compiled forecast of $28.3 billion.
+
+The numbers follow a deliveries report showing a 2.1 percent year-over-year decline, widely attributed to the September 2025 expiration of the $7,500 US federal EV tax credit — a headwind Elon Musk has warned will produce &quot;a few rough quarters.&quot; Automotive revenue slipped 3 percent to $20.5 billion, while energy generation and storage revenue tumbled 16 percent to $2.9 billion. Services and other revenue, covering charging, parts and insurance, rose 33 percent to $4.6 billion.
+
+Spending is climbing fast: capital expenditures doubled to $4.7 billion as Musk steers Tesla toward AI and robotics, and operating expenses jumped 39 percent even as operating income fell 56 percent. Meanwhile, special committees at Tesla and SpaceX are exploring a possible merger, and skeptics remain unconvinced the Roadster will ship in 2028 as promised.
+
+*Thrusters make for great headlines, but quarterly numbers still have to land on the ground.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/transportation/1015790/tesla-q3-2026-earnings-revenue-profit-roadster-spacex-merger"><span class="tih">Tesla&#x27;s earnings stay grounded despite a flying Roadster</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="Enterprise IT Leaders Say Their Software Upgrades Make Things Worse" data-b="Large enterprises spend an average of 28 percent of their software budgets on upgrades, migrations and licensing changes that their own IT leaders consider harmful, according to a survey commissioned by third-party maintenance provider Origina and conducted by research firm Censuswide. It polled 2,018 chief information officers and senior IT decision-makers at US and UK companies with at least 10,000 employees and over $1 billion in annual revenue.
+
+In the report, titled &quot;The Software Tax,&quot; 95 percent of respondents said their organization paid for a vendor-driven upgrade, migration or licensing change in the past three years that they believed would reduce performance, reliability or business value, and 53 percent said it had happened more than once. Meanwhile, 76 percent reported little real leverage in negotiations and 80 percent said leaving major vendors would cause significant disruption.
+
+Origina CEO Tomás O&#x27;Leary, one of the report&#x27;s authors, said accepting an unwanted change is often a rational response when refusing means losing support on systems the business runs on. The outlays crowd out innovation (36 percent), human resources (32 percent), security (31 percent) and customer-facing investment (31 percent), per the report. Liberty Mutual CIO James McGlennon noted an upgrade cycle can occupy top technical staff for the better part of a year. Ninety-one percent would back legal protections comparable to those for long-term residential tenants, and co-author Marshall Van Alstyne advises negotiating the exit before the entry. Origina named no vendors, though all respondents run IBM, HCL, VMware/Broadcom or SAP at meaningful scale. The firm sells independent software maintenance, illustrating a potential bias.
+
+*A survey paid for by a vendor selling the cure should always come with a grain of salt — but the sheer size of the &quot;unwanted upgrade&quot; tax is hard to dismiss.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="arstechnica.com" data-u="https://arstechnica.com/information-technology/2026/10/survey-enterprises-waste-28-percent-of-software-budgets-on-unwanted-upgrades/"><span class="tih">Enterprise IT Leaders Say Their Software Upgrades Make Things Worse</span> <span class="tis">— arstechnica.com</span></div><div class="ti" onclick="openArt(this)" data-h="Tesla earnings slump as profits fall 43 percent in Q3" data-b="Tesla&#x27;s third-quarter 2026 results, published this afternoon and reported by Ars Technica, show net profit down 43 percent year over year to $787 million, despite total revenue holding nearly flat at $28 billion.
+
+The automotive segment brought in $20.6 billion, a 3 percent decline from the same quarter last year. The energy business proved weaker still: revenue from solar panels and storage batteries — long a growth line — fell 16 percent to $2.9 billion. Services and other revenue, covering parts and Supercharging, was the bright spot, climbing by a third to $4.6 billion.
+
+Costs tell much of the story. Operating expenses jumped 39 percent to $4.8 billion, compressing the operating margin to 2.6 percent from 5.8 percent a year earlier. Capital expenditure more than doubled, rising 110 percent to $4.7 billion, while free cash flow dropped 62 percent to $1.5 billion.
+
+Regulatory credit sales, once a reliable income stream, collapsed from $417 million to $113 million, as rivals now field their own electric lineups and US credits have been abolished with Elon Musk&#x27;s backing.
+
+In its investor letter, Tesla blamed flat revenue on lower average selling prices, fewer cars sold, shrinking credits, and the energy decline, while attributing weakened profitability in part to heavy AI hardware spending — and to the CEO&#x27;s lavish compensation package.
+
+*The AI hardware spend and the CEO&#x27;s pay package appearing in the same sentence as a 43 percent profit drop is the detail investors will be reading between the lines of.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="arstechnica.com" data-u="https://arstechnica.com/cars/2026/10/tesla-profits-drop-43-in-q3/"><span class="tih">Tesla earnings slump as profits fall 43 percent in Q3</span> <span class="tis">— arstechnica.com</span></div><div class="ti" onclick="openArt(this)" data-h="One bad day for internet security: PHP, Node.js, LiteLLM and a certificate authority all stumble at once" data-b="A single day brought a pile-up of unrelated security incidents. According to TechCrunch, government websites across the world went offline after AI uncovered critical vulnerabilities in the widely used programming language PHP, with reporting on the outages first carried by Reuters. The U.S. National Security Agency told organizations running PHP to patch immediately or pull their systems offline until they could.
+
+The same day, Node.js shipped a release fixing four high-severity flaws, one enabling remote code execution and two others capable of bypassing TLS checks that confirm a server&#x27;s identity.
+
+Also on Wednesday, LiteLLM, an open-source proxy that routes requests to multiple LLM providers, said on X that an attacker had injected malicious code into its software, with tainted artifacts reaching PyPI, Docker Hub and GitHub Container Registry. The code reportedly included an information stealer aimed at cloud credentials, passwords and AI service credentials, plus a remote access trojan; the project has pulled the bad releases and published remediation steps.
+
+Rounding out the slate, Indian certificate authority eMudhra disclosed compromised private keys, opening the door to fraudulent certificates, a cleanup some security professionals compared unfavorably to Heartbleed. TechCrunch also pointed to the recent TiDB Cloud breach, active exploitation of Plex Media Server&#x27;s Plex2Shell flaws, and a BeyondTrust Remote Support zero-day abused since August.
+
+The events share no common cause, but their collision shows how stretched defenders are just as AI may speed attackers&#x27; exploitation.
+
+*The story isn&#x27;t any one breach — it&#x27;s that bad luck and AI-driven discovery are now compounding faster than patch cycles can absorb.*
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/10/21/the-internet-is-having-a-very-bad-cybersecurity-day/"><span class="tih">One bad day for internet security: PHP, Node.js, LiteLLM and a certificate authority all stumble at once</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Hackers Hit PHP Flaws Four Days Before the Public Disclosure" data-b="Attackers were probing a pair of critical PHP vulnerabilities days before the world learned about them, according to research published Wednesday evening by Amazon Web Services. The findings show at least one actor attempted to exploit the flaws — collectively dubbed PHP2Shell — on October 17, four days ahead of Wednesday&#x27;s coordinated disclosure and patch release.
+
+AWS spotted the early attempt while reviewing activity on a honeypot, a deliberately vulnerable server used to study attack behavior. The traffic came from an IP address tied to a commercial anonymization network, essentially a proxy or VPN service. AWS chief information security officer CJ Moses wrote that the anonymized targeting during the embargo period suggests a threat actor was involved, though how the exploit information was obtained beforehand remains unclear.
+
+Proof-of-concept exploits began appearing publicly on Wednesday, with some surfacing hours before the 10 am ET announcement. In the run-up, AWS honeypots absorbed multiple anonymized attacks with varied goals, pointing to several distinct actors. Moses says PHP2Shell is now being broadly exploited in the wild, while noting it is unconfirmed whether any attempts would have succeeded on real systems.
+
+AWS argues the episode shows coordinated vulnerability disclosure must speed up, since AI tools let even less skilled actors turn patch diffs into working exploits within hours or minutes. The PHP Foundation did not immediately respond to a request for comment, WIRED reports.
+
+*The four-day head start suggests the embargo model is leaking at the seams — AI-assisted exploit development is outrunning disclosure timelines.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/hackers-exploited-the-php-vulnerabilities-days-before-they-were-patched/"><span class="tih">Hackers Hit PHP Flaws Four Days Before the Public Disclosure</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Tesla&#x27;s earnings stay grounded despite a flying Roadster" data-b="Tesla posted flat revenue and slipping profits for the third quarter of 2026, according to The Verge, showing that the spectacle of a thruster-equipped Roadster prototype could not mask softness in the company&#x27;s core business. The EV maker reported $28.0 billion in revenue and $1.7 billion in net income, with earnings down 4 percent from the same quarter a year earlier. Revenue edged past the $27.9 billion Wall Street consensus compiled by LSEG, though it fell short of Tesla&#x27;s own company-compiled forecast of $28.3 billion.
+
+The numbers follow a deliveries report showing a 2.1 percent year-over-year decline, widely attributed to the September 2025 expiration of the $7,500 US federal EV tax credit — a headwind Elon Musk has warned will produce &quot;a few rough quarters.&quot; Automotive revenue slipped 3 percent to $20.5 billion, while energy generation and storage revenue tumbled 16 percent to $2.9 billion. Services and other revenue, covering charging, parts and insurance, rose 33 percent to $4.6 billion.
+
+Spending is climbing fast: capital expenditures doubled to $4.7 billion as Musk steers Tesla toward AI and robotics, and operating expenses jumped 39 percent even as operating income fell 56 percent. Meanwhile, special committees at Tesla and SpaceX are exploring a possible merger, and skeptics remain unconvinced the Roadster will ship in 2028 as promised.
+
+*Thrusters make for great headlines, but quarterly numbers still have to land on the ground.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/transportation/1015790/tesla-q3-2026-earnings-revenue-profit-roadster-spacex-merger"><span class="tih">Tesla&#x27;s earnings stay grounded despite a flying Roadster</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="Enterprise IT Leaders Say Their Software Upgrades Make Things Worse" data-b="Large enterprises spend an average of 28 percent of their software budgets on upgrades, migrations and licensing changes that their own IT leaders consider harmful, according to a survey commissioned by third-party maintenance provider Origina and conducted by research firm Censuswide. It polled 2,018 chief information officers and senior IT decision-makers at US and UK companies with at least 10,000 employees and over $1 billion in annual revenue.
+
+In the report, titled &quot;The Software Tax,&quot; 95 percent of respondents said their organization paid for a vendor-driven upgrade, migration or licensing change in the past three years that they believed would reduce performance, reliability or business value, and 53 percent said it had happened more than once. Meanwhile, 76 percent reported little real leverage in negotiations and 80 percent said leaving major vendors would cause significant disruption.
+
+Origina CEO Tomás O&#x27;Leary, one of the report&#x27;s authors, said accepting an unwanted change is often a rational response when refusing means losing support on systems the business runs on. The outlays crowd out innovation (36 percent), human resources (32 percent), security (31 percent) and customer-facing investment (31 percent), per the report. Liberty Mutual CIO James McGlennon noted an upgrade cycle can occupy top technical staff for the better part of a year. Ninety-one percent would back legal protections comparable to those for long-term residential tenants, and co-author Marshall Van Alstyne advises negotiating the exit before the entry. Origina named no vendors, though all respondents run IBM, HCL, VMware/Broadcom or SAP at meaningful scale. The firm sells independent software maintenance, illustrating a potential bias.
+
+*A survey paid for by a vendor selling the cure should always come with a grain of salt — but the sheer size of the &quot;unwanted upgrade&quot; tax is hard to dismiss.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="arstechnica.com" data-u="https://arstechnica.com/information-technology/2026/10/survey-enterprises-waste-28-percent-of-software-budgets-on-unwanted-upgrades/"><span class="tih">Enterprise IT Leaders Say Their Software Upgrades Make Things Worse</span> <span class="tis">— arstechnica.com</span></div><div class="ti" onclick="openArt(this)" data-h="Tesla earnings slump as profits fall 43 percent in Q3" data-b="Tesla&#x27;s third-quarter 2026 results, published this afternoon and reported by Ars Technica, show net profit down 43 percent year over year to $787 million, despite total revenue holding nearly flat at $28 billion.
+
+The automotive segment brought in $20.6 billion, a 3 percent decline from the same quarter last year. The energy business proved weaker still: revenue from solar panels and storage batteries — long a growth line — fell 16 percent to $2.9 billion. Services and other revenue, covering parts and Supercharging, was the bright spot, climbing by a third to $4.6 billion.
+
+Costs tell much of the story. Operating expenses jumped 39 percent to $4.8 billion, compressing the operating margin to 2.6 percent from 5.8 percent a year earlier. Capital expenditure more than doubled, rising 110 percent to $4.7 billion, while free cash flow dropped 62 percent to $1.5 billion.
+
+Regulatory credit sales, once a reliable income stream, collapsed from $417 million to $113 million, as rivals now field their own electric lineups and US credits have been abolished with Elon Musk&#x27;s backing.
+
+In its investor letter, Tesla blamed flat revenue on lower average selling prices, fewer cars sold, shrinking credits, and the energy decline, while attributing weakened profitability in part to heavy AI hardware spending — and to the CEO&#x27;s lavish compensation package.
+
+*The AI hardware spend and the CEO&#x27;s pay package appearing in the same sentence as a 43 percent profit drop is the detail investors will be reading between the lines of.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="arstechnica.com" data-u="https://arstechnica.com/cars/2026/10/tesla-profits-drop-43-in-q3/"><span class="tih">Tesla earnings slump as profits fall 43 percent in Q3</span> <span class="tis">— arstechnica.com</span></div><div class="ti" onclick="openArt(this)" data-h="One bad day for internet security: PHP, Node.js, LiteLLM and a certificate authority all stumble at once" data-b="A single day brought a pile-up of unrelated security incidents. According to TechCrunch, government websites across the world went offline after AI uncovered critical vulnerabilities in the widely used programming language PHP, with reporting on the outages first carried by Reuters. The U.S. National Security Agency told organizations running PHP to patch immediately or pull their systems offline until they could.
+
+The same day, Node.js shipped a release fixing four high-severity flaws, one enabling remote code execution and two others capable of bypassing TLS checks that confirm a server&#x27;s identity.
+
+Also on Wednesday, LiteLLM, an open-source proxy that routes requests to multiple LLM providers, said on X that an attacker had injected malicious code into its software, with tainted artifacts reaching PyPI, Docker Hub and GitHub Container Registry. The code reportedly included an information stealer aimed at cloud credentials, passwords and AI service credentials, plus a remote access trojan; the project has pulled the bad releases and published remediation steps.
+
+Rounding out the slate, Indian certificate authority eMudhra disclosed compromised private keys, opening the door to fraudulent certificates, a cleanup some security professionals compared unfavorably to Heartbleed. TechCrunch also pointed to the recent TiDB Cloud breach, active exploitation of Plex Media Server&#x27;s Plex2Shell flaws, and a BeyondTrust Remote Support zero-day abused since August.
+
+The events share no common cause, but their collision shows how stretched defenders are just as AI may speed attackers&#x27; exploitation.
+
+*The story isn&#x27;t any one breach — it&#x27;s that bad luck and AI-driven discovery are now compounding faster than patch cycles can absorb.*
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/10/21/the-internet-is-having-a-very-bad-cybersecurity-day/"><span class="tih">One bad day for internet security: PHP, Node.js, LiteLLM and a certificate authority all stumble at once</span> <span class="tis">— techcrunch.com</span></div></div></div>
+<div class="lead-zone">
+      <article class="lead">
+  <a href="https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/" target="_blank" rel="noopener">
+    <img src="images/lead_2026-10-22.jpg" alt="" class="lead-image">
+    <div class="lead-grid">
+      <div class="lead-head">
+        <p class="kicker">DGX Spark</p>
+        <h1>NVIDIA opens DGX Spark to eight-unit clusters with 1TB of pooled unified memory</h1>
+      </div>
+      <div class="lead-body">
+        <p class="deck">At GTC Berlin, NVIDIA enabled manual clustering of up to eight DGX Spark GB10 units over ConnectX-7, pooling as much as 1TB of unified memory — enough to run frontier-class open models like GLM 5.3 on a desk. The 64GB DGX Spark ($4,999) ships from Acer, ASUS, Dell, GIGABYTE, HP and MSI on Friday, October 23, while the 128GB model has climbed to $6,950 amid the memory crunch. NVIDIA also announced llama.cpp and vLLM optimizations — up to 1.4x faster agentic tasks on RTX PRO 6000 — plus day-zero support for Nemotron, GLM, DeepSeek, Qwen, MiniMax and FLUX.3 and a new FP4 checkpoint collection.</p>
+        <p class="byline"><span class="src">NVIDIA Blog</span> · <span>2026-10-21</span> · <span class="more">Read the dispatch →</span></p>
+      </div>
+    </div>
+  </a>
+</article>
+
+    </div>
+
+    <div class="topstories">
+<article class="story">
+  <a href="https://www.tomshardware.com/pc-components/cpus/amd-and-intel-will-work-together-to-create-a-single-pytorch-code-path-for-ai-inference-on-cpus-amd-zendnn-library-gets-folded-into-intel-onednn-to-make-cpu-ai-simpler" target="_blank" rel="noopener">
+    <h3>AMD and Intel will build a single PyTorch code path for AI inference on CPUs</h3>
+    <p>AMD's ZenDNN optimizations will be folded into Intel-led, UXL-governed oneDNN as the default x86 acceleration library for PyTorch CPU inference, with both vendors jointly advancing the ACE matrix-multiply ISA.</p>
+    <p class="byline"><span class="src">Tom's Hardware</span> · 2026-10-21</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://techcrunch.com/2026-10-21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation" target="_blank" rel="noopener">
+    <h3>Year-old AI lab Flapping Airplanes raises $1B at a $6B valuation</h3>
+    <p>A $1B Series A co-led by Index Ventures and Lux Capital for the San Francisco frontier lab building models that learn from far less data on its own GPU megakernel framework; no commercial product yet.</p>
+    <p class="byline"><span class="src">TechCrunch</span> · 2026-10-21</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://techcrunch.com/2026-10-21/legal-ai-startup-legora-raises-550m-series-e-at-8-8b-valuation/" target="_blank" rel="noopener">
+    <h3>Legal AI startup Legora raises $550M Series E at an $8.8B valuation</h3>
+    <p>Led by Atreides Management at an $8.8B post-money valuation, up from $5.6B, with Fidelity, Capital Group and J.P. Morgan joining Accel, Benchmark and ICONIQ as the agentic legal platform expands across North America, Europe and APAC.</p>
+    <p class="byline"><span class="src">TechCrunch</span> · 2026-10-21</p>
+  </a>
+</article>
+
+</div>
+
+
+    <div class="sections">
+      <section class="section">
+  <div class="section-head">
+    <h2>Research &amp; Papers</h2>
+    <span class="line"></span>
+    <span class="n">05</span>
+  </div>
+  <a href="https://arxiv.org/abs/2610.29662" target="_blank" rel="noopener" class="section-hero"><img src="images/section_research_papers_2026-10-22.jpg" alt="" class="section-hero-img"><h4 class="hero-title">SPARE allocates MoE sparsity by routing entropy instead of pruning every layer equally</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://arxiv.org/abs/2610.29662" target="_blank" rel="noopener">
+    <h4>SPARE allocates MoE sparsity by routing entropy instead of pruning every layer equally</h4>
+    <p>An MoE expert-pruning method that sets per-layer sparsity from routing entropy, cutting the memory footprint that blocks MoE deployment on local hardware.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-10-21</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2610.29378" target="_blank" rel="noopener">
+    <h4>Right On Q recovers reasoning in quantized LLMs via self-generated trajectories</h4>
+    <p>A quantization-aware training recipe that supervises the low-bit student on its own reasoning trajectories instead of fixed full-precision responses, where standard QAT struggles.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-10-21</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2610.29820" target="_blank" rel="noopener">
+    <h4>UlaCache keeps sparse-attention KV caches available without pinning them in memory</h4>
+    <p>A unified logical addressing layer for sparse LLM serving that retains what decoding still needs and frees the rest, cutting long-context serving memory cost.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-10-21</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2610.29527" target="_blank" rel="noopener">
+    <h4>RCSD trains speculative-decoding drafters with reinforcement and continual learning</h4>
+    <p>Replaces soft-label distillation against the target's full output distribution with RL and continual learning for draft models, improving acceptance rates for domain-specific inference.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-10-21</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2610.29545" target="_blank" rel="noopener">
+    <h4>PACE quantizes linear-attention recurrent states to four bits with channel-aligned encoding</h4>
+    <p>Compresses the fixed-size recurrent state of linear-attention models so more concurrent sequences share an accelerator than prior state-quantization schemes.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-10-21</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Open Weights &amp; Models</h2>
+    <span class="line"></span>
+    <span class="n">03</span>
+  </div>
+  <a href="https://developer.nvidia.com/blog/design-proteins-with-rfd4-proteina-using-reward-guided-inference-time-search/" target="_blank" rel="noopener" class="section-hero"><img src="images/section_open_weights_models_2026-10-22.jpg" alt="" class="section-hero-img"><h4 class="hero-title">NVIDIA and UW Medicine's Institute for Protein Design release open protein-design model RFD4-Proteina</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://developer.nvidia.com/blog/design-proteins-with-rfd4-proteina-using-reward-guided-inference-time-search/" target="_blank" rel="noopener">
+    <h4>NVIDIA and UW Medicine's Institute for Protein Design release open protein-design model RFD4-Proteina</h4>
+    <p>Announced at GTC Berlin, the BioNeMo model co-developed with the David Baker Lab covers seven design tasks — from motif scaffolding to antibody design — with weights on Hugging Face and code via RosettaCommons.</p>
+    <p class="byline"><span class="src">NVIDIA Developer</span> · 2026-10-21</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://blogs.nvidia.com/blog/open-models-europe-industry/" target="_blank" rel="noopener">
+    <h4>NVIDIA introduces Alpamayo 2 Edge, a 2B open reasoning VLA model for vehicles</h4>
+    <p>A compact 2-billion-parameter reasoning model for real-time scene understanding and motion planning, built on Cosmos and optimized for DRIVE AGX Thor, extending the commercially-licensed Alpamayo family for on-vehicle inference.</p>
+    <p class="byline"><span class="src">NVIDIA</span> · 2026-10-21</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-DSpark" target="_blank" rel="noopener">
+    <h4>Liquid AI ships DSpark, a speculative-decoding draft model for LFM2.5-24B-A2B</h4>
+    <p>A 327.7M-parameter drafter that averages 2.4x output throughput at concurrency 1 (up to 3.1x) on a B300 in SGLang for 656 MB of extra weights — a direct local-serving speedup for last week's on-device agent model.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-10-21</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Tools &amp; Runtimes</h2>
+    <span class="line"></span>
+    <span class="n">04</span>
+  </div>
+  <a href="https://github.com/omnara-ai/omnara" target="_blank" rel="noopener" class="section-hero"><img src="images/section_tools_runtimes_2026-10-22.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Omnara is an open-source, self-hostable alternative to Claude Managed Agents</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://github.com/omnara-ai/omnara" target="_blank" rel="noopener">
+    <h4>Omnara is an open-source, self-hostable alternative to Claude Managed Agents</h4>
+    <p>A Show HN launch of a managed agent platform positioned against Anthropic's Claude Managed Agents and OpenAI's Agents API, with the repo under active development.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-10-21</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/QAmcp/qamcp-cli" target="_blank" rel="noopener">
+    <h4>QAmcp tests any MCP server in one command, with deterministic checks instead of AI judging</h4>
+    <p>A new CLI and GitHub Action that exercises tools, safety labels, hidden-instruction detection, bad inputs, leaked secrets, OAuth, resources and prompts.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-10-21</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/patrickpassosb/renor-engine" target="_blank" rel="noopener">
+    <h4>Renor gives coding agents a private memory shared across tools over MCP</h4>
+    <p>An AGPL-3.0 memory layer that stores notes as Markdown files in a local folder and recalls them later over MCP, shared across agent tools.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-10-21</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/ahmedhmam1994/voxscribe-ai-voice-dictation" target="_blank" rel="noopener">
+    <h4>VoxScribe brings offline Whisper voice typing to Android and Windows</h4>
+    <p>Free, open-source dictation that types speech into any app using on-device Whisper, with no cloud and no account.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-10-21</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Self-Hosted Stack</h2>
+    <span class="line"></span>
+    <span class="n">03</span>
+  </div>
+  <a href="https://github.com/ollama/ollama/releases/tag/v0.40.8" target="_blank" rel="noopener" class="section-hero"><img src="images/section_self_hosted_stack_2026-10-22.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Ollama v0.40.8 ships support for Recursive's Flint coding model</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://github.com/ollama/ollama/releases/tag/v0.40.8" target="_blank" rel="noopener">
+    <h4>Ollama v0.40.8 ships support for Recursive's Flint coding model</h4>
+    <p>Flint is a 40B Apache-2.0 MoE coding model (~2.5B active, 262K context) reporting 54.9% on Terminal-Bench 2.1 and 74.2% on SWE-bench Verified; GPU support outside macOS is slated for a later release, and a v0.40.9-rc1 followed on October 22.</p>
+    <p class="byline"><span class="src">Ollama (GitHub releases)</span> · 2026-10-21</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/n8n-io/n8n/releases/tag/n8n%402.45.1" target="_blank" rel="noopener">
+    <h4>n8n 2.45.1 fixes a worker queue-job lock race and adds migration-findings triage</h4>
+    <p>The pre-release patch also repairs a Microsoft Teams Trigger Graph subscription renewal bug and lets workflow editors triage upgrade-migration findings on their own workflows.</p>
+    <p class="byline"><span class="src">n8n (GitHub releases)</span> · 2026-10-21</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://community.n8n.io/t/free-text-classification-node-for-n8n-no-llm-no-api-key-no-subscription/323509" target="_blank" rel="noopener">
+    <h4>Community n8n node classifies text without an LLM, API key, or subscription</h4>
+    <p>n8n-nodes-jeffy replaces the Text Classifier node with logistic regression — deterministic, no JSON-parsing failures — shipping 70 pretrained classifiers that run on a free public endpoint or self-hosted on CPU.</p>
+    <p class="byline"><span class="src">n8n Community Forum</span> · 2026-10-21</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Hardware &amp; Edge</h2>
+    <span class="line"></span>
+    <span class="n">04</span>
+  </div>
+  <a href="https://forums.developer.nvidia.com/t/dgx-spark-software-updates-october-2026-release/386341" target="_blank" rel="noopener" class="section-hero"><img src="images/section_hardware_edge_2026-10-22.jpg" alt="" class="section-hero-img"><h4 class="hero-title">DGX Spark October 2026 software update adds Wi-Fi Assistant and Linux 7.0 support</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://forums.developer.nvidia.com/t/dgx-spark-software-updates-october-2026-release/386341" target="_blank" rel="noopener">
+    <h4>DGX Spark October 2026 software update adds Wi-Fi Assistant and Linux 7.0 support</h4>
+    <p>The rolling update brings an appliance-mode Wi-Fi Assistant, dynamic display memory carveout, cloud-init provisioning and unified system software for both 64GB and 128GB configurations, with DGX Spark Skills arriving via NVIDIA Sync later this month.</p>
+    <p class="byline"><span class="src">NVIDIA Developer Forums</span> · 2026-10-21</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.tomshardware.com/pc-components/dram/microns-taiwan-union-will-launch-a-one-day-strike-this-week-threatening-round-the-clock-fab-operations-workers-demand-concrete-terms-for-2026-bonus-and-clearer-profit-sharing-arrangements" target="_blank" rel="noopener">
+    <h4>Micron's Taiwan union launches a one-day strike threatening DRAM and HBM output</h4>
+    <p>The Taoyuan union called a strike for October 22 over bonus and profit-sharing terms, a stoppage that lands while DRAM prices are surging and supply stays tight well into 2027.</p>
+    <p class="byline"><span class="src">Tom's Hardware</span> · 2026-10-21</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.trendforce.com/news/2026-10-20/news-dram-prices-seen-rising-20-qoq-in-4q26-despite-slower-gains-ai-demand-tight-supply-support-outlook/" target="_blank" rel="noopener">
+    <h4>DRAM prices seen rising 20% QoQ in 4Q26 as PC DRAM supply set to contract next year</h4>
+    <p>TrendForce reports vendors widening Q4 contract hikes with DDR5 spot extremely tight, as bits shift toward server/HBM — continuing to raise prices for RAM and VRAM on local-AI rigs.</p>
+    <p class="byline"><span class="src">TrendForce</span> · 2026-10-21</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://finance.yahoo.com/technology/articles/exclusive-samsung-sk-hynix-upgrading-044936804.html" target="_blank" rel="noopener">
+    <h4>Samsung and SK Hynix upgrade Chinese fabs for advanced RAM as AI demand strains supply</h4>
+    <p>Both memory makers are moving China plants toward more advanced chips to meet AI demand and fend off rising Chinese rival CXMT, per a Reuters report, with knock-on effects for the global DRAM price picture.</p>
+    <p class="byline"><span class="src">Yahoo Finance</span> · 2026-10-21</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+    </div>
+
+    <div class="trending-wrap">
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Repos on GitHub</h1>
+      <div class="t-line"></div>
+      <a href="https://github.com/trending" target="_blank" rel="noopener" class="t-link">Go to GitHub trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://github.com/DietrichGebert/ponytail" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">DietrichGebert/ponytail</span>
+    <span class="t-meta">JavaScript · 171.9k ★ · +2079 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/cloudflare/security-audit-skill" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">cloudflare/security-audit-skill</span>
+    <span class="t-meta">JavaScript · 37.0k ★ · +2012 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/stablyai/orca" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">stablyai/orca</span>
+    <span class="t-meta">TypeScript · 101.6k ★ · +1541 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/Comfy-Org/ComfyUI" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Comfy-Org/ComfyUI</span>
+    <span class="t-meta">Python · 141.7k ★ · +939 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/shiyu-coder/Kronos" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">shiyu-coder/Kronos</span>
+    <span class="t-meta">Python · 42.9k ★ · +575 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/headroomlabs-ai/headroom" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">headroomlabs-ai/headroom</span>
+    <span class="t-meta">Python · 77.4k ★ · +474 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/vllm-project/vllm" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">vllm-project/vllm</span>
+    <span class="t-meta">Python · 95.0k ★ · +441 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/akitaonrails/ai-memory" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">akitaonrails/ai-memory</span>
+    <span class="t-meta">Rust · 12.5k ★ · +286 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/twentyhq/twenty" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">twentyhq/twenty</span>
+    <span class="t-meta">TypeScript · 59.3k ★ · +112 today</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+  
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Trending on HF</h1>
+      <div class="t-line"></div>
+      <a href="https://huggingface.co/models?sort=trending" target="_blank" rel="noopener" class="t-link">Go to Hugging Face trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">deepseek-ai/DeepSeek-V4.1-Flash-1017</span>
+    <span class="t-meta">MIT-licensed open-weights update, 1M-token context, coding/agent focus</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">black-forest-labs/flux-3-image-klein-comfy</span>
+    <span class="t-meta">5.55B open-weights image model, ComfyUI-ready variant</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">meta-models/Muse-Spark-Open-816B-A42B</span>
+    <span class="t-meta">816B MoE, 42B active, 1M-token context, image-text to text</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/black-forest-labs/flux-3-image-klein" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">black-forest-labs/flux-3-image-klein</span>
+    <span class="t-meta">5.55B open-weights image-to-image model, ~79K downloads in 30 days</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/fishaudio/drama-3" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">fishaudio/drama-3</span>
+    <span class="t-meta">35B MoE TTS (3B active), directed multi-character speech performance</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">OpenMOSS-Team/MOSS-Image-SFT</span>
+    <span class="t-meta">5.08B text-to-image, Apache-2.0</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">OpenMOSS-Team/MOSS-Image-Base</span>
+    <span class="t-meta">Base checkpoint of the MOSS-Image text-to-image family</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Lightricks/LTX-2.5" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">Lightricks/LTX-2.5</span>
+    <span class="t-meta">Image-to-video generation, ~2M downloads in 30 days</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/google/embeddinggemma-2" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">google/embeddinggemma-2</span>
+    <span class="t-meta">744M open multimodal embedding model (text, image, video, audio), Apache-2.0</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/jialinyyzz/humanizer" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">jialinyyzz/humanizer</span>
+    <span class="t-meta">5.08B text-to-image, Apache-2.0</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+</div>
+
+
+    <section class="section" id="free-models">
+  <div class="section-head">
+    <h2>Free Models</h2>
+    <span class="line"></span>
+    <span class="n">32</span>
+  </div>
+
+  <p class="section-note">Free means $0 per token today, not unlimited or unconditional: both platforms rate-limit free use and require a free API key, some OpenRouter free endpoints may train on your prompts unless you opt out in account settings, and the roster changes daily. Verified against each provider's own pricing data at generation time — but pricing changes without notice, so confirm it's still free on the provider's own page before you rely on it.</p>
+
+  <div class="trending-wrap trending-wrap--in-section">
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenRouter</h1>
+        <div class="t-line"></div>
+        <a href="https://openrouter.ai/models?max_price=0" target="_blank" rel="noopener" class="t-link">Browse free models →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://openrouter.ai/cohere/north-mini-code:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Cohere: North Mini Code (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/dots-studio/dots-3-note-preview:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Dots Studio: Dots3-Note Preview (free)</span>
+    <span class="t-meta">512K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-26b-a4b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Google: Gemma 4 26B A4B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-31b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Google: Gemma 4 31B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/liquid/lfm-2.5-2.6b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">LiquidAI: LFM2.5-2.6B (free)</span>
+    <span class="t-meta">65K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/minimax/minimax-m3.1-flash:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">MiniMax: MiniMax M3.1 Flash (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Nano Omni (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Super (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Ultra (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Content Safety (free)</span>
+    <span class="t-meta">128K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-lightning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#11</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Lightning (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-super-vl:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#12</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Super VL (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-s-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#13</span>
+    <span class="t-name">Poolside: Laguna S 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-xs-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#14</span>
+    <span class="t-name">Poolside: Laguna XS 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/recursive/flint-v1.0:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#15</span>
+    <span class="t-name">Recursive: Flint (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#16</span>
+    <span class="t-name">Thinking Machines: Inkling (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling-small:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#17</span>
+    <span class="t-name">Thinking Machines: Inkling Small (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/xingchen-agi/xing4.0-29b-a4b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#18</span>
+    <span class="t-name">XingChen: Xing4.0 29B A4B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenCode Zen</h1>
+        <div class="t-line"></div>
+        <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener" class="t-link">See the full Zen catalog →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Big Pickle</span>
+    <span class="t-meta">big-pickle</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">GLM-5.3-Flash Free</span>
+    <span class="t-meta">glm-5.3-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">DeepSeek V4.1 Flash Free</span>
+    <span class="t-meta">deepseek-v4.1-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">MiniMax M3.1 Flash Free</span>
+    <span class="t-meta">minimax-m3.1-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Beam Free</span>
+    <span class="t-meta">beam-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">Flint 40B Free</span>
+    <span class="t-meta">flint-40b-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">LongCat 2.5 Preview Free</span>
+    <span class="t-meta">longcat-2.5-preview-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">Exo Free</span>
+    <span class="t-meta">exo-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">MiMo-V2.6-Flash Free</span>
+    <span class="t-meta">mimo-v2.6-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">MiMo-V2.5 Free</span>
+    <span class="t-meta">mimo-v2.5-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#11</span>
+    <span class="t-name">Nemotron 3 Ultra Free</span>
+    <span class="t-meta">nemotron-3-ultra-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#12</span>
+    <span class="t-name">Nemotron 3.5 Lightning Free</span>
+    <span class="t-meta">nemotron-3.5-lightning-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#13</span>
+    <span class="t-name">Nemotron 3.5 Super VL Free</span>
+    <span class="t-meta">nemotron-3.5-super-vl-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#14</span>
+    <span class="t-name">Jev 1.13 Free</span>
+    <span class="t-meta">jev-1.13-free</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+    <section class="inbrief">
+  <div class="section-head">
+    <h2>In Brief</h2>
+    <span class="line"></span>
+    <span class="n">12</span>
+  </div>
+  <ul class="qh-list">
+    <li><a href="https://huggingface.co/blog/hotchpotch/bekko-static-embedding" target="_blank" rel="noopener"><span class="qh-title">bekko-static-embedding-v1 claims state-of-the-art multilingual static-embedding retrieval</span><span class="qh-src">hotchpotch (Hugging Face blog)</span></a></li>
+
+    <li><a href="https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization" target="_blank" rel="noopener"><span class="qh-title">Dharma AI's VocabX says vocabulary specialization cuts SLM inference cost by 77% in real apps</span><span class="qh-src">Dharma AI (Hugging Face blog)</span></a></li>
+
+    <li><a href="https://www.mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/" target="_blank" rel="noopener"><span class="qh-title">Mistral teams with NVIDIA on AI-native engineering workflows using CUDA-X and Warp</span><span class="qh-src">Mistral AI</span></a></li>
+
+    <li><a href="https://huggingface.co/blog/nvidia/kumo-relational" target="_blank" rel="noopener"><span class="qh-title">NVIDIA Kumo Relational reportedly beats supervised ML on relational data with no task-specific training</span><span class="qh-src">NVIDIA (Hugging Face blog)</span></a></li>
+
+    <li><a href="https://x.com/OpenAI/status/2112907856018309586" target="_blank" rel="noopener"><span class="qh-title">OpenAI says its models helped uncover critical PHP flaws in the Patch the Planet initiative</span><span class="qh-src">OpenAI</span></a></li>
+
+    <li><a href="https://x.com/lmsysorg/status/2112956380001026058" target="_blank" rel="noopener"><span class="qh-title">LMSYS launches SGLang-TorchTPU with Google and Meta's PyTorch teams, now powering inference at Meta</span><span class="qh-src">lmsysorg</span></a></li>
+
+    <li><a href="https://x.com/huggingface/status/2112892625791697394" target="_blank" rel="noopener"><span class="qh-title">Sentence Transformers v6.2.0 adds model merging with mergekit and faster loading</span><span class="qh-src">huggingface</span></a></li>
+
+    <li><a href="https://techcrunch.com/2026-10-21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/" target="_blank" rel="noopener"><span class="qh-title">Blacksmith hits unicorn valuation after Sequoia leads a $66M Series C for its AI CI testing</span><span class="qh-src">TechCrunch</span></a></li>
+
+    <li><a href="https://crosswalk.to/crosswalk/deals/2026-10-21" target="_blank" rel="noopener"><span class="qh-title">ASI raises $325M Series C at a $3B valuation for physical-systems simulation models</span><span class="qh-src">Crosswalk</span></a></li>
+
+    <li><a href="https://crosswalk.to/crosswalk/deals/2026-10-21" target="_blank" rel="noopener"><span class="qh-title">Arda Industries emerges from stealth with $232M for AI manufacturing engineering</span><span class="qh-src">Crosswalk</span></a></li>
+
+    <li><a href="https://startupreader.com/news/archive/2026-10-21" target="_blank" rel="noopener"><span class="qh-title">Dream Labs secures $90M seed for foundation models that make robots quick learners</span><span class="qh-src">StartupReader</span></a></li>
+
+    <li><a href="https://startupitalia.eu/startup/rulen-raccoglie-18-milioni-di-euro/" target="_blank" rel="noopener"><span class="qh-title">Milan's Rulen (ex LexSA) raises €1.8M to automate tax and accounting work with AI</span><span class="qh-src">StartupItalia</span></a></li>
+
+  </ul>
+</section>
+
+
+    <footer class="colophon">
+      <p class="mark">Per aspera ad astra</p>
+      <p class="meta">Compiled by Hermes Agent · 2026-10-22 · <a href="https://github.com/MovieMaker93/local-ai-news" target="_blank" rel="noopener">source</a></p>
+      <p class="meta">Beta · <a href="making-of.html" title="Replay how this issue assembled itself">See how this issue made itself</a></p>
+    </footer>
+
+  </div>
+<div class="mo" id="mo" onclick="cm(event)"><div class="mb"><button class="mc" onclick="cm()">✕</button><h2 class="mh" id="mh"></h2><p class="mm">Source: <span id="ms"></span></p><div class="mbd" id="mbd"></div></div></div>
+<script>function openArt(el){var h=el.getAttribute('data-h'),b=el.getAttribute('data-b'),s=el.getAttribute('data-s'),u=el.getAttribute('data-u');document.getElementById('mh').textContent=h;var sl=document.getElementById('ms');if(u&&u!=='#'&&u!==''){sl.innerHTML='<a href="'+u+'" target="_blank" rel="noopener">'+s+'</a>';}else{sl.textContent=s;}var aiS='*— Written by AI (';var i=b.indexOf(aiS);if(i>=0){var bf=b.substring(0,i);var af=b.substring(i+aiS.length);var mdl=af.split(')')[0];bf=bf.split('\n').join('<br>');bf=bf.replace(/\*([^*]+)\*/g,'<em class="en">$1</em>');var sg='<div class="as"><span class="al">⬥ AI-GENERATED</span><br>Model: '+mdl+'</div>';document.getElementById('mbd').innerHTML=bf+sg;}else{document.getElementById('mbd').innerHTML=b.split('\n').join('<br>');}document.getElementById('mo').classList.add('a');document.body.style.overflow='hidden';}function cm(e){if(e&&e.target!=document.getElementById('mo'))return;document.getElementById('mo').classList.remove('a');document.body.style.overflow='';}document.addEventListener('keydown',function(e){if(e.key==='Escape')cm()});</script></body>
+</html>

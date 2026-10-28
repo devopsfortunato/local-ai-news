@@ -8282,6 +8282,156 @@
       "source": "StartupItalia",
       "date": "2026-10-22",
       "issue": 44
+    },
+    {
+      "text": "Liquid AI launches LFM3: six open-weight 2B-class models on one tri-hybrid backbone",
+      "source": "Hugging Face Blog",
+      "date": "2026-10-28",
+      "issue": 45
+    },
+    {
+      "text": "llama.cpp b11946 adds realtime conversation and transcription on /v1/realtime",
+      "source": "GitHub",
+      "date": "2026-10-28",
+      "issue": 45
+    },
+    {
+      "text": "n8n 3.0.0 beta: legacy nodes removed, security defaults tightened, stable due early December",
+      "source": "n8n Blog",
+      "date": "2026-10-28",
+      "issue": 45
+    },
+    {
+      "text": "MAXSUN plans mini PC with Intel Xe3P 'Crescent Island' GPU D-series, up to 480GB memory",
+      "source": "Notebookcheck",
+      "date": "2026-10-28",
+      "issue": 45
+    },
+    {
+      "text": "DCKV: a learned transform codec for the prompt KV cache in hybrid language models",
+      "source": "arXiv",
+      "date": "2026-10-28",
+      "issue": 45
+    },
+    {
+      "text": "CoS-VQ: coordinated shared-scale vector quantization keeps low-bit LLM decoding simple",
+      "source": "arXiv",
+      "date": "2026-10-28",
+      "issue": 45
+    },
+    {
+      "text": "Channel selection for MoE decoding needs no calibration data",
+      "source": "arXiv",
+      "date": "2026-10-28",
+      "issue": 45
+    },
+    {
+      "text": "CrossInfer shares KV state across CPU/GPU/NPU engines on edge SoCs",
+      "source": "arXiv",
+      "date": "2026-10-28",
+      "issue": 45
+    },
+    {
+      "text": "Baidu open-sources Unlimited-OCR 2: a 3B model that parses hundred-page documents in one request",
+      "source": "Hugging Face",
+      "date": "2026-10-28",
+      "issue": 45
+    },
+    {
+      "text": "MiniMax M3.1 Flash weights go public: 428B MoE for local coding and agentic work",
+      "source": "Hugging Face",
+      "date": "2026-10-28",
+      "issue": 45
+    },
+    {
+      "text": "Community ships DSpark draft head for GLM-5.3 for faster local speculative decoding",
+      "source": "Hugging Face",
+      "date": "2026-10-28",
+      "issue": 45
+    },
+    {
+      "text": "Survival LLM: an offline AI assistant and emergency library that runs on your own computer",
+      "source": "Hacker News",
+      "date": "2026-10-28",
+      "issue": 45
+    },
+    {
+      "text": "PVisor runs AI-agent workloads inside VM-isolated containers",
+      "source": "GitHub",
+      "date": "2026-10-28",
+      "issue": 45
+    },
+    {
+      "text": "Apple launches 14-inch MacBook Pro with M6: 30% faster GPU, 25% faster AI, from $1,999",
+      "source": "Macworld",
+      "date": "2026-10-28",
+      "issue": 45
+    },
+    {
+      "text": "NVIDIA brings DLSS 5, RTX Kit and on-device Nemotron 3.5 Bolt E4B to RTX Spark laptops",
+      "source": "NVIDIA Developer Blog",
+      "date": "2026-10-28",
+      "issue": 45
+    },
+    {
+      "text": "Google DeepMind previews Genie 4, a real-time interactive world model with synchronized audio",
+      "source": "Google DeepMind",
+      "date": "2026-10-28",
+      "issue": 45
+    },
+    {
+      "text": "Anthropic files for what could be the largest IPO ever, AP reports",
+      "source": "AP",
+      "date": "2026-10-28",
+      "issue": 45
+    },
+    {
+      "text": "Anthropic expands GSA partnership: Claude to US governments at a 40% discount under OneGov",
+      "source": "AnthropicAI",
+      "date": "2026-10-28",
+      "issue": 45
+    },
+    {
+      "text": "Nvidia backs Simplismart's $14M Series B to run AI models with fewer GPUs",
+      "source": "TechCrunch",
+      "date": "2026-10-28",
+      "issue": 45
+    },
+    {
+      "text": "Hugging Face and Reflection AI run a Beam build challenge with $20K in prizes",
+      "source": "huggingface",
+      "date": "2026-10-28",
+      "issue": 45
+    },
+    {
+      "text": "r/LocalLLaMA: AI agents still wiping user data \u2014 backups remain the only real defense",
+      "source": "r/LocalLLaMA",
+      "date": "2026-10-28",
+      "issue": 45
+    },
+    {
+      "text": "NVIDIA ships hotfix driver 621.12 for RTX 50 video freezes and RTX Spark black screens",
+      "source": "NVIDIA",
+      "date": "2026-10-28",
+      "issue": 45
+    },
+    {
+      "text": "Balanced state subspaces improve Mamba-2 state compression",
+      "source": "arXiv",
+      "date": "2026-10-28",
+      "issue": 45
+    },
+    {
+      "text": "Agora Labs raises \u20ac4.3M led by P101 to expand its clinical data research infrastructure",
+      "source": "Startup-News.it",
+      "date": "2026-10-28",
+      "issue": 45
+    },
+    {
+      "text": "Alterna pivots from generic agents to vertical AI suites for Italian industry",
+      "source": "AI4Business",
+      "date": "2026-10-28",
+      "issue": 45
     }
   ]
 }
