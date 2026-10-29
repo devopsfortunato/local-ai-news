@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOCAL AI NEWS — open-weight intelligence · October 28, 2026</title>
+  <meta name="description" content="A daily recap of local AI news from the last 24 hours: open weights, tooling, hardware, and the self-hosted stack.">
+  <link rel="stylesheet" href="style.css">
+  <style>.wt{display:flex;align-items:center;height:38px;background:var(--ink);border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule);margin:14px 0 0;overflow:hidden}.wtt{display:flex;align-items:center;white-space:nowrap;padding-left:20px;animation:ws 90s linear infinite}.wtt:hover{animation-play-state:paused}@keyframes ws{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}.ti{display:inline-flex;align-items:center;gap:7px;padding:0 22px;cursor:pointer;border-right:1px solid var(--rule);height:38px}.ti:hover{background:rgba(240,162,60,.05)}.tih{font-family:var(--serif);font-size:13px;color:var(--type)}.tis{font-family:var(--sans);font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}.mo{display:none;position:fixed;inset:0;background:rgba(10,10,12,.88);z-index:1000;justify-content:center;align-items:center;backdrop-filter:blur(8px)}.mo.a{display:flex}.mb{background:#121214;border:1px solid var(--rule-strong);max-width:680px;width:90%;max-height:82vh;overflow-y:auto;padding:40px 44px;position:relative;animation:fi .2s ease}@keyframes fi{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}.mc{position:absolute;top:14px;right:18px;background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;font-family:var(--sans);padding:4px 8px}.mh{font-family:var(--serif);font-weight:700;font-size:30px;line-height:1.1;letter-spacing:-.01em;color:var(--type);margin:0 0 14px;padding-right:32px}.mm{font-family:var(--sans);font-size:10.5px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 22px}.mm a{color:var(--lux)}.mm a:hover{text-decoration:underline}.mbd{font-family:var(--serif);font-size:16.5px;line-height:1.7;color:var(--type-dim)}.mbd .en{display:block;color:var(--lux-soft);font-style:italic;font-size:15px;margin-top:14px;padding-left:12px;border-left:2px solid var(--rule-strong)}.mbd .as{display:block;margin-top:18px;padding-top:14px;border-top:1px solid var(--rule);font-family:var(--sans);font-size:11px;color:var(--muted);line-height:1.5}.mbd .as .al{color:var(--lux-soft);font-weight:600;font-family:var(--sans);font-size:10px;letter-spacing:.06em;text-transform:uppercase}</style></head>
+  <body>
+  <div class="container">
+
+  <header class="masthead">
+    <div class="topline"></div>
+    <div class="ears">
+      <span class="left">Est. MMXXVI</span>
+      <span class="right">No. 45 <a href="/archive/" class="ar" title="Browse past issues">◆ Archive</a> <a href="#free-models" class="ar" title="Today's free AI models">⌁ Free Models</a></span>
+    </div>
+    <div class="nameplate">LOCAL <span class="lux">AI NEWS</span></div>
+      <hr class="rule-double">
+      <div class="dateline">
+        <span>October 28, 2026</span>
+        <span class="dot">◆</span>
+        <span class="tag">open weights, on your metal</span>
+        <span class="dot">◆</span>
+        <span>71 stories</span>
+      </div>
+      <div class="devocracy-credit">Inference self-hosted on a DGX Spark · models served via LiteLLM</div>
+      <hr class="rule-thin">
+    </header>
+
+    
+
+    <div class="wt"><div class="wtt"><div class="ti" onclick="openArt(this)" data-h="Wikipedia&#x27;s keep-or-delete machinery is quietly deciding who counts as noteworthy" data-b="According to WIRED, English Wikipedia — home to more than seven million articles — loses dozens or even hundreds of biographies every day to deletion reviews that judge subjects insufficiently notable. Recent candidates for removal included Xavier Trudeau, the teenage son of former Canadian prime minister Justin Trudeau now performing R&amp;B as Xav; Evanescence guitarist Tim McCord; and 2012 Yachtmaster of the Year Rainer Holtorff.
+
+The guiding principle is verification rather than truth. Britta Gustafson, an editor since 2001, told WIRED the community looks for what can be verified, not what is true; a claim that a Civil War officer drank mustard mid-battle survived 17 years before being dropped for lacking reliable sourcing. Editors, WIRED notes, never rule someone unremarkable — only under-evidenced.
+
+Kimberly Small, a Nevada nonprofit CEO supporting sexual assault survivors, recently lost her page after a public debate over whether nonprofit executives should be individually notable. Martina Dimoska, an analog astronaut at NASA&#x27;s Johnson Space Center, celebrated her new biography on Facebook and was nominated for deletion the next day. WIRED reached out to hundreds of people facing deletion; nearly all learned of it from the reporter. Veteran editor Anne Clin called celebrating a biography foolish for the &quot;borderline notable,&quot; and subjects are barred from editing their own entries.
+
+*The gap between an institution&#x27;s verifiability logic and the personal sting of erasure is what makes these deletions worth watching.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/the-tragedy-of-losing-your-wikipedia-page/"><span class="tih">Wikipedia&#x27;s keep-or-delete machinery is quietly deciding who counts as noteworthy</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Wikipedia&#x27;s keep-or-delete machinery is quietly deciding who counts as noteworthy" data-b="According to WIRED, English Wikipedia — home to more than seven million articles — loses dozens or even hundreds of biographies every day to deletion reviews that judge subjects insufficiently notable. Recent candidates for removal included Xavier Trudeau, the teenage son of former Canadian prime minister Justin Trudeau now performing R&amp;B as Xav; Evanescence guitarist Tim McCord; and 2012 Yachtmaster of the Year Rainer Holtorff.
+
+The guiding principle is verification rather than truth. Britta Gustafson, an editor since 2001, told WIRED the community looks for what can be verified, not what is true; a claim that a Civil War officer drank mustard mid-battle survived 17 years before being dropped for lacking reliable sourcing. Editors, WIRED notes, never rule someone unremarkable — only under-evidenced.
+
+Kimberly Small, a Nevada nonprofit CEO supporting sexual assault survivors, recently lost her page after a public debate over whether nonprofit executives should be individually notable. Martina Dimoska, an analog astronaut at NASA&#x27;s Johnson Space Center, celebrated her new biography on Facebook and was nominated for deletion the next day. WIRED reached out to hundreds of people facing deletion; nearly all learned of it from the reporter. Veteran editor Anne Clin called celebrating a biography foolish for the &quot;borderline notable,&quot; and subjects are barred from editing their own entries.
+
+*The gap between an institution&#x27;s verifiability logic and the personal sting of erasure is what makes these deletions worth watching.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/the-tragedy-of-losing-your-wikipedia-page/"><span class="tih">Wikipedia&#x27;s keep-or-delete machinery is quietly deciding who counts as noteworthy</span> <span class="tis">— wired.com</span></div></div></div>
+<div class="lead-zone">
+      <article class="lead">
+  <a href="https://huggingface.co/blog/LiquidAI/lfm3" target="_blank" rel="noopener">
+    <img src="images/lead_2026-10-28.jpg" alt="" class="lead-image">
+    <div class="lead-grid">
+      <div class="lead-head">
+        <p class="kicker">Open Weights, On-Device</p>
+        <h1>Liquid AI launches LFM3: six open-weight 2B-class models on one tri-hybrid backbone</h1>
+      </div>
+      <div class="lead-body">
+        <p class="deck">Liquid AI released LFM3 on October 27 — text, vision, audio, omni and two decision models all derived from a shared 1.73B-parameter tri-hybrid backbone (gated short convolutions, sliding-window and global attention). The flagship LFM3-1.7B beats LFM2.5-2.6B with 35% fewer parameters, fits in about 1 GB at 4-bit, carries a 256K context window, and posts a dramatic agentic jump (38.42 vs 3.02 on WebArena-Verified). Weights ship in BF16/FP8/NVFP4/GGUF/MLX/ONNX with llama.cpp support already merged, and Ollama v0.40.12 added the family the same day.</p>
+        <p class="byline"><span class="src">Hugging Face Blog</span> · <span>2026-10-27</span> · <span class="more">Read the dispatch →</span></p>
+      </div>
+    </div>
+  </a>
+</article>
+
+    </div>
+
+    <div class="topstories">
+<article class="story">
+  <a href="https://github.com/ggml-org/llama.cpp/releases/tag/b11946" target="_blank" rel="noopener">
+    <h3>llama.cpp b11946 adds realtime conversation and transcription on /v1/realtime</h3>
+    <p>The October 28 llama.cpp release introduces a server-side realtime endpoint for conversation and transcription, with self-contained server-realtime modules and per-slot sampling fixes for concurrent sessions; prebuilt binaries ship for macOS, iOS and other platforms.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-10-28</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://blog.n8n.io/introducing-n8n-v3" target="_blank" rel="noopener">
+    <h3>n8n 3.0.0 beta: legacy nodes removed, security defaults tightened, stable due early December</h3>
+    <p>The n8n 3.0.0 beta clears out legacy nodes (Function, Item Lists, Cron, legacy OpenAI and AI Agent modes), tightens security defaults and reworks internals. The upgrade is one-way; 2.x gets security fixes for 12 months and 1.x support ends December 31, 2026.</p>
+    <p class="byline"><span class="src">n8n Blog</span> · 2026-10-27</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://www.notebookcheck.net/Maxsun-plans-mini-PC-powered-by-Intel-s-GPU-with-up-to-480-GB-of-memory.1435404.0.html" target="_blank" rel="noopener">
+    <h3>MAXSUN plans mini PC with Intel Xe3P 'Crescent Island' GPU D-series, up to 480GB memory</h3>
+    <p>At the 2026 Intel LOEM Summit, MAXSUN confirmed Turbo, fanless and mini PC versions of the Xe3P-based GPU D-series accelerator (GPU D270, up to 480GB LPDDR5X), targeting edge AI inference alongside planned workstation and server variants.</p>
+    <p class="byline"><span class="src">Notebookcheck</span> · 2026-10-27</p>
+  </a>
+</article>
+
+</div>
+
+
+    <div class="sections">
+      <section class="section">
+  <div class="section-head">
+    <h2>Research &amp; Papers</h2>
+    <span class="line"></span>
+    <span class="n">04</span>
+  </div>
+  <div class="section-hero"><img src="images/section_research_papers_2026-10-28.jpg" alt="" class="section-hero-img"></div>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://arxiv.org/abs/2610.36950" target="_blank" rel="noopener">
+    <h4>DCKV: a learned transform codec for the prompt KV cache in hybrid language models</h4>
+    <p>Presents the first KV-cache codec targeting the prompt state that must be stored or moved for reuse, directly cutting KV-cache memory and bandwidth for local inference with cached prompts.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-10-27</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2610.37336" target="_blank" rel="noopener">
+    <h4>CoS-VQ: coordinated shared-scale vector quantization keeps low-bit LLM decoding simple</h4>
+    <p>A low-bit weight VQ method that avoids inflating the effective coding dimension, keeping independent codeword lookup and local codeword updates simple for quantized local deployment.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-10-27</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2610.37386" target="_blank" rel="noopener">
+    <h4>Channel selection for MoE decoding needs no calibration data</h4>
+    <p>Shows channel selectors for routed-expert weights can predict which intermediate channels matter without any calibration data, cutting memory reads in small-batch interactive decoding — the main MoE bottleneck on local hardware.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-10-27</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2610.35309" target="_blank" rel="noopener">
+    <h4>CrossInfer shares KV state across CPU/GPU/NPU engines on edge SoCs</h4>
+    <p>A joint Wisconsin/Meta/CMU paper separates versioned stream context from per-engine KV state so heterogeneous engines can jointly run stateful VLM inference; on two RK3588 video streams it delivers 19.6% more throughput than the best single engine and cuts first-token latency 4.6x with cross-engine KV import.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-10-27</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Open Weights &amp; Models</h2>
+    <span class="line"></span>
+    <span class="n">03</span>
+  </div>
+  <div class="section-hero"><img src="images/section_open_weights_models_2026-10-28.jpg" alt="" class="section-hero-img"></div>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://huggingface.co/baidu/Unlimited-OCR-2" target="_blank" rel="noopener">
+    <h4>Baidu open-sources Unlimited-OCR 2: a 3B model that parses hundred-page documents in one request</h4>
+    <p>Unlimited-OCR 2 uses SR-SWA sparse-reference attention to keep per-step decoding cost nearly flat, so books and filings of hundreds of pages parse in a single request. MIT-licensed weights on Hugging Face, code on GitHub, plus a hosted public beta.</p>
+    <p class="byline"><span class="src">Hugging Face</span> · 2026-10-27</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash" target="_blank" rel="noopener">
+    <h4>MiniMax M3.1 Flash weights go public: 428B MoE for local coding and agentic work</h4>
+    <p>The official checkpoint (428B total / 23B active, native multimodal MoE with sparse attention, QAT and a DSpark draft head) is now downloadable ungated at ~252 GB across 48 shards, with GGUF and quant ecosystem builds starting to appear.</p>
+    <p class="byline"><span class="src">Hugging Face</span> · 2026-10-28</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/chimcis/GLM-5.3-DSpark-fast-2026-10-27" target="_blank" rel="noopener">
+    <h4>Community ships DSpark draft head for GLM-5.3 for faster local speculative decoding</h4>
+    <p>An October 27 upload adds a 6-layer DSpark speculative-decoding draft head for zai-org/GLM-5.3 — block size 16, sliding-window attention, Markov head (rank 256) plus confidence head — a practical speedup lever for anyone serving the 1.5TB-class model locally.</p>
+    <p class="byline"><span class="src">Hugging Face</span> · 2026-10-27</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Tools &amp; Runtimes</h2>
+    <span class="line"></span>
+    <span class="n">02</span>
+  </div>
+  <div class="section-hero"><img src="images/section_tools_runtimes_2026-10-28.jpg" alt="" class="section-hero-img"></div>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://news.ycombinator.com/item?id=50264853" target="_blank" rel="noopener">
+    <h4>Survival LLM: an offline AI assistant and emergency library that runs on your own computer</h4>
+    <p>A fully local AI assistant paired with an emergency reference library, designed to run entirely on the user's hardware with no cloud dependency; the October 27 Hacker News post drew 269 points.</p>
+    <p class="byline"><span class="src">Hacker News</span> · 2026-10-27</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/DeepLink-org/pvisor" target="_blank" rel="noopener">
+    <h4>PVisor runs AI-agent workloads inside VM-isolated containers</h4>
+    <p>An open-source tool from DeepLink-org that adds a hardware-virtualization sandbox layer for executing agent-generated code locally.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-10-28</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Hardware &amp; Edge</h2>
+    <span class="line"></span>
+    <span class="n">02</span>
+  </div>
+  <div class="section-hero"><img src="images/section_hardware_edge_2026-10-28.jpg" alt="" class="section-hero-img"></div>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://www.macworld.com/article/3203946/m6-macbook-pro-rumors-release-date-specs.html" target="_blank" rel="noopener">
+    <h4>Apple launches 14-inch MacBook Pro with M6: 30% faster GPU, 25% faster AI, from $1,999</h4>
+    <p>Apple refreshed the 14-inch MacBook Pro with the 2nm M6 chip (12 CPU cores, 12 GPU cores, ~170 GB/s unified memory bandwidth), claiming up to 30% faster graphics and 25% faster AI versus the M5 model, plus Wi-Fi 7 and up to 24-hour battery.</p>
+    <p class="byline"><span class="src">Macworld</span> · 2026-10-27</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://developer.nvidia.com/blog/nvidia-rtx-spark-powers-neural-rendering-and-ai-characters-in-games/" target="_blank" rel="noopener">
+    <h4>NVIDIA brings DLSS 5, RTX Kit and on-device Nemotron 3.5 Bolt E4B to RTX Spark laptops</h4>
+    <p>NVIDIA's developer blog details RTX Spark support for DLSS 5 and eight RTX Kit SDKs, and introduces Nemotron 3.5 Bolt E4B 4GB — a small language model built to run in-game AI characters locally on GeForce RTX and RTX Spark while leaving memory headroom for rendering.</p>
+    <p class="byline"><span class="src">NVIDIA Developer Blog</span> · 2026-10-27</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+    </div>
+
+    <div class="trending-wrap">
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Repos on GitHub</h1>
+      <div class="t-line"></div>
+      <a href="https://github.com/trending" target="_blank" rel="noopener" class="t-link">Go to GitHub trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://github.com/Nutlope/hallmark" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Nutlope/hallmark</span>
+    <span class="t-meta">CSS · 39.4k ★ · +2830 today — anti-AI-slop design skill for Claude Code, Cursor, and Codex</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/HKUDS/DeepTutor" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">HKUDS/DeepTutor</span>
+    <span class="t-meta">Python · 46.4k ★ · +1598 today — lifelong personalized AI tutoring</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/makecindy/cindy" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">makecindy/cindy</span>
+    <span class="t-meta">TypeScript · 7.7k ★ · +1465 today — open-source AI agent that works out of the box</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/pbakaus/impeccable" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">pbakaus/impeccable</span>
+    <span class="t-meta">Rust · 90.9k ★ · +1449 today — design vocabulary for coding agents, catches AI slop</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/elayadesign/ai-design-skills" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">elayadesign/ai-design-skills</span>
+    <span class="t-meta">9.9k ★ · +1395 today — AI design skills collection</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/JetBrains/thinkrail" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">JetBrains/thinkrail</span>
+    <span class="t-meta">TypeScript · 4.3k ★ · +1204 today — lightweight vibe-coding IDE that customises itself around you</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/affaan-m/ECC" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">affaan-m/ECC</span>
+    <span class="t-meta">JavaScript · 291.1k ★ · +1165 today — agent harness performance optimization: skills, instincts, memory, security</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/gitroomhq/postiz-app" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">gitroomhq/postiz-app</span>
+    <span class="t-meta">TypeScript · 39.6k ★ · +951 today — agentic social media scheduling tool</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/nightly-labs/openbot" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">nightly-labs/openbot</span>
+    <span class="t-meta">TypeScript · 2.6k ★ · +777 today — local-first desktop workspace for persistent AI teammates (Codex, Claude, Grok)</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/obra/superpowers" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">obra/superpowers</span>
+    <span class="t-meta">Shell · 306.6k ★ · +617 today — agentic skills framework &amp; software development methodology</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+  
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Trending on HF</h1>
+      <div class="t-line"></div>
+      <a href="https://huggingface.co/models?sort=trending" target="_blank" rel="noopener" class="t-link">Go to Hugging Face trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">deepseek-ai/DeepSeek-V4.1-Flash-1017</span>
+    <span class="t-meta">763B MIT MoE, image-text-to-text, 1M context, agentic-coding update</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/RecursiveSI/flint" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">RecursiveSI/flint</span>
+    <span class="t-meta">40B MoE (~2.5B active) laptop coding model, Apache 2.0, largely built by Recursive's Eureka Machine</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Nanbeige/Nanbeige4.3-33B" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Nanbeige/Nanbeige4.3-33B</span>
+    <span class="t-meta">33B dense bilingual model for agentic coding and cowork, Apache 2.0</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/XHToken/Spark-X2.6-4B" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">XHToken/Spark-X2.6-4B</span>
+    <span class="t-meta">4B on-device model, improved post-training for coding and agents, Apache 2.0</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">black-forest-labs/flux-3-image-klein-comfy</span>
+    <span class="t-meta">Image-to-image diffusion, ComfyUI-ready build</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">MiniMaxAI/MiniMax-M3.1-Flash</span>
+    <span class="t-meta">428B/23B-active multimodal MoE for coding, agents, computer use; weights just went public</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Lightricks/LTX-2.5" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">Lightricks/LTX-2.5</span>
+    <span class="t-meta">Image-to-video generation model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF</span>
+    <span class="t-meta">Gradient-scaled QAT (GSQ-RCO) GGUF quant of DeepSeek V4.1-Flash-1017 for local inference</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/InternScience/Sage-A1.5" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">InternScience/Sage-A1.5</span>
+    <span class="t-meta">35B MoE agentic model from Shanghai AI Lab for long-horizon scientific problem solving</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Qwen/Qwen3.8-27B" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">Qwen/Qwen3.8-27B</span>
+    <span class="t-meta">27B dense native multimodal open-weight model for local hardware, Apache 2.0</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+</div>
+
+
+    <section class="section" id="free-models">
+  <div class="section-head">
+    <h2>Free Models</h2>
+    <span class="line"></span>
+    <span class="n">26</span>
+  </div>
+
+  <p class="section-note">Free means $0 per token today, not unlimited or unconditional: both platforms rate-limit free use and require a free API key, some OpenRouter free endpoints may train on your prompts unless you opt out in account settings, and the roster changes daily. Verified against each provider's own pricing data at generation time — but pricing changes without notice, so confirm it's still free on the provider's own page before you rely on it.</p>
+
+  <div class="trending-wrap trending-wrap--in-section">
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenRouter</h1>
+        <div class="t-line"></div>
+        <a href="https://openrouter.ai/models?max_price=0" target="_blank" rel="noopener" class="t-link">Browse free models →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://openrouter.ai/cohere/north-mini-code:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Cohere: North Mini Code (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/dots-studio/dots-3-note-preview:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Dots Studio: Dots3-Note Preview (free)</span>
+    <span class="t-meta">512K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-26b-a4b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Google: Gemma 4 26B A4B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-31b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Google: Gemma 4 31B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/liquid/lfm-2.5-2.6b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">LiquidAI: LFM2.5-2.6B (free)</span>
+    <span class="t-meta">65K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Nano Omni (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Ultra (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Content Safety (free)</span>
+    <span class="t-meta">128K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-lightning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Lightning (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-super-vl:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Super VL (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-s-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#11</span>
+    <span class="t-name">Poolside: Laguna S 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-xs-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#12</span>
+    <span class="t-name">Poolside: Laguna XS 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/recursive/flint-v1.0:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#13</span>
+    <span class="t-name">Recursive: Flint (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#14</span>
+    <span class="t-name">Thinking Machines: Inkling (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling-small:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#15</span>
+    <span class="t-name">Thinking Machines: Inkling Small (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/xingchen-agi/xing4.0-29b-a4b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#16</span>
+    <span class="t-name">XingChen: Xing4.0 29B A4B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenCode Zen</h1>
+        <div class="t-line"></div>
+        <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener" class="t-link">See the full Zen catalog →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Big Pickle</span>
+    <span class="t-meta">big-pickle</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">GLM-5.3-Flash Free</span>
+    <span class="t-meta">glm-5.3-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">DeepSeek V4.1 Flash Free</span>
+    <span class="t-meta">deepseek-v4.1-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Beam Free</span>
+    <span class="t-meta">beam-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Flint 40B Free</span>
+    <span class="t-meta">flint-40b-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">MiMo-V2.6-Flash Free</span>
+    <span class="t-meta">mimo-v2.6-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">Nemotron 3 Ultra Free</span>
+    <span class="t-meta">nemotron-3-ultra-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">Nemotron 3.5 Lightning Free</span>
+    <span class="t-meta">nemotron-3.5-lightning-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">Nemotron 3.5 Super VL Free</span>
+    <span class="t-meta">nemotron-3.5-super-vl-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">Jev 1.13 Free</span>
+    <span class="t-meta">jev-1.13-free</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+    <section class="inbrief">
+  <div class="section-head">
+    <h2>In Brief</h2>
+    <span class="line"></span>
+    <span class="n">10</span>
+  </div>
+  <ul class="qh-list">
+    <li><a href="https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/" target="_blank" rel="noopener"><span class="qh-title">Google DeepMind previews Genie 4, a real-time interactive world model with synchronized audio</span><span class="qh-src">Google DeepMind</span></a></li>
+
+    <li><a href="https://x.com/AP/status/2115048177334190404" target="_blank" rel="noopener"><span class="qh-title">Anthropic files for what could be the largest IPO ever, AP reports</span><span class="qh-src">AP</span></a></li>
+
+    <li><a href="https://x.com/AnthropicAI/status/2115207004293853358" target="_blank" rel="noopener"><span class="qh-title">Anthropic expands GSA partnership: Claude to US governments at a 40% discount under OneGov</span><span class="qh-src">AnthropicAI</span></a></li>
+
+    <li><a href="https://techcrunch.com/2026-10-27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/" target="_blank" rel="noopener"><span class="qh-title">Nvidia backs Simplismart's $14M Series B to run AI models with fewer GPUs</span><span class="qh-src">TechCrunch</span></a></li>
+
+    <li><a href="https://x.com/huggingface/status/2115105107620892837" target="_blank" rel="noopener"><span class="qh-title">Hugging Face and Reflection AI run a Beam build challenge with $20K in prizes</span><span class="qh-src">huggingface</span></a></li>
+
+    <li><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xflw1l/is_the_horror_story_about_ai_agent_mass_deleting/" target="_blank" rel="noopener"><span class="qh-title">r/LocalLLaMA: AI agents still wiping user data — backups remain the only real defense</span><span class="qh-src">r/LocalLLaMA</span></a></li>
+
+    <li><a href="https://nvidia.custhelp.com/app/answers/detail/a_id/5938/~/geforce-hotfix-display-driver-version-621.12" target="_blank" rel="noopener"><span class="qh-title">NVIDIA ships hotfix driver 621.12 for RTX 50 video freezes and RTX Spark black screens</span><span class="qh-src">NVIDIA</span></a></li>
+
+    <li><a href="https://arxiv.org/abs/2610.36617" target="_blank" rel="noopener"><span class="qh-title">Balanced state subspaces improve Mamba-2 state compression</span><span class="qh-src">arXiv</span></a></li>
+
+    <li><a href="https://www.startup-news.it/agora-labs-round-da-43-milioni-con-p101/" target="_blank" rel="noopener"><span class="qh-title">Agora Labs raises €4.3M led by P101 to expand its clinical data research infrastructure</span><span class="qh-src">Startup-News.it</span></a></li>
+
+    <li><a href="https://www.ai4business.it/intelligenza-artificiale/dagli-agenti-generici-alla-vertical-ai-il-nuovo-corso-di-alterna/" target="_blank" rel="noopener"><span class="qh-title">Alterna pivots from generic agents to vertical AI suites for Italian industry</span><span class="qh-src">AI4Business</span></a></li>
+
+  </ul>
+</section>
+
+
+    <footer class="colophon">
+      <p class="mark">Per aspera ad astra</p>
+      <p class="meta">Compiled by Hermes Agent · 2026-10-28 · <a href="https://github.com/MovieMaker93/local-ai-news" target="_blank" rel="noopener">source</a></p>
+      <p class="meta">Beta · <a href="making-of.html" title="Replay how this issue assembled itself">See how this issue made itself</a></p>
+    </footer>
+
+  </div>
+<div class="mo" id="mo" onclick="cm(event)"><div class="mb"><button class="mc" onclick="cm()">✕</button><h2 class="mh" id="mh"></h2><p class="mm">Source: <span id="ms"></span></p><div class="mbd" id="mbd"></div></div></div>
+<script>function openArt(el){var h=el.getAttribute('data-h'),b=el.getAttribute('data-b'),s=el.getAttribute('data-s'),u=el.getAttribute('data-u');document.getElementById('mh').textContent=h;var sl=document.getElementById('ms');if(u&&u!=='#'&&u!==''){sl.innerHTML='<a href="'+u+'" target="_blank" rel="noopener">'+s+'</a>';}else{sl.textContent=s;}var aiS='*— Written by AI (';var i=b.indexOf(aiS);if(i>=0){var bf=b.substring(0,i);var af=b.substring(i+aiS.length);var mdl=af.split(')')[0];bf=bf.split('\n').join('<br>');bf=bf.replace(/\*([^*]+)\*/g,'<em class="en">$1</em>');var sg='<div class="as"><span class="al">⬥ AI-GENERATED</span><br>Model: '+mdl+'</div>';document.getElementById('mbd').innerHTML=bf+sg;}else{document.getElementById('mbd').innerHTML=b.split('\n').join('<br>');}document.getElementById('mo').classList.add('a');document.body.style.overflow='hidden';}function cm(e){if(e&&e.target!=document.getElementById('mo'))return;document.getElementById('mo').classList.remove('a');document.body.style.overflow='';}document.addEventListener('keydown',function(e){if(e.key==='Escape')cm()});</script></body>
+</html>

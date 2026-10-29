@@ -8432,6 +8432,198 @@
       "source": "AI4Business",
       "date": "2026-10-28",
       "issue": 45
+    },
+    {
+      "text": "llama.cpp v0.8.0 lands with the LFM3 family, realtime audio endpoints and DeepSeek V4.1 Flash",
+      "source": "GitHub (ggml-org/llama.cpp)",
+      "date": "2026-10-29",
+      "issue": 46
+    },
+    {
+      "text": "Apple opens orders for the 512GB Mac Studio M5 Ultra at $22,299",
+      "source": "MacRumors",
+      "date": "2026-10-29",
+      "issue": 46
+    },
+    {
+      "text": "NVIDIA releases Nemotron 3.5 Transcribe: an open-weight, promptable speech model you can adapt",
+      "source": "NVIDIA (Hugging Face blog)",
+      "date": "2026-10-29",
+      "issue": 46
+    },
+    {
+      "text": "RTX 5080 hits nearly $2,000 at US retailers \u2014 double its $999 MSRP",
+      "source": "TechPowerUp",
+      "date": "2026-10-29",
+      "issue": 46
+    },
+    {
+      "text": "Google announces Gemini 4 Carbon as its next frontier model",
+      "source": "X (_philschmid)",
+      "date": "2026-10-29",
+      "issue": 46
+    },
+    {
+      "text": "Hierarchical low-rank reparameterization squeezes PEFT adapters further",
+      "source": "arXiv",
+      "date": "2026-10-29",
+      "issue": 46
+    },
+    {
+      "text": "Structured subspace randomness makes stochastic rounding cheap enough for quantized training",
+      "source": "arXiv",
+      "date": "2026-10-29",
+      "issue": 46
+    },
+    {
+      "text": "Mechanistic study: preserved perplexity can hide broken internals after weight pruning",
+      "source": "arXiv",
+      "date": "2026-10-29",
+      "issue": 46
+    },
+    {
+      "text": "EmbeddingGemma 2: unified open multimodal embeddings for text, images, audio and video",
+      "source": "arXiv",
+      "date": "2026-10-29",
+      "issue": 46
+    },
+    {
+      "text": "TAO schedules agentic serving around tool calls, not just GPU inference",
+      "source": "Hugging Face papers",
+      "date": "2026-10-29",
+      "issue": 46
+    },
+    {
+      "text": "Mistral Large 4 open weights land: Europe's 1.05T-parameter MoE downloadable under Apache 2.0",
+      "source": "Pavitrams",
+      "date": "2026-10-29",
+      "issue": 46
+    },
+    {
+      "text": "Nanbeige4.3-33B: Apache-2.0 dense 33B agentic model released as a distillation teacher",
+      "source": "Hugging Face (Nanbeige)",
+      "date": "2026-10-29",
+      "issue": 46
+    },
+    {
+      "text": "Ollama v0.40.13 brings LFM3 \u2014 including TTS \u2014 to Linux and Windows",
+      "source": "GitHub (ollama)",
+      "date": "2026-10-29",
+      "issue": 46
+    },
+    {
+      "text": "Enframe wraps any OpenAPI spec into a live MCP server",
+      "source": "GitHub",
+      "date": "2026-10-29",
+      "issue": 46
+    },
+    {
+      "text": "Rocus runs a local LLM in the browser to organize your websites, notes and files",
+      "source": "Rocus",
+      "date": "2026-10-29",
+      "issue": 46
+    },
+    {
+      "text": "Local Code packages one-click local DeepSeek 4.1 Flash 1017 on Mac",
+      "source": "GitHub",
+      "date": "2026-10-29",
+      "issue": 46
+    },
+    {
+      "text": "LlamAmpere v0.6: 112 TPS on 27B models at 400K context on a single RTX 3090",
+      "source": "GitHub (JakeATX/llamAmpere)",
+      "date": "2026-10-29",
+      "issue": 46
+    },
+    {
+      "text": "Home Assistant 2026.11.0b0 opens the November release cycle",
+      "source": "Home Assistant",
+      "date": "2026-10-29",
+      "issue": 46
+    },
+    {
+      "text": "GPU price survey: 13 of 15 tracked models cost more in late October; SK hynix sees memory tight through 2030",
+      "source": "PC Server And Parts",
+      "date": "2026-10-29",
+      "issue": 46
+    },
+    {
+      "text": "Apple launches the first touchscreen MacBook Pro with tandem OLED, M5 Pro/Max, from $2,899",
+      "source": "Apple Newsroom",
+      "date": "2026-10-29",
+      "issue": 46
+    },
+    {
+      "text": "IT vendor lists a $60 million decommissioned AI cluster on eBay \u2014 9,600 Nvidia A100s",
+      "source": "Tom's Hardware",
+      "date": "2026-10-29",
+      "issue": 46
+    },
+    {
+      "text": "Simon Willison: October is another inflection point for coding agents, citing Claude Opus 5.5",
+      "source": "X (simonw)",
+      "date": "2026-10-29",
+      "issue": 46
+    },
+    {
+      "text": "Hy-Nomas: a paper on free-form interactive world generation, with a public app",
+      "source": "X (_akhaliq)",
+      "date": "2026-10-29",
+      "issue": 46
+    },
+    {
+      "text": "DeepLearning.AI launches a free 'Loop Engineering with LangChain Deep Agents' course",
+      "source": "X (DeepLearningAI)",
+      "date": "2026-10-29",
+      "issue": 46
+    },
+    {
+      "text": "Upwind raises $400M at a $3.8B valuation after walking away from a Datadog acquisition bid",
+      "source": "TechCrunch",
+      "date": "2026-10-29",
+      "issue": 46
+    },
+    {
+      "text": "Infisical raises $40M Series B at a $600M valuation to secure secrets for the AI agent economy",
+      "source": "TechStartups",
+      "date": "2026-10-29",
+      "issue": 46
+    },
+    {
+      "text": "Machenta closes the largest-ever UK robotics seed round at $40M for single-demo robot learning",
+      "source": "TechStartups",
+      "date": "2026-10-29",
+      "issue": 46
+    },
+    {
+      "text": "Ultra raises $50M Series A to scale AI warehouse packing robots as a service",
+      "source": "TechStartups",
+      "date": "2026-10-29",
+      "issue": 46
+    },
+    {
+      "text": "Milan industrial-AI startup E-Plato closes ~\u20ac3M round with DFF, MITO Tech and Vento Ventures",
+      "source": "Teleborsa",
+      "date": "2026-10-29",
+      "issue": 46
+    },
+    {
+      "text": "Italy's Magic Vision raises \u20ac600K for Silver Eye, wearable-free fall detection for seniors",
+      "source": "Forbes Italia",
+      "date": "2026-10-29",
+      "issue": 46
+    },
+    {
+      "text": "GPD confirms the WIN Mini Ultra handheld with Intel Arc G3 Extreme and up to 64GB memory",
+      "source": "TechPowerUp",
+      "date": "2026-10-29",
+      "issue": 46
+    },
+    {
+      "text": "Watermark Basins: black-box detection of distilled LLMs via teacher-output watermarking",
+      "source": "arXiv",
+      "date": "2026-10-29",
+      "issue": 46
     }
   ]
 }
