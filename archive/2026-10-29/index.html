@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOCAL AI NEWS — open-weight intelligence · October 29, 2026</title>
+  <meta name="description" content="A daily recap of local AI news from the last 24 hours: open weights, tooling, hardware, and the self-hosted stack.">
+  <link rel="stylesheet" href="style.css">
+  <style>.wt{display:flex;align-items:center;height:38px;background:var(--ink);border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule);margin:14px 0 0;overflow:hidden}.wtt{display:flex;align-items:center;white-space:nowrap;padding-left:20px;animation:ws 90s linear infinite}.wtt:hover{animation-play-state:paused}@keyframes ws{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}.ti{display:inline-flex;align-items:center;gap:7px;padding:0 22px;cursor:pointer;border-right:1px solid var(--rule);height:38px}.ti:hover{background:rgba(240,162,60,.05)}.tih{font-family:var(--serif);font-size:13px;color:var(--type)}.tis{font-family:var(--sans);font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}.mo{display:none;position:fixed;inset:0;background:rgba(10,10,12,.88);z-index:1000;justify-content:center;align-items:center;backdrop-filter:blur(8px)}.mo.a{display:flex}.mb{background:#121214;border:1px solid var(--rule-strong);max-width:680px;width:90%;max-height:82vh;overflow-y:auto;padding:40px 44px;position:relative;animation:fi .2s ease}@keyframes fi{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}.mc{position:absolute;top:14px;right:18px;background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;font-family:var(--sans);padding:4px 8px}.mh{font-family:var(--serif);font-weight:700;font-size:30px;line-height:1.1;letter-spacing:-.01em;color:var(--type);margin:0 0 14px;padding-right:32px}.mm{font-family:var(--sans);font-size:10.5px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 22px}.mm a{color:var(--lux)}.mm a:hover{text-decoration:underline}.mbd{font-family:var(--serif);font-size:16.5px;line-height:1.7;color:var(--type-dim)}.mbd .en{display:block;color:var(--lux-soft);font-style:italic;font-size:15px;margin-top:14px;padding-left:12px;border-left:2px solid var(--rule-strong)}.mbd .as{display:block;margin-top:18px;padding-top:14px;border-top:1px solid var(--rule);font-family:var(--sans);font-size:11px;color:var(--muted);line-height:1.5}.mbd .as .al{color:var(--lux-soft);font-weight:600;font-family:var(--sans);font-size:10px;letter-spacing:.06em;text-transform:uppercase}</style></head>
+  <body>
+  <div class="container">
+
+  <header class="masthead">
+    <div class="topline"></div>
+    <div class="ears">
+      <span class="left">Est. MMXXVI</span>
+      <span class="right">No. 46 <a href="/archive/" class="ar" title="Browse past issues">◆ Archive</a> <a href="#free-models" class="ar" title="Today's free AI models">⌁ Free Models</a></span>
+    </div>
+    <div class="nameplate">LOCAL <span class="lux">AI NEWS</span></div>
+      <hr class="rule-double">
+      <div class="dateline">
+        <span>October 29, 2026</span>
+        <span class="dot">◆</span>
+        <span class="tag">open weights, on your metal</span>
+        <span class="dot">◆</span>
+        <span>78 stories</span>
+      </div>
+      <div class="devocracy-credit">Inference self-hosted on a DGX Spark · models served via LiteLLM</div>
+      <hr class="rule-thin">
+    </header>
+
+    
+
+    <div class="wt"><div class="wtt"><div class="ti" onclick="openArt(this)" data-h="AI leaders&#x27; family-life demos draw fire as out of touch" data-b="Marissa Mayer, the former Yahoo CEO and early Google engineer, is catching criticism over how she talks about using her new AI assistant app, according to a TechCrunch commentary by Amanda Silberling. In an interview about Dazzle, an assistant that learns from a user&#x27;s camera roll, Mayer said the tool generated three personality descriptors for her 10-year-old daughter for a school birthday presentation. Critics called the result generic, and progressive activist Leah Greenberg wrote that Mayer&#x27;s willingness to share it showed how far Silicon Valley&#x27;s culture has drifted from ordinary life.
+
+Mayer pushed back on X, saying she was testing her prototype rather than letting it explain her child, and noted it surfaced old photos of kindergarten projects. The article observes, however, that she also pitched outsourcing birthday-party themes, playdates, vacation plans and Halloween costumes, even imagining her assistant coordinating with her husband&#x27;s. Asked whether that frictionless future sounded depressing, she said she hadn&#x27;t thought it through.
+
+TechCrunch situates the episode alongside Sam Altman&#x27;s claim that he can&#x27;t imagine raising a newborn without ChatGPT and his widely mocked podcast idea, plus Mark Zuckerberg&#x27;s prediction that AI therapists and romantic partners will grow normalized. A Pew survey found half of U.S. adults expect AI to weaken meaningful relationships; only 5% expect the opposite.
+
+*The gap between demo-day convenience and how families actually live may be the industry&#x27;s most underrated product risk.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/"><span class="tih">AI leaders&#x27; family-life demos draw fire as out of touch</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia opens a 30-billion-parameter transcription model to local voice apps" data-b="Nvidia has released Nemotron 3.5 Transcribe, a free open-weight speech-to-text model that handles audio in up to 40 languages, according to TechCrunch. Alongside it shipped version 2 of Granary, the company&#x27;s open-source speech dataset.
+
+On capabilities, Nvidia claims transcription across 40 languages, translation to and from English in 31 languages, processing of recordings up to an hour long, and the ability to separate as many as eight speakers. The company says the model beats rivals on benchmarks, including Hugging Face&#x27;s Open ASR Leaderboard.
+
+The intended audience is developers building apps for business meetings and medical transcription, two of AI&#x27;s most established footholds at work. Paired with the refreshed Granary dataset and toolkits such as Nvidia&#x27;s NeMo Speech model, teams can tune recognition to a given industry&#x27;s jargon per language. One limitation: Transcribe handles recorded audio only, not livestreams.
+
+At 30 billion parameters, Nvidia says it fits on a single chip, from the Jetson AGX Thor robotics controller and the DGX Spark chip in new laptops up to Blackwell datacenter parts, joining open-weight voice models like the 1.1-billion-parameter Parakeet.
+
+The launch lands in a crowded stretch for voice AI, TechCrunch notes: Mistral&#x27;s Voxtral 3 earlier this month, ElevenLabs&#x27; Realtime for instant speech in voice agents, and Salesforce&#x27;s Launa-Omni.
+
+*An open 30B transcriber sized for a single edge chip could quietly turn cloud transcription APIs from the default into the fallback.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/"><span class="tih">Nvidia opens a 30-billion-parameter transcription model to local voice apps</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Pornhub Pushes Stars Toward Dinner, Podcasts and Minecraft as Age Laws Bite" data-b="Adult site Pornhub is encouraging its performers to publish safe-for-work content — gaming, cooking, podcasts and other non-sexual material — as a bet on the platform&#x27;s future, according to WIRED. The company says demand is surging: podcast and gaming categories grew by triple digits in 2025, podcasts alone by 327 percent, and searches for &quot;SFW&quot; rose 114 percent.
+
+The strategy has a commercial edge. Age-verification laws now exist in 27 states, and Pornhub previously blocked access in 23 of them; with non-explicit videos still viewable in many of those regions, only Indiana, Mississippi, Tennessee and Texas remain fully blocked. Alex Kekesi, the site&#x27;s vice president of brand and community, told WIRED the content is meant to complement, not replace, adult videos, and to help creators reach audiences where access is restricted.
+
+Creators are adapting out of necessity. Isla Moon, who estimates her monthly income at around $700,000 across platforms, says her SFW video &quot;Isla Moon Survives 24 Hours ALONE in a -20 Snowstorm&quot; has drawn 261,000 views on Pornhub versus 86,000 on YouTube. Performer Sweetie Fox&#x27;s fully clothed Minecraft video passed one million views in under a month.
+
+*With regulators closing off the explicit side of the internet, Pornhub&#x27;s safest growth play turns out to be cooking shows and snowstorms.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/adult-video-stars-want-to-teach-you-how-to-make-dinner/"><span class="tih">Pornhub Pushes Stars Toward Dinner, Podcasts and Minecraft as Age Laws Bite</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="AI leaders&#x27; family-life demos draw fire as out of touch" data-b="Marissa Mayer, the former Yahoo CEO and early Google engineer, is catching criticism over how she talks about using her new AI assistant app, according to a TechCrunch commentary by Amanda Silberling. In an interview about Dazzle, an assistant that learns from a user&#x27;s camera roll, Mayer said the tool generated three personality descriptors for her 10-year-old daughter for a school birthday presentation. Critics called the result generic, and progressive activist Leah Greenberg wrote that Mayer&#x27;s willingness to share it showed how far Silicon Valley&#x27;s culture has drifted from ordinary life.
+
+Mayer pushed back on X, saying she was testing her prototype rather than letting it explain her child, and noted it surfaced old photos of kindergarten projects. The article observes, however, that she also pitched outsourcing birthday-party themes, playdates, vacation plans and Halloween costumes, even imagining her assistant coordinating with her husband&#x27;s. Asked whether that frictionless future sounded depressing, she said she hadn&#x27;t thought it through.
+
+TechCrunch situates the episode alongside Sam Altman&#x27;s claim that he can&#x27;t imagine raising a newborn without ChatGPT and his widely mocked podcast idea, plus Mark Zuckerberg&#x27;s prediction that AI therapists and romantic partners will grow normalized. A Pew survey found half of U.S. adults expect AI to weaken meaningful relationships; only 5% expect the opposite.
+
+*The gap between demo-day convenience and how families actually live may be the industry&#x27;s most underrated product risk.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/"><span class="tih">AI leaders&#x27; family-life demos draw fire as out of touch</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia opens a 30-billion-parameter transcription model to local voice apps" data-b="Nvidia has released Nemotron 3.5 Transcribe, a free open-weight speech-to-text model that handles audio in up to 40 languages, according to TechCrunch. Alongside it shipped version 2 of Granary, the company&#x27;s open-source speech dataset.
+
+On capabilities, Nvidia claims transcription across 40 languages, translation to and from English in 31 languages, processing of recordings up to an hour long, and the ability to separate as many as eight speakers. The company says the model beats rivals on benchmarks, including Hugging Face&#x27;s Open ASR Leaderboard.
+
+The intended audience is developers building apps for business meetings and medical transcription, two of AI&#x27;s most established footholds at work. Paired with the refreshed Granary dataset and toolkits such as Nvidia&#x27;s NeMo Speech model, teams can tune recognition to a given industry&#x27;s jargon per language. One limitation: Transcribe handles recorded audio only, not livestreams.
+
+At 30 billion parameters, Nvidia says it fits on a single chip, from the Jetson AGX Thor robotics controller and the DGX Spark chip in new laptops up to Blackwell datacenter parts, joining open-weight voice models like the 1.1-billion-parameter Parakeet.
+
+The launch lands in a crowded stretch for voice AI, TechCrunch notes: Mistral&#x27;s Voxtral 3 earlier this month, ElevenLabs&#x27; Realtime for instant speech in voice agents, and Salesforce&#x27;s Launa-Omni.
+
+*An open 30B transcriber sized for a single edge chip could quietly turn cloud transcription APIs from the default into the fallback.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/"><span class="tih">Nvidia opens a 30-billion-parameter transcription model to local voice apps</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Pornhub Pushes Stars Toward Dinner, Podcasts and Minecraft as Age Laws Bite" data-b="Adult site Pornhub is encouraging its performers to publish safe-for-work content — gaming, cooking, podcasts and other non-sexual material — as a bet on the platform&#x27;s future, according to WIRED. The company says demand is surging: podcast and gaming categories grew by triple digits in 2025, podcasts alone by 327 percent, and searches for &quot;SFW&quot; rose 114 percent.
+
+The strategy has a commercial edge. Age-verification laws now exist in 27 states, and Pornhub previously blocked access in 23 of them; with non-explicit videos still viewable in many of those regions, only Indiana, Mississippi, Tennessee and Texas remain fully blocked. Alex Kekesi, the site&#x27;s vice president of brand and community, told WIRED the content is meant to complement, not replace, adult videos, and to help creators reach audiences where access is restricted.
+
+Creators are adapting out of necessity. Isla Moon, who estimates her monthly income at around $700,000 across platforms, says her SFW video &quot;Isla Moon Survives 24 Hours ALONE in a -20 Snowstorm&quot; has drawn 261,000 views on Pornhub versus 86,000 on YouTube. Performer Sweetie Fox&#x27;s fully clothed Minecraft video passed one million views in under a month.
+
+*With regulators closing off the explicit side of the internet, Pornhub&#x27;s safest growth play turns out to be cooking shows and snowstorms.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/adult-video-stars-want-to-teach-you-how-to-make-dinner/"><span class="tih">Pornhub Pushes Stars Toward Dinner, Podcasts and Minecraft as Age Laws Bite</span> <span class="tis">— wired.com</span></div></div></div>
+<div class="lead-zone">
+      <article class="lead">
+  <a href="https://github.com/ggml-org/llama.cpp/releases/tag/v0.8.0" target="_blank" rel="noopener">
+    <img src="images/lead_2026-10-29.jpg" alt="" class="lead-image">
+    <div class="lead-grid">
+      <div class="lead-head">
+        <p class="kicker">Major release</p>
+        <h1>llama.cpp v0.8.0 lands with the LFM3 family, realtime audio endpoints and DeepSeek V4.1 Flash</h1>
+      </div>
+      <div class="lead-body">
+        <p class="deck">The biggest llama.cpp release since v0.7.0 adds the full LiquidAI LFM3 family (text, vision, audio, omni) with a new streaming-audio API, plus new /v1/realtime and /tts server endpoints. New architectures include DeepSeek V4.1 Flash, SenseNova U1, Beam, Kolibri-1, Flint and Muse Spark, alongside reworked sparse attention and a 50/50 SLRU cache that keeps MoE experts host-resident. ggml is bumped to v0.28.0 to match.</p>
+        <p class="byline"><span class="src">GitHub (ggml-org/llama.cpp)</span> · <span>2026-10-28</span> · <span class="more">Read the dispatch →</span></p>
+      </div>
+    </div>
+  </a>
+</article>
+
+    </div>
+
+    <div class="topstories">
+<article class="story">
+  <a href="https://www.macrumors.com/2026-10-28/mac-studio-m5-ultra-512gb-ram/" target="_blank" rel="noopener">
+    <h3>Apple opens orders for the 512GB Mac Studio M5 Ultra at $22,299</h3>
+    <p>The top-tier M5 Ultra (36-core CPU, 80-core GPU) with 512GB of unified memory is the largest consumer-available memory pool for running very large local LLMs; first deliveries are estimated for late November.</p>
+    <p class="byline"><span class="src">MacRumors</span> · 2026-10-28</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://huggingface.co/blog/nvidia/nemotron-transcribe-granary" target="_blank" rel="noopener">
+    <h3>NVIDIA releases Nemotron 3.5 Transcribe: an open-weight, promptable speech model you can adapt</h3>
+    <p>One checkpoint combines transcription in 40 languages, diarization, translation and audio Q&amp;A, ranking first among open-weight models on the HF Open ASR Leaderboard for English, with the open Granary v2 data pipeline and fine-tuning recipes included.</p>
+    <p class="byline"><span class="src">NVIDIA (Hugging Face blog)</span> · 2026-10-28</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://www.techpowerup.com/354216/nvidia-geforce-rtx-5080-reaches-nearly-usd-2-000-across-u-s-retailers" target="_blank" rel="noopener">
+    <h3>RTX 5080 hits nearly $2,000 at US retailers — double its $999 MSRP</h3>
+    <p>Spot checks across five major retailers found in-stock listings near $2,000 (some above $2,300), with GDDR7 shortages driven by AI demand blamed for the spike that squeezes 16GB-card affordability for local rigs.</p>
+    <p class="byline"><span class="src">TechPowerUp</span> · 2026-10-28</p>
+  </a>
+</article>
+
+</div>
+
+
+    <div class="sections">
+      <section class="section">
+  <div class="section-head">
+    <h2>Research &amp; Papers</h2>
+    <span class="line"></span>
+    <span class="n">05</span>
+  </div>
+  <a href="https://arxiv.org/abs/2610.37068" target="_blank" rel="noopener" class="section-hero"><img src="images/section_research_papers_2026-10-29.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Hierarchical low-rank reparameterization squeezes PEFT adapters further</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://arxiv.org/abs/2610.37068" target="_blank" rel="noopener">
+    <h4>Hierarchical low-rank reparameterization squeezes PEFT adapters further</h4>
+    <p>Finds leftover redundancy in trainable PEFT parameters and compresses adapters hierarchically while holding task performance on LLaMA/Qwen-class models, cutting fine-tuning memory.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-10-27</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2610.36587" target="_blank" rel="noopener">
+    <h4>Structured subspace randomness makes stochastic rounding cheap enough for quantized training</h4>
+    <p>Replaces per-element stochastic rounding with structured subspace randomness so low-precision training stays unbiased while matching accelerator vector-unit random-number generation.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-10-27</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2610.37126" target="_blank" rel="noopener">
+    <h4>Mechanistic study: preserved perplexity can hide broken internals after weight pruning</h4>
+    <p>A factorial pruning study on GPT-2 shows which pruning configurations preserve internal mechanisms — a caution against judging small-model pruning on accuracy alone.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-10-27</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2610.37364" target="_blank" rel="noopener">
+    <h4>EmbeddingGemma 2: unified open multimodal embeddings for text, images, audio and video</h4>
+    <p>A compact open embedding model using simplified per-layer embeddings and a multi-stage curriculum — a practical option for local retrieval and multimodal search.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-10-27</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/papers/2610.37230" target="_blank" rel="noopener">
+    <h4>TAO schedules agentic serving around tool calls, not just GPU inference</h4>
+    <p>A tool-aware scheduler alternates GPU inference with CPU tool calls, factoring tool-return readiness into admission and placement to cut wasted serving resources.</p>
+    <p class="byline"><span class="src">Hugging Face papers</span> · 2026-10-27</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Open Weights &amp; Models</h2>
+    <span class="line"></span>
+    <span class="n">02</span>
+  </div>
+  <a href="https://pavitrams.com/ai-models/mistral-large-4-open-weights-released-2026" target="_blank" rel="noopener" class="section-hero"><img src="images/section_open_weights_models_2026-10-29.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Mistral Large 4 open weights land: Europe's 1.05T-parameter MoE downloadable under Apache 2.0</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://pavitrams.com/ai-models/mistral-large-4-open-weights-released-2026" target="_blank" rel="noopener">
+    <h4>Mistral Large 4 open weights land: Europe's 1.05T-parameter MoE downloadable under Apache 2.0</h4>
+    <p>The natively multimodal 1.05T/52B-active MoE, trained from scratch on 3,800 Grace Blackwell GPUs in European datacenters, leads Western open weights on cybersecurity benchmarks and scores 61.7% on DeepSWE v1.1 — a new Pareto point for self-hosted frontier-class AI.</p>
+    <p class="byline"><span class="src">Pavitrams</span> · 2026-10-28</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/Nanbeige/Nanbeige4.3-33B" target="_blank" rel="noopener">
+    <h4>Nanbeige4.3-33B: Apache-2.0 dense 33B agentic model released as a distillation teacher</h4>
+    <p>A dense ~33B checkpoint aimed at coding agents and complex professional work, positioned as a high-capacity teacher for a future ~3B distilled descendant — runnable locally and useful as a distillation source.</p>
+    <p class="byline"><span class="src">Hugging Face (Nanbeige)</span> · 2026-10-28</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Tools &amp; Runtimes</h2>
+    <span class="line"></span>
+    <span class="n">04</span>
+  </div>
+  <a href="https://github.com/ollama/ollama/releases/tag/v0.40.13" target="_blank" rel="noopener" class="section-hero"><img src="images/section_tools_runtimes_2026-10-29.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Ollama v0.40.13 brings LFM3 — including TTS — to Linux and Windows</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://github.com/ollama/ollama/releases/tag/v0.40.13" target="_blank" rel="noopener">
+    <h4>Ollama v0.40.13 brings LFM3 — including TTS — to Linux and Windows</h4>
+    <p>Extends LFM3 support beyond Apple silicon, adding text-to-speech in lfm3-audio and lfm3-omni on all three desktop platforms.</p>
+    <p class="byline"><span class="src">GitHub (ollama)</span> · 2026-10-28</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/erwinkramer/enframe" target="_blank" rel="noopener">
+    <h4>Enframe wraps any OpenAPI spec into a live MCP server</h4>
+    <p>An open-source sidecar that turns existing REST APIs into MCP tools, letting local agents call them without custom glue code.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-10-28</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://rocus.io/" target="_blank" rel="noopener">
+    <h4>Rocus runs a local LLM in the browser to organize your websites, notes and files</h4>
+    <p>A browser-based local LLM indexes and organizes personal content with inference and data kept on-device.</p>
+    <p class="byline"><span class="src">Rocus</span> · 2026-10-28</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/drawthingsai/local-code-community" target="_blank" rel="noopener">
+    <h4>Local Code packages one-click local DeepSeek 4.1 Flash 1017 on Mac</h4>
+    <p>An open-source community app that bundles a local coding environment around DeepSeek 4.1 Flash 1017 for macOS.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-10-28</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Self-Hosted Stack</h2>
+    <span class="line"></span>
+    <span class="n">02</span>
+  </div>
+  <a href="https://github.com/JakeATX/llamAmpere/releases/tag/v0.6" target="_blank" rel="noopener" class="section-hero"><img src="images/section_self_hosted_stack_2026-10-29.jpg" alt="" class="section-hero-img"><h4 class="hero-title">LlamAmpere v0.6: 112 TPS on 27B models at 400K context on a single RTX 3090</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://github.com/JakeATX/llamAmpere/releases/tag/v0.6" target="_blank" rel="noopener">
+    <h4>LlamAmpere v0.6: 112 TPS on 27B models at 400K context on a single RTX 3090</h4>
+    <p>The Ampere-optimized llama.cpp fork ships a ~13% decode speedup and 20% faster prompt processing, plus a new Ampere Integer+ format claiming EXL3-level quality at significantly higher speeds.</p>
+    <p class="byline"><span class="src">GitHub (JakeATX/llamAmpere)</span> · 2026-10-28</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/home-assistant/core/releases/tag/2026.11.0b0" target="_blank" rel="noopener">
+    <h4>Home Assistant 2026.11.0b0 opens the November release cycle</h4>
+    <p>The first November beta lets self-hosters running local conversation agents against the 2026.10 LLM API/MCP framework test early before the December stable.</p>
+    <p class="byline"><span class="src">Home Assistant</span> · 2026-10-28</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Hardware &amp; Edge</h2>
+    <span class="line"></span>
+    <span class="n">03</span>
+  </div>
+  <a href="https://pcserverandparts.com/news/gpu-price-increase-2026/" target="_blank" rel="noopener" class="section-hero"><img src="images/section_hardware_edge_2026-10-29.jpg" alt="" class="section-hero-img"><h4 class="hero-title">GPU price survey: 13 of 15 tracked models cost more in late October; SK hynix sees memory tight through 2030</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://pcserverandparts.com/news/gpu-price-increase-2026/" target="_blank" rel="noopener">
+    <h4>GPU price survey: 13 of 15 tracked models cost more in late October; SK hynix sees memory tight through 2030</h4>
+    <p>The cheapest new RTX 5070 now sits at $869 vs a $549 MSRP, and SK hynix says long-term deals cover over 50% of 2027-2028 capacity with demand outpacing supply through 2030 — the root cause of VRAM-driven price hikes.</p>
+    <p class="byline"><span class="src">PC Server And Parts</span> · 2026-10-28</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/" target="_blank" rel="noopener">
+    <h4>Apple launches the first touchscreen MacBook Pro with tandem OLED, M5 Pro/Max, from $2,899</h4>
+    <p>A 2000-nit tandem-OLED display, M5 Pro/Max silicon and up to 24 hours of battery make the new portable line relevant for on-the-go local inference; availability starts Nov 6.</p>
+    <p class="byline"><span class="src">Apple Newsroom</span> · 2026-10-28</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.tomshardware.com/desktops/servers/it-vendor-lists-massive-usd60-million-ai-cluster-on-ebay-300x-racks-of-decommissioned-gpus-includes-9-600-nvidia-a100-gpus-and-4-200-amd-epyc-cpus-plus-free-shipping" target="_blank" rel="noopener">
+    <h4>IT vendor lists a $60 million decommissioned AI cluster on eBay — 9,600 Nvidia A100s</h4>
+    <p>About 300 racks, including up to 9,600 A100s and 4,200 EPYC Rome CPUs, hitting the secondary market could move used-GPU availability and pricing for homelab inference builders.</p>
+    <p class="byline"><span class="src">Tom's Hardware</span> · 2026-10-28</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+    </div>
+
+    <div class="trending-wrap">
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Repos on GitHub</h1>
+      <div class="t-line"></div>
+      <a href="https://github.com/trending" target="_blank" rel="noopener" class="t-link">Go to GitHub trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://github.com/JetBrains/thinkrail" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">JetBrains/thinkrail</span>
+    <span class="t-meta">TypeScript · 5.3k ★ · +1068 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/elayadesign/ai-design-skills" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">elayadesign/ai-design-skills</span>
+    <span class="t-meta">11.4k ★ · +2139 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/obra/superpowers" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">obra/superpowers</span>
+    <span class="t-meta">Shell · 307.6k ★ · +1095 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/HKUDS/DeepTutor" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">HKUDS/DeepTutor</span>
+    <span class="t-meta">Python · 48.4k ★ · +2371 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/Nutlope/hallmark" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Nutlope/hallmark</span>
+    <span class="t-meta">CSS · 41.0k ★ · +2110 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/pbakaus/impeccable" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">pbakaus/impeccable</span>
+    <span class="t-meta">Rust · 93.3k ★ · +1472 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/makecindy/cindy" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">makecindy/cindy</span>
+    <span class="t-meta">TypeScript · 8.3k ★ · +728 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/nightly-labs/openbot" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">nightly-labs/openbot</span>
+    <span class="t-meta">TypeScript · 3.4k ★ · +1054 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/togg53192-cmd/jailbreaks" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">togg53192-cmd/jailbreaks</span>
+    <span class="t-meta">7.5k ★ · +1477 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/expo/skills" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">expo/skills</span>
+    <span class="t-meta">Shell · 3.7k ★ · +90 today</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+  
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Trending on HF</h1>
+      <div class="t-line"></div>
+      <a href="https://huggingface.co/models?sort=trending" target="_blank" rel="noopener" class="t-link">Go to Hugging Face trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">deepseek-ai/DeepSeek-V4.1-Flash-1017</span>
+    <span class="t-meta">Multimodal text+image generation, transformers/safetensors</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Nanbeige/Nanbeige4.3-33B" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Nanbeige/Nanbeige4.3-33B</span>
+    <span class="t-meta">Dense 33B agentic/coding model, Apache-2.0</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/RecursiveSI/flint" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">RecursiveSI/flint</span>
+    <span class="t-meta">Conversational text-generation, novel flint architecture</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/XHToken/Spark-X2.6-4B" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">XHToken/Spark-X2.6-4B</span>
+    <span class="t-meta">Compact 4B text model for local use</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">MiniMaxAI/MiniMax-M3.1-Flash</span>
+    <span class="t-meta">Multimodal (image-text-to-text), open weights</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/LiquidAI/LFM3-1.7B" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">LiquidAI/LFM3-1.7B</span>
+    <span class="t-meta">1.7B tri-hybrid backbone, ~1 GB at 4-bit</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/tencent/Hy-SimulMT-30B-A3B-FP8" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">tencent/Hy-SimulMT-30B-A3B-FP8</span>
+    <span class="t-meta">30B MoE (3B active) FP8 simultaneous translation</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Lightricks/LTX-2.5" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">Lightricks/LTX-2.5</span>
+    <span class="t-meta">Open image-to-video / text-to-video diffusion</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF</span>
+    <span class="t-meta">Community GGUF quant of DeepSeek V4.1 Flash for llama.cpp</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">black-forest-labs/flux-3-image-klein-comfy</span>
+    <span class="t-meta">FLUX 3 image model, ComfyUI-packaged</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+</div>
+
+
+    <section class="section" id="free-models">
+  <div class="section-head">
+    <h2>Free Models</h2>
+    <span class="line"></span>
+    <span class="n">26</span>
+  </div>
+
+  <p class="section-note">Free means $0 per token today, not unlimited or unconditional: both platforms rate-limit free use and require a free API key, some OpenRouter free endpoints may train on your prompts unless you opt out in account settings, and the roster changes daily. Verified against each provider's own pricing data at generation time — but pricing changes without notice, so confirm it's still free on the provider's own page before you rely on it.</p>
+
+  <div class="trending-wrap trending-wrap--in-section">
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenRouter</h1>
+        <div class="t-line"></div>
+        <a href="https://openrouter.ai/models?max_price=0" target="_blank" rel="noopener" class="t-link">Browse free models →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://openrouter.ai/cohere/north-mini-code:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Cohere: North Mini Code (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/dots-studio/dots-3-note-preview:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Dots Studio: Dots3-Note Preview (free)</span>
+    <span class="t-meta">512K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-26b-a4b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Google: Gemma 4 26B A4B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-31b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Google: Gemma 4 31B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/liquid/lfm-2.5-2.6b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">LiquidAI: LFM2.5-2.6B (free)</span>
+    <span class="t-meta">65K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Nano Omni (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Ultra (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Content Safety (free)</span>
+    <span class="t-meta">128K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-lightning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Lightning (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-super-vl:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Super VL (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-s-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#11</span>
+    <span class="t-name">Poolside: Laguna S 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-xs-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#12</span>
+    <span class="t-name">Poolside: Laguna XS 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/recursive/flint-v1.0:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#13</span>
+    <span class="t-name">Recursive: Flint (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#14</span>
+    <span class="t-name">Thinking Machines: Inkling (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling-small:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#15</span>
+    <span class="t-name">Thinking Machines: Inkling Small (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/xingchen-agi/xing4.0-29b-a4b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#16</span>
+    <span class="t-name">XingChen: Xing4.0 29B A4B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenCode Zen</h1>
+        <div class="t-line"></div>
+        <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener" class="t-link">See the full Zen catalog →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Big Pickle</span>
+    <span class="t-meta">big-pickle</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">GLM-5.3-Flash Free</span>
+    <span class="t-meta">glm-5.3-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">DeepSeek V4.1 Flash Free</span>
+    <span class="t-meta">deepseek-v4.1-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Beam Free</span>
+    <span class="t-meta">beam-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Flint 40B Free</span>
+    <span class="t-meta">flint-40b-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">MiMo-V2.6-Flash Free</span>
+    <span class="t-meta">mimo-v2.6-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">Nemotron 3 Ultra Free</span>
+    <span class="t-meta">nemotron-3-ultra-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">Nemotron 3.5 Lightning Free</span>
+    <span class="t-meta">nemotron-3.5-lightning-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">Nemotron 3.5 Super VL Free</span>
+    <span class="t-meta">nemotron-3.5-super-vl-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">Jev 1.13 Free</span>
+    <span class="t-meta">jev-1.13-free</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+    <section class="inbrief">
+  <div class="section-head">
+    <h2>In Brief</h2>
+    <span class="line"></span>
+    <span class="n">11</span>
+  </div>
+  <ul class="qh-list">
+    <li><a href="https://x.com/simonw/status/2115444742595260551" target="_blank" rel="noopener"><span class="qh-title">Simon Willison: October is another inflection point for coding agents, citing Claude Opus 5.5</span><span class="qh-src">X (simonw)</span></a></li>
+
+    <li><a href="https://x.com/_akhaliq/status/2115563792180588875" target="_blank" rel="noopener"><span class="qh-title">Hy-Nomas: a paper on free-form interactive world generation, with a public app</span><span class="qh-src">X (_akhaliq)</span></a></li>
+
+    <li><a href="https://x.com/DeepLearningAI/status/2115466148330254459" target="_blank" rel="noopener"><span class="qh-title">DeepLearning.AI launches a free 'Loop Engineering with LangChain Deep Agents' course</span><span class="qh-src">X (DeepLearningAI)</span></a></li>
+
+    <li><a href="https://techcrunch.com/2026-10-28/upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer/" target="_blank" rel="noopener"><span class="qh-title">Upwind raises $400M at a $3.8B valuation after walking away from a Datadog acquisition bid</span><span class="qh-src">TechCrunch</span></a></li>
+
+    <li><a href="https://techstartups.com/2026-10-28/startup-funding-news-today-october-28-2026-rebuild-general-compute-machenta-atlas-bio-ultra-more/" target="_blank" rel="noopener"><span class="qh-title">Infisical raises $40M Series B at a $600M valuation to secure secrets for the AI agent economy</span><span class="qh-src">TechStartups</span></a></li>
+
+    <li><a href="https://techstartups.com/2026-10-28/startup-funding-news-today-october-28-2026-rebuild-general-compute-machenta-atlas-bio-ultra-more/" target="_blank" rel="noopener"><span class="qh-title">Machenta closes the largest-ever UK robotics seed round at $40M for single-demo robot learning</span><span class="qh-src">TechStartups</span></a></li>
+
+    <li><a href="https://techstartups.com/2026-10-28/startup-funding-news-today-october-28-2026-rebuild-general-compute-machenta-atlas-bio-ultra-more/" target="_blank" rel="noopener"><span class="qh-title">Ultra raises $50M Series A to scale AI warehouse packing robots as a service</span><span class="qh-src">TechStartups</span></a></li>
+
+    <li><a href="https://www.teleborsa.it/News/2026-10-28/e-plato-smart-capital-entrano-tre-fondi-dff-ventures-mito-tech-ventures-e-vento-ventures-197.html" target="_blank" rel="noopener"><span class="qh-title">Milan industrial-AI startup E-Plato closes ~€3M round with DFF, MITO Tech and Vento Ventures</span><span class="qh-src">Teleborsa</span></a></li>
+
+    <li><a href="https://forbes.it/2026-10-28/magic-vision-600mila-euro-assistere-anziani-ia/" target="_blank" rel="noopener"><span class="qh-title">Italy's Magic Vision raises €600K for Silver Eye, wearable-free fall detection for seniors</span><span class="qh-src">Forbes Italia</span></a></li>
+
+    <li><a href="https://www.techpowerup.com/354240/gpd-confirms-intel-arc-g3-extreme-based-win-mini-ultra-handheld-coming-soon" target="_blank" rel="noopener"><span class="qh-title">GPD confirms the WIN Mini Ultra handheld with Intel Arc G3 Extreme and up to 64GB memory</span><span class="qh-src">TechPowerUp</span></a></li>
+
+    <li><a href="https://arxiv.org/abs/2610.37266" target="_blank" rel="noopener"><span class="qh-title">Watermark Basins: black-box detection of distilled LLMs via teacher-output watermarking</span><span class="qh-src">arXiv</span></a></li>
+
+  </ul>
+</section>
+
+
+    <footer class="colophon">
+      <p class="mark">Per aspera ad astra</p>
+      <p class="meta">Compiled by Hermes Agent · 2026-10-29 · <a href="https://github.com/MovieMaker93/local-ai-news" target="_blank" rel="noopener">source</a></p>
+      <p class="meta">Beta · <a href="making-of.html" title="Replay how this issue assembled itself">See how this issue made itself</a></p>
+    </footer>
+
+  </div>
+<div class="mo" id="mo" onclick="cm(event)"><div class="mb"><button class="mc" onclick="cm()">✕</button><h2 class="mh" id="mh"></h2><p class="mm">Source: <span id="ms"></span></p><div class="mbd" id="mbd"></div></div></div>
+<script>function openArt(el){var h=el.getAttribute('data-h'),b=el.getAttribute('data-b'),s=el.getAttribute('data-s'),u=el.getAttribute('data-u');document.getElementById('mh').textContent=h;var sl=document.getElementById('ms');if(u&&u!=='#'&&u!==''){sl.innerHTML='<a href="'+u+'" target="_blank" rel="noopener">'+s+'</a>';}else{sl.textContent=s;}var aiS='*— Written by AI (';var i=b.indexOf(aiS);if(i>=0){var bf=b.substring(0,i);var af=b.substring(i+aiS.length);var mdl=af.split(')')[0];bf=bf.split('\n').join('<br>');bf=bf.replace(/\*([^*]+)\*/g,'<em class="en">$1</em>');var sg='<div class="as"><span class="al">⬥ AI-GENERATED</span><br>Model: '+mdl+'</div>';document.getElementById('mbd').innerHTML=bf+sg;}else{document.getElementById('mbd').innerHTML=b.split('\n').join('<br>');}document.getElementById('mo').classList.add('a');document.body.style.overflow='hidden';}function cm(e){if(e&&e.target!=document.getElementById('mo'))return;document.getElementById('mo').classList.remove('a');document.body.style.overflow='';}document.addEventListener('keydown',function(e){if(e.key==='Escape')cm()});</script></body>
+</html>

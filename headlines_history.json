@@ -8624,6 +8624,168 @@
       "source": "arXiv",
       "date": "2026-10-29",
       "issue": 46
+    },
+    {
+      "text": "Open WebUI v0.12.5 ships security fixes every deployment should install now",
+      "source": "GitHub",
+      "date": "2026-10-30",
+      "issue": 47
+    },
+    {
+      "text": "Meta returns to open weights with Muse Spark Open",
+      "source": "X (DeepLearningAI)",
+      "date": "2026-10-30",
+      "issue": 47
+    },
+    {
+      "text": "OpenAI details expanded frontier-model monitoring that caught a live-internet attempt",
+      "source": "OpenAI",
+      "date": "2026-10-30",
+      "issue": 47
+    },
+    {
+      "text": "IBM ships Granite Switch 4.1.1: update your model like you update software",
+      "source": "IBM Granite",
+      "date": "2026-10-30",
+      "issue": 47
+    },
+    {
+      "text": "A unified Hessian-guided framework for post-training quantization",
+      "source": "arXiv",
+      "date": "2026-10-30",
+      "issue": 47
+    },
+    {
+      "text": "KV cache quantization behaves differently on diffusion language models",
+      "source": "arXiv",
+      "date": "2026-10-30",
+      "issue": 47
+    },
+    {
+      "text": "Turing LLM post-training: calibrated distillation plus dynamic-MoE execution",
+      "source": "arXiv",
+      "date": "2026-10-30",
+      "issue": 47
+    },
+    {
+      "text": "Raincheck defers multimodal prefill to speed up multi-turn chat",
+      "source": "arXiv",
+      "date": "2026-10-30",
+      "issue": 47
+    },
+    {
+      "text": "Kinoloom turns a written story into film on a single 8 GB GPU",
+      "source": "GitHub",
+      "date": "2026-10-30",
+      "issue": 47
+    },
+    {
+      "text": "Wavefunction: a deliberately minimal desktop coding agent for Mac",
+      "source": "Wavefunction",
+      "date": "2026-10-30",
+      "issue": 47
+    },
+    {
+      "text": "Armiger: an 8 MB CPU-only neural classifier replaces regex rules in media stacks",
+      "source": "r/selfhosted",
+      "date": "2026-10-30",
+      "issue": 47
+    },
+    {
+      "text": "n8n patches 2.45.6/2.46.2 land on the 2.x line while 3.0 beta matures",
+      "source": "n8n",
+      "date": "2026-10-30",
+      "issue": 47
+    },
+    {
+      "text": "GPU Price Index: 22 tracked cards sell 2.8% below launch MSRP",
+      "source": "videocardprices.com",
+      "date": "2026-10-30",
+      "issue": 47
+    },
+    {
+      "text": "AMD FSR SDK 2.4 extends ML upscaling to Radeon RX 6000",
+      "source": "Guru3D",
+      "date": "2026-10-30",
+      "issue": 47
+    },
+    {
+      "text": "Intel Moon Lake CPUs may bring four LPE cores to budget laptops",
+      "source": "Guru3D",
+      "date": "2026-10-30",
+      "issue": 47
+    },
+    {
+      "text": "UltraBERT-380M Curation: open 380M data-curation model with full training recipe for ~$3 to retrain",
+      "source": "AI Weekly",
+      "date": "2026-10-30",
+      "issue": 47
+    },
+    {
+      "text": "Apple-platform open models AnySpeechRecognizer and AnyDecisionModel land for on-device speech and decisions",
+      "source": "Hugging Face",
+      "date": "2026-10-30",
+      "issue": 47
+    },
+    {
+      "text": "XLaw-JP-27B: Apache-2.0 27B Japanese-law model runs on a single 48 GB GPU with hybrid retrieval",
+      "source": "arXiv",
+      "date": "2026-10-30",
+      "issue": 47
+    },
+    {
+      "text": "Clustered optimal-transport steering vs single-vector steering on quantized Gemma models",
+      "source": "arXiv",
+      "date": "2026-10-30",
+      "issue": 47
+    },
+    {
+      "text": "llama.cpp reaches milestone release b12000",
+      "source": "GitHub",
+      "date": "2026-10-30",
+      "issue": 47
+    },
+    {
+      "text": "Ollama Mock Server: fake Ollama API for testing apps without downloading weights",
+      "source": "Hacker News",
+      "date": "2026-10-30",
+      "issue": 47
+    },
+    {
+      "text": "Korea-data-MCP wraps Korean public APIs in schemas agents cannot misread",
+      "source": "GitHub",
+      "date": "2026-10-30",
+      "issue": 47
+    },
+    {
+      "text": "phpClaw brings tool calling, persistent memory and guardrails to PHP agent workflows",
+      "source": "GitHub",
+      "date": "2026-10-30",
+      "issue": 47
+    },
+    {
+      "text": "FuriosaAI closes $620M Series D at a $2.9B valuation to scale AI inference chips",
+      "source": "Tech Startups",
+      "date": "2026-10-30",
+      "issue": 47
+    },
+    {
+      "text": "StorageReview updates its lab-tested local-AI laptop leaderboard with new RTX Spark results",
+      "source": "StorageReview",
+      "date": "2026-10-30",
+      "issue": 47
+    },
+    {
+      "text": "Quantum Italia invests \u20ac200K in Promethence, a Politecnico di Milano post-quantum cryptography spin-off",
+      "source": "AI4Business",
+      "date": "2026-10-30",
+      "issue": 47
+    },
+    {
+      "text": "Survey: only one in four Italian SMEs uses AI, exposing an adoption gap",
+      "source": "AI4Business",
+      "date": "2026-10-30",
+      "issue": 47
     }
   ]
 }

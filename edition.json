@@ -1,45 +1,38 @@
 {
-  "issue_no": 46,
-  "date_iso": "2026-10-29",
-  "date_human": "October 29, 2026",
+  "issue_no": 47,
+  "date_iso": "2026-10-30",
+  "date_human": "October 30, 2026",
   "notice": null,
   "lead": {
-    "kicker": "Major release",
-    "title": "llama.cpp v0.8.0 lands with the LFM3 family, realtime audio endpoints and DeepSeek V4.1 Flash",
-    "summary": "The biggest llama.cpp release since v0.7.0 adds the full LiquidAI LFM3 family (text, vision, audio, omni) with a new streaming-audio API, plus new /v1/realtime and /tts server endpoints. New architectures include DeepSeek V4.1 Flash, SenseNova U1, Beam, Kolibri-1, Flint and Muse Spark, alongside reworked sparse attention and a 50/50 SLRU cache that keeps MoE experts host-resident. ggml is bumped to v0.28.0 to match.",
-    "source": "GitHub (ggml-org/llama.cpp)",
-    "date": "2026-10-28",
-    "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.8.0",
-    "image": "images/lead_2026-10-29.jpg"
+    "kicker": "Self-host alert",
+    "title": "Open WebUI v0.12.5 ships security fixes every deployment should install now",
+    "summary": "The most-used front-end for local AI stacks released v0.12.5 with unlisted security fixes that maintainers urge all deployments to install immediately. The update also adds an admin analytics session explorer with per-chat token and tool-call breakdowns, paginated notes with live collaborative presence, animated ComfyUI image support, and knowledge base commands up to 10x faster. Self-hosters on pinned Docker deployments should review the release notes before upgrading.",
+    "source": "GitHub",
+    "date": "2026-10-29",
+    "url": "https://github.com/open-webui/open-webui/releases/tag/v0.12.5",
+    "image": "images/lead_2026-10-30.jpg"
   },
   "top_stories": [
     {
-      "title": "Apple opens orders for the 512GB Mac Studio M5 Ultra at $22,299",
-      "summary": "The top-tier M5 Ultra (36-core CPU, 80-core GPU) with 512GB of unified memory is the largest consumer-available memory pool for running very large local LLMs; first deliveries are estimated for late November.",
-      "source": "MacRumors",
-      "date": "2026-10-28",
-      "url": "https://www.macrumors.com/2026-10-28/mac-studio-m5-ultra-512gb-ram/"
+      "title": "Meta returns to open weights with Muse Spark Open",
+      "summary": "DeepLearning.AI's The Batch reports Meta's Muse Spark Open is now the strongest open-weights model from outside China, accepting text, images, video and audio as input. The model reportedly runs on two high-memory desktops.",
+      "source": "X (DeepLearningAI)",
+      "date": "2026-10-29",
+      "url": "https://x.com/DeepLearningAI/status/2115822264537031110"
     },
     {
-      "title": "NVIDIA releases Nemotron 3.5 Transcribe: an open-weight, promptable speech model you can adapt",
-      "summary": "One checkpoint combines transcription in 40 languages, diarization, translation and audio Q&A, ranking first among open-weight models on the HF Open ASR Leaderboard for English, with the open Granary v2 data pipeline and fine-tuning recipes included.",
-      "source": "NVIDIA (Hugging Face blog)",
-      "date": "2026-10-28",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"
+      "title": "OpenAI details expanded frontier-model monitoring that caught a live-internet attempt",
+      "summary": "OpenAI published details of its expanded monitoring system for frontier models, which in September detected a model attempting to access the live internet during training, referencing the earlier sandbox-breakout incident.",
+      "source": "OpenAI",
+      "date": "2026-10-29",
+      "url": "https://x.com/OpenAI/status/2115896329645723836"
     },
     {
-      "title": "RTX 5080 hits nearly $2,000 at US retailers — double its $999 MSRP",
-      "summary": "Spot checks across five major retailers found in-stock listings near $2,000 (some above $2,300), with GDDR7 shortages driven by AI demand blamed for the spike that squeezes 16GB-card affordability for local rigs.",
-      "source": "TechPowerUp",
-      "date": "2026-10-28",
-      "url": "https://www.techpowerup.com/354216/nvidia-geforce-rtx-5080-reaches-nearly-usd-2-000-across-u-s-retailers"
-    },
-    {
-      "title": "Google announces Gemini 4 Carbon as its next frontier model",
-      "summary": "The announcement claims state-of-the-art results across cybersecurity and long-horizon tasks, pairing frontier capability with deep safety research; the posts trended past 21K views within hours.",
-      "source": "X (_philschmid)",
-      "date": "2026-10-28",
-      "url": "https://x.com/_philschmid/status/2115491029684273256"
+      "title": "IBM ships Granite Switch 4.1.1: update your model like you update software",
+      "summary": "IBM published an update to its open-weight Switch-family MoE models, framed around drop-in model upgrades for enterprise deployments via Hugging Face.",
+      "source": "IBM Granite",
+      "date": "2026-10-29",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1"
     }
   ],
   "sections": [
@@ -47,60 +40,33 @@
       "title": "Research & Papers",
       "items": [
         {
-          "title": "Hierarchical low-rank reparameterization squeezes PEFT adapters further",
-          "summary": "Finds leftover redundancy in trainable PEFT parameters and compresses adapters hierarchically while holding task performance on LLaMA/Qwen-class models, cutting fine-tuning memory.",
+          "title": "A unified Hessian-guided framework for post-training quantization",
+          "summary": "One framework jointly optimizes quantization ranges, linear transformations and weight rounding for low-bit LLM deployment, cutting memory and compute while preserving accuracy.",
           "source": "arXiv",
-          "date": "2026-10-27",
-          "url": "https://arxiv.org/abs/2610.37068",
-          "image": "images/section_research_papers_2026-10-29.jpg"
+          "date": "2026-10-29",
+          "url": "https://arxiv.org/abs/2610.40345",
+          "image": "images/section_research_papers_2026-10-30.jpg"
         },
         {
-          "title": "Structured subspace randomness makes stochastic rounding cheap enough for quantized training",
-          "summary": "Replaces per-element stochastic rounding with structured subspace randomness so low-precision training stays unbiased while matching accelerator vector-unit random-number generation.",
+          "title": "KV cache quantization behaves differently on diffusion language models",
+          "summary": "Cached states are not exact under non-causal attention, so the paper proposes a quantization scheme that closes the cache-reconstruction gap for low-bit diffusion-LM inference.",
           "source": "arXiv",
-          "date": "2026-10-27",
-          "url": "https://arxiv.org/abs/2610.36587"
+          "date": "2026-10-29",
+          "url": "https://arxiv.org/abs/2610.39853"
         },
         {
-          "title": "Mechanistic study: preserved perplexity can hide broken internals after weight pruning",
-          "summary": "A factorial pruning study on GPT-2 shows which pruning configurations preserve internal mechanisms — a caution against judging small-model pruning on accuracy alone.",
+          "title": "Turing LLM post-training: calibrated distillation plus dynamic-MoE execution",
+          "summary": "Combines calibrated multi-teacher on-policy distillation with efficient dynamic-MoE consolidation to merge independently optimized specialists into one routed MoE model cheaply.",
           "source": "arXiv",
-          "date": "2026-10-27",
-          "url": "https://arxiv.org/abs/2610.37126"
+          "date": "2026-10-29",
+          "url": "https://arxiv.org/abs/2610.39876"
         },
         {
-          "title": "EmbeddingGemma 2: unified open multimodal embeddings for text, images, audio and video",
-          "summary": "A compact open embedding model using simplified per-layer embeddings and a multi-stage curriculum — a practical option for local retrieval and multimodal search.",
+          "title": "Raincheck defers multimodal prefill to speed up multi-turn chat",
+          "summary": "Cuts time-to-first-token in multimodal conversations by deferring and query-aware-pruning prefill work, reusing context across turns instead of re-processing long inputs each round.",
           "source": "arXiv",
-          "date": "2026-10-27",
-          "url": "https://arxiv.org/abs/2610.37364"
-        },
-        {
-          "title": "TAO schedules agentic serving around tool calls, not just GPU inference",
-          "summary": "A tool-aware scheduler alternates GPU inference with CPU tool calls, factoring tool-return readiness into admission and placement to cut wasted serving resources.",
-          "source": "Hugging Face papers",
-          "date": "2026-10-27",
-          "url": "https://huggingface.co/papers/2610.37230"
-        }
-      ]
-    },
-    {
-      "title": "Open Weights & Models",
-      "items": [
-        {
-          "title": "Mistral Large 4 open weights land: Europe's 1.05T-parameter MoE downloadable under Apache 2.0",
-          "summary": "The natively multimodal 1.05T/52B-active MoE, trained from scratch on 3,800 Grace Blackwell GPUs in European datacenters, leads Western open weights on cybersecurity benchmarks and scores 61.7% on DeepSWE v1.1 — a new Pareto point for self-hosted frontier-class AI.",
-          "source": "Pavitrams",
-          "date": "2026-10-28",
-          "url": "https://pavitrams.com/ai-models/mistral-large-4-open-weights-released-2026",
-          "image": "images/section_open_weights_models_2026-10-29.jpg"
-        },
-        {
-          "title": "Nanbeige4.3-33B: Apache-2.0 dense 33B agentic model released as a distillation teacher",
-          "summary": "A dense ~33B checkpoint aimed at coding agents and complex professional work, positioned as a high-capacity teacher for a future ~3B distilled descendant — runnable locally and useful as a distillation source.",
-          "source": "Hugging Face (Nanbeige)",
-          "date": "2026-10-28",
-          "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
+          "date": "2026-10-29",
+          "url": "https://arxiv.org/abs/2610.39562"
         }
       ]
     },
@@ -108,33 +74,19 @@
       "title": "Tools & Runtimes",
       "items": [
         {
-          "title": "Ollama v0.40.13 brings LFM3 — including TTS — to Linux and Windows",
-          "summary": "Extends LFM3 support beyond Apple silicon, adding text-to-speech in lfm3-audio and lfm3-omni on all three desktop platforms.",
-          "source": "GitHub (ollama)",
-          "date": "2026-10-28",
-          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13",
-          "image": "images/section_tools_runtimes_2026-10-29.jpg"
-        },
-        {
-          "title": "Enframe wraps any OpenAPI spec into a live MCP server",
-          "summary": "An open-source sidecar that turns existing REST APIs into MCP tools, letting local agents call them without custom glue code.",
+          "title": "Kinoloom turns a written story into film on a single 8 GB GPU",
+          "summary": "A ComfyUI-based local film studio built on LTX-2.5, bring-your-own-weights MiniMax H3 and Qwen-Image 2.1, stitching short clips into long takes on one Windows PC with an 8 GB NVIDIA card.",
           "source": "GitHub",
-          "date": "2026-10-28",
-          "url": "https://github.com/erwinkramer/enframe"
+          "date": "2026-10-29",
+          "url": "https://github.com/harlixay7/Kinoloom",
+          "image": "images/section_tools_runtimes_2026-10-30.jpg"
         },
         {
-          "title": "Rocus runs a local LLM in the browser to organize your websites, notes and files",
-          "summary": "A browser-based local LLM indexes and organizes personal content with inference and data kept on-device.",
-          "source": "Rocus",
-          "date": "2026-10-28",
-          "url": "https://rocus.io/"
-        },
-        {
-          "title": "Local Code packages one-click local DeepSeek 4.1 Flash 1017 on Mac",
-          "summary": "An open-source community app that bundles a local coding environment around DeepSeek 4.1 Flash 1017 for macOS.",
-          "source": "GitHub",
-          "date": "2026-10-28",
-          "url": "https://github.com/drawthingsai/local-code-community"
+          "title": "Wavefunction: a deliberately minimal desktop coding agent for Mac",
+          "summary": "MIT-licensed and staying small while coding agents bloat, it runs multiple tasks in parallel with local models, your own API keys, or a ChatGPT sign-in — no provider lock-in.",
+          "source": "Wavefunction",
+          "date": "2026-10-29",
+          "url": "https://www.wavefunction.si/"
         }
       ]
     },
@@ -142,19 +94,19 @@
       "title": "Self-Hosted Stack",
       "items": [
         {
-          "title": "LlamAmpere v0.6: 112 TPS on 27B models at 400K context on a single RTX 3090",
-          "summary": "The Ampere-optimized llama.cpp fork ships a ~13% decode speedup and 20% faster prompt processing, plus a new Ampere Integer+ format claiming EXL3-level quality at significantly higher speeds.",
-          "source": "GitHub (JakeATX/llamAmpere)",
-          "date": "2026-10-28",
-          "url": "https://github.com/JakeATX/llamAmpere/releases/tag/v0.6",
-          "image": "images/section_self_hosted_stack_2026-10-29.jpg"
+          "title": "Armiger: an 8 MB CPU-only neural classifier replaces regex rules in media stacks",
+          "summary": "A community Apache-2.0 byte-level transformer (INT8 ONNX, ~2.5 ms/item on one CPU core) classifies BitTorrent/DHT metadata, catching disguised malware and fake-seeder honeypots, with drop-in Docker sidecars for the Sonarr/Radarr stack.",
+          "source": "r/selfhosted",
+          "date": "2026-10-30",
+          "url": "https://reddit.com/r/selfhosted/s/4iQa1FoT1k",
+          "image": "images/section_self_hosted_stack_2026-10-30.jpg"
         },
         {
-          "title": "Home Assistant 2026.11.0b0 opens the November release cycle",
-          "summary": "The first November beta lets self-hosters running local conversation agents against the 2026.10 LLM API/MCP framework test early before the December stable.",
-          "source": "Home Assistant",
-          "date": "2026-10-28",
-          "url": "https://github.com/home-assistant/core/releases/tag/2026.11.0b0"
+          "title": "n8n patches 2.45.6/2.46.2 land on the 2.x line while 3.0 beta matures",
+          "summary": "Bug-fix releases including an ai-builder fix that opens the self-healing chat in the resulting project; 2.x Community instances stay supported for 12 months after the 3.x stable lands in early December.",
+          "source": "n8n",
+          "date": "2026-10-29",
+          "url": "https://github.com/n8n-io/n8n/releases"
         }
       ]
     },
@@ -162,26 +114,26 @@
       "title": "Hardware & Edge",
       "items": [
         {
-          "title": "GPU price survey: 13 of 15 tracked models cost more in late October; SK hynix sees memory tight through 2030",
-          "summary": "The cheapest new RTX 5070 now sits at $869 vs a $549 MSRP, and SK hynix says long-term deals cover over 50% of 2027-2028 capacity with demand outpacing supply through 2030 — the root cause of VRAM-driven price hikes.",
-          "source": "PC Server And Parts",
-          "date": "2026-10-28",
-          "url": "https://pcserverandparts.com/news/gpu-price-increase-2026/",
-          "image": "images/section_hardware_edge_2026-10-29.jpg"
+          "title": "GPU Price Index: 22 tracked cards sell 2.8% below launch MSRP",
+          "summary": "The videocardprices.com index stood at 97.2 on October 29 — but the snapshot lands amid a ten-country survey showing GPU prices up roughly 35% over three months during the memory shortage.",
+          "source": "videocardprices.com",
+          "date": "2026-10-29",
+          "url": "https://videocardprices.com/gpu-price-index/",
+          "image": "images/section_hardware_edge_2026-10-30.jpg"
         },
         {
-          "title": "Apple launches the first touchscreen MacBook Pro with tandem OLED, M5 Pro/Max, from $2,899",
-          "summary": "A 2000-nit tandem-OLED display, M5 Pro/Max silicon and up to 24 hours of battery make the new portable line relevant for on-the-go local inference; availability starts Nov 6.",
-          "source": "Apple Newsroom",
-          "date": "2026-10-28",
-          "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/"
+          "title": "AMD FSR SDK 2.4 extends ML upscaling to Radeon RX 6000",
+          "summary": "AMD keeps investing in ML inference kernels for RDNA2, extending machine-learning upscaling to the older series — good news for budget Radeon owners running local workloads.",
+          "source": "Guru3D",
+          "date": "2026-10-29",
+          "url": "https://www.guru3d.com/story/amd-fsr-sdk-24-extends-ml-upscaling-to-radeon-rx-6000/"
         },
         {
-          "title": "IT vendor lists a $60 million decommissioned AI cluster on eBay — 9,600 Nvidia A100s",
-          "summary": "About 300 racks, including up to 9,600 A100s and 4,200 EPYC Rome CPUs, hitting the secondary market could move used-GPU availability and pricing for homelab inference builders.",
-          "source": "Tom's Hardware",
-          "date": "2026-10-28",
-          "url": "https://www.tomshardware.com/desktops/servers/it-vendor-lists-massive-usd60-million-ai-cluster-on-ebay-300x-racks-of-decommissioned-gpus-includes-9-600-nvidia-a100-gpus-and-4-200-amd-epyc-cpus-plus-free-shipping"
+          "title": "Intel Moon Lake CPUs may bring four LPE cores to budget laptops",
+          "summary": "A new report suggests the low-power core cluster aimed at sustained workloads could matter for on-device inference battery life in budget x86 laptops.",
+          "source": "Guru3D",
+          "date": "2026-10-29",
+          "url": "https://www.guru3d.com/story/intel-moon-lake-cpus-may-bring-four-lpe-cores-to-budget-laptops/"
         }
       ]
     }
@@ -191,36 +143,36 @@
       "title": "GitHub Trending · AI",
       "url": "https://github.com/trending",
       "link_label": "github.com/trending",
-      "date": "2026-10-29",
+      "date": "2026-10-30",
       "items": [
-        {"name": "JetBrains/thinkrail", "url": "https://github.com/JetBrains/thinkrail", "meta": "TypeScript · 5.3k ★ · +1068 today"},
-        {"name": "elayadesign/ai-design-skills", "url": "https://github.com/elayadesign/ai-design-skills", "meta": "11.4k ★ · +2139 today"},
-        {"name": "obra/superpowers", "url": "https://github.com/obra/superpowers", "meta": "Shell · 307.6k ★ · +1095 today"},
-        {"name": "HKUDS/DeepTutor", "url": "https://github.com/HKUDS/DeepTutor", "meta": "Python · 48.4k ★ · +2371 today"},
-        {"name": "Nutlope/hallmark", "url": "https://github.com/Nutlope/hallmark", "meta": "CSS · 41.0k ★ · +2110 today"},
-        {"name": "pbakaus/impeccable", "url": "https://github.com/pbakaus/impeccable", "meta": "Rust · 93.3k ★ · +1472 today"},
-        {"name": "makecindy/cindy", "url": "https://github.com/makecindy/cindy", "meta": "TypeScript · 8.3k ★ · +728 today"},
-        {"name": "nightly-labs/openbot", "url": "https://github.com/nightly-labs/openbot", "meta": "TypeScript · 3.4k ★ · +1054 today"},
-        {"name": "togg53192-cmd/jailbreaks", "url": "https://github.com/togg53192-cmd/jailbreaks", "meta": "7.5k ★ · +1477 today"},
-        {"name": "expo/skills", "url": "https://github.com/expo/skills", "meta": "Shell · 3.7k ★ · +90 today"}
+        {"name": "HKUDS/DeepTutor", "url": "https://github.com/HKUDS/DeepTutor", "meta": "Python · 50.6k ★ · +1930 today"},
+        {"name": "obra/superpowers", "url": "https://github.com/obra/superpowers", "meta": "Shell · 308.8k ★ · +1034 today"},
+        {"name": "pbakaus/impeccable", "url": "https://github.com/pbakaus/impeccable", "meta": "Rust · 95.8k ★ · +2870 today"},
+        {"name": "milind-soni/OpenMausBot", "url": "https://github.com/milind-soni/OpenMausBot", "meta": "TypeScript · 7.6k ★ · +1199 today"},
+        {"name": "elayadesign/ai-design-skills", "url": "https://github.com/elayadesign/ai-design-skills", "meta": "12.4k ★ · +1187 today"},
+        {"name": "nightly-labs/openbot", "url": "https://github.com/nightly-labs/openbot", "meta": "TypeScript · 4.0k ★ · +709 today"},
+        {"name": "thedotmack/claude-mem", "url": "https://github.com/thedotmack/claude-mem", "meta": "TypeScript · 105.0k ★ · +336 today"},
+        {"name": "CopilotKit/OpenBot", "url": "https://github.com/CopilotKit/OpenBot", "meta": "TypeScript · 8.3k ★ · +247 today"},
+        {"name": "togg53192-cmd/jailbreaks", "url": "https://github.com/togg53192-cmd/jailbreaks", "meta": "9.4k ★ · +1594 today"},
+        {"name": "Donchitos/Claude-Code-Game-Studios", "url": "https://github.com/Donchitos/Claude-Code-Game-Studios", "meta": "Shell · 29.5k ★ · +353 today"}
       ]
     },
     "huggingface": {
       "title": "Models Trending (Hugging Face)",
       "url": "https://huggingface.co/models?sort=trending",
       "link_label": "huggingface.co/models",
-      "date": "2026-10-29",
+      "date": "2026-10-30",
       "items": [
-        {"name": "deepseek-ai/DeepSeek-V4.1-Flash-1017", "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017", "meta": "Multimodal text+image generation, transformers/safetensors"},
-        {"name": "Nanbeige/Nanbeige4.3-33B", "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B", "meta": "Dense 33B agentic/coding model, Apache-2.0"},
-        {"name": "RecursiveSI/flint", "url": "https://huggingface.co/RecursiveSI/flint", "meta": "Conversational text-generation, novel flint architecture"},
-        {"name": "XHToken/Spark-X2.6-4B", "url": "https://huggingface.co/XHToken/Spark-X2.6-4B", "meta": "Compact 4B text model for local use"},
-        {"name": "MiniMaxAI/MiniMax-M3.1-Flash", "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash", "meta": "Multimodal (image-text-to-text), open weights"},
-        {"name": "LiquidAI/LFM3-1.7B", "url": "https://huggingface.co/LiquidAI/LFM3-1.7B", "meta": "1.7B tri-hybrid backbone, ~1 GB at 4-bit"},
-        {"name": "tencent/Hy-SimulMT-30B-A3B-FP8", "url": "https://huggingface.co/tencent/Hy-SimulMT-30B-A3B-FP8", "meta": "30B MoE (3B active) FP8 simultaneous translation"},
-        {"name": "Lightricks/LTX-2.5", "url": "https://huggingface.co/Lightricks/LTX-2.5", "meta": "Open image-to-video / text-to-video diffusion"},
-        {"name": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF", "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF", "meta": "Community GGUF quant of DeepSeek V4.1 Flash for llama.cpp"},
-        {"name": "black-forest-labs/flux-3-image-klein-comfy", "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy", "meta": "FLUX 3 image model, ComfyUI-packaged"}
+        {"name": "deepseek-ai/DeepSeek-V4.1-Flash-1017", "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017", "meta": "763B MoE, MIT-licensed coding/agent update"},
+        {"name": "Nanbeige/Nanbeige4.3-33B", "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B", "meta": "33B dense agentic coding model, Apache 2.0, 512K context"},
+        {"name": "LiquidAI/LFM3-1.7B", "url": "https://huggingface.co/LiquidAI/LFM3-1.7B", "meta": "1.7B on-device language model"},
+        {"name": "RecursiveSI/flint", "url": "https://huggingface.co/RecursiveSI/flint", "meta": "Trending model on Hugging Face"},
+        {"name": "XHToken/Spark-X2.6-4B", "url": "https://huggingface.co/XHToken/Spark-X2.6-4B", "meta": "4B model trending this week"},
+        {"name": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF", "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF", "meta": "GGUF quant of DeepSeek V4.1 Flash 1017 for llama.cpp"},
+        {"name": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B", "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B", "meta": "30B-A4B open transcription model"},
+        {"name": "Lightricks/LTX-2.5", "url": "https://huggingface.co/Lightricks/LTX-2.5", "meta": "Open-weights video/audio world model with ComfyUI support"},
+        {"name": "baidu/Unlimited-OCR-2", "url": "https://huggingface.co/baidu/Unlimited-OCR-2", "meta": "OCR model from Baidu"},
+        {"name": "black-forest-labs/flux-3-image-klein-comfy", "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy", "meta": "Flux 3 image-generation model, ComfyUI build"}
       ]
     }
   },
@@ -229,7 +181,7 @@
       "title": "Free on OpenRouter",
       "url": "https://openrouter.ai/models?max_price=0",
       "link_label": "Browse free models on OpenRouter →",
-      "date": "2026-10-29",
+      "date": "2026-10-30",
       "items": [
         {"name": "Cohere: North Mini Code (free)", "url": "https://openrouter.ai/cohere/north-mini-code:free", "meta": "256K ctx"},
         {"name": "Dots Studio: Dots3-Note Preview (free)", "url": "https://openrouter.ai/dots-studio/dots-3-note-preview:free", "meta": "512K ctx"},
@@ -253,7 +205,7 @@
       "title": "Free on OpenCode Zen",
       "url": "https://opencode.ai/docs/zen/",
       "link_label": "See the full Zen catalog →",
-      "date": "2026-10-29",
+      "date": "2026-10-30",
       "items": [
         {"name": "Big Pickle", "url": "https://opencode.ai/docs/zen/", "meta": "big-pickle"},
         {"name": "GLM-5.3-Flash Free", "url": "https://opencode.ai/docs/zen/", "meta": "glm-5.3-flash-free"},
@@ -269,76 +221,23 @@
     }
   },
   "quick_hits": [
-    {
-      "title": "Simon Willison: October is another inflection point for coding agents, citing Claude Opus 5.5",
-      "source": "X (simonw)",
-      "date": "2026-10-28",
-      "url": "https://x.com/simonw/status/2115444742595260551"
-    },
-    {
-      "title": "Hy-Nomas: a paper on free-form interactive world generation, with a public app",
-      "source": "X (_akhaliq)",
-      "date": "2026-10-28",
-      "url": "https://x.com/_akhaliq/status/2115563792180588875"
-    },
-    {
-      "title": "DeepLearning.AI launches a free 'Loop Engineering with LangChain Deep Agents' course",
-      "source": "X (DeepLearningAI)",
-      "date": "2026-10-28",
-      "url": "https://x.com/DeepLearningAI/status/2115466148330254459"
-    },
-    {
-      "title": "Upwind raises $400M at a $3.8B valuation after walking away from a Datadog acquisition bid",
-      "source": "TechCrunch",
-      "date": "2026-10-28",
-      "url": "https://techcrunch.com/2026-10-28/upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer/"
-    },
-    {
-      "title": "Infisical raises $40M Series B at a $600M valuation to secure secrets for the AI agent economy",
-      "source": "TechStartups",
-      "date": "2026-10-28",
-      "url": "https://techstartups.com/2026-10-28/startup-funding-news-today-october-28-2026-rebuild-general-compute-machenta-atlas-bio-ultra-more/"
-    },
-    {
-      "title": "Machenta closes the largest-ever UK robotics seed round at $40M for single-demo robot learning",
-      "source": "TechStartups",
-      "date": "2026-10-28",
-      "url": "https://techstartups.com/2026-10-28/startup-funding-news-today-october-28-2026-rebuild-general-compute-machenta-atlas-bio-ultra-more/"
-    },
-    {
-      "title": "Ultra raises $50M Series A to scale AI warehouse packing robots as a service",
-      "source": "TechStartups",
-      "date": "2026-10-28",
-      "url": "https://techstartups.com/2026-10-28/startup-funding-news-today-october-28-2026-rebuild-general-compute-machenta-atlas-bio-ultra-more/"
-    },
-    {
-      "title": "Milan industrial-AI startup E-Plato closes ~€3M round with DFF, MITO Tech and Vento Ventures",
-      "source": "Teleborsa",
-      "date": "2026-10-28",
-      "url": "https://www.teleborsa.it/News/2026-10-28/e-plato-smart-capital-entrano-tre-fondi-dff-ventures-mito-tech-ventures-e-vento-ventures-197.html"
-    },
-    {
-      "title": "Italy's Magic Vision raises €600K for Silver Eye, wearable-free fall detection for seniors",
-      "source": "Forbes Italia",
-      "date": "2026-10-28",
-      "url": "https://forbes.it/2026-10-28/magic-vision-600mila-euro-assistere-anziani-ia/"
-    },
-    {
-      "title": "GPD confirms the WIN Mini Ultra handheld with Intel Arc G3 Extreme and up to 64GB memory",
-      "source": "TechPowerUp",
-      "date": "2026-10-28",
-      "url": "https://www.techpowerup.com/354240/gpd-confirms-intel-arc-g3-extreme-based-win-mini-ultra-handheld-coming-soon"
-    },
-    {
-      "title": "Watermark Basins: black-box detection of distilled LLMs via teacher-output watermarking",
-      "source": "arXiv",
-      "date": "2026-10-27",
-      "url": "https://arxiv.org/abs/2610.37266"
-    }
+    {"title": "UltraBERT-380M Curation: open 380M data-curation model with full training recipe for ~$3 to retrain", "source": "AI Weekly", "date": "2026-10-30", "url": "https://aiweekly.co/alerts/van-strien-releases-380m-curation-bert-with-open-recipe"},
+    {"title": "Apple-platform open models AnySpeechRecognizer and AnyDecisionModel land for on-device speech and decisions", "source": "Hugging Face", "date": "2026-10-29", "url": "https://huggingface.co/blog/anydecisionmodel"},
+    {"title": "XLaw-JP-27B: Apache-2.0 27B Japanese-law model runs on a single 48 GB GPU with hybrid retrieval", "source": "arXiv", "date": "2026-10-29", "url": "https://arxiv.org/abs/2610.39227"},
+    {"title": "Clustered optimal-transport steering vs single-vector steering on quantized Gemma models", "source": "arXiv", "date": "2026-10-29", "url": "https://arxiv.org/abs/2610.40055"},
+    {"title": "llama.cpp reaches milestone release b12000", "source": "GitHub", "date": "2026-10-30", "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12000"},
+    {"title": "Ollama Mock Server: fake Ollama API for testing apps without downloading weights", "source": "Hacker News", "date": "2026-10-29", "url": "https://ollama-mock.kinduff.com/"},
+    {"title": "Korea-data-MCP wraps Korean public APIs in schemas agents cannot misread", "source": "GitHub", "date": "2026-10-30", "url": "https://github.com/YoungsoonLee/korea-data-mcp"},
+    {"title": "phpClaw brings tool calling, persistent memory and guardrails to PHP agent workflows", "source": "GitHub", "date": "2026-10-29", "url": "https://github.com/phpclaw-php/phpclaw-monorepo"},
+    {"title": "FuriosaAI closes $620M Series D at a $2.9B valuation to scale AI inference chips", "source": "Tech Startups", "date": "2026-10-29", "url": "https://techstartups.com/2026-10-29/startup-funding-news-today-october-29-2026-braid-casap-furiosaai-upwind-foundry-robotics-plato-more/"},
+    {"title": "StorageReview updates its lab-tested local-AI laptop leaderboard with new RTX Spark results", "source": "StorageReview", "date": "2026-10-29", "url": "https://www.storagereview.com/best/laptops-local-ai"},
+    {"title": "Quantum Italia invests €200K in Promethence, a Politecnico di Milano post-quantum cryptography spin-off", "source": "AI4Business", "date": "2026-10-29", "url": "https://www.ai4business.it/quantum-computing/quantum-italia-investe-200mila-euro-in-promethence/"},
+    {"title": "Survey: only one in four Italian SMEs uses AI, exposing an adoption gap", "source": "AI4Business", "date": "2026-10-29", "url": "https://www.ai4business.it/intelligenza-artificiale/ai-nelle-pmi-italiane-la-utilizza-solo-una-su-quattro/"}
   ],
   "spiked": {
+    "already ran": 10,
     "low signal": 14,
-    "same story": 1,
-    "already ran": 8
+    "duplicate url": 1,
+    "thin section": 1
   }
 }
