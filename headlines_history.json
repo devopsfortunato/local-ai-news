@@ -8786,6 +8786,156 @@
       "source": "AI4Business",
       "date": "2026-10-30",
       "issue": 47
+    },
+    {
+      "text": "NVIDIA's TensorRT Edge-LLM unifies DGX Spark-to-Jetson Thor inference in a few commands",
+      "source": "NVIDIA Developer Blog",
+      "date": "2026-10-31",
+      "issue": 48
+    },
+    {
+      "text": "QEngine 1.3.1 hits 504 tok/s decode on Qwen3.8-Flash-Next with two RTX 5090s",
+      "source": "r/LocalLLaMA",
+      "date": "2026-10-31",
+      "issue": 48
+    },
+    {
+      "text": "Cohere announces first close of Series E targeting up to C$7B at C$35.7B valuation",
+      "source": "Traded.co",
+      "date": "2026-10-31",
+      "issue": 48
+    },
+    {
+      "text": "DeepSeek closes $16B second round led by China's state Big Fund at $74B pre-money",
+      "source": "AOYii AI Daily",
+      "date": "2026-10-31",
+      "issue": 48
+    },
+    {
+      "text": "Anthropic tests automating emergent-misalignment red-teaming with thousands of Claude agents",
+      "source": "X (AnthropicAI)",
+      "date": "2026-10-31",
+      "issue": 48
+    },
+    {
+      "text": "LlamaIndex introduces the Document Parsing Protocol",
+      "source": "LlamaIndex",
+      "date": "2026-10-31",
+      "issue": 48
+    },
+    {
+      "text": "Web-MCP-Bridge connects browser-based LLMs to MCP servers and tools",
+      "source": "GitHub",
+      "date": "2026-10-31",
+      "issue": 48
+    },
+    {
+      "text": "Spinf-serve: an inference server built for bulk scoring, not chat",
+      "source": "GitHub",
+      "date": "2026-10-31",
+      "issue": 48
+    },
+    {
+      "text": "llama.cpp Oct 30 build bundle adds OpenCL 2-bit quantization, Adreno path and KV-cache memory work",
+      "source": "Devotd GitHub roundup",
+      "date": "2026-10-31",
+      "issue": 48
+    },
+    {
+      "text": "vLLM 0.33.0rc2 fixes the AMD gfx950 AITER GEMM overflow that crashed MI355X startups",
+      "source": "FOSSWire",
+      "date": "2026-10-31",
+      "issue": 48
+    },
+    {
+      "text": "vLLM nightly adds disk offloading for prefix-cached KV states",
+      "source": "Tech Ticker Times",
+      "date": "2026-10-31",
+      "issue": 48
+    },
+    {
+      "text": "24GB RTX 5080 reportedly pulled forward to December for China",
+      "source": "Shattered.io (citing Guru3D/ChannelGate)",
+      "date": "2026-10-31",
+      "issue": 48
+    },
+    {
+      "text": "DRAMeXchange posts 4Q26 mobile DRAM contract prices as the AI memory crunch continues",
+      "source": "DRAMeXchange / TrendForce",
+      "date": "2026-10-31",
+      "issue": 48
+    },
+    {
+      "text": "OpenAI announces 'Private Intelligence' enterprise data-controls offering",
+      "source": "X (OpenAI)",
+      "date": "2026-10-31",
+      "issue": 48
+    },
+    {
+      "text": "Fractile raises ~$774M Series C at reported $6.5B pre-money, leaning on a ~$250M Anthropic chip order",
+      "source": "Cutoff Report",
+      "date": "2026-10-31",
+      "issue": 48
+    },
+    {
+      "text": "Serval raises $150M Series C at a $3B valuation led by Sequoia",
+      "source": "Crunchbase News",
+      "date": "2026-10-31",
+      "issue": 48
+    },
+    {
+      "text": "Sebastian Thrun's Dulo raises $130M seed for AI foundation models for engineering and hardware design",
+      "source": "SiliconANGLE",
+      "date": "2026-10-31",
+      "issue": 48
+    },
+    {
+      "text": "Casdoor v4: open-source IAM with OAuth flows built for securing MCP servers",
+      "source": "Casdoor",
+      "date": "2026-10-31",
+      "issue": 48
+    },
+    {
+      "text": "macmonitor exposes Mac hardware telemetry to local agents over MCP",
+      "source": "GitHub",
+      "date": "2026-10-31",
+      "issue": 48
+    },
+    {
+      "text": "fast-forced-aligner claims 10x-1000x faster CUDA forced alignment for ASR pipelines",
+      "source": "GitHub",
+      "date": "2026-10-31",
+      "issue": 48
+    },
+    {
+      "text": "Cerebellum runs a small model on the robot and escalates to a big one only when needed",
+      "source": "GitHub",
+      "date": "2026-10-31",
+      "issue": 48
+    },
+    {
+      "text": "NVIDIA builds a fully local haunted-house voice agent on the Nemotron open-model stack",
+      "source": "NVIDIA (Hugging Face blog)",
+      "date": "2026-10-31",
+      "issue": 48
+    },
+    {
+      "text": "Home Assistant fixes MCP connections made through Home Assistant Cloud addresses",
+      "source": "OHF Daily",
+      "date": "2026-10-31",
+      "issue": 48
+    },
+    {
+      "text": "dAirect: the Made in Italy AI that wants to make hotels bookable directly through AI assistants",
+      "source": "La Tech Made in Italy",
+      "date": "2026-10-31",
+      "issue": 48
+    },
+    {
+      "text": "Italian corporate cases: four agentic AI projects in production at Generali, Grenke Italia, Unipol and Sada Cavi",
+      "source": "AI4Business",
+      "date": "2026-10-31",
+      "issue": 48
     }
   ]
 }

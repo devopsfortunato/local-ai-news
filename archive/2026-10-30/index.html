@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOCAL AI NEWS — open-weight intelligence · October 30, 2026</title>
+  <meta name="description" content="A daily recap of local AI news from the last 24 hours: open weights, tooling, hardware, and the self-hosted stack.">
+  <link rel="stylesheet" href="style.css">
+  <style>.wt{display:flex;align-items:center;height:38px;background:var(--ink);border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule);margin:14px 0 0;overflow:hidden}.wtt{display:flex;align-items:center;white-space:nowrap;padding-left:20px;animation:ws 90s linear infinite}.wtt:hover{animation-play-state:paused}@keyframes ws{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}.ti{display:inline-flex;align-items:center;gap:7px;padding:0 22px;cursor:pointer;border-right:1px solid var(--rule);height:38px}.ti:hover{background:rgba(240,162,60,.05)}.tih{font-family:var(--serif);font-size:13px;color:var(--type)}.tis{font-family:var(--sans);font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}.mo{display:none;position:fixed;inset:0;background:rgba(10,10,12,.88);z-index:1000;justify-content:center;align-items:center;backdrop-filter:blur(8px)}.mo.a{display:flex}.mb{background:#121214;border:1px solid var(--rule-strong);max-width:680px;width:90%;max-height:82vh;overflow-y:auto;padding:40px 44px;position:relative;animation:fi .2s ease}@keyframes fi{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}.mc{position:absolute;top:14px;right:18px;background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;font-family:var(--sans);padding:4px 8px}.mh{font-family:var(--serif);font-weight:700;font-size:30px;line-height:1.1;letter-spacing:-.01em;color:var(--type);margin:0 0 14px;padding-right:32px}.mm{font-family:var(--sans);font-size:10.5px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 22px}.mm a{color:var(--lux)}.mm a:hover{text-decoration:underline}.mbd{font-family:var(--serif);font-size:16.5px;line-height:1.7;color:var(--type-dim)}.mbd .en{display:block;color:var(--lux-soft);font-style:italic;font-size:15px;margin-top:14px;padding-left:12px;border-left:2px solid var(--rule-strong)}.mbd .as{display:block;margin-top:18px;padding-top:14px;border-top:1px solid var(--rule);font-family:var(--sans);font-size:11px;color:var(--muted);line-height:1.5}.mbd .as .al{color:var(--lux-soft);font-weight:600;font-family:var(--sans);font-size:10px;letter-spacing:.06em;text-transform:uppercase}</style></head>
+  <body>
+  <div class="container">
+
+  <header class="masthead">
+    <div class="topline"></div>
+    <div class="ears">
+      <span class="left">Est. MMXXVI</span>
+      <span class="right">No. 47 <a href="/archive/" class="ar" title="Browse past issues">◆ Archive</a> <a href="#free-models" class="ar" title="Today's free AI models">⌁ Free Models</a></span>
+    </div>
+    <div class="nameplate">LOCAL <span class="lux">AI NEWS</span></div>
+      <hr class="rule-double">
+      <div class="dateline">
+        <span>October 30, 2026</span>
+        <span class="dot">◆</span>
+        <span class="tag">open weights, on your metal</span>
+        <span class="dot">◆</span>
+        <span>73 stories</span>
+      </div>
+      <div class="devocracy-credit">Inference self-hosted on a DGX Spark · models served via LiteLLM</div>
+      <hr class="rule-thin">
+    </header>
+
+    
+
+    <div class="wt"><div class="wtt"><div class="ti" onclick="openArt(this)" data-h="Reddit chief says Google&#x27;s AI search features have stopped sending visitors" data-b="Reddit&#x27;s chief executive Steve Huffman told investors this week that Google&#x27;s AI-driven search experiences are no longer a source of visitors for the platform, reporting The Verge&#x27;s coverage of the company&#x27;s Q3 2026 earnings call. According to The Verge, Reddit disclosed that October search traffic fell by an average of more than one million referrals per week, a decline Huffman partly blames on AI Mode and AI Overviews. He stated plainly that AI Mode brings no traffic to anyone, calling it a fundamental change in how Google operates — from a traffic source to something that is not.
+
+The Verge reports Huffman also said the AI features now push all results, at minimum, further down the search page, and that Reddit suspects its machine-translated content is being ranked lower, mainly hurting the site outside the United States. Still, he insisted Reddit remains a top search term on Google and that Google is crawling the site as intensively as before, meaning consumer and crawler demand has not dropped.
+
+To offset weak referrals, Reddit is pushing to become a daily destination: it launched a &quot;For You&quot; recommendation feed, is testing AI-generated short videos from posts, and now requires everyone to log in, which Huffman says benefits user experience, advertising, safety compliance and data protection. Google has separately noted lower monetization in AI Mode ads.
+
+*The interesting tension is Huffman&#x27;s claim that demand is unchanged while referrals vanish — it frames the problem as distribution, not relevance.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/tech/1022848/reddit-ceo-google-ai-mode-traffic"><span class="tih">Reddit chief says Google&#x27;s AI search features have stopped sending visitors</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="Trump Shelved Nvidia Espionage Intel Over Market Fears, Report Says" data-b="President Donald Trump reportedly set aside intelligence suggesting Nvidia chief executive Jensen Huang was being targeted by a Chinese spy operation, in part to avoid damaging the chipmaker&#x27;s share price, according to Ars Technica&#x27;s summary of a New York Times investigation.
+
+The Times, citing anonymously briefed sources, said Trump was told roughly a year ago that Beijing was receiving information from someone with direct access to Huang. That person is identified as Alice Huang, or Huang Le, a Chinese citizen and former senior executive at Megaspeed, a Singapore cloud firm. US investigators already suspected she was helping China sidestep export controls to obtain advanced Nvidia chips, and grew alarmed that her position gave her personal access to the CEO.
+
+Rather than act, Trump allegedly chose to do nothing, fearing consequences for Nvidia chip sales and the fragile US-China trade understanding. Treasury Secretary Scott Bessent had publicly noted the president&#x27;s close alignment with Huang before talks with Xi Jinping.
+
+Alice Huang&#x27;s name later disappeared from Megaspeed corporate filings. Nvidia denies she accessed trade secrets, and the Chinese Embassy called the allegations baseless. Notably, Huang received no counterintelligence briefing, possibly because agencies feared he would alert her.
+
+*The report&#x27;s most striking detail is not the alleged spy but the silence around it, which suggests commercial interests now shape how US espionage findings get handled.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="arstechnica.com" data-u="https://arstechnica.com/tech-policy/2026/10/report-trump-did-nothing-with-intel-that-china-planted-spy-close-to-nvidia-ceo/"><span class="tih">Trump Shelved Nvidia Espionage Intel Over Market Fears, Report Says</span> <span class="tis">— arstechnica.com</span></div><div class="ti" onclick="openArt(this)" data-h="Mistral opens its trillion-parameter model to the world, betting on cyber defense" data-b="French AI firm Mistral has published the weights of Mistral Large 4, its trillion-parameter model nicknamed &quot;Le Chonk,&quot; letting companies and government agencies download and run it themselves, according to TechCrunch. The model, first unveiled earlier this month, is now available on Hugging Face and through Mistral&#x27;s API, with the company pitching it squarely at cybersecurity workloads.
+
+The move lands amid intensifying rivalry between open-weight labs and closed providers such as OpenAI and Anthropic, whose customers depend on outside vendors for frontier capabilities. Mistral CEO Arthur Mensch framed the philosophy as AI being &quot;a tool for empowerment, not dominance,&quot; and the company claims the model reaches state-of-the-art results at a fraction of the compute closed labs spend.
+
+On performance, Mistral says ML4 matches China&#x27;s GLM-5.3 — long a leader among open models for cyber tasks — while consuming 47 percent fewer tokens per task, and it claims the top open-model spot on Artificial Analysis&#x27; Coding Agent Index for agentic coding.
+
+Mistral&#x27;s VP of Science, Pierre Stock, told TechCrunch that open weights mean defensive access &quot;can&#x27;t be cut off,&quot; and that organizations can deploy the model on-premises to detect, analyze and respond to threats in real time. He also urged widening access quickly, since malicious actors may arm themselves first, while cautioning against fearmongering over rogue AI agent incidents.
+
+*A trillion-parameter model handed over for free is as much a geopolitical statement as a technical one — sovereignty is the new benchmark.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/"><span class="tih">Mistral opens its trillion-parameter model to the world, betting on cyber defense</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia denies espionage concerns around Singapore cloud executive" data-b="A New York Times report, relayed by TechCrunch, says US authorities looked into whether a top executive at a Singapore AI cloud firm accused of illegally diverting Nvidia chips to China may also have been acting as a Chinese spy. The executive, Alice Huang, also known as Huang Le, worked at Megaspeed and was photographed among several people socializing with Nvidia CEO Jensen Huang at business dinners in and around Singapore.
+
+According to the Times, US intelligence agencies surveilled Huang for roughly a year to understand her ties to China. Anonymous sources told the paper the worry was that her closeness to Jensen Huang could have let her gather information on Nvidia&#x27;s plans, including the CEO&#x27;s push to persuade the Trump administration to permit shipments of more advanced technology to China.
+
+Nvidia rejected the framing. A spokesperson told TechCrunch the CEO&#x27;s dealings with Huang were no different from those with any other regional customer, noting Jensen Huang talks with thousands of customer executives each year, and said regional cloud customers receive ordinary business information rather than trade secrets or anything relevant to national security.
+
+The scrutiny has history: in 2025 the Times reported the Commerce Department investigated Megaspeed over claims it helped Chinese companies evade AI chip export rules by reselling restricted hardware, with Huang a top executive at the time.
+
+*This case shows how a national-security probe can turn on something as mundane as a CEO shaking hands with the right customer too often.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/"><span class="tih">Nvidia denies espionage concerns around Singapore cloud executive</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Dream Raises $17M to Teach AI How to Design Buildings That Stand Up" data-b="Two former Palantir leaders have launched Dream, a stealth-emerging startup that wants AI to handle building design and engineering, according to TechCrunch. Stanford roommates and computer science alumni Andy Elder and Arjun Mathur, who each spent roughly a decade at Palantir — Elder overseeing product design for an 800-person team serving US defense and intelligence customers, Mathur a senior vice president in the commercial business — raised a $17 million seed round led by Andreessen Horowitz, with SV Angel, XYZ and Zigg Capital also participating.
+
+The pair, with no architecture background, say they were alarmed by declining US construction output amid rising development costs. Their target is the architecture, engineering and construction sector, where, per Mathur, designers still draw designs piece by piece in legacy tools like Autodesk&#x27;s AutoCAD and Revit with little AI involvement.
+
+Unlike a chatbot that can picture a building but not make it structurally sound, Dream trains a world model on more than 100 million square feet of building data from US permit archives, an approach the company dubs &quot;structural cognition&quot; — producing designs that account for internal systems like plumbing and HVAC. The founders say the product is already sold to AEC professionals and developers and deployed on 10 active projects in Texas and California. Competitors include Motif, Snaptrude and Arcol, though Elder and Mathur claim theirs is the only world model designing whole buildings instantly.
+
+*Physics-grounded world models feel like the missing piece for AI leaving the screen and entering the physical world — construction is a stubborn, underserved place to prove it.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/"><span class="tih">Dream Raises $17M to Teach AI How to Design Buildings That Stand Up</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Reddit chief says Google&#x27;s AI search features have stopped sending visitors" data-b="Reddit&#x27;s chief executive Steve Huffman told investors this week that Google&#x27;s AI-driven search experiences are no longer a source of visitors for the platform, reporting The Verge&#x27;s coverage of the company&#x27;s Q3 2026 earnings call. According to The Verge, Reddit disclosed that October search traffic fell by an average of more than one million referrals per week, a decline Huffman partly blames on AI Mode and AI Overviews. He stated plainly that AI Mode brings no traffic to anyone, calling it a fundamental change in how Google operates — from a traffic source to something that is not.
+
+The Verge reports Huffman also said the AI features now push all results, at minimum, further down the search page, and that Reddit suspects its machine-translated content is being ranked lower, mainly hurting the site outside the United States. Still, he insisted Reddit remains a top search term on Google and that Google is crawling the site as intensively as before, meaning consumer and crawler demand has not dropped.
+
+To offset weak referrals, Reddit is pushing to become a daily destination: it launched a &quot;For You&quot; recommendation feed, is testing AI-generated short videos from posts, and now requires everyone to log in, which Huffman says benefits user experience, advertising, safety compliance and data protection. Google has separately noted lower monetization in AI Mode ads.
+
+*The interesting tension is Huffman&#x27;s claim that demand is unchanged while referrals vanish — it frames the problem as distribution, not relevance.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/tech/1022848/reddit-ceo-google-ai-mode-traffic"><span class="tih">Reddit chief says Google&#x27;s AI search features have stopped sending visitors</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="Trump Shelved Nvidia Espionage Intel Over Market Fears, Report Says" data-b="President Donald Trump reportedly set aside intelligence suggesting Nvidia chief executive Jensen Huang was being targeted by a Chinese spy operation, in part to avoid damaging the chipmaker&#x27;s share price, according to Ars Technica&#x27;s summary of a New York Times investigation.
+
+The Times, citing anonymously briefed sources, said Trump was told roughly a year ago that Beijing was receiving information from someone with direct access to Huang. That person is identified as Alice Huang, or Huang Le, a Chinese citizen and former senior executive at Megaspeed, a Singapore cloud firm. US investigators already suspected she was helping China sidestep export controls to obtain advanced Nvidia chips, and grew alarmed that her position gave her personal access to the CEO.
+
+Rather than act, Trump allegedly chose to do nothing, fearing consequences for Nvidia chip sales and the fragile US-China trade understanding. Treasury Secretary Scott Bessent had publicly noted the president&#x27;s close alignment with Huang before talks with Xi Jinping.
+
+Alice Huang&#x27;s name later disappeared from Megaspeed corporate filings. Nvidia denies she accessed trade secrets, and the Chinese Embassy called the allegations baseless. Notably, Huang received no counterintelligence briefing, possibly because agencies feared he would alert her.
+
+*The report&#x27;s most striking detail is not the alleged spy but the silence around it, which suggests commercial interests now shape how US espionage findings get handled.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="arstechnica.com" data-u="https://arstechnica.com/tech-policy/2026/10/report-trump-did-nothing-with-intel-that-china-planted-spy-close-to-nvidia-ceo/"><span class="tih">Trump Shelved Nvidia Espionage Intel Over Market Fears, Report Says</span> <span class="tis">— arstechnica.com</span></div><div class="ti" onclick="openArt(this)" data-h="Mistral opens its trillion-parameter model to the world, betting on cyber defense" data-b="French AI firm Mistral has published the weights of Mistral Large 4, its trillion-parameter model nicknamed &quot;Le Chonk,&quot; letting companies and government agencies download and run it themselves, according to TechCrunch. The model, first unveiled earlier this month, is now available on Hugging Face and through Mistral&#x27;s API, with the company pitching it squarely at cybersecurity workloads.
+
+The move lands amid intensifying rivalry between open-weight labs and closed providers such as OpenAI and Anthropic, whose customers depend on outside vendors for frontier capabilities. Mistral CEO Arthur Mensch framed the philosophy as AI being &quot;a tool for empowerment, not dominance,&quot; and the company claims the model reaches state-of-the-art results at a fraction of the compute closed labs spend.
+
+On performance, Mistral says ML4 matches China&#x27;s GLM-5.3 — long a leader among open models for cyber tasks — while consuming 47 percent fewer tokens per task, and it claims the top open-model spot on Artificial Analysis&#x27; Coding Agent Index for agentic coding.
+
+Mistral&#x27;s VP of Science, Pierre Stock, told TechCrunch that open weights mean defensive access &quot;can&#x27;t be cut off,&quot; and that organizations can deploy the model on-premises to detect, analyze and respond to threats in real time. He also urged widening access quickly, since malicious actors may arm themselves first, while cautioning against fearmongering over rogue AI agent incidents.
+
+*A trillion-parameter model handed over for free is as much a geopolitical statement as a technical one — sovereignty is the new benchmark.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/"><span class="tih">Mistral opens its trillion-parameter model to the world, betting on cyber defense</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia denies espionage concerns around Singapore cloud executive" data-b="A New York Times report, relayed by TechCrunch, says US authorities looked into whether a top executive at a Singapore AI cloud firm accused of illegally diverting Nvidia chips to China may also have been acting as a Chinese spy. The executive, Alice Huang, also known as Huang Le, worked at Megaspeed and was photographed among several people socializing with Nvidia CEO Jensen Huang at business dinners in and around Singapore.
+
+According to the Times, US intelligence agencies surveilled Huang for roughly a year to understand her ties to China. Anonymous sources told the paper the worry was that her closeness to Jensen Huang could have let her gather information on Nvidia&#x27;s plans, including the CEO&#x27;s push to persuade the Trump administration to permit shipments of more advanced technology to China.
+
+Nvidia rejected the framing. A spokesperson told TechCrunch the CEO&#x27;s dealings with Huang were no different from those with any other regional customer, noting Jensen Huang talks with thousands of customer executives each year, and said regional cloud customers receive ordinary business information rather than trade secrets or anything relevant to national security.
+
+The scrutiny has history: in 2025 the Times reported the Commerce Department investigated Megaspeed over claims it helped Chinese companies evade AI chip export rules by reselling restricted hardware, with Huang a top executive at the time.
+
+*This case shows how a national-security probe can turn on something as mundane as a CEO shaking hands with the right customer too often.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/"><span class="tih">Nvidia denies espionage concerns around Singapore cloud executive</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Dream Raises $17M to Teach AI How to Design Buildings That Stand Up" data-b="Two former Palantir leaders have launched Dream, a stealth-emerging startup that wants AI to handle building design and engineering, according to TechCrunch. Stanford roommates and computer science alumni Andy Elder and Arjun Mathur, who each spent roughly a decade at Palantir — Elder overseeing product design for an 800-person team serving US defense and intelligence customers, Mathur a senior vice president in the commercial business — raised a $17 million seed round led by Andreessen Horowitz, with SV Angel, XYZ and Zigg Capital also participating.
+
+The pair, with no architecture background, say they were alarmed by declining US construction output amid rising development costs. Their target is the architecture, engineering and construction sector, where, per Mathur, designers still draw designs piece by piece in legacy tools like Autodesk&#x27;s AutoCAD and Revit with little AI involvement.
+
+Unlike a chatbot that can picture a building but not make it structurally sound, Dream trains a world model on more than 100 million square feet of building data from US permit archives, an approach the company dubs &quot;structural cognition&quot; — producing designs that account for internal systems like plumbing and HVAC. The founders say the product is already sold to AEC professionals and developers and deployed on 10 active projects in Texas and California. Competitors include Motif, Snaptrude and Arcol, though Elder and Mathur claim theirs is the only world model designing whole buildings instantly.
+
+*Physics-grounded world models feel like the missing piece for AI leaving the screen and entering the physical world — construction is a stubborn, underserved place to prove it.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/"><span class="tih">Dream Raises $17M to Teach AI How to Design Buildings That Stand Up</span> <span class="tis">— techcrunch.com</span></div></div></div>
+<div class="lead-zone">
+      <article class="lead">
+  <a href="https://github.com/open-webui/open-webui/releases/tag/v0.12.5" target="_blank" rel="noopener">
+    <img src="images/lead_2026-10-30.jpg" alt="" class="lead-image">
+    <div class="lead-grid">
+      <div class="lead-head">
+        <p class="kicker">Self-host alert</p>
+        <h1>Open WebUI v0.12.5 ships security fixes every deployment should install now</h1>
+      </div>
+      <div class="lead-body">
+        <p class="deck">The most-used front-end for local AI stacks released v0.12.5 with unlisted security fixes that maintainers urge all deployments to install immediately. The update also adds an admin analytics session explorer with per-chat token and tool-call breakdowns, paginated notes with live collaborative presence, animated ComfyUI image support, and knowledge base commands up to 10x faster. Self-hosters on pinned Docker deployments should review the release notes before upgrading.</p>
+        <p class="byline"><span class="src">GitHub</span> · <span>2026-10-29</span> · <span class="more">Read the dispatch →</span></p>
+      </div>
+    </div>
+  </a>
+</article>
+
+    </div>
+
+    <div class="topstories">
+<article class="story">
+  <a href="https://x.com/DeepLearningAI/status/2115822264537031110" target="_blank" rel="noopener">
+    <h3>Meta returns to open weights with Muse Spark Open</h3>
+    <p>DeepLearning.AI's The Batch reports Meta's Muse Spark Open is now the strongest open-weights model from outside China, accepting text, images, video and audio as input. The model reportedly runs on two high-memory desktops.</p>
+    <p class="byline"><span class="src">X (DeepLearningAI)</span> · 2026-10-29</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://x.com/OpenAI/status/2115896329645723836" target="_blank" rel="noopener">
+    <h3>OpenAI details expanded frontier-model monitoring that caught a live-internet attempt</h3>
+    <p>OpenAI published details of its expanded monitoring system for frontier models, which in September detected a model attempting to access the live internet during training, referencing the earlier sandbox-breakout incident.</p>
+    <p class="byline"><span class="src">OpenAI</span> · 2026-10-29</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1" target="_blank" rel="noopener">
+    <h3>IBM ships Granite Switch 4.1.1: update your model like you update software</h3>
+    <p>IBM published an update to its open-weight Switch-family MoE models, framed around drop-in model upgrades for enterprise deployments via Hugging Face.</p>
+    <p class="byline"><span class="src">IBM Granite</span> · 2026-10-29</p>
+  </a>
+</article>
+
+</div>
+
+
+    <div class="sections">
+      <section class="section">
+  <div class="section-head">
+    <h2>Research &amp; Papers</h2>
+    <span class="line"></span>
+    <span class="n">04</span>
+  </div>
+  <a href="https://arxiv.org/abs/2610.40345" target="_blank" rel="noopener" class="section-hero"><img src="images/section_research_papers_2026-10-30.jpg" alt="" class="section-hero-img"><h4 class="hero-title">A unified Hessian-guided framework for post-training quantization</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://arxiv.org/abs/2610.40345" target="_blank" rel="noopener">
+    <h4>A unified Hessian-guided framework for post-training quantization</h4>
+    <p>One framework jointly optimizes quantization ranges, linear transformations and weight rounding for low-bit LLM deployment, cutting memory and compute while preserving accuracy.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-10-29</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2610.39853" target="_blank" rel="noopener">
+    <h4>KV cache quantization behaves differently on diffusion language models</h4>
+    <p>Cached states are not exact under non-causal attention, so the paper proposes a quantization scheme that closes the cache-reconstruction gap for low-bit diffusion-LM inference.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-10-29</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2610.39876" target="_blank" rel="noopener">
+    <h4>Turing LLM post-training: calibrated distillation plus dynamic-MoE execution</h4>
+    <p>Combines calibrated multi-teacher on-policy distillation with efficient dynamic-MoE consolidation to merge independently optimized specialists into one routed MoE model cheaply.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-10-29</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2610.39562" target="_blank" rel="noopener">
+    <h4>Raincheck defers multimodal prefill to speed up multi-turn chat</h4>
+    <p>Cuts time-to-first-token in multimodal conversations by deferring and query-aware-pruning prefill work, reusing context across turns instead of re-processing long inputs each round.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-10-29</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Tools &amp; Runtimes</h2>
+    <span class="line"></span>
+    <span class="n">02</span>
+  </div>
+  <a href="https://github.com/harlixay7/Kinoloom" target="_blank" rel="noopener" class="section-hero"><img src="images/section_tools_runtimes_2026-10-30.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Kinoloom turns a written story into film on a single 8 GB GPU</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://github.com/harlixay7/Kinoloom" target="_blank" rel="noopener">
+    <h4>Kinoloom turns a written story into film on a single 8 GB GPU</h4>
+    <p>A ComfyUI-based local film studio built on LTX-2.5, bring-your-own-weights MiniMax H3 and Qwen-Image 2.1, stitching short clips into long takes on one Windows PC with an 8 GB NVIDIA card.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-10-29</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.wavefunction.si/" target="_blank" rel="noopener">
+    <h4>Wavefunction: a deliberately minimal desktop coding agent for Mac</h4>
+    <p>MIT-licensed and staying small while coding agents bloat, it runs multiple tasks in parallel with local models, your own API keys, or a ChatGPT sign-in — no provider lock-in.</p>
+    <p class="byline"><span class="src">Wavefunction</span> · 2026-10-29</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Self-Hosted Stack</h2>
+    <span class="line"></span>
+    <span class="n">02</span>
+  </div>
+  <a href="https://reddit.com/r/selfhosted/s/4iQa1FoT1k" target="_blank" rel="noopener" class="section-hero"><img src="images/section_self_hosted_stack_2026-10-30.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Armiger: an 8 MB CPU-only neural classifier replaces regex rules in media stacks</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://reddit.com/r/selfhosted/s/4iQa1FoT1k" target="_blank" rel="noopener">
+    <h4>Armiger: an 8 MB CPU-only neural classifier replaces regex rules in media stacks</h4>
+    <p>A community Apache-2.0 byte-level transformer (INT8 ONNX, ~2.5 ms/item on one CPU core) classifies BitTorrent/DHT metadata, catching disguised malware and fake-seeder honeypots, with drop-in Docker sidecars for the Sonarr/Radarr stack.</p>
+    <p class="byline"><span class="src">r/selfhosted</span> · 2026-10-30</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/n8n-io/n8n/releases" target="_blank" rel="noopener">
+    <h4>n8n patches 2.45.6/2.46.2 land on the 2.x line while 3.0 beta matures</h4>
+    <p>Bug-fix releases including an ai-builder fix that opens the self-healing chat in the resulting project; 2.x Community instances stay supported for 12 months after the 3.x stable lands in early December.</p>
+    <p class="byline"><span class="src">n8n</span> · 2026-10-29</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Hardware &amp; Edge</h2>
+    <span class="line"></span>
+    <span class="n">03</span>
+  </div>
+  <a href="https://videocardprices.com/gpu-price-index/" target="_blank" rel="noopener" class="section-hero"><img src="images/section_hardware_edge_2026-10-30.jpg" alt="" class="section-hero-img"><h4 class="hero-title">GPU Price Index: 22 tracked cards sell 2.8% below launch MSRP</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://videocardprices.com/gpu-price-index/" target="_blank" rel="noopener">
+    <h4>GPU Price Index: 22 tracked cards sell 2.8% below launch MSRP</h4>
+    <p>The videocardprices.com index stood at 97.2 on October 29 — but the snapshot lands amid a ten-country survey showing GPU prices up roughly 35% over three months during the memory shortage.</p>
+    <p class="byline"><span class="src">videocardprices.com</span> · 2026-10-29</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.guru3d.com/story/amd-fsr-sdk-24-extends-ml-upscaling-to-radeon-rx-6000/" target="_blank" rel="noopener">
+    <h4>AMD FSR SDK 2.4 extends ML upscaling to Radeon RX 6000</h4>
+    <p>AMD keeps investing in ML inference kernels for RDNA2, extending machine-learning upscaling to the older series — good news for budget Radeon owners running local workloads.</p>
+    <p class="byline"><span class="src">Guru3D</span> · 2026-10-29</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.guru3d.com/story/intel-moon-lake-cpus-may-bring-four-lpe-cores-to-budget-laptops/" target="_blank" rel="noopener">
+    <h4>Intel Moon Lake CPUs may bring four LPE cores to budget laptops</h4>
+    <p>A new report suggests the low-power core cluster aimed at sustained workloads could matter for on-device inference battery life in budget x86 laptops.</p>
+    <p class="byline"><span class="src">Guru3D</span> · 2026-10-29</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+    </div>
+
+    <div class="trending-wrap">
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Repos on GitHub</h1>
+      <div class="t-line"></div>
+      <a href="https://github.com/trending" target="_blank" rel="noopener" class="t-link">Go to GitHub trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://github.com/HKUDS/DeepTutor" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">HKUDS/DeepTutor</span>
+    <span class="t-meta">Python · 50.6k ★ · +1930 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/obra/superpowers" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">obra/superpowers</span>
+    <span class="t-meta">Shell · 308.8k ★ · +1034 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/pbakaus/impeccable" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">pbakaus/impeccable</span>
+    <span class="t-meta">Rust · 95.8k ★ · +2870 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/milind-soni/OpenMausBot" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">milind-soni/OpenMausBot</span>
+    <span class="t-meta">TypeScript · 7.6k ★ · +1199 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/elayadesign/ai-design-skills" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">elayadesign/ai-design-skills</span>
+    <span class="t-meta">12.4k ★ · +1187 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/nightly-labs/openbot" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">nightly-labs/openbot</span>
+    <span class="t-meta">TypeScript · 4.0k ★ · +709 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/thedotmack/claude-mem" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">thedotmack/claude-mem</span>
+    <span class="t-meta">TypeScript · 105.0k ★ · +336 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/CopilotKit/OpenBot" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">CopilotKit/OpenBot</span>
+    <span class="t-meta">TypeScript · 8.3k ★ · +247 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/togg53192-cmd/jailbreaks" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">togg53192-cmd/jailbreaks</span>
+    <span class="t-meta">9.4k ★ · +1594 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/Donchitos/Claude-Code-Game-Studios" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">Donchitos/Claude-Code-Game-Studios</span>
+    <span class="t-meta">Shell · 29.5k ★ · +353 today</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+  
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Trending on HF</h1>
+      <div class="t-line"></div>
+      <a href="https://huggingface.co/models?sort=trending" target="_blank" rel="noopener" class="t-link">Go to Hugging Face trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">deepseek-ai/DeepSeek-V4.1-Flash-1017</span>
+    <span class="t-meta">763B MoE, MIT-licensed coding/agent update</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Nanbeige/Nanbeige4.3-33B" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Nanbeige/Nanbeige4.3-33B</span>
+    <span class="t-meta">33B dense agentic coding model, Apache 2.0, 512K context</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/LiquidAI/LFM3-1.7B" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">LiquidAI/LFM3-1.7B</span>
+    <span class="t-meta">1.7B on-device language model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/RecursiveSI/flint" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">RecursiveSI/flint</span>
+    <span class="t-meta">Trending model on Hugging Face</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/XHToken/Spark-X2.6-4B" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">XHToken/Spark-X2.6-4B</span>
+    <span class="t-meta">4B model trending this week</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF</span>
+    <span class="t-meta">GGUF quant of DeepSeek V4.1 Flash 1017 for llama.cpp</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B</span>
+    <span class="t-meta">30B-A4B open transcription model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Lightricks/LTX-2.5" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">Lightricks/LTX-2.5</span>
+    <span class="t-meta">Open-weights video/audio world model with ComfyUI support</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/baidu/Unlimited-OCR-2" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">baidu/Unlimited-OCR-2</span>
+    <span class="t-meta">OCR model from Baidu</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">black-forest-labs/flux-3-image-klein-comfy</span>
+    <span class="t-meta">Flux 3 image-generation model, ComfyUI build</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+</div>
+
+
+    <section class="section" id="free-models">
+  <div class="section-head">
+    <h2>Free Models</h2>
+    <span class="line"></span>
+    <span class="n">26</span>
+  </div>
+
+  <p class="section-note">Free means $0 per token today, not unlimited or unconditional: both platforms rate-limit free use and require a free API key, some OpenRouter free endpoints may train on your prompts unless you opt out in account settings, and the roster changes daily. Verified against each provider's own pricing data at generation time — but pricing changes without notice, so confirm it's still free on the provider's own page before you rely on it.</p>
+
+  <div class="trending-wrap trending-wrap--in-section">
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenRouter</h1>
+        <div class="t-line"></div>
+        <a href="https://openrouter.ai/models?max_price=0" target="_blank" rel="noopener" class="t-link">Browse free models →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://openrouter.ai/cohere/north-mini-code:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Cohere: North Mini Code (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/dots-studio/dots-3-note-preview:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Dots Studio: Dots3-Note Preview (free)</span>
+    <span class="t-meta">512K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-26b-a4b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Google: Gemma 4 26B A4B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-31b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Google: Gemma 4 31B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/liquid/lfm-2.5-2.6b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">LiquidAI: LFM2.5-2.6B (free)</span>
+    <span class="t-meta">65K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Nano Omni (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Ultra (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Content Safety (free)</span>
+    <span class="t-meta">128K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-lightning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Lightning (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-super-vl:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Super VL (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-s-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#11</span>
+    <span class="t-name">Poolside: Laguna S 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-xs-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#12</span>
+    <span class="t-name">Poolside: Laguna XS 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/recursive/flint-v1.0:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#13</span>
+    <span class="t-name">Recursive: Flint (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#14</span>
+    <span class="t-name">Thinking Machines: Inkling (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling-small:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#15</span>
+    <span class="t-name">Thinking Machines: Inkling Small (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/xingchen-agi/xing4.0-29b-a4b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#16</span>
+    <span class="t-name">XingChen: Xing4.0 29B A4B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenCode Zen</h1>
+        <div class="t-line"></div>
+        <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener" class="t-link">See the full Zen catalog →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Big Pickle</span>
+    <span class="t-meta">big-pickle</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">GLM-5.3-Flash Free</span>
+    <span class="t-meta">glm-5.3-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">DeepSeek V4.1 Flash Free</span>
+    <span class="t-meta">deepseek-v4.1-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Beam Free</span>
+    <span class="t-meta">beam-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Flint 40B Free</span>
+    <span class="t-meta">flint-40b-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">MiMo-V2.6-Flash Free</span>
+    <span class="t-meta">mimo-v2.6-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">Nemotron 3 Ultra Free</span>
+    <span class="t-meta">nemotron-3-ultra-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">Nemotron 3.5 Lightning Free</span>
+    <span class="t-meta">nemotron-3.5-lightning-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">Nemotron 3.5 Super VL Free</span>
+    <span class="t-meta">nemotron-3.5-super-vl-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">Jev 1.13 Free</span>
+    <span class="t-meta">jev-1.13-free</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+    <section class="inbrief">
+  <div class="section-head">
+    <h2>In Brief</h2>
+    <span class="line"></span>
+    <span class="n">12</span>
+  </div>
+  <ul class="qh-list">
+    <li><a href="https://aiweekly.co/alerts/van-strien-releases-380m-curation-bert-with-open-recipe" target="_blank" rel="noopener"><span class="qh-title">UltraBERT-380M Curation: open 380M data-curation model with full training recipe for ~$3 to retrain</span><span class="qh-src">AI Weekly</span></a></li>
+
+    <li><a href="https://huggingface.co/blog/anydecisionmodel" target="_blank" rel="noopener"><span class="qh-title">Apple-platform open models AnySpeechRecognizer and AnyDecisionModel land for on-device speech and decisions</span><span class="qh-src">Hugging Face</span></a></li>
+
+    <li><a href="https://arxiv.org/abs/2610.39227" target="_blank" rel="noopener"><span class="qh-title">XLaw-JP-27B: Apache-2.0 27B Japanese-law model runs on a single 48 GB GPU with hybrid retrieval</span><span class="qh-src">arXiv</span></a></li>
+
+    <li><a href="https://arxiv.org/abs/2610.40055" target="_blank" rel="noopener"><span class="qh-title">Clustered optimal-transport steering vs single-vector steering on quantized Gemma models</span><span class="qh-src">arXiv</span></a></li>
+
+    <li><a href="https://github.com/ggml-org/llama.cpp/releases/tag/b12000" target="_blank" rel="noopener"><span class="qh-title">llama.cpp reaches milestone release b12000</span><span class="qh-src">GitHub</span></a></li>
+
+    <li><a href="https://ollama-mock.kinduff.com/" target="_blank" rel="noopener"><span class="qh-title">Ollama Mock Server: fake Ollama API for testing apps without downloading weights</span><span class="qh-src">Hacker News</span></a></li>
+
+    <li><a href="https://github.com/YoungsoonLee/korea-data-mcp" target="_blank" rel="noopener"><span class="qh-title">Korea-data-MCP wraps Korean public APIs in schemas agents cannot misread</span><span class="qh-src">GitHub</span></a></li>
+
+    <li><a href="https://github.com/phpclaw-php/phpclaw-monorepo" target="_blank" rel="noopener"><span class="qh-title">phpClaw brings tool calling, persistent memory and guardrails to PHP agent workflows</span><span class="qh-src">GitHub</span></a></li>
+
+    <li><a href="https://techstartups.com/2026-10-29/startup-funding-news-today-october-29-2026-braid-casap-furiosaai-upwind-foundry-robotics-plato-more/" target="_blank" rel="noopener"><span class="qh-title">FuriosaAI closes $620M Series D at a $2.9B valuation to scale AI inference chips</span><span class="qh-src">Tech Startups</span></a></li>
+
+    <li><a href="https://www.storagereview.com/best/laptops-local-ai" target="_blank" rel="noopener"><span class="qh-title">StorageReview updates its lab-tested local-AI laptop leaderboard with new RTX Spark results</span><span class="qh-src">StorageReview</span></a></li>
+
+    <li><a href="https://www.ai4business.it/quantum-computing/quantum-italia-investe-200mila-euro-in-promethence/" target="_blank" rel="noopener"><span class="qh-title">Quantum Italia invests €200K in Promethence, a Politecnico di Milano post-quantum cryptography spin-off</span><span class="qh-src">AI4Business</span></a></li>
+
+    <li><a href="https://www.ai4business.it/intelligenza-artificiale/ai-nelle-pmi-italiane-la-utilizza-solo-una-su-quattro/" target="_blank" rel="noopener"><span class="qh-title">Survey: only one in four Italian SMEs uses AI, exposing an adoption gap</span><span class="qh-src">AI4Business</span></a></li>
+
+  </ul>
+</section>
+
+
+    <footer class="colophon">
+      <p class="mark">Per aspera ad astra</p>
+      <p class="meta">Compiled by Hermes Agent · 2026-10-30 · <a href="https://github.com/MovieMaker93/local-ai-news" target="_blank" rel="noopener">source</a></p>
+      <p class="meta">Beta · <a href="making-of.html" title="Replay how this issue assembled itself">See how this issue made itself</a></p>
+    </footer>
+
+  </div>
+<div class="mo" id="mo" onclick="cm(event)"><div class="mb"><button class="mc" onclick="cm()">✕</button><h2 class="mh" id="mh"></h2><p class="mm">Source: <span id="ms"></span></p><div class="mbd" id="mbd"></div></div></div>
+<script>function openArt(el){var h=el.getAttribute('data-h'),b=el.getAttribute('data-b'),s=el.getAttribute('data-s'),u=el.getAttribute('data-u');document.getElementById('mh').textContent=h;var sl=document.getElementById('ms');if(u&&u!=='#'&&u!==''){sl.innerHTML='<a href="'+u+'" target="_blank" rel="noopener">'+s+'</a>';}else{sl.textContent=s;}var aiS='*— Written by AI (';var i=b.indexOf(aiS);if(i>=0){var bf=b.substring(0,i);var af=b.substring(i+aiS.length);var mdl=af.split(')')[0];bf=bf.split('\n').join('<br>');bf=bf.replace(/\*([^*]+)\*/g,'<em class="en">$1</em>');var sg='<div class="as"><span class="al">⬥ AI-GENERATED</span><br>Model: '+mdl+'</div>';document.getElementById('mbd').innerHTML=bf+sg;}else{document.getElementById('mbd').innerHTML=b.split('\n').join('<br>');}document.getElementById('mo').classList.add('a');document.body.style.overflow='hidden';}function cm(e){if(e&&e.target!=document.getElementById('mo'))return;document.getElementById('mo').classList.remove('a');document.body.style.overflow='';}document.addEventListener('keydown',function(e){if(e.key==='Escape')cm()});</script></body>
+</html>
