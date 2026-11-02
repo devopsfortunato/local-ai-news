@@ -9272,6 +9272,138 @@
       "source": "AIBC World",
       "date": "2026-11-02",
       "issue": 49
+    },
+    {
+      "text": "Open-source UEFI tool unlocks Nvidia's half-speed tensor limiter on RTX 20/30/40 cards",
+      "source": "Tom's Hardware",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Hugging Face blog: ViKernel wires an operating system inside the model file",
+      "source": "Hugging Face",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "llama.cpp b12034 lands with WebGPU scratch-allocation fix and new OpenCL IQ3 support",
+      "source": "GitHub",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "DGX Spark benchmark roundup: MoE is the sweet spot on GB10",
+      "source": "Verdict Bits",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "DeepSeek-V4.1-Flash-1017 keeps the #1 HF trending spot",
+      "source": "HuggingFace",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Qwen3.8-27B becomes the first Apache 2.0 release in the Qwen 3.8 line",
+      "source": "HuggingFace",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Ling-3.0-tiny: a 7.9B/1.3B hybrid reasoning MoE for low-cost local inference",
+      "source": "HuggingFace",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "AgentTM: a time-travel debugger for AI coding agent sessions",
+      "source": "GitHub",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Arken gives AI agents cryptographic identity when calling MCP servers",
+      "source": "GitHub",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Brydge MCP explorer: paste your MCP config, see what each server does at startup",
+      "source": "Brydge MCP Explorer",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Hands-on: DGX Spark feels finished as a local AI machine, RTX Spark laptop less so",
+      "source": "How-To Geek",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Rufous: a chat agent tuned specifically for small, locally runnable models",
+      "source": "Rufous",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Skep keeps AI coding-agent sessions live and in sync across devices",
+      "source": "Skep",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "DoorDash to acquire Instacart for $17B",
+      "source": "TechCrunch",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Bedrock Robotics closes $600M Series C at a $4.1B valuation for self-driving excavators",
+      "source": "TechCrunch",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Re:Build raises $2.1B led by General Catalyst and JPMorganChase for US hard-tech manufacturing",
+      "source": "TechCrunch",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "PreScalar raises $7M seed co-led by Dynamo Ventures and BMW i Ventures for AI factory software",
+      "source": "TechCrunch",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Weekly funding roundup: Avante AI $30M, Archera $15M, Rendezvous Robotics $20M",
+      "source": "AlleyWatch",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "InnovUp: Italian venture-studio startups closed \u20ac82M in rounds, says director Giorgio Ciron",
+      "source": "StartupItalia",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Anthropic: Claude now leads 26% of AI research work, up from 1% in March",
+      "source": "AI4Business",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Milan's south periphery debates a data center on the former Cederna cotton-mill site",
+      "source": "StartupItalia",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "November tech agenda: Web Summit Lisbon and Milan's Salone dei Pagamenti headline Italian calendars",
+      "source": "StartupItalia",
+      "date": "2026-11-02",
+      "issue": 49
     }
   ]
 }
