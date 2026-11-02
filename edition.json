@@ -1,99 +1,117 @@
 {
-  "issue_no": 48,
-  "date_iso": "2026-10-31",
-  "date_human": "October 31, 2026",
+  "issue_no": 49,
+  "date_iso": "2026-11-02",
+  "date_human": "November 02, 2026",
   "notice": null,
   "lead": {
-    "kicker": "Edge inference",
-    "title": "NVIDIA's TensorRT Edge-LLM unifies DGX Spark-to-Jetson Thor inference in a few commands",
-    "summary": "TensorRT Edge-LLM 0.11.1 ships with the new trtedge CLI on the 64GB DGX Spark: a few commands download a model, build a TensorRT engine and serve Nemotron-3.5 Lightning through an OpenAI-compatible API, and the same runtime deploys unchanged to Jetson Thor, DRIVE AGX Thor and IGX Thor. With DSpark speculative decoding, mean generation rises from 73.4 to 126.9 tokens/s on HumanEval prompts at 27.9GB peak system memory. For local-AI operators it points to one dev-to-edge stack instead of a separate embedded pipeline.",
-    "source": "NVIDIA Developer Blog",
-    "date": "2026-10-30",
-    "url": "https://developer.nvidia.com/blog/run-ai-models-for-edge-application-development-with-just-a-few-commands/",
-    "image": "images/lead_2026-10-30.jpg"
+    "image": "images/lead_2026-11-02.jpg",
+    "kicker": "GPU unlock",
+    "title": "Open-source UEFI tool lifts Nvidia's half-speed tensor cap on RTX 20/30/40 cards",
+    "summary": "The nv-uefi-unlocker project boots from a USB stick before the Nvidia driver loads and removes the FP16 tensor half-rate limiter on RTX 20, 30 and 40-series desktop and laptop GPUs, lifting matrix-math throughput by a reported 65-91% without VBIOS flashing or patched drivers. That is a measurable, free speedup for anyone running quantized LLMs on last-gen GeForce cards. Blackwell RTX 50-series cards remain unsupported, and the unlock must be reapplied after every cold boot.",
+    "source": "Tom's Hardware",
+    "date": "2026-11-01",
+    "url": "https://www.tomshardware.com/pc-components/gpus/open-source-usb-tool-unlocks-nvidias-half-speed-gpu-ai-limiter-on-windows-lifts-gpus-fp16-math-performance-up-to-65-percent-uefi-unlocker-covers-rtx-20-30-and-40-series-desktops-and-laptops"
   },
   "top_stories": [
     {
-      "title": "QEngine 1.3.1 hits 504 tok/s decode on Qwen3.8-Flash-Next with two RTX 5090s",
-      "summary": "An r/LocalLLaMA four-engine benchmark found QEngine 1.3.1 reaching 504 tok/s single-stream decode (KV-in-RAM mode) at 262K context, roughly 1.4-1.9x faster than Strata and ~3x a tuned bucko vLLM config — though the author cautions the adaptive expert cache flatters repeated-prompt tests, with realistic traffic nearer 300-400 tok/s.",
+      "title": "1bit-MONSTER engine v2026.44 boots ternary-model inference on AMD Strix Halo",
+      "summary": "First signed 2.3 GiB image boots Ryzen AI MAX+ 395 systems into a self-hosted OpenAI-compatible Lemonade Server, running Qwen3.8, ZAYA1, Ternary-Bonsai, BitNet b1.58 and gpt-oss-20b on the Radeon 8060S iGPU via custom HIP kernels, with 89.29 tok/s reported on the XDNA 2 NPU.",
+      "source": "GitHub (1bit-MONSTER/engine)",
+      "date": "2026-11-01",
+      "url": "https://github.com/1bit-MONSTER/engine",
+      "scout_source": "selfhost"
+    },
+    {
+      "title": "Qwen 3.8 Flash Next hits 900 t/s prefill on 8 GB VRAM with CPU offload",
+      "summary": "A reproducible Strata setup runs Qwen 3.8 Flash Next Q2 on an RTX 5060 Laptop (8 GB VRAM, 32 GB RAM) at 900 t/s PP / 30 t/s TG, with separate Chat and Agentic configs and better results than larger Qwen 3.6 35B-A3B setups.",
       "source": "r/LocalLLaMA",
-      "date": "2026-10-31",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjx0ez/qwen38flashnext_on_2x_rtx_5090_with_504_toks/"
+      "date": "2026-11-02",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xft2ae/have_8_gb_of_vram_and_32_gb_of_ram_you_can_run/",
+      "scout_source": "selfhost"
     },
     {
-      "title": "Cohere announces first close of Series E targeting up to C$7B at C$35.7B valuation",
-      "summary": "The initial close of Cohere's Series E targets up to C$7B (~US$4.5B) at a C$35.7B valuation, led by Germany's Schwarz Group with Nvidia, Prosperity7, Bell Ventures, Inovia and the Government of Canada contributing up to C$1.6B.",
-      "source": "Traded.co",
-      "date": "2026-10-30",
-      "url": "https://traded.co/vc/deal/cohere-secures-5-billion-in-series-e-funding-round-led-by-schwarz-group/"
+      "title": "Altman meets Samsung leadership as the memory crunch inflates local-rig prices",
+      "summary": "OpenAI's CEO met roughly 50 senior Samsung executives in Yongin amid a DRAM/HBM shortage that TrendForce sees running 1-2% short of demand in 2026 and worsening in 2027; Samsung and SK hynix control about 83% of HBM revenue, keeping RAM and VRAM prices high for local-AI builders.",
+      "source": "Tom's Hardware",
+      "date": "2026-11-01",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/sam-altman-travels-to-south-korea-to-meet-samsung-leadership-to-secure-more-ram-for-data-centers-amid-crushing-shortages-openai-ceo-meets-samsung-leadership-to-discuss-future-ai-data-centers",
+      "scout_source": "hardware"
     },
     {
-      "title": "DeepSeek closes $16B second round led by China's state Big Fund at $74B pre-money",
-      "summary": "China's National IC Industry Investment Fund leads the $16B round with Tencent, Alibaba and other state-backed investors; proceeds are earmarked for compute expansion and next-generation model training.",
-      "source": "AOYii AI Daily",
-      "date": "2026-10-30",
-      "url": "https://www.aoyii.com/ai-daily-20261030/"
-    },
-    {
-      "title": "Anthropic tests automating emergent-misalignment red-teaming with thousands of Claude agents",
-      "summary": "New Anthropic research tasks thousands of Claude agents with evading a training-data-cleaning safeguard, exploring whether subtle emergent-misalignment red-teaming can be automated past the time limits of human researchers.",
-      "source": "X (AnthropicAI)",
-      "date": "2026-10-31",
-      "url": "https://x.com/AnthropicAI/status/2116349211549843666"
+      "title": "LattePanda Sigma 2 packs Panther Lake, 64GB LPDDR5X and a preloaded Qwen3.6 stack",
+      "summary": "The new single-board server pairs an Intel Core Ultra X7 358H (122 TOPS INT8 Arc B390 + 50-TOPS NPU) with 64GB LPDDR5X-8533, up to 59GB allocatable to graphics — enough for quantized ~35B MoE models — and ships with Ubuntu, OpenVINO Model Server and Qwen3.6-35B-A3B INT4 preloaded at $2,599 preorder.",
+      "source": "MobiDevices",
+      "date": "2026-11-02",
+      "url": "https://mobidevices.com/en/lattepanda-sigma-2",
+      "scout_source": "hardware"
     }
   ],
   "sections": [
     {
-      "title": "Tools & Runtimes",
+      "title": "Open Weights & Models",
       "items": [
         {
-          "title": "LlamaIndex introduces the Document Parsing Protocol",
-          "image": "images/section_tools_runtimes_2026-10-30.jpg",
-          "summary": "A specification of 140 rules for correctly parsed pages, targeting reliability in RAG ingestion pipelines.",
-          "source": "LlamaIndex",
-          "date": "2026-10-30",
-          "url": "https://www.llamaindex.ai/blog/introducing-the-document-parsing-protocol"
+          "image": "images/section_open-weights-models_2026-11-02.jpg",
+          "title": "Atomic Chat ships measured GGUF quants of Clover-35B-A3B-Preview, the Qwen3.6-derived block-diffusion MoE",
+          "summary": "Importance-matrix builds of DiffuSpace's Apache-2.0 block-diffusion model (~3B active parameters, 128K context) range from 13.7 GB IQ2_S to 36.9 GB Q8_0, each measured for KL divergence against BF16; the clover_moe architecture still needs llama.cpp built from unmerged PR #31306.",
+          "source": "HuggingFace",
+          "date": "2026-11-01",
+          "url": "https://huggingface.co/AtomicChat/Clover-35B-A3B-Preview-GGUF",
+          "scout_source": "opensource"
         },
         {
-          "title": "Web-MCP-Bridge connects browser-based LLMs to MCP servers and tools",
-          "summary": "Open-source bridge that exposes MCP servers to LLMs running in the browser, letting web-based model UIs call MCP tools.",
-          "source": "GitHub",
-          "date": "2026-10-30",
-          "url": "https://github.com/AstraxOf/web-mcp-bridge"
-        },
-        {
-          "title": "Spinf-serve: an inference server built for bulk scoring, not chat",
-          "summary": "New open-source inference server aimed at bulk scoring and decision workloads, one of the higher-scoring local-inference Show HN launches of the day.",
-          "source": "GitHub",
-          "date": "2026-10-30",
-          "url": "https://github.com/spinfinc/spinf-serve"
+          "title": "HoshiuZ releases a fully reconstructed LLaVA-NeXT-8B-Unlearned checkpoint for unlearning research",
+          "summary": "A complete BF16 checkpoint merges a pinned llama3-llava-next-8b base with a sparse WMDP-targeted unlearning overlay into one ready-to-run release, with the prior revision preserved for reproducibility.",
+          "source": "HuggingFace",
+          "date": "2026-11-01",
+          "url": "https://huggingface.co/HoshiuZ/LLaVA-NeXT-8B-Unlearned",
+          "scout_source": "opensource"
         }
       ]
     },
     {
-      "title": "Self-Hosted Stack",
+      "title": "Tools & Runtimes",
       "items": [
         {
-          "title": "llama.cpp Oct 30 build bundle adds OpenCL 2-bit quantization, Adreno path and KV-cache memory work",
-          "image": "images/section_self_hosted_stack_2026-10-30.jpg",
-          "summary": "Builds b11986-b12008 add iq2 and q2_0 quantization to the OpenCL backend with an Adreno GPU vector-matrix path, introduce a batched tensor copy API with staging-buffer reuse, and keep KV-cache rotation constants resident on the GPU; OCP FP8 E4M3 quantization and RDNA 4 / ROCm 10.0 prebuilts also landed.",
-          "source": "Devotd GitHub roundup",
-          "date": "2026-10-30",
-          "url": "https://github.devotd.net/en/posts/ggml-org-llama-cpp-updates-2026-10-30/"
+          "image": "images/section_tools-runtimes_2026-11-02.jpg",
+          "title": "Infernix ships Qwen3.8-Flash-Next optimizations and a beta WebUI launcher",
+          "summary": "The C++/CUDA single-GPU engine adds calibrated automatic speculative decoding, a reproducible lossless mode and a beta WebUI for downloads and test chats on RTX 5090 (Windows and Linux); performance claims versus Strata and Basalt are self-reported.",
+          "source": "GitHub",
+          "date": "2026-11-01",
+          "url": "https://github.com/Wallawalla47/Infernix/releases/tag/windows-2026.11.01",
+          "scout_source": "tools"
         },
         {
-          "title": "vLLM 0.33.0rc2 fixes the AMD gfx950 AITER GEMM overflow that crashed MI355X startups",
-          "summary": "An AMD-contributed ROCm fix skips the tuned AITER GEMM path on gfx950 when M*N reaches 2^31, preventing out-of-bounds writes that crashed MiniMax-M3-MXFP4 startup on MI355X; affected ops fall back to hipBLASLt at matched throughput.",
-          "source": "FOSSWire",
-          "date": "2026-10-30",
-          "url": "https://fosswire.org/news/vllm-0330rc2-fixes-amd-rocm-aiter-gemm-overflow-bug-on-gfx95"
+          "title": "Frontier UI brings ChatGPT-style generative UI to Open WebUI",
+          "summary": "A single MIT-licensed Python file turns tool-calling model output into rich visual answers — street-level maps, photo galleries, live charts and real Office/PDF exports — rendered server-side from one small JSON spec, with no extra inference services or API keys.",
+          "source": "GitHub",
+          "date": "2026-11-01",
+          "url": "https://github.com/Jumbomuffin777/Frontier-UI",
+          "scout_source": "tools"
         },
         {
-          "title": "vLLM nightly adds disk offloading for prefix-cached KV states",
-          "summary": "Nightly builds can now spill Prompt Lookup Extraction KV caches to local disk, letting self-hosters expand effective context capacity beyond VRAM by recycling idle KV blocks, with a throughput trade-off tied to disk IOPS.",
-          "source": "Tech Ticker Times",
-          "date": "2026-10-30",
-          "url": "https://www.techtickertimes.com/news/vllm-now-has-ple-disk-offload-support-on-nightly"
+          "title": "Bowerbird is an open-source, local-first NotebookLM alternative for any model",
+          "summary": "A research notebook that answers questions about your own PDFs and books with checked, verifiable quotes, working with any model rather than a hosted service.",
+          "source": "GitHub",
+          "date": "2026-11-01",
+          "url": "https://github.com/jolovicdev/bowerbird",
+          "scout_source": "tools"
+        },
+        {
+          "title": "llama.cpp b12032 adds OpenCL IQ3 quantization kernels and a Hexagon DMA fix",
+          "summary": "The Nov 1 daily-build run brings initial IQ3 support for OpenCL (iq3_s/iq3_xxs on Adreno and others), a Hexagon DMA stride fix and SYCL PkgConfig build improvements.",
+          "source": "GitHub",
+          "date": "2026-11-01",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12032",
+          "scout_source": "tools"
+        },
+        {
+          "title": "Mintu v0.2.1: privacy-first llama.cpp desktop companion lands on macOS",
+          "summary": "The Tauri 2 + Rust Dynamic Island companion adds multi-monitor support, an inline scratchpad, a native audio engine and a universal macOS package (Apple Silicon and Intel), with zero telemetry and offline-first local SQLite persistence.",
+          "source": "GitHub",
+          "date": "2026-11-01",
+          "url": "https://github.com/HuseynDeveloper/Mintu",
+          "scout_source": "tools"
         }
       ]
     },
@@ -101,19 +119,29 @@
       "title": "Hardware & Edge",
       "items": [
         {
-          "title": "24GB RTX 5080 reportedly pulled forward to December for China",
-          "image": "images/section_hardware_edge_2026-10-30.jpg",
-          "summary": "Chinese distributor ChannelGate, cited by Guru3D and VideoCardz, says NVIDIA is accelerating a 24GB GDDR7 RTX 5080 to as early as December 2026, replacing the 16GB model in China; NVIDIA has not confirmed, but the extra 8GB would matter for local LLM VRAM headroom.",
-          "source": "Shattered.io (citing Guru3D/ChannelGate)",
-          "date": "2026-10-30",
-          "url": "https://shattered.io/nvidia-rtx-5080-24gb-launch-moved-up-december-2026-channelgate-2026/"
+          "image": "images/section_hardware-edge_2026-11-02.jpg",
+          "title": "Ziskind: MSI RTX Spark N1X laptop runs Linux at a quarter of its plugged-in speed",
+          "summary": "Measured 61 tok/s on native Linux unplugged versus 15 tok/s plugged in (missing NVIDIA Platform Controllers and Framework support), while WSL2 matched Windows at ~65 tok/s on a 120B GPTQ workload; NVIDIA says optimized quantized Nemotron 3.5 Transcribe builds for local execution are coming.",
+          "source": "NeoTeo",
+          "date": "2026-11-01",
+          "url": "https://www.neoteo.com/en/alex-ziskind-reports-a-linux-slowdown-on-one-msi-rtx-spark-laptop",
+          "scout_source": "hardware"
         },
         {
-          "title": "DRAMeXchange posts 4Q26 mobile DRAM contract prices as the AI memory crunch continues",
-          "summary": "The latest installment of an AI-driven memory supercycle: conventional DRAM contract prices keep posting double- and triple-digit quarterly increases as HBM and server DRAM absorb wafer capacity, inflating the price of unified-memory local-AI boxes and GDDR7 consumer GPUs.",
-          "source": "DRAMeXchange / TrendForce",
-          "date": "2026-10-30",
-          "url": "https://www.dramexchange.com/"
+          "title": "Nace AI releases Drex Max v1, a 27B multimodal model tuned for Apple Silicon",
+          "summary": "Open weights for a 27B multimodal decision model (reported eval score 67.52) designed to run entirely on Apple Silicon unified memory, targeting 32GB+ Macs without multi-GPU setups.",
+          "source": "FrontWord",
+          "date": "2026-11-01",
+          "url": "https://frontword.com/ai-race/drex-max-v1-nace-ai-apple-silicon/",
+          "scout_source": "hardware"
+        },
+        {
+          "title": "Nemotron 3.5 Bolt on the ASUS ProArt P16: fast for bounded tasks, shaky on distractors",
+          "summary": "Hands-on testing with full 89-layer GPU offload via ARM64 CUDA llama.cpp showed ~23-24 tok/s generation and sub-second first-token latency on short structured tasks, but failed distractor-heavy retrieval where cloud models passed.",
+          "source": "The Gadgeteer",
+          "date": "2026-11-01",
+          "url": "https://the-gadgeteer.com/2026/11/01/local-ai-on-the-asus-proart-p16-gets-useful-when-the-job-is-specific/",
+          "scout_source": "hardware"
         }
       ]
     }
@@ -123,57 +151,57 @@
       "title": "GitHub Trending · AI",
       "url": "https://github.com/trending",
       "link_label": "github.com/trending",
-      "date": "2026-10-31",
+      "date": "2026-11-02",
       "items": [
-        {
-          "name": "obra/superpowers",
-          "url": "https://github.com/obra/superpowers",
-          "meta": "Shell · 309.5k ★ · +1,259 today"
-        },
-        {
-          "name": "pbakaus/impeccable",
-          "url": "https://github.com/pbakaus/impeccable",
-          "meta": "Rust · 97.3k ★ · +2,300 today"
-        },
         {
           "name": "thedotmack/claude-mem",
           "url": "https://github.com/thedotmack/claude-mem",
-          "meta": "TypeScript · 106.6k ★ · +1,140 today"
-        },
-        {
-          "name": "anthropics/skills",
-          "url": "https://github.com/anthropics/skills",
-          "meta": "Python · 185.5k ★ · +295 today"
-        },
-        {
-          "name": "mattpocock/skills",
-          "url": "https://github.com/mattpocock/skills",
-          "meta": "Shell · 307.6k ★ · +876 today"
-        },
-        {
-          "name": "milind-soni/OpenMausBot",
-          "url": "https://github.com/milind-soni/OpenMausBot",
-          "meta": "TypeScript · 8.9k ★ · +895 today"
-        },
-        {
-          "name": "CopilotKit/OpenBot",
-          "url": "https://github.com/CopilotKit/OpenBot",
-          "meta": "TypeScript · 8.9k ★ · +706 today"
+          "meta": "TypeScript · 109.2k ★ · +1,526 today"
         },
         {
           "name": "lightpanda-io/browser",
           "url": "https://github.com/lightpanda-io/browser",
-          "meta": "Zig · 38.6k ★ · +626 today"
+          "meta": "Zig · 40.1k ★ · +825 today"
         },
         {
-          "name": "macro-inc/macro",
-          "url": "https://github.com/macro-inc/macro",
-          "meta": "Rust · 5.9k ★ · +57 today"
+          "name": "shiyu-coder/Kronos",
+          "url": "https://github.com/shiyu-coder/Kronos",
+          "meta": "Python · 45.4k ★ · +630 today"
         },
         {
-          "name": "expo/skills",
-          "url": "https://github.com/expo/skills",
-          "meta": "Shell · 3.9k ★ · +38 today"
+          "name": "milind-soni/OpenMausBot",
+          "url": "https://github.com/milind-soni/OpenMausBot",
+          "meta": "TypeScript · 10.5k ★ · +922 today"
+        },
+        {
+          "name": "cjpais/Handy",
+          "url": "https://github.com/cjpais/Handy",
+          "meta": "Rust · 36.5k ★ · +339 today"
+        },
+        {
+          "name": "Donchitos/Claude-Code-Game-Studios",
+          "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+          "meta": "Shell · 32.2k ★ · +967 today"
+        },
+        {
+          "name": "kornia/kornia",
+          "url": "https://github.com/kornia/kornia",
+          "meta": "Python · geometric computer vision library for spatial AI"
+        },
+        {
+          "name": "beenuar/AiSOC",
+          "url": "https://github.com/beenuar/AiSOC",
+          "meta": "Python · 6.2k ★ · +446 today"
+        },
+        {
+          "name": "CopilotKit/OpenBot",
+          "url": "https://github.com/CopilotKit/OpenBot",
+          "meta": "TypeScript · 9.5k ★ · +175 today"
+        },
+        {
+          "name": "FlashML-org/FreeToken",
+          "url": "https://github.com/FlashML-org/FreeToken",
+          "meta": "datacenter-scale model serving on your desktop — run massive models locally"
         }
       ]
     },
@@ -181,57 +209,57 @@
       "title": "Models Trending (Hugging Face)",
       "url": "https://huggingface.co/models?sort=trending",
       "link_label": "huggingface.co/models",
-      "date": "2026-10-31",
+      "date": "2026-11-02",
       "items": [
         {
           "name": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-          "meta": "763B multimodal MoE, MIT-licensed checkpoint update"
-        },
-        {
-          "name": "Nanbeige/Nanbeige4.3-33B",
-          "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
-          "meta": "33B dense bilingual (EN/ZH) coding & agent model, Apache 2.0"
+          "meta": "763B image-text-to-text, MIT-licensed KV-cache compression update"
         },
         {
           "name": "LiquidAI/LFM3-1.7B",
           "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
-          "meta": "1.7B on-device text generation"
+          "meta": "1.7B tri-hybrid text model for local agents, 256K context, ~1 GB at 4-bit"
         },
         {
           "name": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
           "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
-          "meta": "30B MoE speech LLM, 40-language ASR with speaker attribution"
-        },
-        {
-          "name": "baidu/Unlimited-OCR-2",
-          "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
-          "meta": "3B vision-language OCR model"
+          "meta": "34B MoE automatic speech recognition, 4B active"
         },
         {
           "name": "mistralai/Mistral-Large-4-1T-A52B",
           "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
-          "meta": "1T MoE, ~52B active, multimodal, 1M context — new open weights"
+          "meta": "1T-param multimodal MoE, 52B active per token"
         },
         {
-          "name": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-          "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-          "meta": "197B GGUF quant of DeepSeek V4.1 Flash for llama.cpp"
+          "name": "Nanbeige/Nanbeige4.3-33B",
+          "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+          "meta": "33B dense agent/reasoning model, Apache-2.0, 512K context"
+        },
+        {
+          "name": "baidu/Unlimited-OCR-2",
+          "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+          "meta": "3B image-text-to-text OCR model"
         },
         {
           "name": "Lightricks/LTX-2.5",
           "url": "https://huggingface.co/Lightricks/LTX-2.5",
-          "meta": "Image-to-video generation model"
+          "meta": "image-to-video generation, 2.43M downloads"
         },
         {
-          "name": "RecursiveSI/flint",
-          "url": "https://huggingface.co/RecursiveSI/flint",
-          "meta": "40B text generation model"
+          "name": "ccore/Qwen3.5-4B-3D-Coder",
+          "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+          "meta": "5B Qwen fine-tune specialized for 3D code generation"
         },
         {
-          "name": "black-forest-labs/flux-3-image-klein-comfy",
-          "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
-          "meta": "Image-to-image model with ComfyUI packaging"
+          "name": "Pika-Labs/Pika-H3-Flex",
+          "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex",
+          "meta": "33B image-to-video model"
+        },
+        {
+          "name": "speridlabs/idol",
+          "url": "https://huggingface.co/speridlabs/idol",
+          "meta": "image-to-3D generation model"
         }
       ]
     }
@@ -241,7 +269,7 @@
       "title": "Free on OpenRouter",
       "url": "https://openrouter.ai/models?max_price=0",
       "link_label": "Browse free models on OpenRouter →",
-      "date": "2026-10-31",
+      "date": "2026-11-02",
       "items": [
         {
           "name": "Cohere: North Mini Code (free)",
@@ -294,16 +322,6 @@
           "meta": "1M ctx"
         },
         {
-          "name": "Poolside: Laguna S 2.1 (free)",
-          "url": "https://openrouter.ai/poolside/laguna-s-2.1:free",
-          "meta": "262K ctx"
-        },
-        {
-          "name": "Poolside: Laguna XS 2.1 (free)",
-          "url": "https://openrouter.ai/poolside/laguna-xs-2.1:free",
-          "meta": "262K ctx"
-        },
-        {
           "name": "Recursive: Flint (free)",
           "url": "https://openrouter.ai/recursive/flint-v1.0:free",
           "meta": "262K ctx"
@@ -329,7 +347,7 @@
       "title": "Free on OpenCode Zen",
       "url": "https://opencode.ai/docs/zen/",
       "link_label": "See the full Zen catalog →",
-      "date": "2026-10-31",
+      "date": "2026-11-02",
       "items": [
         {
           "name": "Big Pickle",
@@ -386,81 +404,74 @@
   },
   "quick_hits": [
     {
-      "title": "OpenAI announces 'Private Intelligence' enterprise data-controls offering",
-      "source": "X (OpenAI)",
-      "date": "2026-10-30",
-      "url": "https://x.com/OpenAI/status/2116186509384815084"
+      "title": "braindead-local-intelligence: one-command local AI stack in rootless Podman containers",
+      "summary": "OpenAI-compatible LLM server, image generator, SearXNG and Open WebUI behind one address, loading one model per request on home AMD GPUs with 4 GB VRAM.",
+      "source": "dataswamp.org",
+      "date": "2026-11-01",
+      "url": "https://dataswamp.org/~solene/2026-11-01-braindead-local-intelligence.html",
+      "scout_source": "selfhost"
     },
     {
-      "title": "Fractile raises ~$774M Series C at reported $6.5B pre-money, leaning on a ~$250M Anthropic chip order",
-      "source": "Cutoff Report",
-      "date": "2026-10-30",
-      "url": "https://cutoffreport.com/posts/ai-startup-funding-roundup-2026-10-30"
+      "title": "Bedrock Robotics raises $600M Series C at a $4.1B valuation",
+      "summary": "Co-led by CapitalG and Emergence Capital, with Nvidia among the participants.",
+      "source": "TechCrunch",
+      "date": "2026-11-01",
+      "url": "https://techcrunch.com/2026/11/01/techcrunch-mobility-a-new-bigger-av-boom-is-here/",
+      "scout_source": "funding"
     },
     {
-      "title": "Serval raises $150M Series C at a $3B valuation led by Sequoia",
-      "source": "Crunchbase News",
-      "date": "2026-10-30",
-      "url": "https://news.crunchbase.com/venture/biggest-rounds-startups-physical-ai-predictions-robotics-rebuild/"
+      "title": "Re:Build raises $2.1B led by General Catalyst and JPMorganChase for US hard-tech manufacturing",
+      "summary": "The Massachusetts accelerator funds AI/hard-tech hardware production capacity and new industrial startups.",
+      "source": "TechCrunch",
+      "date": "2026-11-01",
+      "url": "https://techcrunch.com/2026/11/01/techcrunch-mobility-a-new-bigger-av-boom-is-here/",
+      "scout_source": "funding"
     },
     {
-      "title": "Sebastian Thrun's Dulo raises $130M seed for AI foundation models for engineering and hardware design",
-      "source": "SiliconANGLE",
-      "date": "2026-10-30",
-      "url": "https://siliconangle.com/2026/10/30/google-x-co-founder-sebastian-thrun-raises-130m-for-ai-engineering-startup-dulo/"
+      "title": "OpenAI secures ~$11B of its $30B fundraise target as big investors cool on AI",
+      "summary": "Commitments land well below plan amid growing investor caution about AI spending.",
+      "source": "The Decoder",
+      "date": "2026-11-01",
+      "url": "https://the-decoder.com/openai-raises-just-11-billion-of-trust-30-billion-target-as-big-investors-lose-their-ai-appetite/",
+      "scout_source": "funding"
     },
     {
-      "title": "Casdoor v4: open-source IAM with OAuth flows built for securing MCP servers",
-      "source": "Casdoor",
-      "date": "2026-10-30",
-      "url": "https://casdoor.ai/blog/casdoor-v4/"
+      "title": "Palantir Foundry veterans' Lumaril raises $66M Series A at a $400M valuation",
+      "summary": "Sells AI software that plugs into factory control systems to optimize industrial production.",
+      "source": "FourWeekMBA",
+      "date": "2026-11-01",
+      "url": "https://fourweekmba.com/ai-palantir-foundry-creators-lumaril-raises-66m-at-400m/",
+      "scout_source": "funding"
     },
     {
-      "title": "macmonitor exposes Mac hardware telemetry to local agents over MCP",
+      "title": "Northstar Security exits stealth with $7M seed for AI agents in security operations",
+      "summary": "Wing Venture Capital leads; the startup aggregates enterprise IT/security data into a real-time Security Context Graph.",
+      "source": "SecurityWeek",
+      "date": "2026-11-01",
+      "url": "https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/",
+      "scout_source": "funding"
+    },
+    {
+      "title": "sweet-search: local code search for AI coding agents, claiming 5-33% cheaper runs",
+      "summary": "Open-source grep replacement for agents, posted to Hacker News on November 1.",
       "source": "GitHub",
-      "date": "2026-10-30",
-      "url": "https://github.com/primemindai/macmonitor"
+      "date": "2026-11-01",
+      "url": "https://github.com/mrsladoje/sweet-search",
+      "scout_source": "tools"
     },
     {
-      "title": "fast-forced-aligner claims 10x-1000x faster CUDA forced alignment for ASR pipelines",
-      "source": "GitHub",
-      "date": "2026-10-30",
-      "url": "https://github.com/brthor/fast-forced-aligner"
-    },
-    {
-      "title": "Cerebellum runs a small model on the robot and escalates to a big one only when needed",
-      "source": "GitHub",
-      "date": "2026-10-30",
-      "url": "https://github.com/cerebellum-labs/cerebellum"
-    },
-    {
-      "title": "NVIDIA builds a fully local haunted-house voice agent on the Nemotron open-model stack",
-      "source": "NVIDIA (Hugging Face blog)",
-      "date": "2026-10-30",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween"
-    },
-    {
-      "title": "Home Assistant fixes MCP connections made through Home Assistant Cloud addresses",
-      "source": "OHF Daily",
-      "date": "2026-10-30",
-      "url": "https://paulusschoutsen.nl/ohf-daily/edition/2026-10-30/article/home-assistant-cloud-ai-connection/"
-    },
-    {
-      "title": "dAirect: the Made in Italy AI that wants to make hotels bookable directly through AI assistants",
-      "source": "La Tech Made in Italy",
-      "date": "2026-10-30",
-      "url": "https://www.latechmadeinitaly.com/dairect-ai-made-in-italy-prenotazioni-hotel/"
-    },
-    {
-      "title": "Italian corporate cases: four agentic AI projects in production at Generali, Grenke Italia, Unipol and Sada Cavi",
-      "source": "AI4Business",
-      "date": "2026-10-30",
-      "url": "https://www.ai4business.it/intelligenza-artificiale/quattro-progetti-di-ai-agentica-che-funzionano-i-casi-italiani/"
+      "title": "Castov launches a local-first desktop automation engine driven by local AI",
+      "summary": "Show HN debut on November 1.",
+      "source": "Castov",
+      "date": "2026-11-01",
+      "url": "https://castov.com",
+      "scout_source": "tools"
     }
   ],
   "spiked": {
-    "low signal": 11,
-    "out of window": 9,
-    "already ran": 10
+    "already ran": 7,
+    "duplicate url": 1,
+    "out of window": 2,
+    "thin section": 1
   }
 }

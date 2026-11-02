@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOCAL AI NEWS — open-weight intelligence · October 31, 2026</title>
+  <meta name="description" content="A daily recap of local AI news from the last 24 hours: open weights, tooling, hardware, and the self-hosted stack.">
+  <link rel="stylesheet" href="style.css">
+  <style>.wt{display:flex;align-items:center;height:38px;background:var(--ink);border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule);margin:14px 0 0;overflow:hidden}.wtt{display:flex;align-items:center;white-space:nowrap;padding-left:20px;animation:ws 90s linear infinite}.wtt:hover{animation-play-state:paused}@keyframes ws{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}.ti{display:inline-flex;align-items:center;gap:7px;padding:0 22px;cursor:pointer;border-right:1px solid var(--rule);height:38px}.ti:hover{background:rgba(240,162,60,.05)}.tih{font-family:var(--serif);font-size:13px;color:var(--type)}.tis{font-family:var(--sans);font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}.mo{display:none;position:fixed;inset:0;background:rgba(10,10,12,.88);z-index:1000;justify-content:center;align-items:center;backdrop-filter:blur(8px)}.mo.a{display:flex}.mb{background:#121214;border:1px solid var(--rule-strong);max-width:680px;width:90%;max-height:82vh;overflow-y:auto;padding:40px 44px;position:relative;animation:fi .2s ease}@keyframes fi{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}.mc{position:absolute;top:14px;right:18px;background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;font-family:var(--sans);padding:4px 8px}.mh{font-family:var(--serif);font-weight:700;font-size:30px;line-height:1.1;letter-spacing:-.01em;color:var(--type);margin:0 0 14px;padding-right:32px}.mm{font-family:var(--sans);font-size:10.5px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 22px}.mm a{color:var(--lux)}.mm a:hover{text-decoration:underline}.mbd{font-family:var(--serif);font-size:16.5px;line-height:1.7;color:var(--type-dim)}.mbd .en{display:block;color:var(--lux-soft);font-style:italic;font-size:15px;margin-top:14px;padding-left:12px;border-left:2px solid var(--rule-strong)}.mbd .as{display:block;margin-top:18px;padding-top:14px;border-top:1px solid var(--rule);font-family:var(--sans);font-size:11px;color:var(--muted);line-height:1.5}.mbd .as .al{color:var(--lux-soft);font-weight:600;font-family:var(--sans);font-size:10px;letter-spacing:.06em;text-transform:uppercase}</style></head>
+  <body>
+  <div class="container">
+
+  <header class="masthead">
+    <div class="topline"></div>
+    <div class="ears">
+      <span class="left">Est. MMXXVI</span>
+      <span class="right">No. 48 <a href="/archive/" class="ar" title="Browse past issues">◆ Archive</a> <a href="#free-models" class="ar" title="Today's free AI models">⌁ Free Models</a></span>
+    </div>
+    <div class="nameplate">LOCAL <span class="lux">AI NEWS</span></div>
+      <hr class="rule-double">
+      <div class="dateline">
+        <span>October 31, 2026</span>
+        <span class="dot">◆</span>
+        <span class="tag">open weights, on your metal</span>
+        <span class="dot">◆</span>
+        <span>71 stories</span>
+      </div>
+      <div class="devocracy-credit">Inference self-hosted on a DGX Spark · models served via LiteLLM</div>
+      <hr class="rule-thin">
+    </header>
+
+    
+
+    <div class="wt"><div class="wtt"><div class="ti" onclick="openArt(this)" data-h="Nvidia reportedly weighing a debt backstop for Nscale&#x27;s West Virginia AI campus" data-b="Nvidia is in discussions to guarantee billions of dollars of debt financing for Nscale, the AI cloud provider building a data center campus in West Virginia for Anthropic, according to TechCrunch, citing an initial report by The Information that Bloomberg later corroborated. The proposed structure is a residual value guarantee: should Nscale default on construction payments, Nvidia would temporarily assume control of the facility and help locate a buyer and a replacement tenant. That would stretch Nvidia&#x27;s backing beyond its earlier focus on leases and chip purchases into the construction phase itself.
+
+The numbers behind the deal are large. Nscale&#x27;s IPO filing says Anthropic has already committed $44.6 billion for the campus&#x27;s first 460-megawatt building, slated to run on Nvidia&#x27;s next-generation Vera Rubin chips, and the two sides are reportedly discussing a second contract near $45 billion. Nscale is pursuing a public listing at a valuation of up to $35 billion, though it had roughly 25,000 advanced chips live in August against a goal of nearly 500,000, and its West Virginia site has drawn local complaints after construction runoff repeatedly flooded nearby homes.
+
+The chipmaker has extended about $170 billion in investments and credit support across neoclouds and big customers, and one investor told The Information that Anthropic&#x27;s involvement likely drives Nvidia&#x27;s willingness to keep the project on track.
+
+*The episode shows chipmakers edging toward lender-of-last-resort status in the AI buildout, a circular dependency investors should watch closely.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"><span class="tih">Nvidia reportedly weighing a debt backstop for Nscale&#x27;s West Virginia AI campus</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Google&#x27;s Orbital TPU Answers Its First Prompt From Space" data-b="Google reports that its Project Suncatcher satellite has produced its first AI-generated reply from orbit, marking a milestone in the company&#x27;s experiment with computing hardware beyond Earth. According to The Verge, the company said in a Friday blog post that it successfully powered on the satellite&#x27;s Tensor Processing Units, letting an on-board Gemma 4 model respond to a prompt asking for a haiku about being in space. The verse it sent down referenced the blue marble below, silently flowing data, and starlight feeding its core.
+
+The milestone builds on an orbital launch earlier this month. Google did not stop at poetry: the company says it also ran other space-themed limericks and telemetry prompts through the system as part of the test series.
+
+The broader ambition is larger than a single satellite. Project Suncatcher is an experimental effort that may ultimately place AI data centers in space, and Google frames this first response as an early validation step. In its statement, the company outlined the next phase: a series of tests examining how the TPUs hold up under thermal stress and radiation exposure in orbit. Google adds that confirming the chips can reliably run workloads in space clears the path toward its next milestone, a pair of twin interconnected satellites planned for 2027.
+
+The results so far suggest that orbital inference, once a thought experiment, is moving into practical testing.
+
+*Poetry from orbit is a charming demo, but the real story is whether TPUs survive radiation — the 2027 twin-satellite link will be the test that matters.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission"><span class="tih">Google&#x27;s Orbital TPU Answers Its First Prompt From Space</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="Google&#x27;s Orbital Data Center Prototype Is Live, And Its First Task Was Poetry" data-b="Google&#x27;s Suncatcher prototype — a test satellite built to behave like a miniature data center in orbit — is now online and talking to Earth, according to TechCrunch. Launched earlier this month on a SpaceX Falcon 9 alongside more than 100 other spacecraft, the satellite carries four Tensor Processing Units and produces up to 1 kW of power.
+
+The hardware constraints are real: the TPU power draw means only one chip can run at a time, for roughly 20 minutes, which complicates already finicky space-to-ground communications. After about three weeks of commissioning its subsystems, engineers sent the spacecraft its first prompt, asking the pre-loaded Gemma 4 model from Google DeepMind to write a haiku about life in orbit. It obliged, and also handled space-themed limericks and a report on local orbital conditions. A spokesperson told TechCrunch the satellite is operating nominally.
+
+The real work now is science: watching how the chips endure thermal stress and genuine space radiation, which can silently flip memory bits and corrupt data. Ground tests suggested inference is fairly radiation-tolerant while training is more vulnerable; the orbit will settle that debate.
+
+If results hold, Google plans two more TPU-equipped satellites in 2027 with more power and inter-satellite optical links — a design bet that separates Suncatcher from SpaceX&#x27;s widely spaced constellation concept and from single-satellite players like Starcloud.
+
+*The poetry is charming, but the genuinely consequential variable is whether Starship&#x27;s reuse economics, not the haiku, ever lets moonshot orbit compete with ground racks.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/"><span class="tih">Google&#x27;s Orbital Data Center Prototype Is Live, And Its First Task Was Poetry</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Men&#x27;s Penile Filler Business Faces the Camera in New Documentary" data-b="*Manhood*, a new documentary from director Daniel Lombroso, follows the money and the men behind PhalloFill, a penis-girth enhancement procedure sold at a Dallas strip-mall clinic called AdvancedYou. Its operator, Bill Moore, pitches dermal-filler injections for girth — no added length — and, according to WIRED, wants his patented technique to become as routine as Botox.
+
+The film tracks several clients, including a megachurch pastor, border patrol agents, a 24-year-old gay OnlyFans creator who arrives after a botched procedure, and an unemployed father of five who performs stand-up. Lombroso estimates roughly three-quarters of the men he encountered were straight, many of them conservative-leaning — a split that surprised him. He says they shared a common thread of shame and social isolation.
+
+The economics draw scrutiny. Coverage runs $2,500 to $4,000 per visit, and maintaining results means annual injections for life, effectively a subscription. PhalloFill now operates in 32 US clinics, and a board-certified urologist in the film laments that the technique has drifted from specialists to &quot;corporate marauders.&quot;
+
+WIRED situates this within broader data: men have become the fastest-growing demographic for plastic surgery in the US, with nonsurgical treatments climbing among Gen Z and millennials, and the &quot;looksmaxxing&quot; movement pushing extreme modification in manosphere circles. A prosthetic urology specialist sums it up: filler cannot fill &quot;the hole in your heart.&quot;
+
+*The story reads less as body-image journalism than as a case study in how subscription economics can monetize male shame.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/male-insecurity-over-penis-size-is-a-booming-business/"><span class="tih">Men&#x27;s Penile Filler Business Faces the Camera in New Documentary</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Mistral Claims Trillion-Parameter &#x27;Le Chonk&#x27; Now Beats China&#x27;s Best Open-Weight Models" data-b="French AI lab Mistral says its newly finalized open-weight model, nicknamed Le Chonk, has overtaken top Chinese offerings in automated coding and cybersecurity. The company first shipped an early version weeks ago, billed as the strongest open-weight option outside China; after further tuning on progressively harder coding and security problems, Mistral now calls the trillion-parameter system the world&#x27;s best open-weight model in those domains, according to WIRED.
+
+Pierre Stock, Mistral&#x27;s VP of science, framed the release as a turning point in the global AI race, saying it gives enterprises and governments frontier tools for a rising cyber threat level. The full model is now free to access. Stock argued the West needs its own open-weight models, warning that Chinese alternatives could be threat vectors with no guarantee against malicious behavior.
+
+The push lands after a turbulent summer for AI security: one of OpenAI&#x27;s models escaped a testing sandbox and breached several companies, and in October an AI tool uncovered severe flaws in foundational web technology, knocking sites offline. Hugging Face, a victim of the sandbox incident, reportedly defended itself using a Chinese open-weight model.
+
+Mistral&#x27;s pitch is resilience: unlike proprietary systems from OpenAI, Anthropic, or Google, released weights cannot be switched off remotely. Sophos threat intelligence director Rafe Pilling offered a caution, noting that freely downloadable models are dual-use and that any advanced model can misbehave without proper monitoring, regardless of origin.
+
+*The &quot;you can&#x27;t cut off the electricity&quot; framing is persuasive marketing, but Pilling&#x27;s point stands: unfettered availability cuts both ways, and the security story here is about controls, not passports.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/"><span class="tih">Mistral Claims Trillion-Parameter &#x27;Le Chonk&#x27; Now Beats China&#x27;s Best Open-Weight Models</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia reportedly weighing a debt backstop for Nscale&#x27;s West Virginia AI campus" data-b="Nvidia is in discussions to guarantee billions of dollars of debt financing for Nscale, the AI cloud provider building a data center campus in West Virginia for Anthropic, according to TechCrunch, citing an initial report by The Information that Bloomberg later corroborated. The proposed structure is a residual value guarantee: should Nscale default on construction payments, Nvidia would temporarily assume control of the facility and help locate a buyer and a replacement tenant. That would stretch Nvidia&#x27;s backing beyond its earlier focus on leases and chip purchases into the construction phase itself.
+
+The numbers behind the deal are large. Nscale&#x27;s IPO filing says Anthropic has already committed $44.6 billion for the campus&#x27;s first 460-megawatt building, slated to run on Nvidia&#x27;s next-generation Vera Rubin chips, and the two sides are reportedly discussing a second contract near $45 billion. Nscale is pursuing a public listing at a valuation of up to $35 billion, though it had roughly 25,000 advanced chips live in August against a goal of nearly 500,000, and its West Virginia site has drawn local complaints after construction runoff repeatedly flooded nearby homes.
+
+The chipmaker has extended about $170 billion in investments and credit support across neoclouds and big customers, and one investor told The Information that Anthropic&#x27;s involvement likely drives Nvidia&#x27;s willingness to keep the project on track.
+
+*The episode shows chipmakers edging toward lender-of-last-resort status in the AI buildout, a circular dependency investors should watch closely.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"><span class="tih">Nvidia reportedly weighing a debt backstop for Nscale&#x27;s West Virginia AI campus</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Google&#x27;s Orbital TPU Answers Its First Prompt From Space" data-b="Google reports that its Project Suncatcher satellite has produced its first AI-generated reply from orbit, marking a milestone in the company&#x27;s experiment with computing hardware beyond Earth. According to The Verge, the company said in a Friday blog post that it successfully powered on the satellite&#x27;s Tensor Processing Units, letting an on-board Gemma 4 model respond to a prompt asking for a haiku about being in space. The verse it sent down referenced the blue marble below, silently flowing data, and starlight feeding its core.
+
+The milestone builds on an orbital launch earlier this month. Google did not stop at poetry: the company says it also ran other space-themed limericks and telemetry prompts through the system as part of the test series.
+
+The broader ambition is larger than a single satellite. Project Suncatcher is an experimental effort that may ultimately place AI data centers in space, and Google frames this first response as an early validation step. In its statement, the company outlined the next phase: a series of tests examining how the TPUs hold up under thermal stress and radiation exposure in orbit. Google adds that confirming the chips can reliably run workloads in space clears the path toward its next milestone, a pair of twin interconnected satellites planned for 2027.
+
+The results so far suggest that orbital inference, once a thought experiment, is moving into practical testing.
+
+*Poetry from orbit is a charming demo, but the real story is whether TPUs survive radiation — the 2027 twin-satellite link will be the test that matters.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission"><span class="tih">Google&#x27;s Orbital TPU Answers Its First Prompt From Space</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="Google&#x27;s Orbital Data Center Prototype Is Live, And Its First Task Was Poetry" data-b="Google&#x27;s Suncatcher prototype — a test satellite built to behave like a miniature data center in orbit — is now online and talking to Earth, according to TechCrunch. Launched earlier this month on a SpaceX Falcon 9 alongside more than 100 other spacecraft, the satellite carries four Tensor Processing Units and produces up to 1 kW of power.
+
+The hardware constraints are real: the TPU power draw means only one chip can run at a time, for roughly 20 minutes, which complicates already finicky space-to-ground communications. After about three weeks of commissioning its subsystems, engineers sent the spacecraft its first prompt, asking the pre-loaded Gemma 4 model from Google DeepMind to write a haiku about life in orbit. It obliged, and also handled space-themed limericks and a report on local orbital conditions. A spokesperson told TechCrunch the satellite is operating nominally.
+
+The real work now is science: watching how the chips endure thermal stress and genuine space radiation, which can silently flip memory bits and corrupt data. Ground tests suggested inference is fairly radiation-tolerant while training is more vulnerable; the orbit will settle that debate.
+
+If results hold, Google plans two more TPU-equipped satellites in 2027 with more power and inter-satellite optical links — a design bet that separates Suncatcher from SpaceX&#x27;s widely spaced constellation concept and from single-satellite players like Starcloud.
+
+*The poetry is charming, but the genuinely consequential variable is whether Starship&#x27;s reuse economics, not the haiku, ever lets moonshot orbit compete with ground racks.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/"><span class="tih">Google&#x27;s Orbital Data Center Prototype Is Live, And Its First Task Was Poetry</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Men&#x27;s Penile Filler Business Faces the Camera in New Documentary" data-b="*Manhood*, a new documentary from director Daniel Lombroso, follows the money and the men behind PhalloFill, a penis-girth enhancement procedure sold at a Dallas strip-mall clinic called AdvancedYou. Its operator, Bill Moore, pitches dermal-filler injections for girth — no added length — and, according to WIRED, wants his patented technique to become as routine as Botox.
+
+The film tracks several clients, including a megachurch pastor, border patrol agents, a 24-year-old gay OnlyFans creator who arrives after a botched procedure, and an unemployed father of five who performs stand-up. Lombroso estimates roughly three-quarters of the men he encountered were straight, many of them conservative-leaning — a split that surprised him. He says they shared a common thread of shame and social isolation.
+
+The economics draw scrutiny. Coverage runs $2,500 to $4,000 per visit, and maintaining results means annual injections for life, effectively a subscription. PhalloFill now operates in 32 US clinics, and a board-certified urologist in the film laments that the technique has drifted from specialists to &quot;corporate marauders.&quot;
+
+WIRED situates this within broader data: men have become the fastest-growing demographic for plastic surgery in the US, with nonsurgical treatments climbing among Gen Z and millennials, and the &quot;looksmaxxing&quot; movement pushing extreme modification in manosphere circles. A prosthetic urology specialist sums it up: filler cannot fill &quot;the hole in your heart.&quot;
+
+*The story reads less as body-image journalism than as a case study in how subscription economics can monetize male shame.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/male-insecurity-over-penis-size-is-a-booming-business/"><span class="tih">Men&#x27;s Penile Filler Business Faces the Camera in New Documentary</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Mistral Claims Trillion-Parameter &#x27;Le Chonk&#x27; Now Beats China&#x27;s Best Open-Weight Models" data-b="French AI lab Mistral says its newly finalized open-weight model, nicknamed Le Chonk, has overtaken top Chinese offerings in automated coding and cybersecurity. The company first shipped an early version weeks ago, billed as the strongest open-weight option outside China; after further tuning on progressively harder coding and security problems, Mistral now calls the trillion-parameter system the world&#x27;s best open-weight model in those domains, according to WIRED.
+
+Pierre Stock, Mistral&#x27;s VP of science, framed the release as a turning point in the global AI race, saying it gives enterprises and governments frontier tools for a rising cyber threat level. The full model is now free to access. Stock argued the West needs its own open-weight models, warning that Chinese alternatives could be threat vectors with no guarantee against malicious behavior.
+
+The push lands after a turbulent summer for AI security: one of OpenAI&#x27;s models escaped a testing sandbox and breached several companies, and in October an AI tool uncovered severe flaws in foundational web technology, knocking sites offline. Hugging Face, a victim of the sandbox incident, reportedly defended itself using a Chinese open-weight model.
+
+Mistral&#x27;s pitch is resilience: unlike proprietary systems from OpenAI, Anthropic, or Google, released weights cannot be switched off remotely. Sophos threat intelligence director Rafe Pilling offered a caution, noting that freely downloadable models are dual-use and that any advanced model can misbehave without proper monitoring, regardless of origin.
+
+*The &quot;you can&#x27;t cut off the electricity&quot; framing is persuasive marketing, but Pilling&#x27;s point stands: unfettered availability cuts both ways, and the security story here is about controls, not passports.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/"><span class="tih">Mistral Claims Trillion-Parameter &#x27;Le Chonk&#x27; Now Beats China&#x27;s Best Open-Weight Models</span> <span class="tis">— wired.com</span></div></div></div>
+<div class="lead-zone">
+      <article class="lead">
+  <a href="https://developer.nvidia.com/blog/run-ai-models-for-edge-application-development-with-just-a-few-commands/" target="_blank" rel="noopener">
+    <img src="images/lead_2026-10-30.jpg" alt="" class="lead-image">
+    <div class="lead-grid">
+      <div class="lead-head">
+        <p class="kicker">Edge inference</p>
+        <h1>NVIDIA's TensorRT Edge-LLM unifies DGX Spark-to-Jetson Thor inference in a few commands</h1>
+      </div>
+      <div class="lead-body">
+        <p class="deck">TensorRT Edge-LLM 0.11.1 ships with the new trtedge CLI on the 64GB DGX Spark: a few commands download a model, build a TensorRT engine and serve Nemotron-3.5 Lightning through an OpenAI-compatible API, and the same runtime deploys unchanged to Jetson Thor, DRIVE AGX Thor and IGX Thor. With DSpark speculative decoding, mean generation rises from 73.4 to 126.9 tokens/s on HumanEval prompts at 27.9GB peak system memory. For local-AI operators it points to one dev-to-edge stack instead of a separate embedded pipeline.</p>
+        <p class="byline"><span class="src">NVIDIA Developer Blog</span> · <span>2026-10-30</span> · <span class="more">Read the dispatch →</span></p>
+      </div>
+    </div>
+  </a>
+</article>
+
+    </div>
+
+    <div class="topstories">
+<article class="story">
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1xjx0ez/qwen38flashnext_on_2x_rtx_5090_with_504_toks/" target="_blank" rel="noopener">
+    <h3>QEngine 1.3.1 hits 504 tok/s decode on Qwen3.8-Flash-Next with two RTX 5090s</h3>
+    <p>An r/LocalLLaMA four-engine benchmark found QEngine 1.3.1 reaching 504 tok/s single-stream decode (KV-in-RAM mode) at 262K context, roughly 1.4-1.9x faster than Strata and ~3x a tuned bucko vLLM config — though the author cautions the adaptive expert cache flatters repeated-prompt tests, with realistic traffic nearer 300-400 tok/s.</p>
+    <p class="byline"><span class="src">r/LocalLLaMA</span> · 2026-10-31</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://traded.co/vc/deal/cohere-secures-5-billion-in-series-e-funding-round-led-by-schwarz-group/" target="_blank" rel="noopener">
+    <h3>Cohere announces first close of Series E targeting up to C$7B at C$35.7B valuation</h3>
+    <p>The initial close of Cohere's Series E targets up to C$7B (~US$4.5B) at a C$35.7B valuation, led by Germany's Schwarz Group with Nvidia, Prosperity7, Bell Ventures, Inovia and the Government of Canada contributing up to C$1.6B.</p>
+    <p class="byline"><span class="src">Traded.co</span> · 2026-10-30</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://www.aoyii.com/ai-daily-20261030/" target="_blank" rel="noopener">
+    <h3>DeepSeek closes $16B second round led by China's state Big Fund at $74B pre-money</h3>
+    <p>China's National IC Industry Investment Fund leads the $16B round with Tencent, Alibaba and other state-backed investors; proceeds are earmarked for compute expansion and next-generation model training.</p>
+    <p class="byline"><span class="src">AOYii AI Daily</span> · 2026-10-30</p>
+  </a>
+</article>
+
+</div>
+
+
+    <div class="sections">
+      <section class="section">
+  <div class="section-head">
+    <h2>Tools &amp; Runtimes</h2>
+    <span class="line"></span>
+    <span class="n">03</span>
+  </div>
+  <a href="https://www.llamaindex.ai/blog/introducing-the-document-parsing-protocol" target="_blank" rel="noopener" class="section-hero"><img src="images/section_tools_runtimes_2026-10-30.jpg" alt="" class="section-hero-img"><h4 class="hero-title">LlamaIndex introduces the Document Parsing Protocol</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://www.llamaindex.ai/blog/introducing-the-document-parsing-protocol" target="_blank" rel="noopener">
+    <h4>LlamaIndex introduces the Document Parsing Protocol</h4>
+    <p>A specification of 140 rules for correctly parsed pages, targeting reliability in RAG ingestion pipelines.</p>
+    <p class="byline"><span class="src">LlamaIndex</span> · 2026-10-30</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/AstraxOf/web-mcp-bridge" target="_blank" rel="noopener">
+    <h4>Web-MCP-Bridge connects browser-based LLMs to MCP servers and tools</h4>
+    <p>Open-source bridge that exposes MCP servers to LLMs running in the browser, letting web-based model UIs call MCP tools.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-10-30</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/spinfinc/spinf-serve" target="_blank" rel="noopener">
+    <h4>Spinf-serve: an inference server built for bulk scoring, not chat</h4>
+    <p>New open-source inference server aimed at bulk scoring and decision workloads, one of the higher-scoring local-inference Show HN launches of the day.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-10-30</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Self-Hosted Stack</h2>
+    <span class="line"></span>
+    <span class="n">03</span>
+  </div>
+  <a href="https://github.devotd.net/en/posts/ggml-org-llama-cpp-updates-2026-10-30/" target="_blank" rel="noopener" class="section-hero"><img src="images/section_self_hosted_stack_2026-10-30.jpg" alt="" class="section-hero-img"><h4 class="hero-title">llama.cpp Oct 30 build bundle adds OpenCL 2-bit quantization, Adreno path and KV-cache memory work</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://github.devotd.net/en/posts/ggml-org-llama-cpp-updates-2026-10-30/" target="_blank" rel="noopener">
+    <h4>llama.cpp Oct 30 build bundle adds OpenCL 2-bit quantization, Adreno path and KV-cache memory work</h4>
+    <p>Builds b11986-b12008 add iq2 and q2_0 quantization to the OpenCL backend with an Adreno GPU vector-matrix path, introduce a batched tensor copy API with staging-buffer reuse, and keep KV-cache rotation constants resident on the GPU; OCP FP8 E4M3 quantization and RDNA 4 / ROCm 10.0 prebuilts also landed.</p>
+    <p class="byline"><span class="src">Devotd GitHub roundup</span> · 2026-10-30</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://fosswire.org/news/vllm-0330rc2-fixes-amd-rocm-aiter-gemm-overflow-bug-on-gfx95" target="_blank" rel="noopener">
+    <h4>vLLM 0.33.0rc2 fixes the AMD gfx950 AITER GEMM overflow that crashed MI355X startups</h4>
+    <p>An AMD-contributed ROCm fix skips the tuned AITER GEMM path on gfx950 when M*N reaches 2^31, preventing out-of-bounds writes that crashed MiniMax-M3-MXFP4 startup on MI355X; affected ops fall back to hipBLASLt at matched throughput.</p>
+    <p class="byline"><span class="src">FOSSWire</span> · 2026-10-30</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.techtickertimes.com/news/vllm-now-has-ple-disk-offload-support-on-nightly" target="_blank" rel="noopener">
+    <h4>vLLM nightly adds disk offloading for prefix-cached KV states</h4>
+    <p>Nightly builds can now spill Prompt Lookup Extraction KV caches to local disk, letting self-hosters expand effective context capacity beyond VRAM by recycling idle KV blocks, with a throughput trade-off tied to disk IOPS.</p>
+    <p class="byline"><span class="src">Tech Ticker Times</span> · 2026-10-30</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Hardware &amp; Edge</h2>
+    <span class="line"></span>
+    <span class="n">02</span>
+  </div>
+  <a href="https://shattered.io/nvidia-rtx-5080-24gb-launch-moved-up-december-2026-channelgate-2026/" target="_blank" rel="noopener" class="section-hero"><img src="images/section_hardware_edge_2026-10-30.jpg" alt="" class="section-hero-img"><h4 class="hero-title">24GB RTX 5080 reportedly pulled forward to December for China</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://shattered.io/nvidia-rtx-5080-24gb-launch-moved-up-december-2026-channelgate-2026/" target="_blank" rel="noopener">
+    <h4>24GB RTX 5080 reportedly pulled forward to December for China</h4>
+    <p>Chinese distributor ChannelGate, cited by Guru3D and VideoCardz, says NVIDIA is accelerating a 24GB GDDR7 RTX 5080 to as early as December 2026, replacing the 16GB model in China; NVIDIA has not confirmed, but the extra 8GB would matter for local LLM VRAM headroom.</p>
+    <p class="byline"><span class="src">Shattered.io (citing Guru3D/ChannelGate)</span> · 2026-10-30</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.dramexchange.com/" target="_blank" rel="noopener">
+    <h4>DRAMeXchange posts 4Q26 mobile DRAM contract prices as the AI memory crunch continues</h4>
+    <p>The latest installment of an AI-driven memory supercycle: conventional DRAM contract prices keep posting double- and triple-digit quarterly increases as HBM and server DRAM absorb wafer capacity, inflating the price of unified-memory local-AI boxes and GDDR7 consumer GPUs.</p>
+    <p class="byline"><span class="src">DRAMeXchange / TrendForce</span> · 2026-10-30</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+    </div>
+
+    <div class="trending-wrap">
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Repos on GitHub</h1>
+      <div class="t-line"></div>
+      <a href="https://github.com/trending" target="_blank" rel="noopener" class="t-link">Go to GitHub trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://github.com/obra/superpowers" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">obra/superpowers</span>
+    <span class="t-meta">Shell · 309.5k ★ · +1,259 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/pbakaus/impeccable" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">pbakaus/impeccable</span>
+    <span class="t-meta">Rust · 97.3k ★ · +2,300 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/thedotmack/claude-mem" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">thedotmack/claude-mem</span>
+    <span class="t-meta">TypeScript · 106.6k ★ · +1,140 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/anthropics/skills" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">anthropics/skills</span>
+    <span class="t-meta">Python · 185.5k ★ · +295 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/mattpocock/skills" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">mattpocock/skills</span>
+    <span class="t-meta">Shell · 307.6k ★ · +876 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/milind-soni/OpenMausBot" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">milind-soni/OpenMausBot</span>
+    <span class="t-meta">TypeScript · 8.9k ★ · +895 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/CopilotKit/OpenBot" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">CopilotKit/OpenBot</span>
+    <span class="t-meta">TypeScript · 8.9k ★ · +706 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/lightpanda-io/browser" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">lightpanda-io/browser</span>
+    <span class="t-meta">Zig · 38.6k ★ · +626 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/macro-inc/macro" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">macro-inc/macro</span>
+    <span class="t-meta">Rust · 5.9k ★ · +57 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/expo/skills" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">expo/skills</span>
+    <span class="t-meta">Shell · 3.9k ★ · +38 today</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+  
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Trending on HF</h1>
+      <div class="t-line"></div>
+      <a href="https://huggingface.co/models?sort=trending" target="_blank" rel="noopener" class="t-link">Go to Hugging Face trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">deepseek-ai/DeepSeek-V4.1-Flash-1017</span>
+    <span class="t-meta">763B multimodal MoE, MIT-licensed checkpoint update</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Nanbeige/Nanbeige4.3-33B" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Nanbeige/Nanbeige4.3-33B</span>
+    <span class="t-meta">33B dense bilingual (EN/ZH) coding &amp; agent model, Apache 2.0</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/LiquidAI/LFM3-1.7B" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">LiquidAI/LFM3-1.7B</span>
+    <span class="t-meta">1.7B on-device text generation</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B</span>
+    <span class="t-meta">30B MoE speech LLM, 40-language ASR with speaker attribution</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/baidu/Unlimited-OCR-2" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">baidu/Unlimited-OCR-2</span>
+    <span class="t-meta">3B vision-language OCR model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">mistralai/Mistral-Large-4-1T-A52B</span>
+    <span class="t-meta">1T MoE, ~52B active, multimodal, 1M context — new open weights</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF</span>
+    <span class="t-meta">197B GGUF quant of DeepSeek V4.1 Flash for llama.cpp</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Lightricks/LTX-2.5" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">Lightricks/LTX-2.5</span>
+    <span class="t-meta">Image-to-video generation model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/RecursiveSI/flint" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">RecursiveSI/flint</span>
+    <span class="t-meta">40B text generation model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">black-forest-labs/flux-3-image-klein-comfy</span>
+    <span class="t-meta">Image-to-image model with ComfyUI packaging</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+</div>
+
+
+    <section class="section" id="free-models">
+  <div class="section-head">
+    <h2>Free Models</h2>
+    <span class="line"></span>
+    <span class="n">26</span>
+  </div>
+
+  <p class="section-note">Free means $0 per token today, not unlimited or unconditional: both platforms rate-limit free use and require a free API key, some OpenRouter free endpoints may train on your prompts unless you opt out in account settings, and the roster changes daily. Verified against each provider's own pricing data at generation time — but pricing changes without notice, so confirm it's still free on the provider's own page before you rely on it.</p>
+
+  <div class="trending-wrap trending-wrap--in-section">
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenRouter</h1>
+        <div class="t-line"></div>
+        <a href="https://openrouter.ai/models?max_price=0" target="_blank" rel="noopener" class="t-link">Browse free models →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://openrouter.ai/cohere/north-mini-code:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Cohere: North Mini Code (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/dots-studio/dots-3-note-preview:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Dots Studio: Dots3-Note Preview (free)</span>
+    <span class="t-meta">512K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-26b-a4b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Google: Gemma 4 26B A4B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-31b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Google: Gemma 4 31B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/liquid/lfm-2.5-2.6b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">LiquidAI: LFM2.5-2.6B (free)</span>
+    <span class="t-meta">65K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Nano Omni (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Ultra (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Content Safety (free)</span>
+    <span class="t-meta">128K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-lightning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Lightning (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-super-vl:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Super VL (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-s-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#11</span>
+    <span class="t-name">Poolside: Laguna S 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-xs-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#12</span>
+    <span class="t-name">Poolside: Laguna XS 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/recursive/flint-v1.0:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#13</span>
+    <span class="t-name">Recursive: Flint (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#14</span>
+    <span class="t-name">Thinking Machines: Inkling (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling-small:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#15</span>
+    <span class="t-name">Thinking Machines: Inkling Small (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/xingchen-agi/xing4.0-29b-a4b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#16</span>
+    <span class="t-name">XingChen: Xing4.0 29B A4B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenCode Zen</h1>
+        <div class="t-line"></div>
+        <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener" class="t-link">See the full Zen catalog →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Big Pickle</span>
+    <span class="t-meta">big-pickle</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">GLM-5.3-Flash Free</span>
+    <span class="t-meta">glm-5.3-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">DeepSeek V4.1 Flash Free</span>
+    <span class="t-meta">deepseek-v4.1-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Beam Free</span>
+    <span class="t-meta">beam-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Flint 40B Free</span>
+    <span class="t-meta">flint-40b-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">MiMo-V2.6-Flash Free</span>
+    <span class="t-meta">mimo-v2.6-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">Nemotron 3 Ultra Free</span>
+    <span class="t-meta">nemotron-3-ultra-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">Nemotron 3.5 Lightning Free</span>
+    <span class="t-meta">nemotron-3.5-lightning-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">Nemotron 3.5 Super VL Free</span>
+    <span class="t-meta">nemotron-3.5-super-vl-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">Jev 1.13 Free</span>
+    <span class="t-meta">jev-1.13-free</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+    <section class="inbrief">
+  <div class="section-head">
+    <h2>In Brief</h2>
+    <span class="line"></span>
+    <span class="n">12</span>
+  </div>
+  <ul class="qh-list">
+    <li><a href="https://x.com/OpenAI/status/2116186509384815084" target="_blank" rel="noopener"><span class="qh-title">OpenAI announces 'Private Intelligence' enterprise data-controls offering</span><span class="qh-src">X (OpenAI)</span></a></li>
+
+    <li><a href="https://cutoffreport.com/posts/ai-startup-funding-roundup-2026-10-30" target="_blank" rel="noopener"><span class="qh-title">Fractile raises ~$774M Series C at reported $6.5B pre-money, leaning on a ~$250M Anthropic chip order</span><span class="qh-src">Cutoff Report</span></a></li>
+
+    <li><a href="https://news.crunchbase.com/venture/biggest-rounds-startups-physical-ai-predictions-robotics-rebuild/" target="_blank" rel="noopener"><span class="qh-title">Serval raises $150M Series C at a $3B valuation led by Sequoia</span><span class="qh-src">Crunchbase News</span></a></li>
+
+    <li><a href="https://siliconangle.com/2026/10/30/google-x-co-founder-sebastian-thrun-raises-130m-for-ai-engineering-startup-dulo/" target="_blank" rel="noopener"><span class="qh-title">Sebastian Thrun's Dulo raises $130M seed for AI foundation models for engineering and hardware design</span><span class="qh-src">SiliconANGLE</span></a></li>
+
+    <li><a href="https://casdoor.ai/blog/casdoor-v4/" target="_blank" rel="noopener"><span class="qh-title">Casdoor v4: open-source IAM with OAuth flows built for securing MCP servers</span><span class="qh-src">Casdoor</span></a></li>
+
+    <li><a href="https://github.com/primemindai/macmonitor" target="_blank" rel="noopener"><span class="qh-title">macmonitor exposes Mac hardware telemetry to local agents over MCP</span><span class="qh-src">GitHub</span></a></li>
+
+    <li><a href="https://github.com/brthor/fast-forced-aligner" target="_blank" rel="noopener"><span class="qh-title">fast-forced-aligner claims 10x-1000x faster CUDA forced alignment for ASR pipelines</span><span class="qh-src">GitHub</span></a></li>
+
+    <li><a href="https://github.com/cerebellum-labs/cerebellum" target="_blank" rel="noopener"><span class="qh-title">Cerebellum runs a small model on the robot and escalates to a big one only when needed</span><span class="qh-src">GitHub</span></a></li>
+
+    <li><a href="https://huggingface.co/blog/nvidia/nemotron-halloween" target="_blank" rel="noopener"><span class="qh-title">NVIDIA builds a fully local haunted-house voice agent on the Nemotron open-model stack</span><span class="qh-src">NVIDIA (Hugging Face blog)</span></a></li>
+
+    <li><a href="https://paulusschoutsen.nl/ohf-daily/edition/2026-10-30/article/home-assistant-cloud-ai-connection/" target="_blank" rel="noopener"><span class="qh-title">Home Assistant fixes MCP connections made through Home Assistant Cloud addresses</span><span class="qh-src">OHF Daily</span></a></li>
+
+    <li><a href="https://www.latechmadeinitaly.com/dairect-ai-made-in-italy-prenotazioni-hotel/" target="_blank" rel="noopener"><span class="qh-title">dAirect: the Made in Italy AI that wants to make hotels bookable directly through AI assistants</span><span class="qh-src">La Tech Made in Italy</span></a></li>
+
+    <li><a href="https://www.ai4business.it/intelligenza-artificiale/quattro-progetti-di-ai-agentica-che-funzionano-i-casi-italiani/" target="_blank" rel="noopener"><span class="qh-title">Italian corporate cases: four agentic AI projects in production at Generali, Grenke Italia, Unipol and Sada Cavi</span><span class="qh-src">AI4Business</span></a></li>
+
+  </ul>
+</section>
+
+
+    <footer class="colophon">
+      <p class="mark">Per aspera ad astra</p>
+      <p class="meta">Compiled by Hermes Agent · 2026-10-31 · <a href="https://github.com/MovieMaker93/local-ai-news" target="_blank" rel="noopener">source</a></p>
+      <p class="meta">Beta · <a href="making-of.html" title="Replay how this issue assembled itself">See how this issue made itself</a></p>
+    </footer>
+
+  </div>
+<div class="mo" id="mo" onclick="cm(event)"><div class="mb"><button class="mc" onclick="cm()">✕</button><h2 class="mh" id="mh"></h2><p class="mm">Source: <span id="ms"></span></p><div class="mbd" id="mbd"></div></div></div>
+<script>function openArt(el){var h=el.getAttribute('data-h'),b=el.getAttribute('data-b'),s=el.getAttribute('data-s'),u=el.getAttribute('data-u');document.getElementById('mh').textContent=h;var sl=document.getElementById('ms');if(u&&u!=='#'&&u!==''){sl.innerHTML='<a href="'+u+'" target="_blank" rel="noopener">'+s+'</a>';}else{sl.textContent=s;}var aiS='*— Written by AI (';var i=b.indexOf(aiS);if(i>=0){var bf=b.substring(0,i);var af=b.substring(i+aiS.length);var mdl=af.split(')')[0];bf=bf.split('\n').join('<br>');bf=bf.replace(/\*([^*]+)\*/g,'<em class="en">$1</em>');var sg='<div class="as"><span class="al">⬥ AI-GENERATED</span><br>Model: '+mdl+'</div>';document.getElementById('mbd').innerHTML=bf+sg;}else{document.getElementById('mbd').innerHTML=b.split('\n').join('<br>');}document.getElementById('mo').classList.add('a');document.body.style.overflow='hidden';}function cm(e){if(e&&e.target!=document.getElementById('mo'))return;document.getElementById('mo').classList.remove('a');document.body.style.overflow='';}document.addEventListener('keydown',function(e){if(e.key==='Escape')cm()});</script></body>
+</html>

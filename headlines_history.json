@@ -8936,6 +8936,144 @@
       "source": "AI4Business",
       "date": "2026-10-31",
       "issue": 48
+    },
+    {
+      "text": "Open-source UEFI tool lifts Nvidia's half-speed tensor cap on RTX 20/30/40 cards",
+      "source": "Tom's Hardware",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "1bit-MONSTER engine v2026.44 boots ternary-model inference on AMD Strix Halo",
+      "source": "GitHub (1bit-MONSTER/engine)",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Qwen 3.8 Flash Next hits 900 t/s prefill on 8 GB VRAM with CPU offload",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Altman meets Samsung leadership as the memory crunch inflates local-rig prices",
+      "source": "Tom's Hardware",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "LattePanda Sigma 2 packs Panther Lake, 64GB LPDDR5X and a preloaded Qwen3.6 stack",
+      "source": "MobiDevices",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Atomic Chat ships measured GGUF quants of Clover-35B-A3B-Preview, the Qwen3.6-derived block-diffusion MoE",
+      "source": "HuggingFace",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "HoshiuZ releases a fully reconstructed LLaVA-NeXT-8B-Unlearned checkpoint for unlearning research",
+      "source": "HuggingFace",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Infernix ships Qwen3.8-Flash-Next optimizations and a beta WebUI launcher",
+      "source": "GitHub",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Frontier UI brings ChatGPT-style generative UI to Open WebUI",
+      "source": "GitHub",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Bowerbird is an open-source, local-first NotebookLM alternative for any model",
+      "source": "GitHub",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "llama.cpp b12032 adds OpenCL IQ3 quantization kernels and a Hexagon DMA fix",
+      "source": "GitHub",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Mintu v0.2.1: privacy-first llama.cpp desktop companion lands on macOS",
+      "source": "GitHub",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Ziskind: MSI RTX Spark N1X laptop runs Linux at a quarter of its plugged-in speed",
+      "source": "NeoTeo",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Nace AI releases Drex Max v1, a 27B multimodal model tuned for Apple Silicon",
+      "source": "FrontWord",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Nemotron 3.5 Bolt on the ASUS ProArt P16: fast for bounded tasks, shaky on distractors",
+      "source": "The Gadgeteer",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "braindead-local-intelligence: one-command local AI stack in rootless Podman containers",
+      "source": "dataswamp.org",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Bedrock Robotics raises $600M Series C at a $4.1B valuation",
+      "source": "TechCrunch",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Re:Build raises $2.1B led by General Catalyst and JPMorganChase for US hard-tech manufacturing",
+      "source": "TechCrunch",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "OpenAI secures ~$11B of its $30B fundraise target as big investors cool on AI",
+      "source": "The Decoder",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Palantir Foundry veterans' Lumaril raises $66M Series A at a $400M valuation",
+      "source": "FourWeekMBA",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Northstar Security exits stealth with $7M seed for AI agents in security operations",
+      "source": "SecurityWeek",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "sweet-search: local code search for AI coding agents, claiming 5-33% cheaper runs",
+      "source": "GitHub",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Castov launches a local-first desktop automation engine driven by local AI",
+      "source": "Castov",
+      "date": "2026-11-02",
+      "issue": 49
     }
   ]
 }
