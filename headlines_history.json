@@ -9074,6 +9074,204 @@
       "source": "Castov",
       "date": "2026-11-02",
       "issue": 49
+    },
+    {
+      "text": "NVIDIA clarifies its local-AI lineup: DGX Spark 64GB, RTX Spark and DGX Station",
+      "source": "NVIDIA Blog",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Heretic 2.0 ships: Arbitrary-Rank Ablation replaces classic abliteration",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Karpathy ships HackerTube in about two hours with Claude Opus 5.5",
+      "source": "X (karpathy)",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "SemiAnalysis releases GDPx, a frontier-level agentic benchmark \u2014 best model scores 12%",
+      "source": "X (SemiAnalysis_)",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "DoorDash to acquire Instacart for $17B",
+      "source": "TechCrunch",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Latent-Lens: visual perception in small language models through latent communication",
+      "source": "arXiv",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "There Is No Free Loop: when does looping a trained model pay for its inference compute?",
+      "source": "arXiv",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "In-model context compression with agentic soft tokens for long-horizon LLM agents",
+      "source": "arXiv",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "MUON-RT reuses the teacher's trajectory for momentum-free Muon self-distillation",
+      "source": "arXiv",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "SparseGDN: chunk sparse computation in linear attention",
+      "source": "arXiv",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "DeepSeek V4.1-Flash: smallest model in the new architecture family",
+      "source": "Reuters",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "KRAFTON releases Raon-1-mini-preview: 30B-A4B MoE trained from scratch",
+      "source": "HuggingFace",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "tmax-9b-v1.1: a terminal-agent 9B trained with DPPO on Qwen3.5-9B",
+      "source": "HuggingFace",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Arken: cryptographic identity for AI agents calling MCP servers",
+      "source": "Hacker News",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Fluent 2: AI teammates that run fully on-device on macOS",
+      "source": "Product Hunt",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Rufous: an agent tuned specifically for small local models",
+      "source": "Hacker News",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Qwen3.8-27B UD-IQ4_XS Heretic + MTP quant fits a 16 GB card at 55-68 tok/s",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "n8n current stable 2.45.7; 2.46 line adds personal credentials in team projects",
+      "source": "n8n",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Ceva unveils four-tier NeuPro NPU portfolio for edge and on-device AI",
+      "source": "PR Newswire (Ceva)",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Best GPUs for local AI (November 2026): RTX PRO 6000 tops the ranking, RX 7900 XTX best value",
+      "source": "ReadyGPU",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "VRAM capacity can matter more than GPU generation on an older local-AI PC",
+      "source": "The Average Guy",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Apriel Voice 27B Preview: open speech-language model unifying recognition, reasoning and tool use",
+      "source": "HuggingFace",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "On the origin and evolution of training-inference mismatch in LLM reinforcement learning",
+      "source": "HuggingFace",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "TSBPO: tree-structured branching for policy optimization in interactive language agents",
+      "source": "arXiv",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "From the Zoo to the BULLPEN: sample-efficient LLM profiling via multi-channel model embeddings",
+      "source": "arXiv",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Does scaling toward AGI depend on what System-1 lets System-2 execute?",
+      "source": "HuggingFace",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Nonce: open-source least-privilege Gmail access for AI agents",
+      "source": "Hacker News",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Skep keeps AI coding-agent sessions live and in sync across devices",
+      "source": "Hacker News",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Brydge MCP inspector: paste your MCP config, see what each server does",
+      "source": "Hacker News",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Grok Bot stays available after Musk's usage-limit note",
+      "source": "X (grok)",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "Nous Research: Hermes Mobile iOS/Android client for self-hosted or Nous Cloud gateways",
+      "source": "X (NousResearch)",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "PreScalar raises $7M seed co-led by Dynamo Ventures and BMW i Ventures for AI factory software",
+      "source": "TechCrunch",
+      "date": "2026-11-02",
+      "issue": 49
+    },
+    {
+      "text": "AIBC World 2026 opens in Rome: ~30,000 delegates, AI track on agentic systems and post-AI-Act regulation",
+      "source": "AIBC World",
+      "date": "2026-11-02",
+      "issue": 49
     }
   ]
 }
