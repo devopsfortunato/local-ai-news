@@ -9404,6 +9404,216 @@
       "source": "StartupItalia",
       "date": "2026-11-02",
       "issue": 49
+    },
+    {
+      "text": "DRAM prices roughly double in 2026 as AI squeezes PC memory supply",
+      "source": "Nikkei Asia",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "CyberArena benchmark opens for live two-agent attack-and-defense play",
+      "source": "Hugging Face",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "Tencent Hy4 prepped for launch with day-0 vLLM-Ascend support",
+      "source": "X (aitrackerbot)",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "64GB isn't the dead zone anymore if you run agents",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "Think Twice: the Metis-1.6 technical report",
+      "source": "HuggingFace",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "ProVe: proposer-verifier decoding reverses the speculative-decoding roles",
+      "source": "HuggingFace",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "DecisionRank distills LLM ranking knowledge into direct-score rerankers",
+      "source": "HuggingFace",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "LARC reasons in continuous space for unified multimodal models",
+      "source": "HuggingFace",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "DeFT-RAG decomposes multi-hop questions into reusable sub-answers",
+      "source": "HuggingFace",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "GLM-5.2 flagship lands with a stable 1M-token context",
+      "source": "HuggingFace",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "Maya 2 Native: open-weight streaming TTS for 11 Indic languages + English",
+      "source": "HuggingFace",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "K2-Horizon-3.7B: small dense model with native 512K context",
+      "source": "HuggingFace",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "Qwen3.5-4B-3D-Coder: compact Three.js-focused coding fine-tune",
+      "source": "HuggingFace",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "MCPgraphy: an MCP proxy that learns when your agent's tools actually work",
+      "source": "Hacker News",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "CheapGPT: free local assistant running entirely on Chrome's Gemini Nano",
+      "source": "Hacker News",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "llama.cpp b12063 adds unified KV cache and Clover MoE support",
+      "source": "GitHub",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "vLLM publishes third release candidate of v0.33.0",
+      "source": "GitHub",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "n8n maps fully local AI workflows on one NVIDIA DGX Spark",
+      "source": "n8n Blog",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "Community proposal: private quality benchmarks to complement tok/s chasing",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "Simple Feed Reader: lightweight self-hosted RSS reader with local-model ranking",
+      "source": "r/selfhosted",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "TrendForce: GPUs move to Tightening as the Rubin transition begins",
+      "source": "TrendForce",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "Packet-based NPUs adapt to memory-bound LLM workloads at the edge",
+      "source": "Edge AI and Vision Alliance",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "ModelFit updates the Mac mini M4 local-LLM fit guide",
+      "source": "ModelFit",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "TernScope: ternary QAT cuts compute-array area 88% for endoscopic segmentation",
+      "source": "HuggingFace",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "Auxiliary trajectory rewards tested for small-model self-improvement",
+      "source": "HuggingFace",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "The Sleeper in the Weights: backdoor in Qwen3-0.6B survives SFT, DPO and RL",
+      "source": "Hugging Face",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "Sliding window beats linear attention, but only on short answers",
+      "source": "Hugging Face",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "Google recaps October: Gemini 4 Argon and Carbon, Genie 4, SynthID Detector",
+      "source": "Google",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "OpenAI runs internal security sprint with Cathedral Systems",
+      "source": "OpenAI",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "Abu Dhabi signs OpenAI pacts at ADIPEC; ADNOC first energy company with frontier models",
+      "source": "X trending",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "November 2026 model release roadmap preview, including GPT-6.2 Astra",
+      "source": "X (mark_k)",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "Northwood Space raises $375M Series C at a $2B valuation from a16z and DFJ Growth",
+      "source": "TechCrunch",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "42AI out of stealth with $62.5M for a behavioral world model",
+      "source": "TechCrunch",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "Trajectory raises $45M Series A at $300M to make model training accessible",
+      "source": "TechCrunch",
+      "date": "2026-11-03",
+      "issue": 50
+    },
+    {
+      "text": "Anthropic's pre-IPO numbers: ~$17B quarterly revenue, $895.4B in compute commitments",
+      "source": "AI4Business",
+      "date": "2026-11-03",
+      "issue": 50
     }
   ]
 }

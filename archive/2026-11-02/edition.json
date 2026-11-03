@@ -1,0 +1,454 @@
+{
+  "issue_no": 49,
+  "date_iso": "2026-11-02",
+  "date_human": "November 02, 2026",
+  "notice": null,
+  "lead": {
+    "kicker": "GPU performance",
+    "image": "images/lead_2026-11-02.jpg",
+    "title": "Open-source UEFI tool unlocks Nvidia's half-speed tensor limiter on RTX 20/30/40 cards",
+    "summary": "The nv-uefi-unlocker project boots from a USB drive before the Nvidia driver loads and removes the half-speed Tensor Core throttle on RTX 20, 30 and 40 series desktop and laptop GPUs, lifting FP16 matrix math performance by up to 65% on Windows and Linux. Blackwell RTX 50 series is not covered. It is free throughput for the huge installed base of last-gen cards powering local LLM rigs.",
+    "source": "Tom's Hardware",
+    "date": "2026-11-01",
+    "url": "https://tomshardware.com/pc-components/gpus/open-source-usb-tool-unlocks-nvidias-half-speed-gpu-ai-limiter-on-windows-lifts-gpus-fp16-math-performance-up-to-65-percent-uefi-unlocker-covers-rtx-20-30-and-40-series-desktops-and-laptops",
+    "scout_source": "hardware"
+  },
+  "top_stories": [
+    {
+      "kicker": "Official",
+      "title": "Hugging Face blog: ViKernel wires an operating system inside the model file",
+      "summary": "ViKernel / VIDRAFT is a weight-native OS design that puts ROM, RAM and an xPU-style control circuit directly into the model file, with an in-model kill switch, boot integrity state and a non-editable audit chain instead of external wrappers and prompt filters. A public demo is available at FINAL-Bench/ViKernel-Desktop.",
+      "source": "Hugging Face",
+      "date": "2026-11-01",
+      "url": "https://huggingface.co/blog/FINAL-Bench/vikernel-why-the-kill-switch-must-live-inside-the",
+      "scout_source": "official"
+    },
+    {
+      "kicker": "Runtimes",
+      "title": "llama.cpp b12034 lands with WebGPU scratch-allocation fix and new OpenCL IQ3 support",
+      "summary": "The Nov 2 build keeps scratch allocation sizes monotonic in batch length for the flash-attention vec and MMVQ paths. The Nov 1 batch (b12029-b12032) added initial IQ3 OpenCL support, a PkgConfig path for LevelZero SYCL includes and a Hexagon DMA stride fix.",
+      "source": "GitHub",
+      "date": "2026-11-02",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12034",
+      "scout_source": "tools"
+    },
+    {
+      "kicker": "Edge hardware",
+      "title": "DGX Spark benchmark roundup: MoE is the sweet spot on GB10",
+      "summary": "An aggregated measurement table shows the DGX Spark at ~59 tok/s on gpt-oss-120b at low context in llama.cpp, with dense 70B models under 5 tok/s; software updates moved scores more than partner-board differences. Two clustered 64GB units reach up to 1.7x single-unit performance via NVIDIA Sync.",
+      "source": "Verdict Bits",
+      "date": "2026-11-01",
+      "url": "https://verdictbits.com/reviews/dgx-spark-benchmarks/",
+      "scout_source": "hardware"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Open Weights & Models",
+      "items": [
+        {
+          "title": "DeepSeek-V4.1-Flash-1017 keeps the #1 HF trending spot",
+          "image": "images/section_open_weights_models_2026-11-02.jpg",
+          "summary": "DeepSeek's 763B image-text-to-text model from the V4.1 Flash family stays the top trending model, with community GGUF quantizations (e.g. ISTA-DASLab's 197B GSQ-RCO build) making it a staple of local inference stacks.",
+          "source": "HuggingFace",
+          "date": "2026-11-02",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "scout_source": "opensource"
+        },
+        {
+          "title": "Qwen3.8-27B becomes the first Apache 2.0 release in the Qwen 3.8 line",
+          "summary": "The 27B multimodal open-weight model ships with wide GGUF quant coverage (AtomicChat's builds span IQ1_M to Q8_0) for llama.cpp, vLLM, MLX and Ollama users; pricing confirmation landed Nov 1.",
+          "source": "HuggingFace",
+          "date": "2026-11-02",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+          "scout_source": "opensource"
+        },
+        {
+          "title": "Ling-3.0-tiny: a 7.9B/1.3B hybrid reasoning MoE for low-cost local inference",
+          "summary": "inclusionAI's compact MoE activates 1.3B of 7.9B parameters across 128 routed experts, with BF16, FP8 and INT4 weights aimed at cheap local agentic use.",
+          "source": "HuggingFace",
+          "date": "2026-11-02",
+          "url": "https://huggingface.co/inclusionAI/Ling-3.0-tiny-fp8",
+          "scout_source": "opensource"
+        }
+      ]
+    },
+    {
+      "title": "Tools & Runtimes",
+      "items": [
+        {
+          "title": "AgentTM: a time-travel debugger for AI coding agent sessions",
+          "image": "images/section_tools_runtimes_2026-11-02.jpg",
+          "summary": "An open-source, Go-based debugger that lets you step through agent traces to inspect prompts, tool calls and state — handy for local agent workflows built on small models.",
+          "source": "GitHub",
+          "date": "2026-11-02",
+          "url": "https://github.com/Jyotishmoy12/AgentTM",
+          "scout_source": "tools"
+        },
+        {
+          "title": "Arken gives AI agents cryptographic identity when calling MCP servers",
+          "summary": "An open-source core that makes agent-to-server attribution verifiable across the growing local-MCP ecosystem, where provenance is usually untracked.",
+          "source": "GitHub",
+          "date": "2026-11-02",
+          "url": "https://github.com/arkenforge/arken-core",
+          "scout_source": "tools"
+        },
+        {
+          "title": "Brydge MCP explorer: paste your MCP config, see what each server does at startup",
+          "summary": "A web tool for auditing local MCP setups by showing each configured server's startup behavior; it hit the Hacker News front page on Nov 2.",
+          "source": "Brydge MCP Explorer",
+          "date": "2026-11-02",
+          "url": "https://mcp.brydge-ai.com",
+          "scout_source": "tools"
+        }
+      ]
+    }
+  ],
+  "trending": {
+    "github": {
+      "title": "GitHub Trending · AI",
+      "url": "https://github.com/trending",
+      "link_label": "github.com/trending",
+      "date": "2026-11-02",
+      "items": [
+        {
+          "name": "thedotmack/claude-mem",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "meta": "TypeScript · 109.9k ★ · +1526 today"
+        },
+        {
+          "name": "pingdotgg/t3code",
+          "url": "https://github.com/pingdotgg/t3code",
+          "meta": "TypeScript · 39.0k ★ · +3094 today"
+        },
+        {
+          "name": "patchy631/ai-engineering-hub",
+          "url": "https://github.com/patchy631/ai-engineering-hub",
+          "meta": "Jupyter Notebook · 40.6k ★ · +1191 today"
+        },
+        {
+          "name": "Donchitos/Claude-Code-Game-Studios",
+          "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+          "meta": "Shell · 32.8k ★ · +967 today"
+        },
+        {
+          "name": "milind-soni/OpenMausBot",
+          "url": "https://github.com/milind-soni/OpenMausBot",
+          "meta": "TypeScript · 10.9k ★ · +922 today"
+        },
+        {
+          "name": "lightpanda-io/browser",
+          "url": "https://github.com/lightpanda-io/browser",
+          "meta": "Zig · 40.6k ★ · +825 today"
+        },
+        {
+          "name": "shiyu-coder/Kronos",
+          "url": "https://github.com/shiyu-coder/Kronos",
+          "meta": "Python · 45.6k ★ · +630 today"
+        },
+        {
+          "name": "beenuar/AiSOC",
+          "url": "https://github.com/beenuar/AiSOC",
+          "meta": "Python · 6.5k ★ · +446 today"
+        },
+        {
+          "name": "cjpais/Handy",
+          "url": "https://github.com/cjpais/Handy",
+          "meta": "Rust · 36.9k ★ · +339 today · offline speech-to-text"
+        },
+        {
+          "name": "FlashML-org/FreeToken",
+          "url": "https://github.com/FlashML-org/FreeToken",
+          "meta": "Python · 15.6k ★ · +242 today · local model serving"
+        }
+      ]
+    },
+    "huggingface": {
+      "title": "Models Trending (Hugging Face)",
+      "url": "https://huggingface.co/models?sort=trending",
+      "link_label": "huggingface.co/models",
+      "date": "2026-11-02",
+      "items": [
+        {
+          "name": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "meta": "763B image-text-to-text"
+        },
+        {
+          "name": "LiquidAI/LFM3-1.7B",
+          "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+          "meta": "2B text generation"
+        },
+        {
+          "name": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+          "meta": "34B automatic speech recognition"
+        },
+        {
+          "name": "mistralai/Mistral-Large-4-1T-A52B",
+          "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+          "meta": "1T MoE, ~52B active, multimodal, 1M context"
+        },
+        {
+          "name": "baidu/Unlimited-OCR-2",
+          "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+          "meta": "3B multimodal OCR"
+        },
+        {
+          "name": "Nanbeige/Nanbeige4.3-33B",
+          "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+          "meta": "33B text generation"
+        },
+        {
+          "name": "ccore/Qwen3.5-4B-3D-Coder",
+          "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+          "meta": "5B code model"
+        },
+        {
+          "name": "Lightricks/LTX-2.5",
+          "url": "https://huggingface.co/Lightricks/LTX-2.5",
+          "meta": "image-to-video"
+        },
+        {
+          "name": "speridlabs/idol",
+          "url": "https://huggingface.co/speridlabs/idol",
+          "meta": "image-to-3D"
+        },
+        {
+          "name": "Pika-Labs/Pika-H3-Flex",
+          "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex",
+          "meta": "33B image-to-video"
+        }
+      ]
+    }
+  },
+  "free_models": {
+    "openrouter": {
+      "title": "Free on OpenRouter",
+      "url": "https://openrouter.ai/models?max_price=0",
+      "link_label": "Browse free models on OpenRouter →",
+      "date": "2026-11-02",
+      "items": [
+        {
+          "name": "Cohere: North Mini Code (free)",
+          "url": "https://openrouter.ai/cohere/north-mini-code:free",
+          "meta": "256K ctx"
+        },
+        {
+          "name": "Dots Studio: Dots3-Note Preview (free)",
+          "url": "https://openrouter.ai/dots-studio/dots-3-note-preview:free",
+          "meta": "512K ctx"
+        },
+        {
+          "name": "Google: Gemma 4 26B A4B (free)",
+          "url": "https://openrouter.ai/google/gemma-4-26b-a4b-it:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "Google: Gemma 4 31B (free)",
+          "url": "https://openrouter.ai/google/gemma-4-31b-it:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "LiquidAI: LFM2.5-2.6B (free)",
+          "url": "https://openrouter.ai/liquid/lfm-2.5-2.6b:free",
+          "meta": "65K ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+          "meta": "256K ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3 Ultra (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free",
+          "meta": "1M ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free",
+          "meta": "128K ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3.5 Lightning (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3.5-lightning:free",
+          "meta": "1M ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3.5 Super VL (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3.5-super-vl:free",
+          "meta": "1M ctx"
+        },
+        {
+          "name": "Recursive: Flint (free)",
+          "url": "https://openrouter.ai/recursive/flint-v1.0:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "Thinking Machines: Inkling (free)",
+          "url": "https://openrouter.ai/thinkingmachines/inkling:free",
+          "meta": "1.04858M ctx"
+        },
+        {
+          "name": "Thinking Machines: Inkling Small (free)",
+          "url": "https://openrouter.ai/thinkingmachines/inkling-small:free",
+          "meta": "1.04858M ctx"
+        },
+        {
+          "name": "XingChen: Xing4.0 29B A4B (free)",
+          "url": "https://openrouter.ai/xingchen-agi/xing4.0-29b-a4b:free",
+          "meta": "262K ctx"
+        }
+      ]
+    },
+    "opencode_zen": {
+      "title": "Free on OpenCode Zen",
+      "url": "https://opencode.ai/docs/zen/",
+      "link_label": "See the full Zen catalog →",
+      "date": "2026-11-02",
+      "items": [
+        {
+          "name": "Big Pickle",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "big-pickle"
+        },
+        {
+          "name": "GLM-5.3-Flash Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "glm-5.3-flash-free"
+        },
+        {
+          "name": "DeepSeek V4.1 Flash Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "deepseek-v4.1-flash-free"
+        },
+        {
+          "name": "Beam Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "beam-free"
+        },
+        {
+          "name": "Flint 40B Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "flint-40b-free"
+        },
+        {
+          "name": "MiMo-V2.6-Flash Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "mimo-v2.6-flash-free"
+        },
+        {
+          "name": "Nemotron 3 Ultra Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "nemotron-3-ultra-free"
+        },
+        {
+          "name": "Nemotron 3.5 Lightning Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "nemotron-3.5-lightning-free"
+        },
+        {
+          "name": "Nemotron 3.5 Super VL Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "nemotron-3.5-super-vl-free"
+        },
+        {
+          "name": "Jev 1.13 Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "jev-1.13-free"
+        }
+      ]
+    }
+  },
+  "quick_hits": [
+    {
+      "title": "Hands-on: DGX Spark feels finished as a local AI machine, RTX Spark laptop less so",
+      "source": "How-To Geek",
+      "date": "2026-11-01",
+      "url": "https://www.howtogeek.com/rtx-spark-dgx-spark-comparison-laptop-unfinished/",
+      "scout_source": "hardware"
+    },
+    {
+      "title": "Rufous: a chat agent tuned specifically for small, locally runnable models",
+      "source": "Rufous",
+      "date": "2026-11-02",
+      "url": "https://rufous.chat",
+      "scout_source": "tools"
+    },
+    {
+      "title": "Skep keeps AI coding-agent sessions live and in sync across devices",
+      "source": "Skep",
+      "date": "2026-11-02",
+      "url": "https://skepagent.com/",
+      "scout_source": "tools"
+    },
+    {
+      "title": "DoorDash to acquire Instacart for $17B",
+      "source": "TechCrunch",
+      "date": "2026-11-01",
+      "url": "https://techcrunch.com/2026-11-01/techcrunch-mobility-a-new-bigger-av-boom-is-here/",
+      "scout_source": "funding"
+    },
+    {
+      "title": "Bedrock Robotics closes $600M Series C at a $4.1B valuation for self-driving excavators",
+      "source": "TechCrunch",
+      "date": "2026-11-01",
+      "url": "https://techcrunch.com/2026-11-01/techcrunch-mobility-a-new-bigger-av-boom-is-here/",
+      "scout_source": "funding"
+    },
+    {
+      "title": "Re:Build raises $2.1B led by General Catalyst and JPMorganChase for US hard-tech manufacturing",
+      "source": "TechCrunch",
+      "date": "2026-11-01",
+      "url": "https://techcrunch.com/2026-11-01/techcrunch-mobility-a-new-bigger-av-boom-is-here/",
+      "scout_source": "funding"
+    },
+    {
+      "title": "PreScalar raises $7M seed co-led by Dynamo Ventures and BMW i Ventures for AI factory software",
+      "source": "TechCrunch",
+      "date": "2026-11-01",
+      "url": "https://techcrunch.com/2026-11-01/techcrunch-mobility-a-new-bigger-av-boom-is-here/",
+      "scout_source": "funding"
+    },
+    {
+      "title": "Weekly funding roundup: Avante AI $30M, Archera $15M, Rendezvous Robotics $20M",
+      "source": "AlleyWatch",
+      "date": "2026-11-02",
+      "url": "https://alleywatch.com/2026/11/the-weekly-notable-startup-funding-report-11-2-26",
+      "scout_source": "funding"
+    },
+    {
+      "title": "InnovUp: Italian venture-studio startups closed €82M in rounds, says director Giorgio Ciron",
+      "source": "StartupItalia",
+      "date": "2026-11-02",
+      "url": "https://startupitalia.eu/startup/nella-culla-delle-startup-ciron-innovup-quelle-nate-dai-venture-studio-in-italia-hanno-chiuso-round-per-82-milioni-di-euro/",
+      "scout_source": "italia"
+    },
+    {
+      "title": "Anthropic: Claude now leads 26% of AI research work, up from 1% in March",
+      "source": "AI4Business",
+      "date": "2026-11-02",
+      "url": "https://www.ai4business.it/intelligenza-artificiale/anthropic-claude-guida-il-26-della-ricerca-ai-cosa-cambia-nel-business/",
+      "scout_source": "italia"
+    },
+    {
+      "title": "Milan's south periphery debates a data center on the former Cederna cotton-mill site",
+      "source": "StartupItalia",
+      "date": "2026-11-02",
+      "url": "https://startupitalia.eu/tech/gratosoglio-data-center-cederna/",
+      "scout_source": "italia"
+    },
+    {
+      "title": "November tech agenda: Web Summit Lisbon and Milan's Salone dei Pagamenti headline Italian calendars",
+      "source": "StartupItalia",
+      "date": "2026-11-01",
+      "url": "https://startupitalia.eu/startup/a-lisbona-torna-il-web-summit-e-a-milano-il-salone-dei-pagamenti-indica-la-strada-del-fintech-il-meglio-degli-eventi-tech-a-novembre/",
+      "scout_source": "italia"
+    }
+  ],
+  "spiked": {
+    "out of window": 20,
+    "already ran": 4,
+    "same story": 1
+  }
+}
