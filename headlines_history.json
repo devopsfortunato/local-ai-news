@@ -9614,6 +9614,240 @@
       "source": "AI4Business",
       "date": "2026-11-03",
       "issue": 50
+    },
+    {
+      "text": "llama.cpp MoE cache runs oversized MoE models 2-12x faster on stock hardware",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "Moonshot AI releases Kimi K3.1 Pro open weights (2.8T) for local evaluation",
+      "source": "HuggingFace",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "Home Assistant 2026.11: biggest release yet, AI assistants can now act on your setup",
+      "source": "Home Assistant",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "Open WebUI v0.13.0: your model gets a computer",
+      "source": "Open WebUI",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "CUDA 13.5 reaches GA with Vera Rubin support and new GPU resource management",
+      "source": "NVIDIA Developer Blog",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "TriAttention: unified sparse mixed-precision attention for long-context LLM inference",
+      "source": "arXiv",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "Muir: linear attention with sensitivity-allocated gating and matched-filter readout",
+      "source": "HuggingFace",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "KOSMOS: self-scheduling persistent kernels for communication-compute overlap",
+      "source": "arXiv",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "DictLLM: post-training compression of LLMs with dictionary kernels",
+      "source": "arXiv",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "AutoCompress: automated hardware-guided model compression",
+      "source": "arXiv",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "Kakao releases Kanana-2-v-decide-3b-2611 decision model",
+      "source": "HuggingFace",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "NVIDIA adds four Cosmos 3 Nano open-weight checkpoints for world simulation",
+      "source": "HuggingFace",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "vLLM: DeepSeek-V4.1-Flash and Kimi K3.1 reach zero-mismatch async RL",
+      "source": "vLLM",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "Mantis: agent browser claiming 36% faster browsing than Playwright MCP",
+      "source": "Hacker News",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "Show HN: Agent Manager - keyboard-first workflow for many coding agents",
+      "source": "Hacker News",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "Show HN: Laplace's Scissors - direct LLM weight editing tool",
+      "source": "Hacker News",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "Show HN: Jacq - DSL compiling model and kernel descriptions to CUDA",
+      "source": "Hacker News",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "llama.cpp b12180 adds Kimi-K3.1-Pro support",
+      "source": "GitHub",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "n8n 3.0 lands: leaner queue mode, stricter resource guardrails, AI assistant builds workflows",
+      "source": "n8n",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "ISTA GSQ-RCO quantizations: 1 bit per parameter with near-BF16 scores",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "changedetection.io yearly update: big UI overhaul plus MCP/AI integration",
+      "source": "r/selfhosted",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "Conductor cloud goes read-only Nov 13: checklist for self-hosted coding-agent setups",
+      "source": "r/selfhosted",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "Reflection AMA on Beam, its open-weight 501B model",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "NVIDIA RTX PRO 5500 Blackwell (84GB) listed at $17,999 MSRP, above the 96GB RTX PRO 6000",
+      "source": "VideoCardz",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "First Snapdragon X2 Elite mini PC on sale in Europe from about EUR 2,000",
+      "source": "VideoCardz",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "M5 Pro vs M5 Max vs M5 Ultra compared for local LLM inference; 512GB Mac Studio now orderable",
+      "source": "PromptQuorum",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "Tesla unveils SI accelerator roadmap: SI6 inference chip claims 80x compute over HW4",
+      "source": "Tom's Hardware",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "Ai2's ToyBlocks: a controlled world for robot learning and evaluation",
+      "source": "Hugging Face",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "Hugging Face ships harness adapters: safe RL for efficient agentic development",
+      "source": "Hugging Face",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+      "source": "Hugging Face",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "Sparse autoencoders reveal human-interpretable specialization in MoE experts",
+      "source": "HuggingFace",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "Stanford benchmark scores 18 AI agents as teammates; best model reaches 82.2/100",
+      "source": "X (omarsar0)",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "LMSYS XM-Sparse / SGLang HiSparse cuts time-per-token 49-64% on KV-cache misses",
+      "source": "X (lmsysorg)",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "Show HN: BeepGrid - lightweight open-source agent comms",
+      "source": "Hacker News",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "Crystl: multitasking terminal for AI coding agents on macOS",
+      "source": "Product Hunt",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "NVIDIA tightens AI GPU tracking in Southeast Asia via mandatory Fleet Intelligence",
+      "source": "Tom's Hardware",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "Zipline raises $1.5B at a $21.5B valuation for US drone delivery",
+      "source": "Crunchbase News",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "Applied Compute raises $350M at a $3.25B valuation, with Nvidia participating",
+      "source": "Crunchbase News",
+      "date": "2026-11-07",
+      "issue": 51
+    },
+    {
+      "text": "GPT-6 Cyber: OpenAI automates bug hunting, with 81 Firefox vulnerabilities found",
+      "source": "AI4Business",
+      "date": "2026-11-07",
+      "issue": 51
     }
   ]
 }
