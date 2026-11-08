@@ -10004,6 +10004,216 @@
       "source": "GitHub",
       "date": "2026-11-08",
       "issue": 52
+    },
+    {
+      "text": "Maple prunes MoE models below 2 bits per weight: Gemma 4 26B at 45 TPS on a 6GB GPU",
+      "source": "Hacker News",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "Nous Research releases Arete-27B with fully open weights, data and evals",
+      "source": "NousResearch",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "TSMC denies exploring 3D DRAM at Nvidia's request; advanced memory still years away",
+      "source": "Tom's Hardware",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "Harness Leaderboard: the agent harness matters as much as the model on local hardware",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "RTX 5070 Ti hits twice its MSRP as RTX 50-series supply stays tight",
+      "source": "VideoCardz",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "StepBack resamples only at error-localized reasoning steps for cheaper test-time reasoning",
+      "source": "arXiv",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "PACT: prefill-to-autoregressive transfer between models of different size",
+      "source": "HuggingFace",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "Embedding-space fingerprints recover a LoRA fine-tune's training-data domain",
+      "source": "arXiv",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "Scaling laws for SAE training data: quality plateaus early, buffer replay nearly matches fresh activations",
+      "source": "arXiv",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "Qwen4 teased but not yet on the Hugging Face hub",
+      "source": "teamorouter.com",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "kniv v7.1: six open information-extraction encoders improved without a training run",
+      "source": "HuggingFace",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "LeRobot v0.7.0 adds world action models and remote VLA inference",
+      "source": "HuggingFace",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "Community checkpoint Avifenesh/k2h-r1a-final continues pretraining IFM K2-Horizon 36B-A4B",
+      "source": "HuggingFace",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "llama.cpp b12202 ships precision, speculative-decoding and OpenCL fixes",
+      "source": "GitHub",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "Reges Code: free AI code editor that runs entirely on local models",
+      "source": "Reges Code",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "OpenViking: shareable context layer for multi-agent teams",
+      "source": "GitHub",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "Sibyl: immutable local inference appliance with model routing",
+      "source": "GitHub",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "Qwen3.8-Flash-Next URL-handling issue reproduced by multiple users",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "Choosing a coding agent for an 11GB GTX 1080Ti: model, quant and harness compared",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "Showcase: a 100% local phone-monitoring agent for iOS and Android",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "MSI Cubi NUC WCG brings Intel Wildcat Lake to a 0.55-liter edge box",
+      "source": "VideoCardz",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "NVIDIA confirms RTX 5090 is not discontinued via Founders Edition giveaway",
+      "source": "VideoCardz",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "Radeon RX 9070 GRE 12GB lands at $569 on Amazon",
+      "source": "VideoCardz",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "Signed but Steerable: verifying text-vector integrity in offline RAG knowledge packs",
+      "source": "HuggingFace",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "WeLM-Image: unified image generation model aimed at single-GPU consumer deployment",
+      "source": "HuggingFace",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "MAEMs interpret any residual-stream direction via maximally activating examples",
+      "source": "arXiv",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "SwarmEvolve: latent agent swarms cut the cost of LLM-guided evolutionary search",
+      "source": "HuggingFace",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "Show HN: Ywza \u2014 computer-use agent for your own PC, drivable from anywhere",
+      "source": "GitHub",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "Show HN: RenderPixels \u2014 image generation from any AI via MCP, 50 free renders",
+      "source": "RenderPixels",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "LeCun threads on JEPA as the path beyond current LLMs (V-JEPA 2.1, I-JEPA, LeJEPA)",
+      "source": "X (ylecun)",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "Google's ReproBridge lifts agent experiment reproduction from 76.4% to 92.6% across models",
+      "source": "X (omarsar0)",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "ApprenticeBench tests whether agents can learn an entire job like an employee",
+      "source": "X (lmsysorg)",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "Tsinghua team releases an open-source simulator for LLM serving at scale",
+      "source": "X (lmsysorg)",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "Firmly raises $15M Series A for AI shopping agents, backed by JPMorgan and Mastercard",
+      "source": "GeekWire",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "James Dyson Award 2026: earthquake structural sensor and infrared concussion visor take the prizes",
+      "source": "StartupItalia",
+      "date": "2026-11-08",
+      "issue": 52
     }
   ]
 }
