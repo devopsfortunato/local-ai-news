@@ -9848,6 +9848,162 @@
       "source": "AI4Business",
       "date": "2026-11-07",
       "issue": 51
+    },
+    {
+      "text": "Raspberry Pi 5 16GB tops $385, more than triple its launch price",
+      "source": "TechRadar",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "Nous Research releases Arete-27B, a post-trained Qwen3.8-27B open-weight model",
+      "source": "NousResearch",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "Unsloth Dynamic v3.1 quants cut tokens ~50% and beat prior quants on accuracy for Qwen3.8-Flash-Next",
+      "source": "Unsloth",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "GeForce RTX 5080 street price nears $2,000, double its $999 MSRP",
+      "source": "Tech Insider",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "n8n 2.47.0 beta adds an Apps module and agent version/publication history",
+      "source": "n8n",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "Ripple-65B-Preview released by ricursiveAI",
+      "source": "HuggingFace",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "kniv v7.1: six open encoders improved without a training run",
+      "source": "HuggingFace",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "Ammu-1.0 fact-check need classifiers benchmarked at FP16/FP8",
+      "source": "HuggingFace",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "Four tiny logistic models predict scenes from a backpack's sensors",
+      "source": "HuggingFace",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "Ru-Jev v1.3: open 307M typed-decision CPU encoder for Russian",
+      "source": "HuggingFace",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "Maple: sub-2-BPW MoE pruning runs Gemma 4 26B at 45 TPS on a 6GB GPU",
+      "source": "GitHub",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "Reges Code: free AI code editor running entirely on local models",
+      "source": "Hacker News",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "OpenViking: shareable context layer for agent teams",
+      "source": "GitHub",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "NVIDIA RTX Spark ARM/Blackwell unified-memory PCs gain ground as local AI appliances",
+      "source": "Asia Daily",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "ASUS XG Core: 75W USB4 eGPU dock with Radeon RX 9060 XT LP 16GB",
+      "source": "Tech Insider",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "llama.cpp b12199 adds UTF-8 sanitizing for PEG tool-call arguments",
+      "source": "GitHub",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "Baseten: the bias of on-policy self-distillation",
+      "source": "Baseten",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "Google's ReproBridge lifts agent experiment reproduction from 76.4% to 92.6%",
+      "source": "X (omarsar0)",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "ApprenticeBench tests agents learning jobs like employees",
+      "source": "X (lmsysorg)",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "LMSYS talk: closing the loop from agentic evaluation at scale to model insights",
+      "source": "X (lmsysorg)",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "Nous Research: open weights let blocked entities use strong open models",
+      "source": "X (NousResearch)",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "JPMorgan and Mastercard back Seattle startup Firmly's AI shopping agents with $15M Series A",
+      "source": "GeekWire",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "CyberKord raises \u20ac2.7M to automate cybersecurity with Italian-made AI",
+      "source": "La Tech Made in Italy",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "Fincantieri brings physical AI into 13 shipyards via BOOST\u00b2 program",
+      "source": "Rivista AI",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "Show HN: Ywza \u2014 computer-use agent for your own PC",
+      "source": "GitHub",
+      "date": "2026-11-08",
+      "issue": 52
+    },
+    {
+      "text": "Show HN: Sibyl \u2014 immutable local inference appliance with routing",
+      "source": "GitHub",
+      "date": "2026-11-08",
+      "issue": 52
     }
   ]
 }

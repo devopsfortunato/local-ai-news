@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOCAL AI NEWS — open-weight intelligence · November 07, 2026</title>
+  <meta name="description" content="A daily recap of local AI news from the last 24 hours: open weights, tooling, hardware, and the self-hosted stack.">
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <div class="container">
+
+  <header class="masthead">
+    <div class="topline"></div>
+    <div class="ears">
+      <span class="left">Est. MMXXVI</span>
+      <span class="right">No. 51 <a href="/archive/" class="ar" title="Browse past issues">◆ Archive</a> <a href="#free-models" class="ar" title="Today's free AI models">⌁ Free Models</a></span>
+    </div>
+    <div class="nameplate">LOCAL <span class="lux">AI NEWS</span></div>
+      <hr class="rule-double">
+      <div class="dateline">
+        <span>November 07, 2026</span>
+        <span class="dot">◆</span>
+        <span class="tag">open weights, on your metal</span>
+        <span class="dot">◆</span>
+        <span>85 stories</span>
+      </div>
+      <div class="devocracy-credit">Inference self-hosted on a DGX Spark · models served via LiteLLM</div>
+      <hr class="rule-thin">
+    </header>
+
+    
+
+    <div class="lead-zone">
+      <article class="lead">
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1xqacka/llama_moe_cache_run_missed_experts_on_cpu_add/" target="_blank" rel="noopener">
+    <img src="images/lead_2026-11-07.jpg" alt="" class="lead-image">
+    <div class="lead-grid">
+      <div class="lead-head">
+        <p class="kicker">Inference</p>
+        <h1>llama.cpp MoE cache runs oversized MoE models 2-12x faster on stock hardware</h1>
+      </div>
+      <div class="lead-body">
+        <p class="deck">A widely discussed llama.cpp change keeps MoE expert weights in host memory with a GPU cache and executes missed experts on the CPU, giving reported speedups from 5.2 to 12.5 tok/s for a 68 GB model on 24 GB RAM with identical tokens. For homelab inference this makes MoE models that exceed VRAM genuinely practical without a bespoke engine.</p>
+        <p class="byline"><span class="src">r/LocalLLaMA</span> · <span>2026-11-06</span> · <span class="more">Read the dispatch →</span></p>
+      </div>
+    </div>
+  </a>
+</article>
+
+    </div>
+
+    <div class="topstories">
+<article class="story">
+  <a href="https://huggingface.co/moonshotai/Kimi-K3.1-Pro" target="_blank" rel="noopener">
+    <h3>Moonshot AI releases Kimi K3.1 Pro open weights (2.8T) for local evaluation</h3>
+    <p>Moonshot published full weights for the 2.8T Kimi K3.1 Pro flagship, with day-0 support reported by vLLM (including AMD MI355X) and llama.cpp build b12180 adding the model's hybrid MLA + sparse DSA attention.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-11-06</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://www.home-assistant.io/blog/2026/11/04/release-202611/" target="_blank" rel="noopener">
+    <h3>Home Assistant 2026.11: biggest release yet, AI assistants can now act on your setup</h3>
+    <p>The November release rebuilds the Marketplace (HACS) and expands the LLM API so assistants can look up system info, search and call actions, and list/reload integrations, with guardrails like an opt-in read-only MCP mode. Gemini 3.8 Flash becomes the default TTS model.</p>
+    <p class="byline"><span class="src">Home Assistant</span> · 2026-11-04</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://openwebui.com/blog/v0-13-0-your-model-gets-a-computer" target="_blank" rel="noopener">
+    <h3>Open WebUI v0.13.0: your model gets a computer</h3>
+    <p>Adds a tabbed workspace with Desktop (computer use via Open Terminal) and Browser tabs, a Git panel, side chats, MCP Apps and a notification inbox. Upgrade notes flag a database schema migration - update all load-balanced instances at once.</p>
+    <p class="byline"><span class="src">Open WebUI</span> · 2026-11-04</p>
+  </a>
+</article>
+
+</div>
+
+
+    <div class="sections">
+      <section class="section">
+  <div class="section-head">
+    <h2>Research &amp; Papers</h2>
+    <span class="line"></span>
+    <span class="n">05</span>
+  </div>
+  <a href="https://arxiv.org/abs/2611.07256" target="_blank" rel="noopener" class="section-hero"><img src="images/section_research-papers_2026-11-07.jpg" alt="" class="section-hero-img"><h4 class="hero-title">TriAttention: unified sparse mixed-precision attention for long-context LLM inference</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://arxiv.org/abs/2611.07256" target="_blank" rel="noopener">
+    <h4>TriAttention: unified sparse mixed-precision attention for long-context LLM inference</h4>
+    <p>Combines sparsity and quantization in one attention scheme, skipping unimportant interactions and assigning per-interaction precision to cut long-context cost while preserving accuracy.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-11-05</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/papers/2611.08376" target="_blank" rel="noopener">
+    <h4>Muir: linear attention with sensitivity-allocated gating and matched-filter readout</h4>
+    <p>Linear-attention architecture compressing context into a fixed-size KV state for linear-time training and constant-memory inference.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-11-05</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2611.07477" target="_blank" rel="noopener">
+    <h4>KOSMOS: self-scheduling persistent kernels for communication-compute overlap</h4>
+    <p>Self-scheduling fused kernels for tensor/sequence and expert parallelism hide collective communication behind computation, cutting idle windows left by fixed-role fused kernels.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-11-05</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2611.08082" target="_blank" rel="noopener">
+    <h4>DictLLM: post-training compression of LLMs with dictionary kernels</h4>
+    <p>Dictionary-kernel post-training compression balances accuracy against compute and memory limits on mobile devices with far less computation than in-training methods.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-11-05</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2611.08290" target="_blank" rel="noopener">
+    <h4>AutoCompress: automated hardware-guided model compression</h4>
+    <p>Hardware-guided pruning workflow that automatically selects model sizes meeting latency, throughput and GPU-memory constraints, removing manual size selection.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-11-05</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Open Weights &amp; Models</h2>
+    <span class="line"></span>
+    <span class="n">03</span>
+  </div>
+  <a href="https://huggingface.co/kakaocorp/kanana-2-v-decide-3b-2611" target="_blank" rel="noopener" class="section-hero"><img src="images/section_open-weights-models_2026-11-07.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Kakao releases Kanana-2-v-decide-3b-2611 decision model</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://huggingface.co/kakaocorp/kanana-2-v-decide-3b-2611" target="_blank" rel="noopener">
+    <h4>Kakao releases Kanana-2-v-decide-3b-2611 decision model</h4>
+    <p>A 3.67B multimodal decision model (choice/yes-no/score with per-answer probabilities) that tops the compared models on Decision Index Vision with a 61.23 public-benchmark average.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-11-06</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation" target="_blank" rel="noopener">
+    <h4>NVIDIA adds four Cosmos 3 Nano open-weight checkpoints for world simulation</h4>
+    <p>Four post-trained ~16B checkpoints (OpenMDW1.1) cover multi-view driving data generation, synchronized camera+LiDAR simulation, sim-to-photoreal video and bimanual robot video prediction.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-11-06</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://vllm.ai/blog/2026-11-06-zero-mismatch-async-rl" target="_blank" rel="noopener">
+    <h4>vLLM: DeepSeek-V4.1-Flash and Kimi K3.1 reach zero-mismatch async RL</h4>
+    <p>November 6 post details zero-mismatch coverage for DeepSeek-V4.1-Flash (DAPO rollout within 10% of the fast baseline) and Kimi K3.1 on day 0, plus REINFORCE Zero results on Qwen3 models at high lag.</p>
+    <p class="byline"><span class="src">vLLM</span> · 2026-11-06</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Tools &amp; Runtimes</h2>
+    <span class="line"></span>
+    <span class="n">05</span>
+  </div>
+  <a href="https://news.ycombinator.com/item?id=50388956" target="_blank" rel="noopener" class="section-hero"><img src="images/section_tools-runtimes_2026-11-07.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Mantis: agent browser claiming 36% faster browsing than Playwright MCP</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://news.ycombinator.com/item?id=50388956" target="_blank" rel="noopener">
+    <h4>Mantis: agent browser claiming 36% faster browsing than Playwright MCP</h4>
+    <p>Show HN entry positioning Mantis as a faster MCP-era browser backend for agentic workflows.</p>
+    <p class="byline"><span class="src">Hacker News</span> · 2026-11-06</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://news.ycombinator.com/item?id=50406983" target="_blank" rel="noopener">
+    <h4>Show HN: Agent Manager - keyboard-first workflow for many coding agents</h4>
+    <p>Open-source keyboard-first manager for running several coding agents side by side, presented as a lightweight orchestration layer for local agent workflows.</p>
+    <p class="byline"><span class="src">Hacker News</span> · 2026-11-07</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://news.ycombinator.com/item?id=50406735" target="_blank" rel="noopener">
+    <h4>Show HN: Laplace's Scissors - direct LLM weight editing tool</h4>
+    <p>Tool for editing LLM weights in place, letting local-model users patch parameters without full retraining.</p>
+    <p class="byline"><span class="src">Hacker News</span> · 2026-11-07</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://news.ycombinator.com/item?id=50406532" target="_blank" rel="noopener">
+    <h4>Show HN: Jacq - DSL compiling model and kernel descriptions to CUDA</h4>
+    <p>Impossible Computing released a domain-specific language that compiles model and kernel descriptions directly to CUDA for custom inference kernels.</p>
+    <p class="byline"><span class="src">Hacker News</span> · 2026-11-07</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/ggml-org/llama.cpp/releases/tag/b12180" target="_blank" rel="noopener">
+    <h4>llama.cpp b12180 adds Kimi-K3.1-Pro support</h4>
+    <p>Build b12180 adds the Kimi-K3.1-Pro text model with hybrid full-attention MLA and sparse DSA layers for efficient local inference.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-11-06</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Self-Hosted Stack</h2>
+    <span class="line"></span>
+    <span class="n">05</span>
+  </div>
+  <a href="https://github.com/n8n-io/n8n/releases/tag/n8n@3.1.0" target="_blank" rel="noopener" class="section-hero"><img src="images/section_self-hosted-stack_2026-11-07.jpg" alt="" class="section-hero-img"><h4 class="hero-title">n8n 3.0 lands: leaner queue mode, stricter resource guardrails, AI assistant builds workflows</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://github.com/n8n-io/n8n/releases/tag/n8n@3.1.0" target="_blank" rel="noopener">
+    <h4>n8n 3.0 lands: leaner queue mode, stricter resource guardrails, AI assistant builds workflows</h4>
+    <p>The 3.x line clears legacy features (in-memory binary data removed, Code-node timeout cut to 1 minute) and adds an Assistant that plans, builds and self-heals workflows, plus a Force-Tool-Call option that helps smaller local models use wired tools.</p>
+    <p class="byline"><span class="src">n8n</span> · 2026-11-03</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1xlys6k/release_ista_deepseekv41flash1017_gsqrco_coder_a/" target="_blank" rel="noopener">
+    <h4>ISTA GSQ-RCO quantizations: 1 bit per parameter with near-BF16 scores</h4>
+    <p>IST-DASLab released GSQ-RCO GGUFs of DeepSeek-V4.1-Flash-1017 (763B at 1 bit/parameter) scoring ~99.5-100 against an 8-bit baseline on code benchmarks.</p>
+    <p class="byline"><span class="src">r/LocalLLaMA</span> · 2026-11-06</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.reddit.com/r/selfhosted/comments/1xoh9mu/changedetectionio_yearly_update" target="_blank" rel="noopener">
+    <h4>changedetection.io yearly update: big UI overhaul plus MCP/AI integration</h4>
+    <p>First major update in a long time: friendlier UI, redesigned notifications, plugin hooks for fetch backend and recheck intervals, and modern MCP/AI integration with an LLM settings page.</p>
+    <p class="byline"><span class="src">r/selfhosted</span> · 2026-11-06</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.reddit.com/r/selfhosted/comments/1xogygi/conductors_cloud_goes_readonly_on_the_13th_what" target="_blank" rel="noopener">
+    <h4>Conductor cloud goes read-only Nov 13: checklist for self-hosted coding-agent setups</h4>
+    <p>With the cloud going read-only on the 13th and data deletion from Nov 20, the community distilled a migration checklist: push unexported branches and inventory the periphery that breaks - cloud webhooks, session API, isolated VMs.</p>
+    <p class="byline"><span class="src">r/selfhosted</span> · 2026-11-06</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1xmwryg/were_the_product_team_at_reflection_the_lab" target="_blank" rel="noopener">
+    <h4>Reflection AMA on Beam, its open-weight 501B model</h4>
+    <p>Reflection's product team covered training and serving for Beam (501B-A23B), noting quantized Ollama Cloud variants behave differently from BF16 on debugging/analysis tasks.</p>
+    <p class="byline"><span class="src">r/LocalLLaMA</span> · 2026-11-07</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Hardware &amp; Edge</h2>
+    <span class="line"></span>
+    <span class="n">04</span>
+  </div>
+  <a href="https://videocardz.com/newz/nvidia-rtx-pro-5500-blackwell-appears-at-17999-msrp-higher-than-rtx-pro-6000" target="_blank" rel="noopener" class="section-hero"><img src="images/section_hardware-edge_2026-11-07.jpg" alt="" class="section-hero-img"><h4 class="hero-title">NVIDIA RTX PRO 5500 Blackwell (84GB) listed at $17,999 MSRP, above the 96GB RTX PRO 6000</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://videocardz.com/newz/nvidia-rtx-pro-5500-blackwell-appears-at-17999-msrp-higher-than-rtx-pro-6000" target="_blank" rel="noopener">
+    <h4>NVIDIA RTX PRO 5500 Blackwell (84GB) listed at $17,999 MSRP, above the 96GB RTX PRO 6000</h4>
+    <p>A reseller listing put the PNY-built 84GB ECC GDDR7 card at $17,999 - higher than NVIDIA's own $16,000 for the 96GB RTX PRO 6000, so the MIG-capable card's case now rests on power/rack density rather than capacity per dollar.</p>
+    <p class="byline"><span class="src">VideoCardz</span> · 2026-11-06</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://videocardz.com/newz/first-snapdragon-x2-elite-mini-pc-now-on-sale-in-europe-from-e2000" target="_blank" rel="noopener">
+    <h4>First Snapdragon X2 Elite mini PC on sale in Europe from about EUR 2,000</h4>
+    <p>The ASUS Ascent QN10 (18 Oryon cores, 80-TOPS Hexagon NPU, 32GB LPDDR5X-8533) is sold in Germany, Austria and Switzerland at EUR 2,195 MSRP, with ComputerBase measuring 5W whole-system idle draw.</p>
+    <p class="byline"><span class="src">VideoCardz</span> · 2026-11-06</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.promptquorum.com/local-llms/apple-silicon-m5-local-llm" target="_blank" rel="noopener">
+    <h4>M5 Pro vs M5 Max vs M5 Ultra compared for local LLM inference; 512GB Mac Studio now orderable</h4>
+    <p>New bandwidth benchmarks put the M5 Ultra at 1,228 GB/s versus 614 GB/s on the M5 Max and 307 GB/s on the M5 Pro; the 512GB Mac Studio M5 Ultra config became orderable from $22,299.</p>
+    <p class="byline"><span class="src">PromptQuorum</span> · 2026-11-06</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/tesla-unveils-ai-accelerator-roadmap-adopts-new-si-branding-in-super-intelligence-push-si6-to-bring-80x-more-compute-performance-dojo-3-headed-to-space" target="_blank" rel="noopener">
+    <h4>Tesla unveils SI accelerator roadmap: SI6 inference chip claims 80x compute over HW4</h4>
+    <p>The 6th-generation SI6 would bring 80x the compute and 9x the memory of HW4 around 2029-2030; the revived Dojo 3 moves to a chiplet design with stacked HBM.</p>
+    <p class="byline"><span class="src">Tom's Hardware</span> · 2026-11-06</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+    </div>
+
+    <div class="trending-wrap">
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Repos on GitHub</h1>
+      <div class="t-line"></div>
+      <a href="https://github.com/trending" target="_blank" rel="noopener" class="t-link">Go to GitHub trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://github.com/cloudflare/security-audit-skill" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">cloudflare/security-audit-skill</span>
+    <span class="t-meta">JavaScript · 65.4k ★ · +2088 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/milind-soni/OpenMausBot" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">milind-soni/OpenMausBot</span>
+    <span class="t-meta">TypeScript · 16.8k ★ · +1986 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/mattpocock/skills" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">mattpocock/skills</span>
+    <span class="t-meta">Shell · 317.5k ★ · +1111 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/zed-industries/zed" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">zed-industries/zed</span>
+    <span class="t-meta">Rust · 94.2k ★ · +1119 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/google/skills" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">google/skills</span>
+    <span class="t-meta">Python · 23.3k ★ · +449 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/anthropics/skills" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">anthropics/skills</span>
+    <span class="t-meta">Python · 188.6k ★ · +386 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/vercel-labs/agent-browser" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">vercel-labs/agent-browser</span>
+    <span class="t-meta">Rust · 46.7k ★ · +180 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/meta/astryx" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">meta/astryx</span>
+    <span class="t-meta">TypeScript · 14.3k ★ · +185 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/dsx-ai-factory/nvke" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">dsx-ai-factory/nvke</span>
+    <span class="t-meta">NVIDIA Kubernetes Engine · GPU Kubernetes management plane on bare metal</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/ranxianglei/billion-context" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">ranxianglei/billion-context</span>
+    <span class="t-meta">Context-compression plugin for LLM sessions (100K windows, ~5x token savings)</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+  
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Trending on HF</h1>
+      <div class="t-line"></div>
+      <a href="https://huggingface.co/models?sort=trending" target="_blank" rel="noopener" class="t-link">Go to Hugging Face trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://huggingface.co/Qwen/Qwen3.8-27B" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Qwen/Qwen3.8-27B</span>
+    <span class="t-meta">28B image-text-to-text, refreshed ~15h ago</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/moonshotai/Kimi-K3.1-Pro" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">moonshotai/Kimi-K3.1-Pro</span>
+    <span class="t-meta">2.8T image-text-to-text flagship open weights</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/speridlabs/idol" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">speridlabs/idol</span>
+    <span class="t-meta">Image-to-3D generation</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">deepseek-ai/DeepSeek-V4.1-Flash-1017</span>
+    <span class="t-meta">Sparse MoE, CED architecture, coding/agent workloads</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B</span>
+    <span class="t-meta">34B ASR, 4B active</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">ccore/Qwen3.5-4B-3D-Coder</span>
+    <span class="t-meta">5B coder, 3D-oriented fine-tune</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/ricursiveAI/Ripple-65B-Preview" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">ricursiveAI/Ripple-65B-Preview</span>
+    <span class="t-meta">65B preview checkpoint</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/LiquidAI/LFM3-1.7B" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">LiquidAI/LFM3-1.7B</span>
+    <span class="t-meta">1.7B text generation, on-device friendly</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">mistralai/Mistral-Large-4-1T-A52B</span>
+    <span class="t-meta">1T-parameter MoE open weights, text+image input</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">black-forest-labs/flux-3-image-klein-comfy</span>
+    <span class="t-meta">Image-to-image, ComfyUI-ready</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+</div>
+
+
+    <section class="section" id="free-models">
+  <div class="section-head">
+    <h2>Free Models</h2>
+    <span class="line"></span>
+    <span class="n">26</span>
+  </div>
+
+  <p class="section-note">Free means $0 per token today, not unlimited or unconditional: both platforms rate-limit free use and require a free API key, some OpenRouter free endpoints may train on your prompts unless you opt out in account settings, and the roster changes daily. Verified against each provider's own pricing data at generation time — but pricing changes without notice, so confirm it's still free on the provider's own page before you rely on it.</p>
+
+  <div class="trending-wrap trending-wrap--in-section">
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenRouter</h1>
+        <div class="t-line"></div>
+        <a href="https://openrouter.ai/models?max_price=0" target="_blank" rel="noopener" class="t-link">Browse free models →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://openrouter.ai/cohere/north-mini-code:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Cohere: North Mini Code (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/stealth/crouton-alpha" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Crouton Alpha</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/dots-studio/dots-3-note-preview:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Dots Studio: Dots3-Note Preview (free)</span>
+    <span class="t-meta">512K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-26b-a4b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Google: Gemma 4 26B A4B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-31b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Google: Gemma 4 31B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/liquid/lfm-2.5-2.6b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">LiquidAI: LFM2.5-2.6B (free)</span>
+    <span class="t-meta">65K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/liquid/lfm-3-1.7b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">LiquidAI: LFM3-1.7B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Nano Omni (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Ultra (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-lightning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Lightning (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-super-vl:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#11</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Super VL (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/recursive/flint-v1.0:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#12</span>
+    <span class="t-name">Recursive: Flint (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/xingchen-agi/xing4.0-29b-a4b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#13</span>
+    <span class="t-name">XingChen: Xing4.0 29B A4B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenCode Zen</h1>
+        <div class="t-line"></div>
+        <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener" class="t-link">See the full Zen catalog →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Big Pickle</span>
+    <span class="t-meta">big-pickle</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Iceman Free</span>
+    <span class="t-meta">iceman-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Inkling 2 Small Free</span>
+    <span class="t-meta">inkling-2-small-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Crouton Alpha Free</span>
+    <span class="t-meta">crouton-alpha-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">GLM-5.3-Flash Free</span>
+    <span class="t-meta">glm-5.3-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">DeepSeek V4.1 Flash Free</span>
+    <span class="t-meta">deepseek-v4.1-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">Beam Free</span>
+    <span class="t-meta">beam-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">Flint 40B Free</span>
+    <span class="t-meta">flint-40b-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">MiMo-V2.6-Flash Free</span>
+    <span class="t-meta">mimo-v2.6-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">Nemotron 3 Ultra Free</span>
+    <span class="t-meta">nemotron-3-ultra-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#11</span>
+    <span class="t-name">Nemotron 3.5 Lightning Free</span>
+    <span class="t-meta">nemotron-3.5-lightning-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#12</span>
+    <span class="t-name">Nemotron 3.5 Super VL Free</span>
+    <span class="t-meta">nemotron-3.5-super-vl-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#13</span>
+    <span class="t-name">Jev 1.13 Free</span>
+    <span class="t-meta">jev-1.13-free</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+    <section class="inbrief">
+  <div class="section-head">
+    <h2>In Brief</h2>
+    <span class="line"></span>
+    <span class="n">12</span>
+  </div>
+  <ul class="qh-list">
+    <li><a href="https://huggingface.co/blog/allenai/toyblocks" target="_blank" rel="noopener"><span class="qh-title">Ai2's ToyBlocks: a controlled world for robot learning and evaluation</span><span class="qh-src">Hugging Face</span></a></li>
+
+    <li><a href="https://huggingface.co/blog/harness-hub/harness-adapters" target="_blank" rel="noopener"><span class="qh-title">Hugging Face ships harness adapters: safe RL for efficient agentic development</span><span class="qh-src">Hugging Face</span></a></li>
+
+    <li><a href="https://huggingface.co/blog/open-asr-leaderboard-liva" target="_blank" rel="noopener"><span class="qh-title">Egyptian and Nigerian English join the Open ASR Leaderboard</span><span class="qh-src">Hugging Face</span></a></li>
+
+    <li><a href="https://huggingface.co/papers/2611.08089" target="_blank" rel="noopener"><span class="qh-title">Sparse autoencoders reveal human-interpretable specialization in MoE experts</span><span class="qh-src">HuggingFace</span></a></li>
+
+    <li><a href="https://x.com/omarsar0/status/2118833814839705786" target="_blank" rel="noopener"><span class="qh-title">Stanford benchmark scores 18 AI agents as teammates; best model reaches 82.2/100</span><span class="qh-src">X (omarsar0)</span></a></li>
+
+    <li><a href="https://x.com/lmsysorg/status/2118552832165253211" target="_blank" rel="noopener"><span class="qh-title">LMSYS XM-Sparse / SGLang HiSparse cuts time-per-token 49-64% on KV-cache misses</span><span class="qh-src">X (lmsysorg)</span></a></li>
+
+    <li><a href="https://news.ycombinator.com/item?id=50389326" target="_blank" rel="noopener"><span class="qh-title">Show HN: BeepGrid - lightweight open-source agent comms</span><span class="qh-src">Hacker News</span></a></li>
+
+    <li><a href="https://www.producthunt.com/products/crystl-multitasking-terminal" target="_blank" rel="noopener"><span class="qh-title">Crystl: multitasking terminal for AI coding agents on macOS</span><span class="qh-src">Product Hunt</span></a></li>
+
+    <li><a href="https://www.tomshardware.com/tech-industry/big-tech/nvidia-tightens-tracking-of-ai-gpus-in-southeast-asia-as-chinese-chip-smuggling-draws-scrutiny-report-claims-cloud-providers-must-join-monitoring-program-to-qualify-for-official-partner-status" target="_blank" rel="noopener"><span class="qh-title">NVIDIA tightens AI GPU tracking in Southeast Asia via mandatory Fleet Intelligence</span><span class="qh-src">Tom's Hardware</span></a></li>
+
+    <li><a href="https://news.crunchbase.com/venture/biggest-startup-rounds-ai-defense-space-tech-shield-zipline/" target="_blank" rel="noopener"><span class="qh-title">Zipline raises $1.5B at a $21.5B valuation for US drone delivery</span><span class="qh-src">Crunchbase News</span></a></li>
+
+    <li><a href="https://news.crunchbase.com/venture/biggest-startup-rounds-ai-defense-space-tech-shield-zipline/" target="_blank" rel="noopener"><span class="qh-title">Applied Compute raises $350M at a $3.25B valuation, with Nvidia participating</span><span class="qh-src">Crunchbase News</span></a></li>
+
+    <li><a href="https://www.ai4business.it/intelligenza-artificiale/gpt-6-cyber-openai-automatizza-la-caccia-ai-bug-cosa-cambia-per-le-imprese/" target="_blank" rel="noopener"><span class="qh-title">GPT-6 Cyber: OpenAI automates bug hunting, with 81 Firefox vulnerabilities found</span><span class="qh-src">AI4Business</span></a></li>
+
+  </ul>
+</section>
+
+
+    <footer class="colophon">
+      <p class="mark">Per aspera ad astra</p>
+      <p class="meta">Compiled by Hermes Agent · 2026-11-07 · <a href="https://github.com/MovieMaker93/local-ai-news" target="_blank" rel="noopener">source</a></p>
+      <p class="meta">Beta · <a href="making-of.html" title="Replay how this issue assembled itself">See how this issue made itself</a></p>
+    </footer>
+
+  </div>
+</body>
+</html>
