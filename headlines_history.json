@@ -10214,6 +10214,174 @@
       "source": "StartupItalia",
       "date": "2026-11-08",
       "issue": 52
+    },
+    {
+      "text": "Open WebUI v0.13.3 makes coding agents first-class models",
+      "source": "GitHub",
+      "date": "2026-11-09",
+      "issue": 53
+    },
+    {
+      "text": "GIGABYTE's 64GB GB10 appliance 'AI TOP ATOM' ships at $4,999",
+      "source": "NVIDIA Developer Forums",
+      "date": "2026-11-09",
+      "issue": 53
+    },
+    {
+      "text": "Taskman reveals per-process VRAM use on local LLM rigs",
+      "source": "Tom's Hardware",
+      "date": "2026-11-09",
+      "issue": 53
+    },
+    {
+      "text": "Winbond chairman: only AI buyers can absorb today's memory prices",
+      "source": "VoltGrid News",
+      "date": "2026-11-09",
+      "issue": 53
+    },
+    {
+      "text": "Evolver turns agent trajectories into reusable 'Gene' assets",
+      "source": "X (omarsar0)",
+      "date": "2026-11-09",
+      "issue": 53
+    },
+    {
+      "text": "MINE: entropy-coded memory-efficient inference for LLMs",
+      "source": "arXiv",
+      "date": "2026-11-09",
+      "issue": 53
+    },
+    {
+      "text": "Confucius4-R2T2: stable-prefix streaming ASR for real-time transcription",
+      "source": "HuggingFace",
+      "date": "2026-11-09",
+      "issue": 53
+    },
+    {
+      "text": "Sketchpad: certified exact arithmetic with a small vision-language model",
+      "source": "HuggingFace",
+      "date": "2026-11-09",
+      "issue": 53
+    },
+    {
+      "text": "Tools need not speak in text: latent context compression for agents",
+      "source": "HuggingFace",
+      "date": "2026-11-09",
+      "issue": 53
+    },
+    {
+      "text": "From LoRA to Language: recovering skill documents from adapters",
+      "source": "arXiv",
+      "date": "2026-11-09",
+      "issue": 53
+    },
+    {
+      "text": "NVIDIA/auto-ontology: a semantic graph reasoning layer for LLM agents",
+      "source": "GitHub",
+      "date": "2026-11-09",
+      "issue": 53
+    },
+    {
+      "text": "clap.cpp: audio embedding inference in C++ on GGML",
+      "source": "GitHub",
+      "date": "2026-11-09",
+      "issue": 53
+    },
+    {
+      "text": "llama.cpp b12210\u2013b12211: mtmd consolidation and MXFP4 repack",
+      "source": "GitHub",
+      "date": "2026-11-09",
+      "issue": 53
+    },
+    {
+      "text": "Open WebUI v0.13.2 fixes plain-HTTP chat loading on LAN/Docker installs",
+      "source": "Open WebUI",
+      "date": "2026-11-09",
+      "issue": 53
+    },
+    {
+      "text": "hass_local_openai_llm 1.15.1 patches Home Assistant 2026.11 compatibility",
+      "source": "hass_local_openai_llm",
+      "date": "2026-11-09",
+      "issue": 53
+    },
+    {
+      "text": "Super Productivity v20 adds an opt-in local MCP endpoint",
+      "source": "r/selfhosted",
+      "date": "2026-11-09",
+      "issue": 53
+    },
+    {
+      "text": "webAI-Official/TwIL-8B: fresh 9B text-generation release for local inference",
+      "source": "HuggingFace",
+      "date": "2026-11-09",
+      "issue": 53
+    },
+    {
+      "text": "BestRand: random projection gives stable, low-cost benchmark compression",
+      "source": "HuggingFace",
+      "date": "2026-11-09",
+      "issue": 53
+    },
+    {
+      "text": "Weight-Space Programming: agents inspect and edit model parameters directly",
+      "source": "arXiv",
+      "date": "2026-11-09",
+      "issue": 53
+    },
+    {
+      "text": "Future Representation Distillation cuts cost for imagination-free world action models",
+      "source": "HuggingFace",
+      "date": "2026-11-09",
+      "issue": 53
+    },
+    {
+      "text": "Flide runs Jev-style decision models up to 9.5x faster on local hardware",
+      "source": "GitHub",
+      "date": "2026-11-09",
+      "issue": 53
+    },
+    {
+      "text": "Airlock applies policy-as-code to fleets of AI coding agents",
+      "source": "GitHub",
+      "date": "2026-11-09",
+      "issue": 53
+    },
+    {
+      "text": "Used datacenter GPU tracker: median $22/GB VRAM as of Nov 8",
+      "source": "Brandon Sheley",
+      "date": "2026-11-09",
+      "issue": 53
+    },
+    {
+      "text": "Cursor posts $1B ARR and 300% QoQ enterprise growth post-acquisition",
+      "source": "X (swyx)",
+      "date": "2026-11-09",
+      "issue": 53
+    },
+    {
+      "text": "Hermes Agent ships major update with official Security plugin",
+      "source": "X (NousResearch)",
+      "date": "2026-11-09",
+      "issue": 53
+    },
+    {
+      "text": "Data centers become a heated topic in Italy: energy-hungry, light on jobs",
+      "source": "La Stampa",
+      "date": "2026-11-09",
+      "issue": 53
+    },
+    {
+      "text": "Novara set to become Italy's great silicon hub as local industrials back the plan",
+      "source": "La Stampa",
+      "date": "2026-11-09",
+      "issue": 53
+    },
+    {
+      "text": "Harbinger raises $240M Series D, expanding into battery storage and defense",
+      "source": "TechCrunch",
+      "date": "2026-11-09",
+      "issue": 53
     }
   ]
 }

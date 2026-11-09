@@ -1,50 +1,50 @@
 {
-  "issue_no": 52,
-  "date_iso": "2026-11-08",
-  "date_human": "November 08, 2026",
+  "issue_no": 53,
+  "date_iso": "2026-11-09",
+  "date_human": "November 09, 2026",
   "notice": null,
   "lead": {
-    "kicker": "Compression",
-    "title": "Maple prunes MoE models below 2 bits per weight: Gemma 4 26B at 45 TPS on a 6GB GPU",
-    "summary": "Maple, presented on Show HN, is a sub-2-bits-per-weight pruning method for mixture-of-experts models that reportedly runs Gemma 4 26B at 45 tokens/s on a 6GB GPU. If the numbers hold up, it puts larger MoE checkpoints within reach of the smallest local rigs without a discrete-class memory upgrade.",
-    "source": "Hacker News",
+    "kicker": "Agent-native UI",
+    "title": "Open WebUI v0.13.3 makes coding agents first-class models",
+    "summary": "The Nov 8 release registers Claude Code, Codex and Pi directly in the model picker and adds agent-aware scheduled automations that run against a saved terminal and working folder, with mid-chat terminal and folder switching. The v0.13.x line also repairs plain-HTTP loading on LAN and Docker installs, so airgapped rigs no longer hang on the crypto.randomUUID spinner.",
+    "source": "GitHub",
     "date": "2026-11-08",
-    "url": "https://news.ycombinator.com/item?id=50411866",
+    "url": "https://github.com/open-webui/open-webui/releases/tag/v0.13.3",
     "scout_source": "tools",
-    "image": "images/lead_2026-11-08.jpg"
+    "image": "images/lead_2026-11-09.jpg"
   },
   "top_stories": [
     {
-      "title": "Nous Research releases Arete-27B with fully open weights, data and evals",
-      "summary": "Post-trained model built on Qwen3.8-27B: weights, training data and an 803-prompt eval set are all open, and the report says the model's China party-line answers in evals dropped from 22% to 1% with no significant Hermes Bench regression.",
-      "source": "NousResearch",
-      "date": "2026-11-07",
-      "url": "https://x.com/i/status/2118822925445050435",
-      "scout_source": "x"
+      "title": "GIGABYTE's 64GB GB10 appliance 'AI TOP ATOM' ships at $4,999",
+      "summary": "The DGX Spark-class box with 64GB unified memory is listed on Newegg at $4,999, and forum comparisons are weighing its capacity-per-dollar against the 128GB DGX Spark and the 256GB Mac Studio M5 Ultra.",
+      "source": "NVIDIA Developer Forums",
+      "date": "2026-11-06",
+      "url": "https://forums.developer.nvidia.com/t/gigabyte-ai-top-atom-64gb-dgx-spark-now-available/388156",
+      "scout_source": "hardware"
     },
     {
-      "title": "TSMC denies exploring 3D DRAM at Nvidia's request; advanced memory still years away",
-      "summary": "TSMC says 3D DRAM remains years from market viability, with at least four more planar DRAM nodes planned first — keeping the memory price squeeze as the binding constraint on local-AI rigs.",
+      "title": "Taskman reveals per-process VRAM use on local LLM rigs",
+      "summary": "Microsoft VP Scott Hanselman released gputaskman, an open-source cross-platform GPU task manager that breaks down AI/LLM workloads per process, including model weights and KV-cache use for llama-server.",
       "source": "Tom's Hardware",
-      "date": "2026-11-07",
-      "url": "https://www.tomshardware.com/pc-components/dram/tsmc-denies-exploring-3d-dram-at-nvidias-request-advanced-memory-tech-is-still-years-from-market-viability",
+      "date": "2026-11-08",
+      "url": "https://www.tomshardware.com/pc-components/gpus/open-source-gpu-task-manager-reveals-exactly-whats-eating-your-vram-microsoft-vps-new-gpu-taskman-tool-reveals-every-process-using-your-gpu-how-much-memory-each-uses-and-breaks-down-ai-and-llm-workloads",
       "scout_source": "hardware"
     },
     {
-      "title": "Harness Leaderboard: the agent harness matters as much as the model on local hardware",
-      "summary": "A community leaderboard benchmarks Kimi Code, Hermes, Pi, Claude Code and Codex on Terminal Bench 2.1 and Deep SWE 1.1, reinforcing that harness choice moves local scores as much as model size.",
-      "source": "r/LocalLLaMA",
-      "date": "2026-11-07",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpvfx8/harness_leaderboard_kimi_code_hermes_pi_claude/",
-      "scout_source": "selfhost"
+      "title": "Winbond chairman: only AI buyers can absorb today's memory prices",
+      "summary": "Arthur Chiao said on Nov 7 he hopes memory prices have peaked, with AI buyers absorbing increases while phone and PC makers suffer; a JP Morgan report forecasts DRAM up 400% versus 2024 by end of 2026 as HBM crowds out conventional DRAM.",
+      "source": "VoltGrid News",
+      "date": "2026-11-09",
+      "url": "https://voltgridnews.com/story/winbond-chairman-says-he-hopes-memory-prices-have-peaked",
+      "scout_source": "hardware"
     },
     {
-      "title": "RTX 5070 Ti hits twice its MSRP as RTX 50-series supply stays tight",
-      "summary": "The lowest tracked US price reached $1,339.99 on November 6 — 79% above the $749 launch MSRP — with memory supply constraints still choking RTX 50 availability for local-AI builds.",
-      "source": "VideoCardz",
-      "date": "2026-11-07",
-      "url": "https://videocardz.com/newz/after-rtx-5090-and-rtx-5080-the-not-discontinued-geforce-rtx-5070-ti-now-reaches-twice-its-msrp",
-      "scout_source": "hardware"
+      "title": "Evolver turns agent trajectories into reusable 'Gene' assets",
+      "summary": "Omarsar0 highlights Evolver, which converts transient agent exploration into persistent reusable procedural experience: tested with Claude Code and Codex on Terminal-Bench, SWE-bench and GAIA, it lifted task success from 83.13% to 87.50% and cut token use by ~24% without changing the underlying models.",
+      "source": "X (omarsar0)",
+      "date": "2026-11-08",
+      "url": "https://x.com/omarsar0/status/2119473781689421855",
+      "scout_source": "x"
     }
   ],
   "sections": [
@@ -52,75 +52,45 @@
       "title": "Research & Papers",
       "items": [
         {
-          "title": "StepBack resamples only at error-localized reasoning steps for cheaper test-time reasoning",
-          "summary": "Improves on self-consistency decoding by resampling only at error-localized steps instead of many full trajectories under a preset budget, cutting the test-time cost of chain-of-thought.",
+          "title": "MINE: entropy-coded memory-efficient inference for LLMs",
+          "summary": "Applies lossless entropy coding to accelerate single-stream LLM inference, going beyond existing lossless compression that only helps specific types like BF16; directly targets memory-bound local inference.",
           "source": "arXiv",
-          "date": "2026-11-05",
-          "url": "https://arxiv.org/abs/2611.08403",
+          "date": "2026-11-06",
+          "url": "https://arxiv.org/abs/2611.09424",
           "scout_source": "research",
-          "image": "images/section_research_papers_2026-11-08.jpg"
+          "image": "images/section_research_papers_2026-11-09.jpg"
         },
         {
-          "title": "PACT: prefill-to-autoregressive transfer between models of different size",
-          "summary": "Studies latent communication where a larger model's prompt representations are combined with a smaller model's efficient generation to balance capability and inference cost.",
+          "title": "Confucius4-R2T2: stable-prefix streaming ASR for real-time transcription",
+          "summary": "Netease Youdao's streaming ASR model uses a stable-prefix design for low-latency real-time transcription, suited to on-device speech pipelines.",
           "source": "HuggingFace",
-          "date": "2026-11-04",
-          "url": "https://huggingface.co/papers/2611.06976",
+          "date": "2026-11-09",
+          "url": "https://huggingface.co/papers/2611.06043",
           "scout_source": "research"
         },
         {
-          "title": "Embedding-space fingerprints recover a LoRA fine-tune's training-data domain",
-          "summary": "A simple classifier recovers the training-data domain of a LoRA fine-tune from the model artifact alone, quantifying domain leakage of PEFT adapters.",
+          "title": "Sketchpad: certified exact arithmetic with a small vision-language model",
+          "summary": "Shows small VLMs can deliver verified-precision numeric reasoning at low compute cost.",
+          "source": "HuggingFace",
+          "date": "2026-11-09",
+          "url": "https://huggingface.co/papers/2611.04434",
+          "scout_source": "research"
+        },
+        {
+          "title": "Tools need not speak in text: latent context compression for agents",
+          "summary": "Tsinghua replaces textual tool outputs with compact latent vectors in agent pipelines, cutting context length and token cost.",
+          "source": "HuggingFace",
+          "date": "2026-11-06",
+          "url": "https://huggingface.co/papers/2611.06500",
+          "scout_source": "research"
+        },
+        {
+          "title": "From LoRA to Language: recovering skill documents from adapters",
+          "summary": "Recovers the text skill documents encoded in low-rank adapters, making LoRA-based skills readable, editable, auditable and portable across models.",
           "source": "arXiv",
-          "date": "2026-11-05",
-          "url": "https://arxiv.org/abs/2611.07610",
+          "date": "2026-11-06",
+          "url": "https://arxiv.org/abs/2611.09454",
           "scout_source": "research"
-        },
-        {
-          "title": "Scaling laws for SAE training data: quality plateaus early, buffer replay nearly matches fresh activations",
-          "summary": "Studies how many unique activations sparse autoencoder training needs under a fixed budget: quality rises rapidly with buffer size then plateaus, with replay nearly matching fresh samples.",
-          "source": "arXiv",
-          "date": "2026-11-05",
-          "url": "https://arxiv.org/abs/2611.07756",
-          "scout_source": "research"
-        }
-      ]
-    },
-    {
-      "title": "Open Weights & Models",
-      "items": [
-        {
-          "title": "Qwen4 teased but not yet on the Hugging Face hub",
-          "summary": "The official Qwen account posted a Qwen4 teaser on November 6; as of November 7 no Qwen4 model IDs are on the official Hugging Face account. Expected variants per leak: Qwen4-Max, Qwen4-Flash, Qwen4-Plus, Qwen4-27B.",
-          "source": "teamorouter.com",
-          "date": "2026-11-07",
-          "url": "https://teamorouter.com/blogs/qwen4",
-          "scout_source": "opensource",
-          "image": "images/section_open_weights_2026-11-08.jpg"
-        },
-        {
-          "title": "kniv v7.1: six open information-extraction encoders improved without a training run",
-          "summary": "Coreference and entity-type gains plus 7-16% faster inference obtained by direct edits to weights, ONNX graphs and decoding constants — no training run needed.",
-          "source": "HuggingFace",
-          "date": "2026-11-07",
-          "url": "https://huggingface.co/blog/dragonscale-ai/claude-direct-edit-kniv7-model",
-          "scout_source": "opensource"
-        },
-        {
-          "title": "LeRobot v0.7.0 adds world action models and remote VLA inference",
-          "summary": "Adds four world action models (Cosmos 3, Long-WAM, FLUX 3 Action, LaWAM), four new VLAs, an FSDP2/HSDP training stack and remote GPU inference via lerobot-policy-server.",
-          "source": "HuggingFace",
-          "date": "2026-11-07",
-          "url": "https://huggingface.co/blog/lerobot/lerobot-release-v070",
-          "scout_source": "opensource"
-        },
-        {
-          "title": "Community checkpoint Avifenesh/k2h-r1a-final continues pretraining IFM K2-Horizon 36B-A4B",
-          "summary": "Apache-2.0 36B-total / ~4B-active MoE continued-pretraining checkpoint (800 steps, 512K context) improving code and domain text while keeping tool calling at release level.",
-          "source": "HuggingFace",
-          "date": "2026-11-07",
-          "url": "https://huggingface.co/Avifenesh/k2h-r1a-final",
-          "scout_source": "opensource"
         }
       ]
     },
@@ -128,36 +98,28 @@
       "title": "Tools & Runtimes",
       "items": [
         {
-          "title": "llama.cpp b12202 ships precision, speculative-decoding and OpenCL fixes",
-          "summary": "Incremental builds add reference-precision handling for ggml_prec_set_acc, a speculative-decoding MoE cache fix for draft models, new OpenCL q8_0/MoE small-n GEMV kernels, and Hexagon libhtp auto-loading.",
+          "title": "NVIDIA/auto-ontology: a semantic graph reasoning layer for LLM agents",
+          "summary": "Python framework for building semantic, graph-based reasoning layers over data with deterministic query generation for LLM and agent workflows; #2 on GitHub trending with +2,015 stars today.",
           "source": "GitHub",
-          "date": "2026-11-08",
-          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12202",
-          "scout_source": "tools",
-          "image": "images/section_tools_runtimes_2026-11-08.jpg"
+          "date": "2026-11-09",
+          "url": "https://github.com/NVIDIA/auto-ontology",
+          "scout_source": "opensource",
+          "image": "images/section_tools_runtimes_2026-11-09.jpg"
         },
         {
-          "title": "Reges Code: free AI code editor that runs entirely on local models",
-          "summary": "A free AI code editor presented on Show HN that runs fully on local models, targeting offline coding assistance without cloud API dependencies.",
-          "source": "Reges Code",
-          "date": "2026-11-08",
-          "url": "https://regescode.com/",
+          "title": "clap.cpp: audio embedding inference in C++ on GGML",
+          "summary": "C++17/GGML library for local audio and text embedding with GGUF models, supporting CLAP, CLaMP3, MERT v1/v2 and MuQ families, plus base64 audio embedding requests and NumPy-free Python bindings.",
+          "source": "GitHub",
+          "date": "2026-11-09",
+          "url": "https://github.com/gorse-io/clap.cpp",
           "scout_source": "tools"
         },
         {
-          "title": "OpenViking: shareable context layer for multi-agent teams",
-          "summary": "Released by the Volcengine team, OpenViking is a shareable context layer for agent-orchestration stacks, shown on Show HN.",
+          "title": "llama.cpp b12210–b12211: mtmd consolidation and MXFP4 repack",
+          "summary": "Nov 8 builds consolidate multimodal code into mtmd (dropping clip.h) and enable the SpacemiT IME2 MXFP4 dense repack for CPU inference, alongside bf16/q8_0 llamafile kernels.",
           "source": "GitHub",
           "date": "2026-11-08",
-          "url": "https://github.com/volcengine/OpenViking",
-          "scout_source": "tools"
-        },
-        {
-          "title": "Sibyl: immutable local inference appliance with model routing",
-          "summary": "A self-contained, immutable local LLM serving appliance with model routing capability, shown on Show HN as a minimal self-hosted inference setup.",
-          "source": "GitHub",
-          "date": "2026-11-07",
-          "url": "https://github.com/diffsec/sibyl",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12211",
           "scout_source": "tools"
         }
       ]
@@ -166,59 +128,29 @@
       "title": "Self-Hosted Stack",
       "items": [
         {
-          "title": "Qwen3.8-Flash-Next URL-handling issue reproduced by multiple users",
-          "summary": "Follow-up reports confirm a URL-handling issue with Qwen3.8-Flash-Next in local inference stacks; check your Open WebUI/Ollama config when tool-call URLs come back malformed.",
-          "source": "r/LocalLLaMA",
-          "date": "2026-11-07",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqbjbf/also_experienced_the_qwen38flashnext_url_issue/",
+          "title": "Open WebUI v0.13.2 fixes plain-HTTP chat loading on LAN/Docker installs",
+          "summary": "Resolves the 'crypto.randomUUID is not a function' spinner that broke chats, comments and Markdown editing over plain HTTP; the Side Chat permission toggle is now independently configurable.",
+          "source": "Open WebUI",
+          "date": "2026-11-08",
+          "url": "https://github.com/open-webui/open-webui/releases/tag/v0.13.2",
           "scout_source": "selfhost",
-          "image": "images/section_self_hosted_2026-11-08.jpg"
+          "image": "images/section_self_hosted_stack_2026-11-09.jpg"
         },
         {
-          "title": "Choosing a coding agent for an 11GB GTX 1080Ti: model, quant and harness compared",
-          "summary": "Community comparison covers which coding model, quantization level and harness handle real tasks on 11GB pre-RTX cards — a practical reference for homelabs still on 10-series GPUs.",
-          "source": "r/LocalLLaMA",
-          "date": "2026-11-07",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqdndl",
+          "title": "hass_local_openai_llm 1.15.1 patches Home Assistant 2026.11 compatibility",
+          "summary": "Fixes duplicated StopTalkingTool under HA 2026.11, corrects llama.cpp reasoning-budget handling and repairs a vLLM config migration that could enable thinking mode; 1.15.0 added decision-model support and requires HA 2026.11 or newer.",
+          "source": "hass_local_openai_llm",
+          "date": "2026-11-08",
+          "url": "https://github.com/skye-harris/hass_local_openai_llm/releases",
           "scout_source": "selfhost"
         },
         {
-          "title": "Showcase: a 100% local phone-monitoring agent for iOS and Android",
-          "summary": "An open-source demo runs a fully local monitoring agent on phones against local models on both platforms — an airgapped-friendly pattern for phone-plus-desktop local AI without cloud APIs.",
-          "source": "r/LocalLLaMA",
-          "date": "2026-11-07",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqd058/use_your_phone_to_monitor_anything_with_local/",
+          "title": "Super Productivity v20 adds an opt-in local MCP endpoint",
+          "summary": "The MIT-licensed task manager shipped v19.3/v20 with a local MCP endpoint, an expanded local REST API, rule-based views and per-plugin data-egress visibility.",
+          "source": "r/selfhosted",
+          "date": "2026-11-08",
+          "url": "https://www.reddit.com/r/selfhosted/comments/1xqzeve/super_productivity_v20_rulebased_views_background/",
           "scout_source": "selfhost"
-        }
-      ]
-    },
-    {
-      "title": "Hardware & Edge",
-      "items": [
-        {
-          "title": "MSI Cubi NUC WCG brings Intel Wildcat Lake to a 0.55-liter edge box",
-          "summary": "Business mini PC on Intel Core Series 3 (Wildcat Lake) chips with up to 64GB DDR5, Thunderbolt 4, dual Ethernet and an NPU rated up to 17 TOPS — a low-power local-AI node; pricing unannounced.",
-          "source": "VideoCardz",
-          "date": "2026-11-07",
-          "url": "https://videocardz.com/newz/msi-introduces-cubi-mini-pc-with-intel-wildcat-lake-processors-promises-tool-free-maintenance",
-          "scout_source": "hardware",
-          "image": "images/section_hardware_edge_2026-11-08.jpg"
-        },
-        {
-          "title": "NVIDIA confirms RTX 5090 is not discontinued via Founders Edition giveaway",
-          "summary": "A custom RTX 5090 Founders Edition giveaway for DLSS 5's Hogwarts Legacy launch confirms the card stays in production despite vanishing from NVIDIA's US Marketplace; board partners reportedly cannot place new GB202 orders.",
-          "source": "VideoCardz",
-          "date": "2026-11-07",
-          "url": "https://videocardz.com/newz/nvidia-confirms-the-rtx-5090-isnt-discontinued-by-giving-one-away",
-          "scout_source": "hardware"
-        },
-        {
-          "title": "Radeon RX 9070 GRE 12GB lands at $569 on Amazon",
-          "summary": "The 12GB card joins the shortlist of mid-capacity AMD boards usable for 8B-14B-class local LLM work under ROCm amid tight RTX 50 supply.",
-          "source": "VideoCardz",
-          "date": "2026-11-07",
-          "url": "https://videocardz.com/newz/radeon-rx-9070-gre-12gb-available-for-569-on-amazon",
-          "scout_source": "hardware"
         }
       ]
     }
@@ -228,52 +160,27 @@
       "title": "GitHub Trending · AI",
       "url": "https://github.com/trending",
       "link_label": "github.com/trending",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "items": [
         {
-          "name": "cloudflare/security-audit-skill",
-          "url": "https://github.com/cloudflare/security-audit-skill",
-          "meta": "JavaScript · 66.2k ★ · +2085 today"
-        },
-        {
-          "name": "milind-soni/OpenMausBot",
-          "url": "https://github.com/milind-soni/OpenMausBot",
-          "meta": "TypeScript · 17.4k ★ · +1955 today"
-        },
-        {
-          "name": "mattpocock/skills",
-          "url": "https://github.com/mattpocock/skills",
-          "meta": "Shell · 318.0k ★ · +1100 today"
+          "name": "NVIDIA/auto-ontology",
+          "url": "https://github.com/NVIDIA/auto-ontology",
+          "meta": "Python · 9.3k ★ · +2015 today"
         },
         {
           "name": "google/skills",
           "url": "https://github.com/google/skills",
-          "meta": "Python · 23.6k ★ · +443 today"
+          "meta": "Agent Skills for Google products and technologies"
         },
         {
-          "name": "anthropics/skills",
-          "url": "https://github.com/anthropics/skills",
-          "meta": "Python · 189.0k ★ · +390 today"
+          "name": "mattpocock/skills",
+          "url": "https://github.com/mattpocock/skills",
+          "meta": "Skills for Real Engineers - coding-agent .agents directory"
         },
         {
-          "name": "vercel-labs/agent-browser",
-          "url": "https://github.com/vercel-labs/agent-browser",
-          "meta": "Rust · 47.1k ★ · +190 today"
-        },
-        {
-          "name": "meta/astryx",
-          "url": "https://github.com/meta/astryx",
-          "meta": "TypeScript · 14.9k ★ · +96 today"
-        },
-        {
-          "name": "ranxianglei/billion-context",
-          "url": "https://github.com/ranxianglei/billion-context",
-          "meta": "Context-compression plugin for LLM sessions · AI/LLM"
-        },
-        {
-          "name": "dsx-ai-factory/nvke",
-          "url": "https://github.com/dsx-ai-factory/nvke",
-          "meta": "NVIDIA Kubernetes Engine: management plane for GPU Kubernetes on bare metal"
+          "name": "cloudflare/security-audit-skill",
+          "url": "https://github.com/cloudflare/security-audit-skill",
+          "meta": "Coding-agent skill for multi-phase security audits with machine-readable findings"
         }
       ]
     },
@@ -281,57 +188,57 @@
       "title": "Models Trending (Hugging Face)",
       "url": "https://huggingface.co/models?sort=trending",
       "link_label": "huggingface.co/models",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "items": [
         {
           "name": "speridlabs/idol",
           "url": "https://huggingface.co/speridlabs/idol",
-          "meta": "Image-to-3D"
+          "meta": "Image-to-3D generation"
         },
         {
           "name": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
           "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
-          "meta": "9B text generation, uncensored Heretic fine-tune"
+          "meta": "9B text generation"
         },
         {
           "name": "moonshotai/Kimi-K3.1-Pro",
           "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
-          "meta": "2.8T image-text-to-text, largest open-weight release in the Kimi line"
-        },
-        {
-          "name": "ccore/Qwen3.5-4B-3D-Coder",
-          "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
-          "meta": "5B, 3D-aware coding fine-tune of Qwen3.5-4B"
-        },
-        {
-          "name": "Lightricks/LTX-2.5",
-          "url": "https://huggingface.co/Lightricks/LTX-2.5",
-          "meta": "Image-to-Video"
+          "meta": "2.8T, image-text-to-text"
         },
         {
           "name": "ricursiveAI/Ripple-65B-Preview",
           "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
-          "meta": "65B preview release"
+          "meta": "65B language model"
         },
         {
-          "name": "burner22/numbat",
-          "url": "https://huggingface.co/burner22/numbat",
-          "meta": "6.8T-parameter model"
+          "name": "Lightricks/LTX-2.5",
+          "url": "https://huggingface.co/Lightricks/LTX-2.5",
+          "meta": "Image-to-Video generation"
         },
         {
-          "name": "FusionCow/Sulphur-3",
-          "url": "https://huggingface.co/FusionCow/Sulphur-3",
-          "meta": "Recently updated fusion checkpoint"
-        },
-        {
-          "name": "Qwen/Qwen3.8-27B",
-          "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "meta": "28B image-text-to-text, Apache 2.0, newest Qwen open flagship for consumer hardware"
+          "name": "ccore/Qwen3.5-4B-3D-Coder",
+          "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+          "meta": "5B, 3D-oriented coder"
         },
         {
           "name": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
           "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
-          "meta": "27B GGUF uncensored fusion fine-tune for consumer hardware"
+          "meta": "27B GGUF fusion build, image-text-to-text"
+        },
+        {
+          "name": "Qwen/Qwen3.8-27B",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+          "meta": "28B, image-text-to-text"
+        },
+        {
+          "name": "NousResearch/Arete-27B",
+          "url": "https://huggingface.co/NousResearch/Arete-27B",
+          "meta": "27B text generation"
+        },
+        {
+          "name": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+          "meta": "34B ASR (automatic speech recognition)"
         }
       ]
     }
@@ -341,7 +248,7 @@
       "title": "Free on OpenRouter",
       "url": "https://openrouter.ai/models?max_price=0",
       "link_label": "Browse free models on OpenRouter →",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "items": [
         {
           "name": "Cohere: North Mini Code (free)",
@@ -414,7 +321,7 @@
       "title": "Free on OpenCode Zen",
       "url": "https://opencode.ai/docs/zen/",
       "link_label": "See the full Zen catalog →",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "items": [
         {
           "name": "Big Pickle",
@@ -486,93 +393,95 @@
   },
   "quick_hits": [
     {
-      "title": "Signed but Steerable: verifying text-vector integrity in offline RAG knowledge packs",
+      "title": "webAI-Official/TwIL-8B: fresh 9B text-generation release for local inference",
       "source": "HuggingFace",
-      "date": "2026-11-04",
-      "url": "https://huggingface.co/papers/2611.06498",
+      "date": "2026-11-08",
+      "url": "https://huggingface.co/webAI-Official/TwIL-8B",
+      "scout_source": "opensource"
+    },
+    {
+      "title": "BestRand: random projection gives stable, low-cost benchmark compression",
+      "source": "HuggingFace",
+      "date": "2026-11-06",
+      "url": "https://huggingface.co/papers/2611.00883",
       "scout_source": "research"
     },
     {
-      "title": "WeLM-Image: unified image generation model aimed at single-GPU consumer deployment",
-      "source": "HuggingFace",
-      "date": "2026-11-05",
-      "url": "https://huggingface.co/papers/2611.07392",
-      "scout_source": "research"
-    },
-    {
-      "title": "MAEMs interpret any residual-stream direction via maximally activating examples",
+      "title": "Weight-Space Programming: agents inspect and edit model parameters directly",
       "source": "arXiv",
-      "date": "2026-11-05",
-      "url": "https://arxiv.org/abs/2611.08465",
+      "date": "2026-11-06",
+      "url": "https://arxiv.org/abs/2611.09382",
       "scout_source": "research"
     },
     {
-      "title": "SwarmEvolve: latent agent swarms cut the cost of LLM-guided evolutionary search",
+      "title": "Future Representation Distillation cuts cost for imagination-free world action models",
       "source": "HuggingFace",
-      "date": "2026-11-05",
-      "url": "https://huggingface.co/papers/2611.08483",
+      "date": "2026-11-06",
+      "url": "https://huggingface.co/papers/2611.04527",
       "scout_source": "research"
     },
     {
-      "title": "Show HN: Ywza — computer-use agent for your own PC, drivable from anywhere",
+      "title": "Flide runs Jev-style decision models up to 9.5x faster on local hardware",
       "source": "GitHub",
-      "date": "2026-11-07",
-      "url": "https://github.com/alielmorsy/ywza",
+      "date": "2026-11-09",
+      "url": "https://github.com/OmniJev/Flide",
       "scout_source": "tools"
     },
     {
-      "title": "Show HN: RenderPixels — image generation from any AI via MCP, 50 free renders",
-      "source": "RenderPixels",
-      "date": "2026-11-08",
-      "url": "https://renderpixels.com",
+      "title": "Airlock applies policy-as-code to fleets of AI coding agents",
+      "source": "GitHub",
+      "date": "2026-11-09",
+      "url": "https://airlock.lunareng.com/docs",
       "scout_source": "tools"
     },
     {
-      "title": "LeCun threads on JEPA as the path beyond current LLMs (V-JEPA 2.1, I-JEPA, LeJEPA)",
-      "source": "X (ylecun)",
+      "title": "Used datacenter GPU tracker: median $22/GB VRAM as of Nov 8",
+      "source": "Brandon Sheley",
       "date": "2026-11-08",
-      "url": "https://x.com/ylecun/status/2119143953081799011",
+      "url": "https://sheley.org/gpu-prices/item/ebay-v1-236992502062-0",
+      "scout_source": "hardware"
+    },
+    {
+      "title": "Cursor posts $1B ARR and 300% QoQ enterprise growth post-acquisition",
+      "source": "X (swyx)",
+      "date": "2026-11-08",
+      "url": "https://x.com/swyx/status/2119429305512165838",
       "scout_source": "x"
     },
     {
-      "title": "Google's ReproBridge lifts agent experiment reproduction from 76.4% to 92.6% across models",
-      "source": "X (omarsar0)",
+      "title": "Hermes Agent ships major update with official Security plugin",
+      "source": "X (NousResearch)",
       "date": "2026-11-08",
-      "url": "https://x.com/omarsar0/status/2119085975880212842",
+      "url": "https://x.com/NousResearch/status/2119501958981857543",
       "scout_source": "x"
     },
     {
-      "title": "ApprenticeBench tests whether agents can learn an entire job like an employee",
-      "source": "X (lmsysorg)",
+      "title": "Data centers become a heated topic in Italy: energy-hungry, light on jobs",
+      "source": "La Stampa",
       "date": "2026-11-08",
-      "url": "https://x.com/lmsysorg/status/2119205256316018737",
-      "scout_source": "x"
-    },
-    {
-      "title": "Tsinghua team releases an open-source simulator for LLM serving at scale",
-      "source": "X (lmsysorg)",
-      "date": "2026-11-08",
-      "url": "https://x.com/lmsysorg/status/2119205259491115255",
-      "scout_source": "x"
-    },
-    {
-      "title": "Firmly raises $15M Series A for AI shopping agents, backed by JPMorgan and Mastercard",
-      "source": "GeekWire",
-      "date": "2026-11-07",
-      "url": "https://geekwire.com/2026/11/jpmorgan-and-mastercard-back-seattle-startup-firmlys-bet-on-ai-shopping-agents",
-      "scout_source": "funding"
-    },
-    {
-      "title": "James Dyson Award 2026: earthquake structural sensor and infrared concussion visor take the prizes",
-      "source": "StartupItalia",
-      "date": "2026-11-08",
-      "url": "https://startupitalia.eu/startup/cosi-la-tecnologia-rende-visibile-linvisibile-nella-medicina-e-nei-danni-sismici-i-vincitori-della-james-dyson-award/",
+      "url": "https://www.lastampa.it/economia/2026-11-08/news/ora_i_data_center_sono_un_caso_anche_in_italia-15791507/",
       "scout_source": "italia"
+    },
+    {
+      "title": "Novara set to become Italy's great silicon hub as local industrials back the plan",
+      "source": "La Stampa",
+      "date": "2026-11-08",
+      "url": "https://www.lastampa.it/novara/2026-11-08/news/polo_silicio_novara_industriali-15791351/",
+      "scout_source": "italia"
+    },
+    {
+      "title": "Harbinger raises $240M Series D, expanding into battery storage and defense",
+      "source": "TechCrunch",
+      "date": "2026-11-08",
+      "url": "https://techcrunch.com/2026-11-08/techcrunch-mobility-the-cybertruck-experiment-is-over/",
+      "scout_source": "funding"
     }
   ],
   "spiked": {
-    "already ran": 13,
-    "same story": 1,
-    "low signal": 11
+    "low signal": 11,
+    "out of window": 1,
+    "duplicate url": 1,
+    "already ran": 11,
+    "thin section": 2
   }
 }
