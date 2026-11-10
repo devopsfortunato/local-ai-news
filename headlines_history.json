@@ -10382,6 +10382,228 @@
       "source": "TechCrunch",
       "date": "2026-11-09",
       "issue": 53
+    },
+    {
+      "text": "NVIDIA's GTC Berlin roundup expands the local-AI stack",
+      "source": "NVIDIA",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "Anthropic pushes ahead with Nasdaq IPO, debut targeted week of Nov 16",
+      "source": "TechCrunch",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "Ollama v0.40.16 cuts ~27 GiB of memory on Apple silicon for Qwen3.8 Flash Next",
+      "source": "GitHub",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "AMD submits RDNA 5 (GFX13) Linux driver patches ahead of first GPUs",
+      "source": "VideoCardz",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "Anthropic releases Claude Fable 5.2 and Claude Mythos 5.2",
+      "source": "X (AnthropicAI)",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "LowRAM: low-rank keys and amortised values for composable KV-cache compression",
+      "source": "HuggingFace",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "How much training-inference mismatch can on-policy distillation tolerate?",
+      "source": "arXiv",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "SGA-Sparse trains native SwiGLU gates for activation-sparse, low-bit LLMs",
+      "source": "arXiv",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "P2-MOPD accelerates multi-teacher on-policy distillation via parameter priors",
+      "source": "HuggingFace",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "Structure-aware kernels make relative-position attention fast and exact",
+      "source": "HuggingFace",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "DeepSeek V4.1 Flash (1017) updates its open-weight flagship",
+      "source": "HuggingFace",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "Qwen3.8-27B: Alibaba's dense 27B open-weight VLM keeps climbing",
+      "source": "HuggingFace",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "Liquid AI's LFM3-1.7B trends as a compact on-device option",
+      "source": "HuggingFace",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "Qwen3-TTS-0.6B gets board-level GGUF ports for the Axera AX8860 NPU",
+      "source": "HuggingFace",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "llama.cpp b12240-b12242 fix Responses API, Hexagon and lazy-grammar paths",
+      "source": "GitHub",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "MCP1 puts every MCP server behind one URL",
+      "source": "Product Hunt",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "Show HN: hn-cli is a terminal UI for Hacker News built for agents",
+      "source": "GitHub",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "Show HN: ZTHR replaces traditional code review for agent-written code",
+      "source": "ZTHR",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "r/LocalLLaMA tracks upcoming Gemma releases for homelab inference",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "The case for and against local, private AI \u2014 weighed again",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "Single neuron L11/N8147 acts as a contrarian-vs-agreeable dial in Qwen3.5-4B",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "Strix Halo 128 GB: GPU+NPU split lifts long-context prefill ~10%",
+      "source": "llamaperf",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "RAM price index: DDR5 keeps climbing under the AI memory squeeze",
+      "source": "Tom's Hardware",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "GPU tracker: RTX 5090 near $7k, used 24 GB cards remain the value path",
+      "source": "Tom's Hardware",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "Microsoft patent: paid distributed micro-training on idle gaming GPUs",
+      "source": "VideoCardz",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "Nous Research launches Hermes Cloud agents: 24/7 personal AI agents in the browser",
+      "source": "X (NousResearch)",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "OpenAI introduces Control Room, halting model output in ~35 seconds on safety concerns",
+      "source": "X (OpenAI)",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "s3: cooperative RL scales multi-agent swarms past baselines by 25x on coordination problems",
+      "source": "X (omarsar0)",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "LMSYS: MOP self-learning agent optimizes SGLang with bandit-driven exploration",
+      "source": "X (lmsysorg)",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "Simon Willison on Claude Fable 5.2 prompting: try 'This codebase is yours' for bolder edits",
+      "source": "X (simonw)",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "Amazon's HOPE keeps MoE expert pairs together with higher-order pruning",
+      "source": "Hugging Face blog",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "NVIDIA releases Nemotron-Personas-Finance-Japan synthetic dataset for training and eval",
+      "source": "Hugging Face blog",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "Nominal triples valuation to $3B in 8 months with $240M Series C",
+      "source": "TechCrunch",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "Onodrim Industries raises $300M Series A at $1.3B for European defense manufacturing AI",
+      "source": "TechStartups",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "Mavria raises $130M at ~$1B for factory-built 5MW modular AI data centers",
+      "source": "TechStartups",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "Puglia's Spoki closes \u20ac5.5M Series A for WhatsApp-first conversational AI",
+      "source": "FinanceCommunity",
+      "date": "2026-11-10",
+      "issue": 54
+    },
+    {
+      "text": "Milan bids to host the UN's artificial-intelligence seat",
+      "source": "la Repubblica",
+      "date": "2026-11-10",
+      "issue": 54
     }
   ]
 }
