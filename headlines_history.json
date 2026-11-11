@@ -10604,6 +10604,204 @@
       "source": "la Repubblica",
       "date": "2026-11-10",
       "issue": 54
+    },
+    {
+      "text": "Apple's Claris previews 'Harbor', turning Apple silicon Macs into a private AI server with Thunderbolt 5 clustering",
+      "source": "9to5Mac",
+      "date": "2026-11-11",
+      "issue": 55
+    },
+    {
+      "text": "BotPsy: a 0.8B Apache-2.0 agentic model that doubles its base model's tool-use scores",
+      "source": "Hugging Face",
+      "date": "2026-11-11",
+      "issue": 55
+    },
+    {
+      "text": "Nod: n8n Labs ships a standalone open-source personal agent that runs on your computer",
+      "source": "n8n Blog",
+      "date": "2026-11-11",
+      "issue": 55
+    },
+    {
+      "text": "llama.cpp b12274 adds FP8 KV-cache support for long-context inference",
+      "source": "GitHub",
+      "date": "2026-11-11",
+      "issue": 55
+    },
+    {
+      "text": "GIGABYTE launches AI TOP AERO, an RTX Spark desktop with up to 128GB unified memory",
+      "source": "PR Newswire (GIGABYTE)",
+      "date": "2026-11-11",
+      "issue": 55
+    },
+    {
+      "text": "Mobile AI Factory: an agent that builds task- and phone-specific small models",
+      "source": "arXiv",
+      "date": "2026-11-11",
+      "issue": 55
+    },
+    {
+      "text": "HandsOnAid: a 4-bit offline first-aid assistant built for no-connectivity emergencies",
+      "source": "arXiv",
+      "date": "2026-11-11",
+      "issue": 55
+    },
+    {
+      "text": "SteerDistill: recovering agent task success after low-bit quantization",
+      "source": "arXiv",
+      "date": "2026-11-11",
+      "issue": 55
+    },
+    {
+      "text": "Placing DeepSeek-V4.1's 203GB Engram lookup tables in host DRAM",
+      "source": "arXiv",
+      "date": "2026-11-11",
+      "issue": 55
+    },
+    {
+      "text": "MiniMax open-sources H3-Image: a 33B diffusion model generating natively at 4K",
+      "source": "HuggingFace",
+      "date": "2026-11-11",
+      "issue": 55
+    },
+    {
+      "text": "KVARK Sparkle 1.1 (27B): Apache-2.0 document Q&A model that knows when to abstain",
+      "source": "RCLabs AI Daily",
+      "date": "2026-11-11",
+      "issue": 55
+    },
+    {
+      "text": "Unsloth ships Dynamic v3.1 GGUF quants of Qwen3.8-27B",
+      "source": "HuggingFace",
+      "date": "2026-11-11",
+      "issue": 55
+    },
+    {
+      "text": "Tailscale OAuth apps go GA: agents reach private MCP servers on your tailnet",
+      "source": "Tailscale",
+      "date": "2026-11-11",
+      "issue": 55
+    },
+    {
+      "text": "Adobe releases a local MCP server exposing Creative Cloud to outside chatbots",
+      "source": "TechCrunch",
+      "date": "2026-11-11",
+      "issue": 55
+    },
+    {
+      "text": "Warmctl: fast cold starts for vLLM inference",
+      "source": "GitHub",
+      "date": "2026-11-11",
+      "issue": 55
+    },
+    {
+      "text": "Ollama v0.40.17-rc0: mmap for Vulkan integrated GPUs, concurrent MLX generation",
+      "source": "GitHub",
+      "date": "2026-11-11",
+      "issue": 55
+    },
+    {
+      "text": "Gemini 4 Carbon now available in n8n for agent workflows",
+      "source": "n8n Blog",
+      "date": "2026-11-11",
+      "issue": 55
+    },
+    {
+      "text": "What breaks when a self-hosted LLM gateway hits 1,000 concurrent streams",
+      "source": "SitePoint",
+      "date": "2026-11-11",
+      "issue": 55
+    },
+    {
+      "text": "Updated break-even math: self-hosted vs API for the four open-weight models worth hosting",
+      "source": "shattered.io",
+      "date": "2026-11-11",
+      "issue": 55
+    },
+    {
+      "text": "Team Group CEO warns the memory shortage peaks through Q2 2027: 'even money can't buy goods'",
+      "source": "CoreMemo",
+      "date": "2026-11-11",
+      "issue": 55
+    },
+    {
+      "text": "ExecuTorch adds an experimental WebGPU backend for PyTorch models in the browser",
+      "source": "Automater News",
+      "date": "2026-11-11",
+      "issue": 55
+    },
+    {
+      "text": "Google DeepMind announces Gemini 4 Carbon for long-horizon agentic tasks",
+      "source": "X (GoogleDeepMind)",
+      "date": "2026-11-11",
+      "issue": 55
+    },
+    {
+      "text": "OpenAI launches Businesses in ChatGPT beta with Business Agents",
+      "source": "X (OpenAI)",
+      "date": "2026-11-11",
+      "issue": 55
+    },
+    {
+      "text": "Home Assistant's management AI can now drive integration setup end-to-end",
+      "source": "OHF Daily",
+      "date": "2026-11-11",
+      "issue": 55
+    },
+    {
+      "text": "ForeSpark jointly schedules draft and verification budgets for parallel speculative decoding",
+      "source": "arXiv",
+      "date": "2026-11-11",
+      "issue": 55
+    },
+    {
+      "text": "Sable: a single-GPU prover certifies bit-exact integer-quantized inference",
+      "source": "arXiv",
+      "date": "2026-11-11",
+      "issue": 55
+    },
+    {
+      "text": "Umless: open-source on-device dictation that cleans speech into written form",
+      "source": "GitHub",
+      "date": "2026-11-11",
+      "issue": 55
+    },
+    {
+      "text": "Aisync: advisory file claims stop two coding agents from editing one repo",
+      "source": "GitHub",
+      "date": "2026-11-11",
+      "issue": 55
+    },
+    {
+      "text": "Lexroom launches 'lex', an AI agent for lawyers that works on WhatsApp",
+      "source": "Startup-News",
+      "date": "2026-11-11",
+      "issue": 55
+    },
+    {
+      "text": "Exprivia and ValidMind ally on AI governance for banks and insurers",
+      "source": "AI4Business",
+      "date": "2026-11-11",
+      "issue": 55
+    },
+    {
+      "text": "Mercor raises $750M Series D at a $20B valuation",
+      "source": "Tech Startups",
+      "date": "2026-11-11",
+      "issue": 55
+    },
+    {
+      "text": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
+      "source": "TechCrunch",
+      "date": "2026-11-11",
+      "issue": 55
+    },
+    {
+      "text": "Denmark backs sovereign AI with EUR 67M investment in Gefion operator DCAI",
+      "source": "tech.eu",
+      "date": "2026-11-11",
+      "issue": 55
     }
   ]
 }
