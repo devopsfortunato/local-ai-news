@@ -10802,6 +10802,204 @@
       "source": "tech.eu",
       "date": "2026-11-11",
       "issue": 55
+    },
+    {
+      "text": "llama.cpp hits v1.0.0 with a stable-API promise",
+      "source": "ggml-org (GitHub)",
+      "date": "2026-11-14",
+      "issue": 56
+    },
+    {
+      "text": "Baidu ERNIE 5.5 Flash Preview: 280B MoE with 1M-token context, open weights expected before Nov 25",
+      "source": "X (omarsar0)",
+      "date": "2026-11-14",
+      "issue": 56
+    },
+    {
+      "text": "Mirendil raises $1B to speed up AI model development",
+      "source": "SiliconANGLE",
+      "date": "2026-11-14",
+      "issue": 56
+    },
+    {
+      "text": "Jensen Huang's departure blasts a hole in AI startup funding, VCs and founders say",
+      "source": "TechCrunch",
+      "date": "2026-11-14",
+      "issue": 56
+    },
+    {
+      "text": "Ars Technica reviews the M6 iMac: a capable local-AI desktop with a dual 16-core Neural Engine",
+      "source": "MacDailyNews (Ars Technica)",
+      "date": "2026-11-14",
+      "issue": 56
+    },
+    {
+      "text": "SoScale: second-order scale search for FP4 quantization",
+      "source": "arXiv",
+      "date": "2026-11-14",
+      "issue": 56
+    },
+    {
+      "text": "Metal Sandbox: isolated GPU coding agents on Apple Silicon",
+      "source": "arXiv",
+      "date": "2026-11-14",
+      "issue": 56
+    },
+    {
+      "text": "Reasoning supervision and capability retention in LoRA domain adaptation",
+      "source": "arXiv",
+      "date": "2026-11-14",
+      "issue": 56
+    },
+    {
+      "text": "Wanda-guided sparse perturbations for cheaper zeroth-order fine-tuning",
+      "source": "arXiv",
+      "date": "2026-11-14",
+      "issue": 56
+    },
+    {
+      "text": "Edge0 open-sources Edge0-145B: a latent-sparse MoE agent model built to run on a laptop",
+      "source": "ExplainX",
+      "date": "2026-11-14",
+      "issue": 56
+    },
+    {
+      "text": "Salesforce SOV-Transcribe-1 becomes the #1 open-weight speech-to-text model",
+      "source": "Hugging Face blog",
+      "date": "2026-11-14",
+      "issue": 56
+    },
+    {
+      "text": "Meta publishes facebook/meta-encoder-v1 with open weights",
+      "source": "OpenModelDrops",
+      "date": "2026-11-14",
+      "issue": 56
+    },
+    {
+      "text": "ModelMesh shards models across Macs via Llama-RPC, from a native macOS app",
+      "source": "ModelMesh",
+      "date": "2026-11-14",
+      "issue": 56
+    },
+    {
+      "text": "Browserr: an MCP-first browser for AI agents in one Rust binary",
+      "source": "Browserr",
+      "date": "2026-11-14",
+      "issue": 56
+    },
+    {
+      "text": "Memro adds persistent memory shared across Claude Code, Cursor and Codex",
+      "source": "GitHub",
+      "date": "2026-11-14",
+      "issue": 56
+    },
+    {
+      "text": "CtxWise trims MCP schema bloat that crashes agents and busts prompt caches",
+      "source": "GitHub",
+      "date": "2026-11-14",
+      "issue": 56
+    },
+    {
+      "text": "n8n adds per-API-key public API rate limits, on every edition from 2.47.0",
+      "source": "n8n Blog",
+      "date": "2026-11-14",
+      "issue": 56
+    },
+    {
+      "text": "Weight-space programming applied to GGUF quants: up to 2x better KL divergence on Qwen models",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-14",
+      "issue": 56
+    },
+    {
+      "text": "MoEShift runs large MoE models on Apple Silicon Macs with as little as 10GB RAM",
+      "source": "The Next Gen Tech Insider",
+      "date": "2026-11-14",
+      "issue": 56
+    },
+    {
+      "text": "AMD gaming GPU supply reportedly falls 20-50% in China",
+      "source": "VideoCardz",
+      "date": "2026-11-14",
+      "issue": 56
+    },
+    {
+      "text": "ASUS unveils Gallop, a humanoid robot running a single Jetson AGX Thor",
+      "source": "Humanoids Daily",
+      "date": "2026-11-14",
+      "issue": 56
+    },
+    {
+      "text": "LangChain hits $3B valuation on $300M Series C",
+      "source": "TechCrunch",
+      "date": "2026-11-14",
+      "issue": 56
+    },
+    {
+      "text": "Torus raises $500M growth financing for distributed AI compute infrastructure",
+      "source": "Crunchbase News",
+      "date": "2026-11-14",
+      "issue": 56
+    },
+    {
+      "text": "Path Robotics raises $300M Series E at $2.45B for welding robots",
+      "source": "Crunchbase News",
+      "date": "2026-11-14",
+      "issue": 56
+    },
+    {
+      "text": "Turin's Nebuly closes a \u20ac19M round to measure the economic return of AI",
+      "source": "StartupItalia",
+      "date": "2026-11-14",
+      "issue": 56
+    },
+    {
+      "text": "RIME: RL-trained memory writing lets a 4B model match frontier models on evaluated tasks",
+      "source": "X (omarsar0)",
+      "date": "2026-11-14",
+      "issue": 56
+    },
+    {
+      "text": "XERJ Reader-1: neurosymbolic document QA claiming 20-90x faster and ~400x cheaper than LLMs",
+      "source": "X (omarsar0)",
+      "date": "2026-11-14",
+      "issue": 56
+    },
+    {
+      "text": "LMSYS/SGLang: NVIDIA Vera CPUs cut agentic RL episode times ~11%",
+      "source": "X (lmsysorg)",
+      "date": "2026-11-14",
+      "issue": 56
+    },
+    {
+      "text": "Anthropic publishes 10 recommendations for designing and reporting model safety evaluations",
+      "source": "X (AnthropicAI)",
+      "date": "2026-11-14",
+      "issue": 56
+    },
+    {
+      "text": "DeepMind releases PARDIG and SatWeave datasets behind WeatherNext 3",
+      "source": "X (GoogleDeepMind)",
+      "date": "2026-11-14",
+      "issue": 56
+    },
+    {
+      "text": "From Large Language Models to Efficient System One Models via Adaptive Computation",
+      "source": "Hugging Face papers",
+      "date": "2026-11-14",
+      "issue": 56
+    },
+    {
+      "text": "RESYNC: deadline-bound streaming inference by syncing a large model's stale latent state",
+      "source": "arXiv",
+      "date": "2026-11-14",
+      "issue": 56
+    },
+    {
+      "text": "DRAMA: attention-redundancy dissection accelerates multimodal diffusion LLMs",
+      "source": "arXiv",
+      "date": "2026-11-14",
+      "issue": 56
     }
   ]
 }

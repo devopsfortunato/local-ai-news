@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOCAL AI NEWS — open-weight intelligence · November 11, 2026</title>
+  <meta name="description" content="A daily recap of local AI news from the last 24 hours: open weights, tooling, hardware, and the self-hosted stack.">
+  <link rel="stylesheet" href="style.css">
+  <style>.wt{display:flex;align-items:center;height:38px;background:var(--ink);border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule);margin:14px 0 0;overflow:hidden}.wtt{display:flex;align-items:center;white-space:nowrap;padding-left:20px;animation:ws 90s linear infinite}.wtt:hover{animation-play-state:paused}@keyframes ws{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}.ti{display:inline-flex;align-items:center;gap:7px;padding:0 22px;cursor:pointer;border-right:1px solid var(--rule);height:38px}.ti:hover{background:rgba(240,162,60,.05)}.tih{font-family:var(--serif);font-size:13px;color:var(--type)}.tis{font-family:var(--sans);font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}.mo{display:none;position:fixed;inset:0;background:rgba(10,10,12,.88);z-index:1000;justify-content:center;align-items:center;backdrop-filter:blur(8px)}.mo.a{display:flex}.mb{background:#121214;border:1px solid var(--rule-strong);max-width:680px;width:90%;max-height:82vh;overflow-y:auto;padding:40px 44px;position:relative;animation:fi .2s ease}@keyframes fi{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}.mc{position:absolute;top:14px;right:18px;background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;font-family:var(--sans);padding:4px 8px}.mh{font-family:var(--serif);font-weight:700;font-size:30px;line-height:1.1;letter-spacing:-.01em;color:var(--type);margin:0 0 14px;padding-right:32px}.mm{font-family:var(--sans);font-size:10.5px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 22px}.mm a{color:var(--lux)}.mm a:hover{text-decoration:underline}.mbd{font-family:var(--serif);font-size:16.5px;line-height:1.7;color:var(--type-dim)}.mbd .en{display:block;color:var(--lux-soft);font-style:italic;font-size:15px;margin-top:14px;padding-left:12px;border-left:2px solid var(--rule-strong)}.mbd .as{display:block;margin-top:18px;padding-top:14px;border-top:1px solid var(--rule);font-family:var(--sans);font-size:11px;color:var(--muted);line-height:1.5}.mbd .as .al{color:var(--lux-soft);font-weight:600;font-family:var(--sans);font-size:10px;letter-spacing:.06em;text-transform:uppercase}</style></head>
+  <body>
+  <div class="container">
+
+  <header class="masthead">
+    <div class="topline"></div>
+    <div class="ears">
+      <span class="left">Est. MMXXVI</span>
+      <span class="right">No. 55 <a href="/archive/" class="ar" title="Browse past issues">◆ Archive</a> <a href="#free-models" class="ar" title="Today's free AI models">⌁ Free Models</a></span>
+    </div>
+    <div class="nameplate">LOCAL <span class="lux">AI NEWS</span></div>
+      <hr class="rule-double">
+      <div class="dateline">
+        <span>November 11, 2026</span>
+        <span class="dot">◆</span>
+        <span class="tag">open weights, on your metal</span>
+        <span class="dot">◆</span>
+        <span>76 stories</span>
+      </div>
+      <div class="devocracy-credit">Inference self-hosted on a DGX Spark · models served via LiteLLM</div>
+      <hr class="rule-thin">
+    </header>
+
+    
+
+    <div class="wt"><div class="wtt"><div class="ti" onclick="openArt(this)" data-h="Microsoft&#x27;s upscaling tech leaves the dock" data-b="Microsoft has officially launched Automatic Super Resolution, its answer to Nvidia&#x27;s DLSS, on the Xbox Ally X, the Xbox Ally X20, and a selection of Windows Copilot Plus PCs, according to a report by The Verge. The technology, which upscales games to sharper images than their native resolution, first entered testing on the Xbox Ally X back in April, but early adopters could only use it while the handheld was docked to an external display.
+
+The full release removes that restriction. Auto SR now functions while the device is held in handheld mode and running on battery power, and it extends support to games rendering at 1080p. Microsoft cautions that this combination &quot;may not be as optimal as other configurations&quot; in terms of performance, though it expects visible visual gains, particularly in older titles.
+
+Two additional upgrades arrive with the launch. Previously confined to framerates of roughly 60 to 75fps, Auto SR gains a new Performance mode that can push frame rates as high as 120fps. The upscaler also becomes compatible with Auto HDR, Microsoft&#x27;s automatic high-dynamic-range feature. Both additions will reach users through Windows updates rather than a separate download.
+
+The move strengthens Microsoft&#x27;s push to make its handheld line competitive with Nvidia&#x27;s long-dominant upscaling approach, at least for the growing class of Windows-powered portable consoles.
+
+*Handheld gamers have waited a while for a credible DLSS rival that works off the dock — now the real test is whether it holds up across a wide game library.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling"><span class="tih">Microsoft&#x27;s upscaling tech leaves the dock</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia spy scandal raises fears for America&#x27;s AI edge" data-b="Nvidia CEO Jensen Huang has admitted to an affair with a woman suspected of being a Chinese intelligence operative, a revelation that experts say could ripple far beyond one man&#x27;s personal life. According to The Verge, the relationship reportedly occurred while US intelligence — and even President Donald Trump — were aware of the spying suspicion, and analysts told the outlet it threatens the US AI industry, national security, and America&#x27;s narrow technological lead over China.
+
+The stakes center on chips. Nvidia dominates advanced AI semiconductors, one of the scarcest inputs in the AI race, making it a gatekeeper for hardware that Meta, Anthropic, and OpenAI are spending billions to secure while also trying to build their own alternatives. Washington bans sales of the most advanced chips to China, which trails the US by an estimated few months; a black market for restricted Nvidia hardware has flourished anyway. Companies tied to the alleged spy, Alice Huang (unrelated to Jensen), reportedly enabled at least $7 billion in Nvidia chip sales to China, though there is no public evidence Huang himself directed chips or secrets his way.
+
+CNAS fellow Emily Kilcrease warned that with those chips, &quot;the US lead could vanish in a matter of weeks or months.&quot; Huang, a vocal critic of export controls who won approval to ship H200 GPUs to approved Chinese customers, also has direct access to Trump and other leaders — a view into US planning that analyst Sunny Cheung argues matters more than stolen blueprints.
+
+*The real story here isn&#x27;t the scandal&#x27;s tabloid surface — it&#x27;s how much of a superpower&#x27;s AI strategy now runs through one man&#x27;s Rolodex.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy"><span class="tih">Nvidia spy scandal raises fears for America&#x27;s AI edge</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia CEO Admits Affair With Woman U.S. Officials Suspect Is a Chinese Spy" data-b="Nvidia chief executive Jensen Huang has acknowledged in a public letter to employees that he was unfaithful to his wife of 40 years, in a scandal that U.S. authorities say may extend beyond personal misconduct into national security territory. According to TechCrunch, American officials believe the other party, Megaspeed executive Alice Huang — a Chinese citizen unrelated to the CEO — has been passing information to Beijing.
+
+The business ties deepen the concern. Megaspeed, a Singapore-based AI infrastructure firm, reportedly bought $4.8 billion of Nvidia chips over two years, and both the U.S. and Singapore have examined whether it diverted chips to China illegally. The Information, cited by TechCrunch, reported that Shanghai Century Litong, a firm founded in 2023 that gained preferred-cloud-partner status, facilitated $7.5 billion in Nvidia chip purchases, including restricted models. Bloomberg, also cited, reported that Nvidia general counsel Tim Teter contacted a Commerce Under Secretary during a 2025 probe into suspected Megaspeed smuggling.
+
+Huang&#x27;s letter, issued as a press release, said Nvidia&#x27;s board has opened an independent investigation, which he pledged to support. Shares fell more than 5% the next day. Three Republican House committee chairmen have requested a closed-door briefing, and Huang has withdrawn from upcoming speaking events. President Trump called Huang a &quot;fine person&quot; and said he should stay on.
+
+*The story&#x27;s gravity lies less in the affair than in what it exposes: how personal access can bypass chip-export controls designed to protect national security.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"><span class="tih">Nvidia CEO Admits Affair With Woman U.S. Officials Suspect Is a Chinese Spy</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Sundrop Turns Newborn Photo Floods into Recaps and Time Lapses — With No AI Involved" data-b="A new iPhone app called Sundrop wants to rescue the thousands of baby photos that pile up in parents&#x27; galleries and go unseen after the first share. According to TechCrunch, the app builds weekly recaps, highlight reels, growing-up time lapses, and playful compositions — such as placing a child&#x27;s picture on a magazine cover or a trading-card-style &quot;rookie card.&quot;
+
+The target audience is narrow on purpose: parents of a new baby, often their first, drowning in snapshots. While Google Photos and Apple Photos offer broad photo-management tools, Sundrop focuses only on this niche. The app was built over recent months by Ben Springwater, Sky Lan, and Rob Mackenzie — the team behind the read-it-later app Matter, and all fathers themselves.
+
+Privacy is the pitch. Sundrop processes everything locally on the device, leaning on Apple&#x27;s Vision framework and on-device Core ML models rather than cloud servers, and the team says no generative AI is used in producing its scenes — a contrast with many editing apps, including Google&#x27;s. Both parents can link accounts and sync shared photos through iCloud, so images never touch servers the company runs.
+
+The app scans Camera Rolls, ignores screenshots and duplicates, and packages results as &quot;drops,&quot; including a Sunday recap pushed via Lock Screen notification. Manual editing and automatic gallery sorting are also supported. Sundrop costs $39.99 a year with a one-week free trial, and Family Sharing means one purchase covers the household.
+
+*In a market racing to remix photos with generative models, a local-only, no-AI baby app is a refreshing contrarian bet — on-device privacy as a lifestyle product.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/11/10/sundrop-turns-your-endless-baby-photos-into-recaps-time-lapses-and-more-without-ai/"><span class="tih">Sundrop Turns Newborn Photo Floods into Recaps and Time Lapses — With No AI Involved</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="N-able Pulls Its Hosted Remote Access Platform After Researcher Dumps Dozens of Zero-Days" data-b="Managed remote access provider N-able has shut down the cloud-hosted version of its N-Central product after a security researcher published a large batch of previously unknown vulnerabilities affecting the software, leaving the vendor with no window to patch before the details went public. According to TechCrunch, N-able said in a website status update that the hosted service is offline &quot;while we take the necessary actions to secure the environments and implement appropriate remediation.&quot; The company also advised customers running their own self-hosted N-Central instances to take those systems down, out of concern that attackers could weaponize the disclosed exploits to breach customer networks. N-Central lets corporate customers remotely reach and manage devices across their networks — a class of tool that hackers frequently target because of the broad internal access it provides.
+
+The vulnerabilities were posted to GitHub on Sunday by researcher Ben Bales, who, per TechCrunch, dubbed the collection Able2Shell on X and described it as a mix of flaws that can steal credentials, create new administrator accounts, and obtain root-level control of affected N-able systems. Bales told Bleeping Computer he went public because the company allegedly did not patch flaws he had reported in a different product. N-able stated it has no evidence of successful exploitation in customer environments; a spokesperson did not answer whether the firm can actually verify that through logs.
+
+*Forced disclosure via a GitHub dump is a blunt instrument — it protects no one until patches exist, and here it took an entire management platform dark.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/11/10/n-able-takes-its-remote-access-service-offline-after-researcher-publishes-dozens-of-zero-day-bugs/"><span class="tih">N-able Pulls Its Hosted Remote Access Platform After Researcher Dumps Dozens of Zero-Days</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Microsoft&#x27;s upscaling tech leaves the dock" data-b="Microsoft has officially launched Automatic Super Resolution, its answer to Nvidia&#x27;s DLSS, on the Xbox Ally X, the Xbox Ally X20, and a selection of Windows Copilot Plus PCs, according to a report by The Verge. The technology, which upscales games to sharper images than their native resolution, first entered testing on the Xbox Ally X back in April, but early adopters could only use it while the handheld was docked to an external display.
+
+The full release removes that restriction. Auto SR now functions while the device is held in handheld mode and running on battery power, and it extends support to games rendering at 1080p. Microsoft cautions that this combination &quot;may not be as optimal as other configurations&quot; in terms of performance, though it expects visible visual gains, particularly in older titles.
+
+Two additional upgrades arrive with the launch. Previously confined to framerates of roughly 60 to 75fps, Auto SR gains a new Performance mode that can push frame rates as high as 120fps. The upscaler also becomes compatible with Auto HDR, Microsoft&#x27;s automatic high-dynamic-range feature. Both additions will reach users through Windows updates rather than a separate download.
+
+The move strengthens Microsoft&#x27;s push to make its handheld line competitive with Nvidia&#x27;s long-dominant upscaling approach, at least for the growing class of Windows-powered portable consoles.
+
+*Handheld gamers have waited a while for a credible DLSS rival that works off the dock — now the real test is whether it holds up across a wide game library.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling"><span class="tih">Microsoft&#x27;s upscaling tech leaves the dock</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia spy scandal raises fears for America&#x27;s AI edge" data-b="Nvidia CEO Jensen Huang has admitted to an affair with a woman suspected of being a Chinese intelligence operative, a revelation that experts say could ripple far beyond one man&#x27;s personal life. According to The Verge, the relationship reportedly occurred while US intelligence — and even President Donald Trump — were aware of the spying suspicion, and analysts told the outlet it threatens the US AI industry, national security, and America&#x27;s narrow technological lead over China.
+
+The stakes center on chips. Nvidia dominates advanced AI semiconductors, one of the scarcest inputs in the AI race, making it a gatekeeper for hardware that Meta, Anthropic, and OpenAI are spending billions to secure while also trying to build their own alternatives. Washington bans sales of the most advanced chips to China, which trails the US by an estimated few months; a black market for restricted Nvidia hardware has flourished anyway. Companies tied to the alleged spy, Alice Huang (unrelated to Jensen), reportedly enabled at least $7 billion in Nvidia chip sales to China, though there is no public evidence Huang himself directed chips or secrets his way.
+
+CNAS fellow Emily Kilcrease warned that with those chips, &quot;the US lead could vanish in a matter of weeks or months.&quot; Huang, a vocal critic of export controls who won approval to ship H200 GPUs to approved Chinese customers, also has direct access to Trump and other leaders — a view into US planning that analyst Sunny Cheung argues matters more than stolen blueprints.
+
+*The real story here isn&#x27;t the scandal&#x27;s tabloid surface — it&#x27;s how much of a superpower&#x27;s AI strategy now runs through one man&#x27;s Rolodex.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy"><span class="tih">Nvidia spy scandal raises fears for America&#x27;s AI edge</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia CEO Admits Affair With Woman U.S. Officials Suspect Is a Chinese Spy" data-b="Nvidia chief executive Jensen Huang has acknowledged in a public letter to employees that he was unfaithful to his wife of 40 years, in a scandal that U.S. authorities say may extend beyond personal misconduct into national security territory. According to TechCrunch, American officials believe the other party, Megaspeed executive Alice Huang — a Chinese citizen unrelated to the CEO — has been passing information to Beijing.
+
+The business ties deepen the concern. Megaspeed, a Singapore-based AI infrastructure firm, reportedly bought $4.8 billion of Nvidia chips over two years, and both the U.S. and Singapore have examined whether it diverted chips to China illegally. The Information, cited by TechCrunch, reported that Shanghai Century Litong, a firm founded in 2023 that gained preferred-cloud-partner status, facilitated $7.5 billion in Nvidia chip purchases, including restricted models. Bloomberg, also cited, reported that Nvidia general counsel Tim Teter contacted a Commerce Under Secretary during a 2025 probe into suspected Megaspeed smuggling.
+
+Huang&#x27;s letter, issued as a press release, said Nvidia&#x27;s board has opened an independent investigation, which he pledged to support. Shares fell more than 5% the next day. Three Republican House committee chairmen have requested a closed-door briefing, and Huang has withdrawn from upcoming speaking events. President Trump called Huang a &quot;fine person&quot; and said he should stay on.
+
+*The story&#x27;s gravity lies less in the affair than in what it exposes: how personal access can bypass chip-export controls designed to protect national security.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"><span class="tih">Nvidia CEO Admits Affair With Woman U.S. Officials Suspect Is a Chinese Spy</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Sundrop Turns Newborn Photo Floods into Recaps and Time Lapses — With No AI Involved" data-b="A new iPhone app called Sundrop wants to rescue the thousands of baby photos that pile up in parents&#x27; galleries and go unseen after the first share. According to TechCrunch, the app builds weekly recaps, highlight reels, growing-up time lapses, and playful compositions — such as placing a child&#x27;s picture on a magazine cover or a trading-card-style &quot;rookie card.&quot;
+
+The target audience is narrow on purpose: parents of a new baby, often their first, drowning in snapshots. While Google Photos and Apple Photos offer broad photo-management tools, Sundrop focuses only on this niche. The app was built over recent months by Ben Springwater, Sky Lan, and Rob Mackenzie — the team behind the read-it-later app Matter, and all fathers themselves.
+
+Privacy is the pitch. Sundrop processes everything locally on the device, leaning on Apple&#x27;s Vision framework and on-device Core ML models rather than cloud servers, and the team says no generative AI is used in producing its scenes — a contrast with many editing apps, including Google&#x27;s. Both parents can link accounts and sync shared photos through iCloud, so images never touch servers the company runs.
+
+The app scans Camera Rolls, ignores screenshots and duplicates, and packages results as &quot;drops,&quot; including a Sunday recap pushed via Lock Screen notification. Manual editing and automatic gallery sorting are also supported. Sundrop costs $39.99 a year with a one-week free trial, and Family Sharing means one purchase covers the household.
+
+*In a market racing to remix photos with generative models, a local-only, no-AI baby app is a refreshing contrarian bet — on-device privacy as a lifestyle product.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/11/10/sundrop-turns-your-endless-baby-photos-into-recaps-time-lapses-and-more-without-ai/"><span class="tih">Sundrop Turns Newborn Photo Floods into Recaps and Time Lapses — With No AI Involved</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="N-able Pulls Its Hosted Remote Access Platform After Researcher Dumps Dozens of Zero-Days" data-b="Managed remote access provider N-able has shut down the cloud-hosted version of its N-Central product after a security researcher published a large batch of previously unknown vulnerabilities affecting the software, leaving the vendor with no window to patch before the details went public. According to TechCrunch, N-able said in a website status update that the hosted service is offline &quot;while we take the necessary actions to secure the environments and implement appropriate remediation.&quot; The company also advised customers running their own self-hosted N-Central instances to take those systems down, out of concern that attackers could weaponize the disclosed exploits to breach customer networks. N-Central lets corporate customers remotely reach and manage devices across their networks — a class of tool that hackers frequently target because of the broad internal access it provides.
+
+The vulnerabilities were posted to GitHub on Sunday by researcher Ben Bales, who, per TechCrunch, dubbed the collection Able2Shell on X and described it as a mix of flaws that can steal credentials, create new administrator accounts, and obtain root-level control of affected N-able systems. Bales told Bleeping Computer he went public because the company allegedly did not patch flaws he had reported in a different product. N-able stated it has no evidence of successful exploitation in customer environments; a spokesperson did not answer whether the firm can actually verify that through logs.
+
+*Forced disclosure via a GitHub dump is a blunt instrument — it protects no one until patches exist, and here it took an entire management platform dark.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/11/10/n-able-takes-its-remote-access-service-offline-after-researcher-publishes-dozens-of-zero-day-bugs/"><span class="tih">N-able Pulls Its Hosted Remote Access Platform After Researcher Dumps Dozens of Zero-Days</span> <span class="tis">— techcrunch.com</span></div></div></div>
+<div class="lead-zone">
+      <article class="lead">
+  <a href="https://9to5mac.com/2026-11-10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/" target="_blank" rel="noopener">
+    <img src="images/lead_2026-11-10.jpg" alt="" class="lead-image">
+    <div class="lead-grid">
+      <div class="lead-head">
+        <p class="kicker">Private AI Server</p>
+        <h1>Apple's Claris previews 'Harbor', turning Apple silicon Macs into a private AI server with Thunderbolt 5 clustering</h1>
+      </div>
+      <div class="lead-body">
+        <p class="deck">Claris, an Apple subsidiary, is privately previewing an app that turns Apple silicon Macs into private local-AI inference servers for open-weight models with no manual configuration. Harbor pools unified memory across multiple Macs over Thunderbolt 5 — accelerated by RDMA added in macOS Tahoe 26.2 — so a cluster can run models larger than any single Mac can hold.</p>
+        <p class="byline"><span class="src">9to5Mac</span> · <span>2026-11-10</span> · <span class="more">Read the dispatch →</span></p>
+      </div>
+    </div>
+  </a>
+</article>
+
+    </div>
+
+    <div class="topstories">
+<article class="story">
+  <a href="https://huggingface.co/blog/qvac/botpsy" target="_blank" rel="noopener">
+    <h3>BotPsy: a 0.8B Apache-2.0 agentic model that doubles its base model's tool-use scores</h3>
+    <p>Tether AI's BotPsy, built on Qwen3.5-0.8B, claims state-of-the-art function calling among models up to 1.2B parameters — BFCL v4 jumps from 23.4 to 44.0 and reasoning-loop stalls drop from 22.9% to 1.4%. Weights ship in bf16/Q8/Q4 as safetensors and GGUF for llama.cpp.</p>
+    <p class="byline"><span class="src">Hugging Face</span> · 2026-11-11</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://blog.n8n.io/meet-nod/" target="_blank" rel="noopener">
+    <h3>Nod: n8n Labs ships a standalone open-source personal agent that runs on your computer</h3>
+    <p>Nod is a research-preview desktop agent with its own computer and browser, separate from n8n itself. It is Apache 2.0, runs locally on macOS 14+/Windows 11 or your own server, and supports bring-your-own-model via OpenAI, Anthropic, OpenRouter or a ChatGPT plan.</p>
+    <p class="byline"><span class="src">n8n Blog</span> · 2026-11-10</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://github.com/ggml-org/llama.cpp/releases/tag/b12274" target="_blank" rel="noopener">
+    <h3>llama.cpp b12274 adds FP8 KV-cache support for long-context inference</h3>
+    <p>The release brings scaled FP8 KV-cache storage and dequantization (with Gemma 4 Assistant enabled for FP8 out of the box), cutting memory use for long contexts; b12271–b12282 also add backend scheduler reuse and chat fixes.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-11-11</p>
+  </a>
+</article>
+
+</div>
+
+
+    <div class="sections">
+      <section class="section">
+  <div class="section-head">
+    <h2>Research &amp; Papers</h2>
+    <span class="line"></span>
+    <span class="n">04</span>
+  </div>
+  <a href="https://arxiv.org/abs/2611.13509" target="_blank" rel="noopener" class="section-hero"><img src="images/section_research_papers_2026-11-10.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Mobile AI Factory: an agent that builds task- and phone-specific small models</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://arxiv.org/abs/2611.13509" target="_blank" rel="noopener">
+    <h4>Mobile AI Factory: an agent that builds task- and phone-specific small models</h4>
+    <p>An agentic system automatically searches base models, quantizations and inference engines with real on-device measurements; its on-device SLMs beat two five-shot frontier models on five of ten tasks across four Android phones, using 19x less GPU time than training all 27 variants.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-11-10</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2611.14059" target="_blank" rel="noopener">
+    <h4>HandsOnAid: a 4-bit offline first-aid assistant built for no-connectivity emergencies</h4>
+    <p>A quantized Gemma 2B fine-tuned with QLoRA on 5,550 FirstAidQA examples runs fully offline on a phone, with safety and accuracy evaluation aimed at emergency response.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-11-10</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2611.13410" target="_blank" rel="noopener">
+    <h4>SteerDistill: recovering agent task success after low-bit quantization</h4>
+    <p>Analysis of failed rollouts shows quantized agents overlook task requirements and drift from full-precision trajectories; closed-loop teacher steering recovers agent success under low-bit quantization.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-11-10</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2611.13413" target="_blank" rel="noopener">
+    <h4>Placing DeepSeek-V4.1's 203GB Engram lookup tables in host DRAM</h4>
+    <p>The Engram n-gram tables consume 190 of 223 GiB in a 4-GPU serving process; because row indices depend only on input tokens, reads can overlap earlier layers, so per-layer prefetch deadlines (differing 30x between two Engram layers) schedule placement in host memory.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-11-10</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Open Weights &amp; Models</h2>
+    <span class="line"></span>
+    <span class="n">03</span>
+  </div>
+  <a href="https://huggingface.co/MiniMaxAI/MiniMax-H3-Image" target="_blank" rel="noopener" class="section-hero"><img src="images/section_open_weights_models_2026-11-10.jpg" alt="" class="section-hero-img"><h4 class="hero-title">MiniMax open-sources H3-Image: a 33B diffusion model generating natively at 4K</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://huggingface.co/MiniMaxAI/MiniMax-H3-Image" target="_blank" rel="noopener">
+    <h4>MiniMax open-sources H3-Image: a 33B diffusion model generating natively at 4K</h4>
+    <p>One ~33.1B-parameter diffusion Transformer set (~68.65 GB of weights) handles both text-to-image generation and editing, accepts up to 16 reference images and generates directly at ~16 megapixels. Weights are on Hugging Face under a community license; the 'strongest instruction-following among open-source models' claim is vendor-stated.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-11-10</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://daily.rclabs.in/i/kvark-sparkle-1-1-27b-better-document-q-a-and-it-knows-when-the-answer-8e4168" target="_blank" rel="noopener">
+    <h4>KVARK Sparkle 1.1 (27B): Apache-2.0 document Q&amp;A model that knows when to abstain</h4>
+    <p>The 27B model signals when an answer is not present in the source instead of hallucinating — a practical fit for local RAG pipelines where abstention matters more than raw generation quality.</p>
+    <p class="byline"><span class="src">RCLabs AI Daily</span> · 2026-11-10</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/unsloth/Qwen3.8-27B-GGUF" target="_blank" rel="noopener">
+    <h4>Unsloth ships Dynamic v3.1 GGUF quants of Qwen3.8-27B</h4>
+    <p>The Qwen3.8-27B-GGUF repo updated with quants built using Unsloth's Dynamic v3.1 method — one of the most-downloaded current dense 27B checkpoints for llama.cpp, Ollama and LM Studio.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-11-11</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Tools &amp; Runtimes</h2>
+    <span class="line"></span>
+    <span class="n">04</span>
+  </div>
+  <a href="https://tailscale.com/blog/oauth-apps-ga" target="_blank" rel="noopener" class="section-hero"><img src="images/section_tools_runtimes_2026-11-10.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Tailscale OAuth apps go GA: agents reach private MCP servers on your tailnet</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://tailscale.com/blog/oauth-apps-ga" target="_blank" rel="noopener">
+    <h4>Tailscale OAuth apps go GA: agents reach private MCP servers on your tailnet</h4>
+    <p>Agents can now provision tailnet devices under a user's own identity instead of shared service tokens; Grok Bot already uses the flow to reach private MCP servers without exposing them to the public internet, with posture checks scoping access to just MCP servers.</p>
+    <p class="byline"><span class="src">Tailscale</span> · 2026-11-10</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://techcrunch.com/2026-11-10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/" target="_blank" rel="noopener">
+    <h4>Adobe releases a local MCP server exposing Creative Cloud to outside chatbots</h4>
+    <p>Announced at MAX, the server lets third-party chatbots such as ChatGPT, Claude or Gemini drive Photoshop, Illustrator, Premiere and After Effects on native project files; the MCP release reaches Creative Cloud customers in early 2027.</p>
+    <p class="byline"><span class="src">TechCrunch</span> · 2026-11-10</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/TensorRails/warmctl" target="_blank" rel="noopener">
+    <h4>Warmctl: fast cold starts for vLLM inference</h4>
+    <p>TensorRails' open-source tool attacks vLLM cold-start latency, a common pain point for self-hosted inference serving.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-11-10</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/ollama/ollama/releases/tag/v0.40.17-rc0" target="_blank" rel="noopener">
+    <h4>Ollama v0.40.17-rc0: mmap for Vulkan integrated GPUs, concurrent MLX generation</h4>
+    <p>The pre-release adds mmap support for Vulkan integrated GPUs, concurrent generation in the MLX runner and a llama.cpp bump to b12257 — following v0.40.16, which cut Qwen3.8 Flash Next memory use by ~27 GiB on Apple silicon.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-11-10</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Self-Hosted Stack</h2>
+    <span class="line"></span>
+    <span class="n">03</span>
+  </div>
+  <a href="https://blog.n8n.io/build-safer-n8n-agents-and-workflows-with-google-gemini-4-carbon" target="_blank" rel="noopener" class="section-hero"><img src="images/section_self_hosted_stack_2026-11-10.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Gemini 4 Carbon now available in n8n for agent workflows</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://blog.n8n.io/build-safer-n8n-agents-and-workflows-with-google-gemini-4-carbon" target="_blank" rel="noopener">
+    <h4>Gemini 4 Carbon now available in n8n for agent workflows</h4>
+    <p>n8n added support for Google's Gemini 4 Carbon (53.9% on AutomationBench), recommending it for heavy-reasoning agent steps while keeping lighter models for classification and formatting — including on self-hosted instances via your own API key.</p>
+    <p class="byline"><span class="src">n8n Blog</span> · 2026-11-10</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.sitepoint.com/what-breaks-when-a-self-hosted-llm-gateway-hits-1-000-concurrent-streams/" target="_blank" rel="noopener">
+    <h4>What breaks when a self-hosted LLM gateway hits 1,000 concurrent streams</h4>
+    <p>A practical engineering write-up on failure modes of self-hosted OpenAI-compatible gateways under ~1,000 concurrent streaming connections — connection limits, buffering behavior, and where llama.cpp/vLLM-style stacks degrade first.</p>
+    <p class="byline"><span class="src">SitePoint</span> · 2026-11-10</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://shattered.io/self-hosted-llm-vs-api-kimi-k3-1-pro-glm-5-3-deepseek-v4-1-mistral-large-4-2026/" target="_blank" rel="noopener">
+    <h4>Updated break-even math: self-hosted vs API for the four open-weight models worth hosting</h4>
+    <p>A November cost comparison of Kimi K3.1 Pro, GLM-5.3, DeepSeek V4.1 Flash and Mistral Large 4 against API pricing concludes Mistral Large 4 is the strongest self-host candidate on current hardware economics.</p>
+    <p class="byline"><span class="src">shattered.io</span> · 2026-11-10</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Hardware &amp; Edge</h2>
+    <span class="line"></span>
+    <span class="n">02</span>
+  </div>
+  <a href="https://corememo.org/business/team-group-ceo-warns-memory-chip-shortage-will-peak-through-2027" target="_blank" rel="noopener" class="section-hero"><img src="images/section_hardware_edge_2026-11-10.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Team Group CEO warns the memory shortage peaks through Q2 2027: 'even money can't buy goods'</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://corememo.org/business/team-group-ceo-warns-memory-chip-shortage-will-peak-through-2027" target="_blank" rel="noopener">
+    <h4>Team Group CEO warns the memory shortage peaks through Q2 2027: 'even money can't buy goods'</h4>
+    <p>DRAM/NAND shortage will be most severe from Q4 2026 through Q2 2027 with no price decline expected in 2027 and balance not before H2 2028, per the CEO; 16Gb DDR5 contract prices rose from $8.70 in October 2025 to $48 in September 2026 — a direct cost driver for RAM-heavy local rigs.</p>
+    <p class="byline"><span class="src">CoreMemo</span> · 2026-11-10</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://automater.ai/news/executorch-webgpu-pytorch-models-browser-gpu/" target="_blank" rel="noopener">
+    <h4>ExecuTorch adds an experimental WebGPU backend for PyTorch models in the browser</h4>
+    <p>Exported .pte models now run on the user's GPU inside WebGPU-enabled browsers, with reported 4-7x faster prefill and 2-10x faster decode versus the CPU path on quantized Llama 3.2 1B and Qwen3-0.6B — though the partitioner can still wrap operators WebGPU cannot execute.</p>
+    <p class="byline"><span class="src">Automater News</span> · 2026-11-10</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+    </div>
+
+    <div class="trending-wrap">
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Repos on GitHub</h1>
+      <div class="t-line"></div>
+      <a href="https://github.com/trending" target="_blank" rel="noopener" class="t-link">Go to GitHub trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://github.com/anthropics/skills" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">anthropics/skills</span>
+    <span class="t-meta">Python · 192.5k ★ · +1679 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/mattpocock/skills" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">mattpocock/skills</span>
+    <span class="t-meta">Shell · 321.1k ★ · +1225 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/homeassistant-ai/ha-mcp" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">homeassistant-ai/ha-mcp</span>
+    <span class="t-meta">Python · 6.8k ★ · +790 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/vercel-labs/agent-browser" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">vercel-labs/agent-browser</span>
+    <span class="t-meta">Rust · 49.4k ★ · +780 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/anthropics/claude-quickstarts" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">anthropics/claude-quickstarts</span>
+    <span class="t-meta">Python · 20.6k ★ · +531 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/addyosmani/agent-skills" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">addyosmani/agent-skills</span>
+    <span class="t-meta">JavaScript · 115.3k ★ · +465 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/ranxianglei/billion-context" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">ranxianglei/billion-context</span>
+    <span class="t-meta">TypeScript · 6.5k ★ · +375 today</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+  
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Trending on HF</h1>
+      <div class="t-line"></div>
+      <a href="https://huggingface.co/models?sort=trending" target="_blank" rel="noopener" class="t-link">Go to Hugging Face trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic</span>
+    <span class="t-meta">9B, uncensored text-generation merge</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/speridlabs/idol" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">speridlabs/idol</span>
+    <span class="t-meta">Image-to-3D Gaussian splats from one photo, Apache-2.0</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/moonshotai/Kimi-K3.1-Pro" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">moonshotai/Kimi-K3.1-Pro</span>
+    <span class="t-meta">2.8T open-weights multimodal (image-text-to-text)</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/ricursiveAI/Ripple-65B-Preview" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">ricursiveAI/Ripple-65B-Preview</span>
+    <span class="t-meta">65B preview model, updated ~20h ago</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/MiniMaxAI/MiniMax-H3-Image" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">MiniMaxAI/MiniMax-H3-Image</span>
+    <span class="t-meta">Open-weight text-to-image, native 4K output</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Lightricks/LTX-2.5" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">Lightricks/LTX-2.5</span>
+    <span class="t-meta">Image-to-video generation</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/NousResearch/Arete-27B" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">NousResearch/Arete-27B</span>
+    <span class="t-meta">27B text generation</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF</span>
+    <span class="t-meta">27B Qwen3.8 fine-tune GGUF, MTP</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">ccore/Qwen3.5-4B-3D-Coder</span>
+    <span class="t-meta">5B, 3D/scene code generation</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Qwen/Qwen3.8-27B" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">Qwen/Qwen3.8-27B</span>
+    <span class="t-meta">28B image-text-to-text, Apache-2.0</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+</div>
+
+
+    <section class="section" id="free-models">
+  <div class="section-head">
+    <h2>Free Models</h2>
+    <span class="line"></span>
+    <span class="n">26</span>
+  </div>
+
+  <p class="section-note">Free means $0 per token today, not unlimited or unconditional: both platforms rate-limit free use and require a free API key, some OpenRouter free endpoints may train on your prompts unless you opt out in account settings, and the roster changes daily. Verified against each provider's own pricing data at generation time — but pricing changes without notice, so confirm it's still free on the provider's own page before you rely on it.</p>
+
+  <div class="trending-wrap trending-wrap--in-section">
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenRouter</h1>
+        <div class="t-line"></div>
+        <a href="https://openrouter.ai/models?max_price=0" target="_blank" rel="noopener" class="t-link">Browse free models →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://openrouter.ai/cohere/north-mini-code:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Cohere: North Mini Code (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/dots-studio/dots-3-note-preview:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Dots Studio: Dots3-Note Preview (free)</span>
+    <span class="t-meta">512K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-26b-a4b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Google: Gemma 4 26B A4B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-31b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Google: Gemma 4 31B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/liquid/lfm-2.5-2.6b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">LiquidAI: LFM2.5-2.6B (free)</span>
+    <span class="t-meta">65K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/liquid/lfm-3-1.7b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">LiquidAI: LFM3-1.7B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Nano Omni (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Ultra (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-lightning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Lightning (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-super-vl:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Super VL (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/recursive/flint-v1.0:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#11</span>
+    <span class="t-name">Recursive: Flint (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling-2-small:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#12</span>
+    <span class="t-name">Thinking Machines: Inkling 2 Small (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenCode Zen</h1>
+        <div class="t-line"></div>
+        <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener" class="t-link">See the full Zen catalog →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Big Pickle</span>
+    <span class="t-meta">big-pickle</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Iceman Free</span>
+    <span class="t-meta">iceman-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Inkling 2 Small Free</span>
+    <span class="t-meta">inkling-2-small-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">GLM-5.3-Flash Free</span>
+    <span class="t-meta">glm-5.3-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">DeepSeek V4.1 Flash Free</span>
+    <span class="t-meta">deepseek-v4.1-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">MiniMax M3.1 Flash Free</span>
+    <span class="t-meta">minimax-m3.1-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">Beam Free</span>
+    <span class="t-meta">beam-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">Flint 40B Free</span>
+    <span class="t-meta">flint-40b-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">LongCat 2.5 Free</span>
+    <span class="t-meta">longcat-2.5-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">MiMo-V2.6-Flash Free</span>
+    <span class="t-meta">mimo-v2.6-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#11</span>
+    <span class="t-name">Nemotron 3 Ultra Free</span>
+    <span class="t-meta">nemotron-3-ultra-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#12</span>
+    <span class="t-name">Nemotron 3.5 Lightning Free</span>
+    <span class="t-meta">nemotron-3.5-lightning-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#13</span>
+    <span class="t-name">Nemotron 3.5 Super VL Free</span>
+    <span class="t-meta">nemotron-3.5-super-vl-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#14</span>
+    <span class="t-name">Jev 1.13 Free</span>
+    <span class="t-meta">jev-1.13-free</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+    <section class="inbrief">
+  <div class="section-head">
+    <h2>In Brief</h2>
+    <span class="line"></span>
+    <span class="n">12</span>
+  </div>
+  <ul class="qh-list">
+    <li><a href="https://x.com/GoogleDeepMind/status/2120219371473617099" target="_blank" rel="noopener"><span class="qh-title">Google DeepMind announces Gemini 4 Carbon for long-horizon agentic tasks</span><span class="qh-src">X (GoogleDeepMind)</span></a></li>
+
+    <li><a href="https://x.com/OpenAI/status/2120216592395174382" target="_blank" rel="noopener"><span class="qh-title">OpenAI launches Businesses in ChatGPT beta with Business Agents</span><span class="qh-src">X (OpenAI)</span></a></li>
+
+    <li><a href="https://paulusschoutsen.nl/ohf-daily/edition/2026-11-10/article/ai-integration-setup/" target="_blank" rel="noopener"><span class="qh-title">Home Assistant's management AI can now drive integration setup end-to-end</span><span class="qh-src">OHF Daily</span></a></li>
+
+    <li><a href="https://arxiv.org/abs/2611.13442" target="_blank" rel="noopener"><span class="qh-title">ForeSpark jointly schedules draft and verification budgets for parallel speculative decoding</span><span class="qh-src">arXiv</span></a></li>
+
+    <li><a href="https://arxiv.org/abs/2611.14083" target="_blank" rel="noopener"><span class="qh-title">Sable: a single-GPU prover certifies bit-exact integer-quantized inference</span><span class="qh-src">arXiv</span></a></li>
+
+    <li><a href="https://github.com/jatinbishla/Umless" target="_blank" rel="noopener"><span class="qh-title">Umless: open-source on-device dictation that cleans speech into written form</span><span class="qh-src">GitHub</span></a></li>
+
+    <li><a href="https://github.com/MaxonT/aisync" target="_blank" rel="noopener"><span class="qh-title">Aisync: advisory file claims stop two coding agents from editing one repo</span><span class="qh-src">GitHub</span></a></li>
+
+    <li><a href="https://www.startup-news.it/lexroom/" target="_blank" rel="noopener"><span class="qh-title">Lexroom launches 'lex', an AI agent for lawyers that works on WhatsApp</span><span class="qh-src">Startup-News</span></a></li>
+
+    <li><a href="https://www.ai4business.it/intelligenza-artificiale/exprivia-validmind-alleanza-sullai-per-le-banche/" target="_blank" rel="noopener"><span class="qh-title">Exprivia and ValidMind ally on AI governance for banks and insurers</span><span class="qh-src">AI4Business</span></a></li>
+
+    <li><a href="https://techstartups.com/2026-11-10/top-tech-news-roundup-for-today-november-10-2026-anthropic-1-4-trillion-ipo-google-nvidia-investigation-microsoft-open-spacex-more/" target="_blank" rel="noopener"><span class="qh-title">Mercor raises $750M Series D at a $20B valuation</span><span class="qh-src">Tech Startups</span></a></li>
+
+    <li><a href="https://techcrunch.com/2026-11-10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/" target="_blank" rel="noopener"><span class="qh-title">Oura to acquire AI-native primary care startup Counsel Health for $625M</span><span class="qh-src">TechCrunch</span></a></li>
+
+    <li><a href="https://tech.eu/2026-11-10/denmark-backs-sovereign-ai-ambitions-with-eur67m-investment-in-gefion-operator-dcai" target="_blank" rel="noopener"><span class="qh-title">Denmark backs sovereign AI with EUR 67M investment in Gefion operator DCAI</span><span class="qh-src">tech.eu</span></a></li>
+
+  </ul>
+</section>
+
+
+    <footer class="colophon">
+      <p class="mark">Per aspera ad astra</p>
+      <p class="meta">Compiled by Hermes Agent · 2026-11-11 · <a href="https://github.com/MovieMaker93/local-ai-news" target="_blank" rel="noopener">source</a></p>
+      <p class="meta">Beta · <a href="making-of.html" title="Replay how this issue assembled itself">See how this issue made itself</a></p>
+    </footer>
+
+  </div>
+<div class="mo" id="mo" onclick="cm(event)"><div class="mb"><button class="mc" onclick="cm()">✕</button><h2 class="mh" id="mh"></h2><p class="mm">Source: <span id="ms"></span></p><div class="mbd" id="mbd"></div></div></div>
+<script>function openArt(el){var h=el.getAttribute('data-h'),b=el.getAttribute('data-b'),s=el.getAttribute('data-s'),u=el.getAttribute('data-u');document.getElementById('mh').textContent=h;var sl=document.getElementById('ms');if(u&&u!=='#'&&u!==''){sl.innerHTML='<a href="'+u+'" target="_blank" rel="noopener">'+s+'</a>';}else{sl.textContent=s;}var aiS='*— Written by AI (';var i=b.indexOf(aiS);if(i>=0){var bf=b.substring(0,i);var af=b.substring(i+aiS.length);var mdl=af.split(')')[0];bf=bf.split('\n').join('<br>');bf=bf.replace(/\*([^*]+)\*/g,'<em class="en">$1</em>');var sg='<div class="as"><span class="al">⬥ AI-GENERATED</span><br>Model: '+mdl+'</div>';document.getElementById('mbd').innerHTML=bf+sg;}else{document.getElementById('mbd').innerHTML=b.split('\n').join('<br>');}document.getElementById('mo').classList.add('a');document.body.style.overflow='hidden';}function cm(e){if(e&&e.target!=document.getElementById('mo'))return;document.getElementById('mo').classList.remove('a');document.body.style.overflow='';}document.addEventListener('keydown',function(e){if(e.key==='Escape')cm()});</script></body>
+</html>
