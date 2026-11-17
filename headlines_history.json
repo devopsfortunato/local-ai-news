@@ -11000,6 +11000,216 @@
       "source": "arXiv",
       "date": "2026-11-14",
       "issue": 56
+    },
+    {
+      "text": "vLLM v0.34.0 ships 10 new models and up to 1.95x decode speedups",
+      "source": "GitHub",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "NVIDIA shows four-node DGX Spark HPC Developer Kit at SC26",
+      "source": "NVIDIA Developer Blogs",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "AMD ROCm HRX Loom 0.2 unifies GPU, NPU and Vulkan targeting",
+      "source": "Phoronix",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "Hugging Face and OpenRouter partner to simplify running open-weight models",
+      "source": "Hugging Face",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "DeepMind ships seven developer launches in one week",
+      "source": "X (_philschmid)",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "Memory-efficient speculative decoding with quantized draft KV cache",
+      "source": "arXiv",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "AutoRL: agent-supervised RL self-improves open models",
+      "source": "X (omarsar0)",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "Safety-preserving medical LLM fine-tuning via bilevel data selection",
+      "source": "arXiv",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "Explainable federated learning via global-local attribution alignment",
+      "source": "arXiv",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "Thinking Machines releases Inkling-2-Small, a 594B MoE open-weight VLM",
+      "source": "HuggingFace",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "Moonshot AI's Kimi K3.1 Pro: 2.8T-parameter frontier open weights",
+      "source": "HuggingFace",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "Nous Research ships Arete-27B, an Apache 2.0 fine-tune of Qwen3.8-27B",
+      "source": "HuggingFace",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "Show HN: Woolly \u2014 local mem0-compatible memory API for AI agents",
+      "source": "Hacker News",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "Show HN: Blobby \u2014 MCP-driven design canvas for coding agents",
+      "source": "Hacker News",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "Show HN: Goethe \u2014 turn your computer into an inference engine",
+      "source": "GitHub",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "Show HN: Gavel \u2014 open-source guided code review with your coding agent",
+      "source": "Hacker News",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "Best Audio Models megathread returns to r/LocalLLaMA",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "Gemma.c: Gemma 1/2/3 multimodal inference in a single C file",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "Home Assistant 2026.11.2 patch released",
+      "source": "Home Assistant",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "Modders unlock hidden AI performance on RTX 20/30/40 series, up to 2x tensor throughput",
+      "source": "VideoCardz",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "Modders expand NVIDIA's 8GB CMP 170HX mining GPU to 80GB",
+      "source": "VideoCardz",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "NVIDIA announces Rubin HPC GPU with 50,000+ CUDA cores, launching 2028",
+      "source": "VideoCardz",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "GeForce RTX 5060 Ti suffers burnt 8-pin power cable",
+      "source": "VideoCardz",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "llama.cpp ships b12455-b12458 with Vulkan split_k conv3d and per-head FA masks on WebGPU",
+      "source": "GitHub",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "Show HN: Emergency-AI \u2014 offline knowledge base and AI chat with no Internet",
+      "source": "GitHub",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "Show HN: Pulsar \u2014 cross-harness agent-to-agent communication",
+      "source": "GitHub",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "DeepMind and Artificial Analysis launch a multimodal Knowledge Agent benchmark across 10 verticals",
+      "source": "X (_philschmid)",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "n8n ships 1.123.97 LTS patch; stable 2.x stays at 2.47.7 for November security fixes",
+      "source": "GitHub",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "Intel claims its 350W D270 Xe3P GPU is up to 5.9x faster than the 600W RTX PRO 6000 Blackwell",
+      "source": "VideoCardz",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "OpenAI expands free frontier model access for up to 200,000 scientists; applications open Nov 23",
+      "source": "X (OpenAI)",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "DeepMind AlphaProof agents verify Signal's cryptographic code and boost protein modeling",
+      "source": "X (GoogleDeepMind)",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "Battery startup Our Next Energy goes public via SPAC at ~$1B pro forma",
+      "source": "TechCrunch",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "CormaAI raises $125M Series A at $1B valuation for cyber-defense foundation models",
+      "source": "TechCrunch",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "Helsing backer Plural raises $1.1B to fund Europe's next moonshots",
+      "source": "TechCrunch",
+      "date": "2026-11-17",
+      "issue": 57
+    },
+    {
+      "text": "Italian startup Mosaico closes \u20ac7.5M seed round for its open-source robotics sensor platform",
+      "source": "Teleborsa",
+      "date": "2026-11-17",
+      "issue": 57
     }
   ]
 }
