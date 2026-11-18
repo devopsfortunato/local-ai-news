@@ -11210,6 +11210,234 @@
       "source": "Teleborsa",
       "date": "2026-11-17",
       "issue": 57
+    },
+    {
+      "text": "Open WebUI v0.13.4 ships Tether: your own computer becomes part of any instance",
+      "source": "GitHub (open-webui)",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "OpenAI releases GPT-6.2 Astra and GPT-6.2 Sol",
+      "source": "OpenAI",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "Anthropic IPO: up to $88.5B raise with $26B tech-company private placement",
+      "source": "TechCrunch",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "Apple open-sources FastFrames video generation models on Hugging Face",
+      "source": "_akhaliq",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "SGLang Consortium formed with NVIDIA, AMD, Google, Meta and Intel",
+      "source": "omarsar0",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "Fine-tuning Gemma 4 edge models for MATLAB signal-processing code with SFT and QLoRA on a laptop iGPU",
+      "source": "arXiv",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "Storing the Gemma 4 K=V cache once: exact global-KV savings in a paged serving engine",
+      "source": "arXiv",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "Agentic on-policy distillation implicitly reshapes LLMs' ReAct patterns",
+      "source": "HuggingFace",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "MoE-LoRA for multilingual adaptation: a systematic empirical study",
+      "source": "arXiv",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "The Kernel Reality Check: benchmarking and distilling efficient attention at scale",
+      "source": "arXiv",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "SenseNova-Loop-9B-Preview: looped Transformer for long-context agentic work",
+      "source": "HuggingFace",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "Qwen3.8-27B becomes the default local dense model",
+      "source": "HuggingFace",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "DeepSeek V4.1 Flash 1017: 763B open-weight MoE stays trending",
+      "source": "HuggingFace",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "Show HN: Shard \u2014 distributed AI inference across multiple computers",
+      "source": "GitHub",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "Show HN: OpenEye \u2014 Ollama-style runner for vision models with MCP server",
+      "source": "GitHub",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "Show HN: Synapse \u2014 local code graph for AI IDEs, benchmarked against grep",
+      "source": "GitHub",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "Show HN: Machine Internet \u2014 turn a site's hidden JSON API into MCP tools",
+      "source": "GitHub",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "Show HN: TrnRT \u2014 open-source LLM inference engine for AWS Trainium",
+      "source": "GitHub",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "Community patch starts DeepSeek V4.1 agent sessions 20x faster on a single gaming GPU",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "n8n 3.3.0 and 2.49.0 released with AI Agent node fixes",
+      "source": "GitHub (n8n-io)",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "r/LocalLLaMA debate: Sam Altman calls local inference 'a terrible allocation of scarce resources'",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "vLLM guide shows GLM-5.3 NVFP4 on two DGX Stations as NVIDIA's SC26 local-AI push continues",
+      "source": "Tiwen News",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "Two cheap 16GB RTX 5060 Ti cards vs one RTX 5090 for local LLMs \u2014 tensor split nearly doubles per-dollar throughput",
+      "source": "XDA Developers",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "Project Maya runs 300-700B MoE models on a single GPU by tiering VRAM, RAM and SSD",
+      "source": "GIGAZINE",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "inferzero's Nov 17 release lifts Panther Lake (Arc B390) prompt speed from ~260 to ~550 tokens/s",
+      "source": "Tokenstrom",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "Tom's Hardware GPU price index: AI memory orders keep squeezing consumer VRAM pricing",
+      "source": "Tom's Hardware",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "Google DeepMind launches Gemini 4 Hydrogen with robotics plugin for Antigravity",
+      "source": "GoogleDeepMind",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "Isomorphic Labs raises $5B Series C for AI drug discovery",
+      "source": "TechCrunch",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "Genesis AI raises $500M Series A at $3.5B for dexterous humanoid robots",
+      "source": "TechCrunch",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "Science Corporation raises $400M Series D at $3.5B for its PRIMA brain-computer interface",
+      "source": "TechCrunch",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "Model ML raises $250M Series B at $1.5B to automate investment banking work",
+      "source": "TechCrunch",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "Cognition ships Devin Bots: always-on multi-agent teams with persistent identity and memory banks",
+      "source": "swyx",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "Trellis Data's Agentaus 1: a 220B Australian sovereign model scoring 84.4% on MMLU-Pro",
+      "source": "omarsar0",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "OVHcloud announces Olala mini 7A1B, its first open-source LLM, powering Qwant answers",
+      "source": "AI4Business",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "EU opens \u20ac297 million in Horizon Europe calls for AI, robotics and data centres",
+      "source": "AI4Business",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "Hugging Face launches FINAL-Bench: a three-season, browser-only red-teaming hackathon with $2,000 in prizes",
+      "source": "Hugging Face",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "Show HN: Faros Desktop \u2014 local visualizer for AI coding session traces on Mac",
+      "source": "Hacker News",
+      "date": "2026-11-18",
+      "issue": 58
+    },
+    {
+      "text": "Product Hunt ships an official MCP server for launching and discovering products from AI tools",
+      "source": "Product Hunt",
+      "date": "2026-11-18",
+      "issue": 58
     }
   ]
 }
