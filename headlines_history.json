@@ -11438,6 +11438,222 @@
       "source": "Product Hunt",
       "date": "2026-11-18",
       "issue": 58
+    },
+    {
+      "text": "NVIDIA's RTX Spark desktops go on sale with up to 128GB unified memory",
+      "source": "VideoCardz",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "Rumble-2-Flash: a 0.5B open-weights speech model for 40+ languages",
+      "source": "Hugging Face",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "RadixArk ships DaisyRose-27B, its first open-weight model",
+      "source": "Hugging Face",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "Hugging Face runs a 180B MoE on 32GB of RAM by streaming experts from SSD",
+      "source": "Hugging Face",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "Google DeepMind launches Genie 4 in Project Genie",
+      "source": "GoogleDeepMind",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "QDA: closed-loop LLM quantization design with agents",
+      "source": "HuggingFace",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "Tideway: phase-aware tiered memory for MoE inference on consumer devices",
+      "source": "HuggingFace",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "Late Entry in looped language models",
+      "source": "HuggingFace",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "MoE-Context: show the model only what it needs",
+      "source": "arXiv",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "Replay, don't resample: cheaper consolidation of long-horizon RL experts",
+      "source": "arXiv",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "Tencent Hy4-flash: 220B MoE multimodal model goes open-weight",
+      "source": "HuggingFace",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "Tencent WeDLM-8B-Base: diffusion language model with parallel decoding",
+      "source": "HuggingFace",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "Microsoft's Aion 1.0 Instruct: a 2.3B compact on-device model",
+      "source": "ModelTape",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "Pitot: OpenTelemetry, Parquet, DuckDB and MCP in one binary",
+      "source": "GitHub",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "ADE Index: a sourced, ranked index of 975 agentic coding tools",
+      "source": "ADE Index",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "Mastra open-sources its internal software factory",
+      "source": "Hacker News",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "SGLang adds Humming low-bit kernels for efficient MoE serving",
+      "source": "lmsysorg",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "llama.cpp MoE host-memory cache doubles token throughput on small-VRAM GPUs",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "Ollama releases cut Qwen3.8 Flash Next memory by ~27 GiB on Apple silicon",
+      "source": "Ollama",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "LORE: a fully local, Dockerized AI reader turns ebooks into knowledge graphs",
+      "source": "r/selfhosted",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "84GB RTX PRO 5500 Blackwell launches in Japan; US listings top $20,000",
+      "source": "VideoCardz",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "TrendForce: NAND spot-contract gap exceeds 20% as DDR5 holds steady",
+      "source": "TrendForce",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "China Telecom trains a 285B agentic MoE entirely on 8,192 Ascend 910C NPUs",
+      "source": "AI Weekly",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "Valve posts AMDGPU patches to cut Proton stutter via batched VRAM mapping",
+      "source": "VideoCardz",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "llama.cpp b12528\u2013b12532 fix realtime sleep state and KV padding in decomposed flash attention",
+      "source": "GitHub",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "Google DeepMind's Neon ranks #3 on the Artificial Analysis Intelligence Index",
+      "source": "GoogleDeepMind",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "Nous Portal offers Qwen4-Max free for 5 days (native vision, 1M context)",
+      "source": "NousResearch",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "OpenAI and AMD report up to 14% PPA improvement on flagship GPU IP",
+      "source": "OpenAI",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "GPT-6 Astra edits 3.5% of network weights in one pass, lifting success from 0/256 to 1,024/1,024",
+      "source": "DeepLearningAI",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "On-the-job learning: when a small on-device model improves from user feedback, and when it decays",
+      "source": "arXiv",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "Learned predictors beat FLOP estimates for SFT duration: R\u00b2 0.98 vs 0.31 over 7,382 GPU-hours",
+      "source": "Hugging Face",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "Payhawk raises $280M Series C at a $2B valuation for AI-native spend management",
+      "source": "TechCrunch",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "Linq raises $90M from a16z for AI agents that text, call and get things done",
+      "source": "Tech Startups",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "BrightAI raises $97M to bring physical AI sensors, robots and drones to utilities",
+      "source": "Tech Startups",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "India's Humyn Labs raises $47M to feed US robotics companies training data",
+      "source": "TechCrunch",
+      "date": "2026-11-19",
+      "issue": 59
+    },
+    {
+      "text": "Invitalia launches MatchUp, an AI platform matching Italian startups with investors",
+      "source": "StartupItalia",
+      "date": "2026-11-19",
+      "issue": 59
     }
   ]
 }
