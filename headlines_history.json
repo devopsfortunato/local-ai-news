@@ -11654,6 +11654,180 @@
       "source": "StartupItalia",
       "date": "2026-11-19",
       "issue": 59
+    },
+    {
+      "text": "AMD XDNA 2 becomes the first NPU backend for Unsloth Desktop local LLMs",
+      "source": "AMD",
+      "date": "2026-11-20",
+      "issue": 60
+    },
+    {
+      "text": "Tool Retrieval enters preview in the Gemini API",
+      "source": "Google",
+      "date": "2026-11-20",
+      "issue": 60
+    },
+    {
+      "text": "Nous Research partners with Microsoft to bring Hermes Agent to the enterprise",
+      "source": "NousResearch",
+      "date": "2026-11-20",
+      "issue": 60
+    },
+    {
+      "text": "Cloudflare releases the weights of Clairic, its document-reading AI for invoices and receipts",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-20",
+      "issue": 60
+    },
+    {
+      "text": "Nvidia says higher memory and system prices are dampening consumer PC demand",
+      "source": "PCWorld",
+      "date": "2026-11-20",
+      "issue": 60
+    },
+    {
+      "text": "NarrowSpec: draft hidden width need not match the target in speculative decoding",
+      "source": "HuggingFace",
+      "date": "2026-11-20",
+      "issue": 60
+    },
+    {
+      "text": "VSpark: lossless speculative decoding for autoregressive vision-language-action models",
+      "source": "HuggingFace",
+      "date": "2026-11-20",
+      "issue": 60
+    },
+    {
+      "text": "WAM-Policy: world action models with on-policy distillation for quadrupedal loco-manipulation",
+      "source": "HuggingFace",
+      "date": "2026-11-20",
+      "issue": 60
+    },
+    {
+      "text": "Budget internalization: fixed-budget RLVR trades test-time scaling for in-budget accuracy",
+      "source": "arXiv",
+      "date": "2026-11-20",
+      "issue": 60
+    },
+    {
+      "text": "llama.cpp b12554-b12556 land with BF16, OpenCL and WebGPU improvements",
+      "source": "GitHub",
+      "date": "2026-11-20",
+      "issue": 60
+    },
+    {
+      "text": "TabbyML ships a WebGPU weight-space playground for interactive weight editing",
+      "source": "GitHub",
+      "date": "2026-11-20",
+      "issue": 60
+    },
+    {
+      "text": "Kitten-TTS-2 Pico/Nano/Mini: SOTA super-tiny Apache 2.0 TTS, Pico is just 4 MB",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-20",
+      "issue": 60
+    },
+    {
+      "text": "Camoufox anti-bot browser briefly disappears from GitHub, then returns",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-20",
+      "issue": 60
+    },
+    {
+      "text": "Ezurio launches GW16168 M.2 AI accelerator with NXP Ara240 DNPU for on-device inference",
+      "source": "PR Newswire",
+      "date": "2026-11-20",
+      "issue": 60
+    },
+    {
+      "text": "HP launches Wildcat Lake mini PC with Core 7 350 and up to 32GB DDR5",
+      "source": "VideoCardz",
+      "date": "2026-11-20",
+      "issue": 60
+    },
+    {
+      "text": "Advantech pairs NVIDIA Jetson-powered MIC-AI platforms with CODESYS EtherCAT motion control",
+      "source": "Advantech",
+      "date": "2026-11-20",
+      "issue": 60
+    },
+    {
+      "text": "llamaperf logs community M5 (16GB) benchmarks: memory bandwidth is the binding constraint",
+      "source": "llamaperf",
+      "date": "2026-11-20",
+      "issue": 60
+    },
+    {
+      "text": "Jundot re-quantizes the full oQ catalog with refined oQe rounding (oMLX 0.8.0)",
+      "source": "HuggingFace",
+      "date": "2026-11-20",
+      "issue": 60
+    },
+    {
+      "text": "Show HN: Psudo - 47MB 2-bit coding model with Rust transpiler",
+      "source": "GitHub",
+      "date": "2026-11-20",
+      "issue": 60
+    },
+    {
+      "text": "Show HN: Citeparse - CPU-only parser for reference lists and hallucinated citations",
+      "source": "GitHub",
+      "date": "2026-11-20",
+      "issue": 60
+    },
+    {
+      "text": "Show HN: Xiaomi BSWorld - Bluetooth test environment for AI agents without hardware",
+      "source": "GitHub",
+      "date": "2026-11-20",
+      "issue": 60
+    },
+    {
+      "text": "Show HN: Mergepond - Mac Git client built for worktrees and coding agents",
+      "source": "Hacker News",
+      "date": "2026-11-20",
+      "issue": 60
+    },
+    {
+      "text": "GUARD: Google's self-improving agent harness edits its own prompts, skills and memory",
+      "source": "X (omarsar0)",
+      "date": "2026-11-20",
+      "issue": 60
+    },
+    {
+      "text": "LMSYS: PD disaggregation cuts DeepSeek-V4.1-Flash latency from 13.63s to 4.70s on 8xH20-3e",
+      "source": "X (lmsysorg)",
+      "date": "2026-11-20",
+      "issue": 60
+    },
+    {
+      "text": "Nvidia in advanced talks to acquire AI startup Inception for over $500 million",
+      "source": "X (econographs)",
+      "date": "2026-11-20",
+      "issue": 60
+    },
+    {
+      "text": "New paper: Code World Model 2.0 - towards infinite controllable video generation",
+      "source": "X (_akhaliq)",
+      "date": "2026-11-20",
+      "issue": 60
+    },
+    {
+      "text": "Deutsche Telekom invests EUR 100 million in Mistral, building a European AI supply chain",
+      "source": "AI4Business",
+      "date": "2026-11-20",
+      "issue": 60
+    },
+    {
+      "text": "Palo Alto Networks to buy Applied Compute for $4.5B; Fireworks AI in early talks at $17.5B",
+      "source": "TechCrunch",
+      "date": "2026-11-20",
+      "issue": 60
+    },
+    {
+      "text": "Boltz raises $110M Series A to put molecular-design AI into pharmaceutical research",
+      "source": "TechStartups",
+      "date": "2026-11-20",
+      "issue": 60
     }
   ]
 }

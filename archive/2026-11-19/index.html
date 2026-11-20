@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOCAL AI NEWS — open-weight intelligence · November 19, 2026</title>
+  <meta name="description" content="A daily recap of local AI news from the last 24 hours: open weights, tooling, hardware, and the self-hosted stack.">
+  <link rel="stylesheet" href="style.css">
+  <style>.wt{display:flex;align-items:center;height:38px;background:var(--ink);border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule);margin:14px 0 0;overflow:hidden}.wtt{display:flex;align-items:center;white-space:nowrap;padding-left:20px;animation:ws 90s linear infinite}.wtt:hover{animation-play-state:paused}@keyframes ws{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}.ti{display:inline-flex;align-items:center;gap:7px;padding:0 22px;cursor:pointer;border-right:1px solid var(--rule);height:38px}.ti:hover{background:rgba(240,162,60,.05)}.tih{font-family:var(--serif);font-size:13px;color:var(--type)}.tis{font-family:var(--sans);font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}.mo{display:none;position:fixed;inset:0;background:rgba(10,10,12,.88);z-index:1000;justify-content:center;align-items:center;backdrop-filter:blur(8px)}.mo.a{display:flex}.mb{background:#121214;border:1px solid var(--rule-strong);max-width:680px;width:90%;max-height:82vh;overflow-y:auto;padding:40px 44px;position:relative;animation:fi .2s ease}@keyframes fi{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}.mc{position:absolute;top:14px;right:18px;background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;font-family:var(--sans);padding:4px 8px}.mh{font-family:var(--serif);font-weight:700;font-size:30px;line-height:1.1;letter-spacing:-.01em;color:var(--type);margin:0 0 14px;padding-right:32px}.mm{font-family:var(--sans);font-size:10.5px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 22px}.mm a{color:var(--lux)}.mm a:hover{text-decoration:underline}.mbd{font-family:var(--serif);font-size:16.5px;line-height:1.7;color:var(--type-dim)}.mbd .en{display:block;color:var(--lux-soft);font-style:italic;font-size:15px;margin-top:14px;padding-left:12px;border-left:2px solid var(--rule-strong)}.mbd .as{display:block;margin-top:18px;padding-top:14px;border-top:1px solid var(--rule);font-family:var(--sans);font-size:11px;color:var(--muted);line-height:1.5}.mbd .as .al{color:var(--lux-soft);font-weight:600;font-family:var(--sans);font-size:10px;letter-spacing:.06em;text-transform:uppercase}</style></head>
+  <body>
+  <div class="container">
+
+  <header class="masthead">
+    <div class="topline"></div>
+    <div class="ears">
+      <span class="left">Est. MMXXVI</span>
+      <span class="right">No. 59 <a href="/archive/" class="ar" title="Browse past issues">◆ Archive</a> <a href="#free-models" class="ar" title="Today's free AI models">⌁ Free Models</a></span>
+    </div>
+    <div class="nameplate">LOCAL <span class="lux">AI NEWS</span></div>
+      <hr class="rule-double">
+      <div class="dateline">
+        <span>November 19, 2026</span>
+        <span class="dot">◆</span>
+        <span class="tag">open weights, on your metal</span>
+        <span class="dot">◆</span>
+        <span>82 stories</span>
+      </div>
+      <div class="devocracy-credit">Inference self-hosted on a DGX Spark · models served via LiteLLM</div>
+      <hr class="rule-thin">
+    </header>
+
+    
+
+    <div class="wt"><div class="wtt"><div class="ti" onclick="openArt(this)" data-h="Microsoft stands by Nvidia as Huang-era transition unfolds" data-b="Satya Nadella voiced continued confidence in Nvidia following Jensen Huang&#x27;s sudden exit as chief executive, speaking Wednesday at The New York Times DealBook Summit. According to TechCrunch, Nadella called the situation &quot;pretty tragic,&quot; noting his long familiarity with Huang and saying he wants to give him space to sort things out.
+
+Huang relinquished the CEO title last week after 33 years at the helm, during which he steered Nvidia into the ranks of the world&#x27;s most valuable companies. His judgment came under scrutiny after reports that he had an affair with Megaspeed executive Alice Huang, believed by U.S. officials to be a Chinese spy passing information to Beijing. Two further affairs with Nvidia employees, one a direct report, also surfaced.
+
+Nadella, whose company counts Nvidia as a close partner, emphasized stability. He pointed to interim CEO Colette Kress, a longtime Microsoft colleague he described as tremendous, and said his contacts inside Nvidia remain the same as before the handover — giving him strong faith in the team&#x27;s ability to keep delivering.
+
+Reflecting on founder-led firms, Nadella compared his own trajectory to Bill Gates&#x27; larger-than-life tenure. Founders, he observed, build something from nothing and are singular, though not gods; because founders too die, any company that hopes to endure eventually needs a successor at the wheel.
+
+*The episode is a neat case study in how quickly a single leader&#x27;s gravity can be absorbed by an institutional bench.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/"><span class="tih">Microsoft stands by Nvidia as Huang-era transition unfolds</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia&#x27;s numbers dwarf its chip rivals after Jensen Huang&#x27;s exit" data-b="Nvidia&#x27;s financial climb looks almost absurd when rendered as charts, according to a report by Sean Hollister at The Verge. The company is now earning roughly $8,300 in pure profit every second — about $700 million a day and over $200 billion a year — with the latest quarter closing at some $65 billion in profit. Earlier highs, tied to the crypto boom and the GPU shortage, peaked at just $1.24 billion and $3 billion per quarter.
+
+Even so, Nvidia&#x27;s market capitalization slipped from around $5 trillion at the start of November to about $3.6 trillion following Jensen Huang&#x27;s resignation. Long-term holders still fared well: a decade-old $1,000 stake is now worth more than $67,000.
+
+The gap over rivals is stark — Micron posted $37.7 billion in profit last quarter, SK Hynix $29.8 billion, and Samsung roughly $55.3 billion, all trailing Nvidia&#x27;s $65.3 billion. Memory makers, once tripping over oversupply losses in 2023, remain more cyclical.
+
+On November 17, interim CEO and CFO Colette Kress — speaking at the first earnings call since Huang stepped down — promised to return all excess free cash flow to shareholders, up from the prior 50 percent baseline. She called demand acceleration and supply growth real, cited backing from partners like TSMC, and projected $130 billion in revenue next quarter.
+
+*Nvidia&#x27;s story suggests scale, not showmanship, is what keeps an AI-era company afloat.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang"><span class="tih">Nvidia&#x27;s numbers dwarf its chip rivals after Jensen Huang&#x27;s exit</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia Finds Its Interim Rhythm Under Colette Kress&#x27;s &quot;We&#x27;ve Got This" data-b="According to WIRED, Nvidia is leaning on a repeated mantra as it settles into life without its longtime leader. After Jensen Huang stepped down amid an international scandal, the chipmaker&#x27;s stock dropped and its standing in the AI race looks shakier than usual. In the gap sits Colette Kress, still the company&#x27;s CFO and now its interim CEO, charged with steadying things fast.
+
+Her public duties so far cover the third-quarter earnings call and an all-hands session for staff. Her signature move, per WIRED&#x27;s tally, is a catchphrase deployed three times in 24 hours: &quot;We&#x27;ve got this.&quot; On the earnings call she tied it to accelerating demand, growing supply and committed employees; at the all-hands she repeated it after vowing that ambition, passion for innovation and customer commitments would not change, closing with a football-stadium singing analogy involving roughly 90,000 fans.
+
+WIRED notes the refrain is modest fuel — confident companies rarely need to remind anyone twice in one meeting — while employees seem to enjoy it, with two Nvidia staffers echoing the line on X. On the board front, chair Harvey Jones confirmed Huang will not return, leaving Kress holding the wheel for now.
+
+*Nvidia&#x27;s habit of grading its own homework makes the &quot;we&#x27;ve got this&quot; era feel like a halftime speech rather than a final score.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/guys-really-we-got-this/"><span class="tih">Nvidia Finds Its Interim Rhythm Under Colette Kress&#x27;s &quot;We&#x27;ve Got This</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Trump&#x27;s China Summit May Leave AI Gaps Open, Officials Say" data-b="Ahead of President Donald Trump&#x27;s Thursday meeting with Xi Jinping, administration officials privately told WIRED&#x27;s Inner Loop newsletter that they expect little movement on AI safety and espionage concerns. Trump departed the White House without committing to whether he would raise Chinese interference in AI or the Nvidia scandal, as officials aim to avoid antagonizing Beijing during the summit.
+
+According to WIRED, the fallout from former Nvidia CEO Jensen Huang&#x27;s affair with Alice Huang, a Megaspeed executive suspected of being a Chinese intelligence asset, has complicated AI negotiations between the two economies. A September plan for an AI incident hotline linking Treasury Secretary Scott Bessent and Chinese vice premier He Lifeng remains at the concept stage and is not operational. Secretary of State Marco Rubio said the two governments have held &quot;technical level&quot; AI safety talks since the announcement but called the effort &quot;still a work in progress.&quot;
+
+Officials attribute the stalled progress to divergent risk priorities: the US fears autonomous, misaligned models escaping human oversight, while China reportedly focuses on open-weight models used by domestic critics. China has also shown interest in using frontier models for intelligence gathering and disputes the allegations against Alice Huang, calling them &quot;groundless.&quot; Meanwhile, a new US rule limits China&#x27;s remote access to American-made AI chips, a direct response tied to the Nvidia case.
+
+*The gap between announced frameworks and operational ones is the real story here — intentions without infrastructure move little.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/administration-officials-dont-think-much-ai-progress-will-come-of-trumps-china-visit/"><span class="tih">Trump&#x27;s China Summit May Leave AI Gaps Open, Officials Say</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia&#x27;s 10-Q delay leaves investors waiting on a rare missing filing" data-b="Nvidia broke with its own habit this week by skipping the usual same-day submission of its quarterly 10-Q report to the SEC. According to TechCrunch, interim CEO Colette Kress, the company&#x27;s CFO stepping into the top role, told callers on Tuesday&#x27;s earnings call that the filing would arrive &quot;in the coming weeks&quot; without explaining the gap — a small anomaly that quickly became one of the day&#x27;s most discussed items on X.
+
+Analyst Edward Dowd labeled the missing filing a red flag, and the 10-Q matters because it carries operational depth a press release lacks, including legal proceedings and risk factors. UBS&#x27;s Timothy Arcuri pressed management on the callback and learned the timing hinged on how much to reveal about the ongoing investigation involving founder Jensen Huang. Arcuri kept a buy rating but trimmed his target to $220 from $240, with shares near $150.
+
+TechCrunch notes the same-day Wall Street Journal report that the SEC is examining whether Nvidia&#x27;s disclosures misled investors. That stacks on earlier scrutiny from congressional committees and the Justice Department over restricted chips reaching China via partners like Megaspeed, plus an internal probe into Huang&#x27;s personal disclosures. The eventual 10-Q should say a lot.
+
+*The footnotes Nvidia finally adds may prove more revealing than the earnings themselves.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/"><span class="tih">Nvidia&#x27;s 10-Q delay leaves investors waiting on a rare missing filing</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Microsoft stands by Nvidia as Huang-era transition unfolds" data-b="Satya Nadella voiced continued confidence in Nvidia following Jensen Huang&#x27;s sudden exit as chief executive, speaking Wednesday at The New York Times DealBook Summit. According to TechCrunch, Nadella called the situation &quot;pretty tragic,&quot; noting his long familiarity with Huang and saying he wants to give him space to sort things out.
+
+Huang relinquished the CEO title last week after 33 years at the helm, during which he steered Nvidia into the ranks of the world&#x27;s most valuable companies. His judgment came under scrutiny after reports that he had an affair with Megaspeed executive Alice Huang, believed by U.S. officials to be a Chinese spy passing information to Beijing. Two further affairs with Nvidia employees, one a direct report, also surfaced.
+
+Nadella, whose company counts Nvidia as a close partner, emphasized stability. He pointed to interim CEO Colette Kress, a longtime Microsoft colleague he described as tremendous, and said his contacts inside Nvidia remain the same as before the handover — giving him strong faith in the team&#x27;s ability to keep delivering.
+
+Reflecting on founder-led firms, Nadella compared his own trajectory to Bill Gates&#x27; larger-than-life tenure. Founders, he observed, build something from nothing and are singular, though not gods; because founders too die, any company that hopes to endure eventually needs a successor at the wheel.
+
+*The episode is a neat case study in how quickly a single leader&#x27;s gravity can be absorbed by an institutional bench.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/"><span class="tih">Microsoft stands by Nvidia as Huang-era transition unfolds</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia&#x27;s numbers dwarf its chip rivals after Jensen Huang&#x27;s exit" data-b="Nvidia&#x27;s financial climb looks almost absurd when rendered as charts, according to a report by Sean Hollister at The Verge. The company is now earning roughly $8,300 in pure profit every second — about $700 million a day and over $200 billion a year — with the latest quarter closing at some $65 billion in profit. Earlier highs, tied to the crypto boom and the GPU shortage, peaked at just $1.24 billion and $3 billion per quarter.
+
+Even so, Nvidia&#x27;s market capitalization slipped from around $5 trillion at the start of November to about $3.6 trillion following Jensen Huang&#x27;s resignation. Long-term holders still fared well: a decade-old $1,000 stake is now worth more than $67,000.
+
+The gap over rivals is stark — Micron posted $37.7 billion in profit last quarter, SK Hynix $29.8 billion, and Samsung roughly $55.3 billion, all trailing Nvidia&#x27;s $65.3 billion. Memory makers, once tripping over oversupply losses in 2023, remain more cyclical.
+
+On November 17, interim CEO and CFO Colette Kress — speaking at the first earnings call since Huang stepped down — promised to return all excess free cash flow to shareholders, up from the prior 50 percent baseline. She called demand acceleration and supply growth real, cited backing from partners like TSMC, and projected $130 billion in revenue next quarter.
+
+*Nvidia&#x27;s story suggests scale, not showmanship, is what keeps an AI-era company afloat.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang"><span class="tih">Nvidia&#x27;s numbers dwarf its chip rivals after Jensen Huang&#x27;s exit</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia Finds Its Interim Rhythm Under Colette Kress&#x27;s &quot;We&#x27;ve Got This" data-b="According to WIRED, Nvidia is leaning on a repeated mantra as it settles into life without its longtime leader. After Jensen Huang stepped down amid an international scandal, the chipmaker&#x27;s stock dropped and its standing in the AI race looks shakier than usual. In the gap sits Colette Kress, still the company&#x27;s CFO and now its interim CEO, charged with steadying things fast.
+
+Her public duties so far cover the third-quarter earnings call and an all-hands session for staff. Her signature move, per WIRED&#x27;s tally, is a catchphrase deployed three times in 24 hours: &quot;We&#x27;ve got this.&quot; On the earnings call she tied it to accelerating demand, growing supply and committed employees; at the all-hands she repeated it after vowing that ambition, passion for innovation and customer commitments would not change, closing with a football-stadium singing analogy involving roughly 90,000 fans.
+
+WIRED notes the refrain is modest fuel — confident companies rarely need to remind anyone twice in one meeting — while employees seem to enjoy it, with two Nvidia staffers echoing the line on X. On the board front, chair Harvey Jones confirmed Huang will not return, leaving Kress holding the wheel for now.
+
+*Nvidia&#x27;s habit of grading its own homework makes the &quot;we&#x27;ve got this&quot; era feel like a halftime speech rather than a final score.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/guys-really-we-got-this/"><span class="tih">Nvidia Finds Its Interim Rhythm Under Colette Kress&#x27;s &quot;We&#x27;ve Got This</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Trump&#x27;s China Summit May Leave AI Gaps Open, Officials Say" data-b="Ahead of President Donald Trump&#x27;s Thursday meeting with Xi Jinping, administration officials privately told WIRED&#x27;s Inner Loop newsletter that they expect little movement on AI safety and espionage concerns. Trump departed the White House without committing to whether he would raise Chinese interference in AI or the Nvidia scandal, as officials aim to avoid antagonizing Beijing during the summit.
+
+According to WIRED, the fallout from former Nvidia CEO Jensen Huang&#x27;s affair with Alice Huang, a Megaspeed executive suspected of being a Chinese intelligence asset, has complicated AI negotiations between the two economies. A September plan for an AI incident hotline linking Treasury Secretary Scott Bessent and Chinese vice premier He Lifeng remains at the concept stage and is not operational. Secretary of State Marco Rubio said the two governments have held &quot;technical level&quot; AI safety talks since the announcement but called the effort &quot;still a work in progress.&quot;
+
+Officials attribute the stalled progress to divergent risk priorities: the US fears autonomous, misaligned models escaping human oversight, while China reportedly focuses on open-weight models used by domestic critics. China has also shown interest in using frontier models for intelligence gathering and disputes the allegations against Alice Huang, calling them &quot;groundless.&quot; Meanwhile, a new US rule limits China&#x27;s remote access to American-made AI chips, a direct response tied to the Nvidia case.
+
+*The gap between announced frameworks and operational ones is the real story here — intentions without infrastructure move little.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/administration-officials-dont-think-much-ai-progress-will-come-of-trumps-china-visit/"><span class="tih">Trump&#x27;s China Summit May Leave AI Gaps Open, Officials Say</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia&#x27;s 10-Q delay leaves investors waiting on a rare missing filing" data-b="Nvidia broke with its own habit this week by skipping the usual same-day submission of its quarterly 10-Q report to the SEC. According to TechCrunch, interim CEO Colette Kress, the company&#x27;s CFO stepping into the top role, told callers on Tuesday&#x27;s earnings call that the filing would arrive &quot;in the coming weeks&quot; without explaining the gap — a small anomaly that quickly became one of the day&#x27;s most discussed items on X.
+
+Analyst Edward Dowd labeled the missing filing a red flag, and the 10-Q matters because it carries operational depth a press release lacks, including legal proceedings and risk factors. UBS&#x27;s Timothy Arcuri pressed management on the callback and learned the timing hinged on how much to reveal about the ongoing investigation involving founder Jensen Huang. Arcuri kept a buy rating but trimmed his target to $220 from $240, with shares near $150.
+
+TechCrunch notes the same-day Wall Street Journal report that the SEC is examining whether Nvidia&#x27;s disclosures misled investors. That stacks on earlier scrutiny from congressional committees and the Justice Department over restricted chips reaching China via partners like Megaspeed, plus an internal probe into Huang&#x27;s personal disclosures. The eventual 10-Q should say a lot.
+
+*The footnotes Nvidia finally adds may prove more revealing than the earnings themselves.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/"><span class="tih">Nvidia&#x27;s 10-Q delay leaves investors waiting on a rare missing filing</span> <span class="tis">— techcrunch.com</span></div></div></div>
+<div class="lead-zone">
+      <article class="lead">
+  <a href="https://videocardz.com/newz/nvidia-launches-rtx-spark-mini-pc-desktops-with-windows-os-asus-dell-and-msi-first" target="_blank" rel="noopener">
+    <img src="images/lead_2026-11-10.jpg" alt="" class="lead-image">
+    <div class="lead-grid">
+      <div class="lead-head">
+        <p class="kicker">Edge hardware</p>
+        <h1>NVIDIA's RTX Spark desktops go on sale with up to 128GB unified memory</h1>
+      </div>
+      <div class="lead-body">
+        <p class="deck">NVIDIA's RTX Spark compact desktops went on sale November 18 from ASUS, Dell and MSI, pairing a 20-core Grace CPU with a 6,144-CUDA-core Blackwell GPU and up to 128GB of unified memory. NVIDIA claims supported models up to 120B parameters run locally; MSI's EdgeMesa N AI+ starts at $4,699, with Acer, GIGABYTE, HP and a Microsoft Surface Dev Box to follow.</p>
+        <p class="byline"><span class="src">VideoCardz</span> · <span>2026-11-18</span> · <span class="more">Read the dispatch →</span></p>
+      </div>
+    </div>
+  </a>
+</article>
+
+    </div>
+
+    <div class="topstories">
+<article class="story">
+  <a href="https://huggingface.co/blog/rumble-2-flash" target="_blank" rel="noopener">
+    <h3>Rumble-2-Flash: a 0.5B open-weights speech model for 40+ languages</h3>
+    <p>Reson8 open-sourced Rumble-2-Flash, an Apache 2.0 ASR model with automatic language detection, native Transformers/vLLM support and 7,000+ RTFx. It matches NVIDIA's 30B Nemotron 3.5 Transcribe on a 302-hour call-centre benchmark despite being ~60x smaller.</p>
+    <p class="byline"><span class="src">Hugging Face</span> · 2026-11-18</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin" target="_blank" rel="noopener">
+    <h3>RadixArk ships DaisyRose-27B, its first open-weight model</h3>
+    <p>Built on Qwen3.8-27B and post-trained with RL on 1,200 curated long-horizon agent tasks in 18 days on 144 H200 GPUs, DaisyRose-27B ships BF16, FP8 and NVFP4 checkpoints under Apache 2.0, with Terminal-Bench 4.1 pass@1 improving from 5.6% to 12.0%.</p>
+    <p class="byline"><span class="src">Hugging Face</span> · 2026-11-18</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://huggingface.co/blog/moe-expert-streaming" target="_blank" rel="noopener">
+    <h3>Hugging Face runs a 180B MoE on 32GB of RAM by streaming experts from SSD</h3>
+    <p>A new Transformers technique keeps only hot MoE experts in VRAM and overflows the rest to RAM or disk, reaching within 6% of a dedicated engine's token-generation speed on a 32GB unified-memory MacBook.</p>
+    <p class="byline"><span class="src">Hugging Face</span> · 2026-11-18</p>
+  </a>
+</article>
+
+</div>
+
+
+    <div class="sections">
+      <section class="section">
+  <div class="section-head">
+    <h2>Research &amp; Papers</h2>
+    <span class="line"></span>
+    <span class="n">05</span>
+  </div>
+  <a href="https://huggingface.co/papers/2611.23388" target="_blank" rel="noopener" class="section-hero"><img src="images/section_research_papers_2026-11-10.jpg" alt="" class="section-hero-img"><h4 class="hero-title">QDA: closed-loop LLM quantization design with agents</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://huggingface.co/papers/2611.23388" target="_blank" rel="noopener">
+    <h4>QDA: closed-loop LLM quantization design with agents</h4>
+    <p>An MIT HAN Lab method that puts an LLM agent in a closed loop to automatically design per-model quantization recipes — scale scheme, structure and precision allocation — replacing manual tuning.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-11-19</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/papers/2611.14848" target="_blank" rel="noopener">
+    <h4>Tideway: phase-aware tiered memory for MoE inference on consumer devices</h4>
+    <p>Phase-aware tiered memory management targets the VRAM gap between datacenter servers and local hardware, letting large MoE models deploy on consumer PCs.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-11-19</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/papers/2611.24576" target="_blank" rel="noopener">
+    <h4>Late Entry in looped language models</h4>
+    <p>Addresses how early-exit decoding truncates cached KV states in looped (shared-layer) language models, improving the recurrence-depth versus decoding-latency trade-off.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-11-19</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2611.24379" target="_blank" rel="noopener">
+    <h4>MoE-Context: show the model only what it needs</h4>
+    <p>Splits agent context into blocks and uses a fast yes/no pre-pass to select only the blocks each step needs, cutting per-step context length while keeping the rest recallable.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-11-18</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2611.24059" target="_blank" rel="noopener">
+    <h4>Replay, don't resample: cheaper consolidation of long-horizon RL experts</h4>
+    <p>Replaces costly multi-teacher on-policy distillation with an off-policy replay scheme for merging per-domain RL experts into a single student model.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-11-18</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Open Weights &amp; Models</h2>
+    <span class="line"></span>
+    <span class="n">03</span>
+  </div>
+  <a href="https://huggingface.co/tencent/Hy4-flash" target="_blank" rel="noopener" class="section-hero"><img src="images/section_open_weights_models_2026-11-10.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Tencent Hy4-flash: 220B MoE multimodal model goes open-weight</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://huggingface.co/tencent/Hy4-flash" target="_blank" rel="noopener">
+    <h4>Tencent Hy4-flash: 220B MoE multimodal model goes open-weight</h4>
+    <p>Image-text-to-text instruct model released with an FP8 variant and a pretrained base (Hy4-flash-base); trending on Hugging Face.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-11-17</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/tencent/WeDLM-8B-Base" target="_blank" rel="noopener">
+    <h4>Tencent WeDLM-8B-Base: diffusion language model with parallel decoding</h4>
+    <p>8B diffusion LM decoding in parallel under standard causal attention, initialized from Qwen3-8B; Apache 2.0 base checkpoint with an instruct sibling available.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-11-18</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://modeltape.com/new" target="_blank" rel="noopener">
+    <h4>Microsoft's Aion 1.0 Instruct: a 2.3B compact on-device model</h4>
+    <p>New 2.3B open-weights instruct model released November 18; its compact footprint makes it a strong candidate for on-device local inference.</p>
+    <p class="byline"><span class="src">ModelTape</span> · 2026-11-18</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Tools &amp; Runtimes</h2>
+    <span class="line"></span>
+    <span class="n">04</span>
+  </div>
+  <a href="https://github.com/labstack/pitot" target="_blank" rel="noopener" class="section-hero"><img src="images/section_tools_runtimes_2026-11-10.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Pitot: OpenTelemetry, Parquet, DuckDB and MCP in one binary</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://github.com/labstack/pitot" target="_blank" rel="noopener">
+    <h4>Pitot: OpenTelemetry, Parquet, DuckDB and MCP in one binary</h4>
+    <p>Show HN launch of a single-binary observability stack that stores OpenTelemetry data as Parquet, queries it with DuckDB and exposes results over MCP for agent consumption.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-11-18</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://adeindex.com" target="_blank" rel="noopener">
+    <h4>ADE Index: a sourced, ranked index of 975 agentic coding tools</h4>
+    <p>A curated, cited index making the fragmented local coding-agent tool landscape comparable at a glance, launched via Show HN.</p>
+    <p class="byline"><span class="src">ADE Index</span> · 2026-11-19</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://news.ycombinator.com/item?id=50548660" target="_blank" rel="noopener">
+    <h4>Mastra open-sources its internal software factory</h4>
+    <p>The Mastra team released the internal software factory behind its agent framework as a reproducible template for agentic project scaffolding.</p>
+    <p class="byline"><span class="src">Hacker News</span> · 2026-11-18</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://x.com/lmsysorg/status/2123199188414664812" target="_blank" rel="noopener">
+    <h4>SGLang adds Humming low-bit kernels for efficient MoE serving</h4>
+    <p>lmsys reports Humming low-bit kernels in SGLang for efficient MoE serving, tested on DeepSeek models.</p>
+    <p class="byline"><span class="src">lmsysorg</span> · 2026-11-19</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Self-Hosted Stack</h2>
+    <span class="line"></span>
+    <span class="n">03</span>
+  </div>
+  <a href="https://reddit.com/r/LocalLLaMA/comments/1xx607x/llamacpp_performance_improvement_over_time_gemma4" target="_blank" rel="noopener" class="section-hero"><img src="images/section_self_hosted_stack_2026-11-10.jpg" alt="" class="section-hero-img"><h4 class="hero-title">llama.cpp MoE host-memory cache doubles token throughput on small-VRAM GPUs</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://reddit.com/r/LocalLLaMA/comments/1xx607x/llamacpp_performance_improvement_over_time_gemma4" target="_blank" rel="noopener">
+    <h4>llama.cpp MoE host-memory cache doubles token throughput on small-VRAM GPUs</h4>
+    <p>Community benchmarks from the v1.0 series report the new MoE expert cache with CPU share runs mixture-of-experts models up to ~2x faster when experts spill into system RAM (an 8GB RTX 3070 went from 35 to 62 t/s on a 35B 4-bit model). Ollama's bundled llama.cpp does not yet enable the setting.</p>
+    <p class="byline"><span class="src">r/LocalLLaMA</span> · 2026-11-18</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/ollama/ollama/releases" target="_blank" rel="noopener">
+    <h4>Ollama releases cut Qwen3.8 Flash Next memory by ~27 GiB on Apple silicon</h4>
+    <p>Recent releases also route 'ollama launch claude' to the selected model, honor truncation in /v1/responses, return an empty list from /v1/models when nothing is installed, and add CUDA 13.5 support for Windows on ARM.</p>
+    <p class="byline"><span class="src">Ollama</span> · 2026-11-18</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.reddit.com/r/selfhosted/comments/1xurjda/new_project_megathread_week_of_12_nov_2026/" target="_blank" rel="noopener">
+    <h4>LORE: a fully local, Dockerized AI reader turns ebooks into knowledge graphs</h4>
+    <p>Surfaced in the r/selfhosted New Project Megathread: answers questions about your ebooks without spoilers, running fully local.</p>
+    <p class="byline"><span class="src">r/selfhosted</span> · 2026-11-12</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Hardware &amp; Edge</h2>
+    <span class="line"></span>
+    <span class="n">04</span>
+  </div>
+  <a href="https://videocardz.com/newz/nvidia-rtx-pro-5500-blackwell-84gb-launches-in-japan" target="_blank" rel="noopener" class="section-hero"><img src="images/section_hardware_edge_2026-11-10.jpg" alt="" class="section-hero-img"><h4 class="hero-title">84GB RTX PRO 5500 Blackwell launches in Japan; US listings top $20,000</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://videocardz.com/newz/nvidia-rtx-pro-5500-blackwell-84gb-launches-in-japan" target="_blank" rel="noopener">
+    <h4>84GB RTX PRO 5500 Blackwell launches in Japan; US listings top $20,000</h4>
+    <p>The Workstation Edition (21,760 CUDA cores, 84GB GDDR7 with ECC) began shipping via Ryosan Ryoyo on November 18; US reseller listings put it above the 96GB RTX PRO 6000 at $17,408-$20,238.</p>
+    <p class="byline"><span class="src">VideoCardz</span> · 2026-11-18</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://trendforce.com/news/2026/11/18/insights-memory-spot-price-update-nand-spot-contract-price-gap-exceeds-20-amid-weak-demand" target="_blank" rel="noopener">
+    <h4>TrendForce: NAND spot-contract gap exceeds 20% as DDR5 holds steady</h4>
+    <p>Branded DDR5 spot prices held largely steady while DDR4 1Gx8 slipped 1.43% to $44.25, and weak demand pushed the NAND spot-contract gap past 20% amid channel destocking.</p>
+    <p class="byline"><span class="src">TrendForce</span> · 2026-11-18</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://aiweekly.co/alerts/telechat-xing4-trains-285b-param-agentic-moe-entirely-on-8192-ascend-910c-npus" target="_blank" rel="noopener">
+    <h4>China Telecom trains a 285B agentic MoE entirely on 8,192 Ascend 910C NPUs</h4>
+    <p>The TeleChat Xing4 report details a fully non-NVIDIA stack (MindSpore HyperParallel, no CUDA) and introduces a 29B-A4B open-weight model with 256K-1M context for edge-class deployment.</p>
+    <p class="byline"><span class="src">AI Weekly</span> · 2026-11-18</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://videocardz.com/newz/valve-posts-amdgpu-patches-to-reduce-stutter-in-some-proton-games" target="_blank" rel="noopener">
+    <h4>Valve posts AMDGPU patches to cut Proton stutter via batched VRAM mapping</h4>
+    <p>A revised 10-patch Linux series introduces AMDGPU_GEM_VA2 to batch GPU virtual-memory mapping calls, targeting stalls on 8GB-class cards when dedicated VRAM runs low; RADV must adopt the interface first.</p>
+    <p class="byline"><span class="src">VideoCardz</span> · 2026-11-18</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+    </div>
+
+    <div class="trending-wrap">
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Repos on GitHub</h1>
+      <div class="t-line"></div>
+      <a href="https://github.com/trending" target="_blank" rel="noopener" class="t-link">Go to GitHub trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://github.com/google-research/paper-orchestra" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">google-research/paper-orchestra</span>
+    <span class="t-meta">Python · 4.5k ★ · +1524 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/affaan-m/ECC" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">affaan-m/ECC</span>
+    <span class="t-meta">JavaScript · 306.7k ★ · +1108 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/mvanhorn/last30days-skill" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">mvanhorn/last30days-skill</span>
+    <span class="t-meta">Python · 70.2k ★ · +1059 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/obra/superpowers" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">obra/superpowers</span>
+    <span class="t-meta">Shell · 321.4k ★ · +822 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/HKUDS/CLI-Anything" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">HKUDS/CLI-Anything</span>
+    <span class="t-meta">Python · 59.9k ★ · +389 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/google-labs-code/stitch-skills" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">google-labs-code/stitch-skills</span>
+    <span class="t-meta">TypeScript · 10.5k ★ · +365 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/n8n-io/n8n" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">n8n-io/n8n</span>
+    <span class="t-meta">TypeScript · 211.2k ★ · +325 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/cursor/plugins" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">cursor/plugins</span>
+    <span class="t-meta">TypeScript · 17.3k ★ · +314 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/NVIDIA/SkillEvaluator" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">NVIDIA/SkillEvaluator</span>
+    <span class="t-meta">Python · 3.8k ★ · +312 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/openvinotoolkit/openvino" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">openvinotoolkit/openvino</span>
+    <span class="t-meta">C++ · 11.4k ★ · +24 today</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+  
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Trending on HF</h1>
+      <div class="t-line"></div>
+      <a href="https://huggingface.co/models?sort=trending" target="_blank" rel="noopener" class="t-link">Go to Hugging Face trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">harness-hub/Qwen3.8-27B-pi-adapted</span>
+    <span class="t-meta">Image-Text-to-Text adaptation of Qwen3.8-27B</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Lightricks/LTX-2.5" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Lightricks/LTX-2.5</span>
+    <span class="t-meta">Image-to-Video generation model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/thinkingmachines/Inkling-2-Small" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">thinkingmachines/Inkling-2-Small</span>
+    <span class="t-meta">594B MoE language model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/higurashi-ai/Haru-4B" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">higurashi-ai/Haru-4B</span>
+    <span class="t-meta">5B Audio-to-Audio speech model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/MiniMaxAI/MiniMax-H3-Image" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">MiniMaxAI/MiniMax-H3-Image</span>
+    <span class="t-meta">Text-to-Image model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Qwen/Qwen3.8-27B" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">Qwen/Qwen3.8-27B</span>
+    <span class="t-meta">28B Image-Text-to-Text instruct model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/tencent/Hy4-flash" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">tencent/Hy4-flash</span>
+    <span class="t-meta">220B MoE multimodal instruct model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/n4ze3m/tiny-voca" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">n4ze3m/tiny-voca</span>
+    <span class="t-meta">Compact Text-to-Speech model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/apple/FastFrames-L" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">apple/FastFrames-L</span>
+    <span class="t-meta">Text-to-Video model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">meituan-longcat/LongCat-Video-Avatar-1.6</span>
+    <span class="t-meta">Video avatar generation model</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+</div>
+
+
+    <section class="section" id="free-models">
+  <div class="section-head">
+    <h2>Free Models</h2>
+    <span class="line"></span>
+    <span class="n">26</span>
+  </div>
+
+  <p class="section-note">Free means $0 per token today, not unlimited or unconditional: both platforms rate-limit free use and require a free API key, some OpenRouter free endpoints may train on your prompts unless you opt out in account settings, and the roster changes daily. Verified against each provider's own pricing data at generation time — but pricing changes without notice, so confirm it's still free on the provider's own page before you rely on it.</p>
+
+  <div class="trending-wrap trending-wrap--in-section">
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenRouter</h1>
+        <div class="t-line"></div>
+        <a href="https://openrouter.ai/models?max_price=0" target="_blank" rel="noopener" class="t-link">Browse free models →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://openrouter.ai/baidu/ernie-5.5-flash-preview:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Baidu: ERNIE-5.5-Flash-Preview (free)</span>
+    <span class="t-meta">1.024M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/cohere/north-mini-code:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Cohere: North Mini Code (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/dots-studio/dots-3-note-preview:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Dots Studio: Dots3-Note Preview (free)</span>
+    <span class="t-meta">512K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-26b-a4b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Google: Gemma 4 26B A4B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-31b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Google: Gemma 4 31B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/inclusionai/ling-3.2-flash:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">inclusionAI: Ling 3.2 Flash (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/liquid/lfm-3-1.7b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">LiquidAI: LFM3-1.7B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Nano Omni (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Ultra (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-lightning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Lightning (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-super-vl:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#11</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Super VL (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/particle-ai/particle-1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#12</span>
+    <span class="t-name">Particle AI: Particle-1 (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/recursive/flint-v1.0:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#13</span>
+    <span class="t-name">Recursive: Flint (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling-2-small:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#14</span>
+    <span class="t-name">Thinking Machines: Inkling 2 Small (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenCode Zen</h1>
+        <div class="t-line"></div>
+        <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener" class="t-link">See the full Zen catalog →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Big Pickle</span>
+    <span class="t-meta">big-pickle</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Iceman Free</span>
+    <span class="t-meta">iceman-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Inkling 2 Small Free</span>
+    <span class="t-meta">inkling-2-small-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">DeepSeek V4.1 Flash Free</span>
+    <span class="t-meta">deepseek-v4.1-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Beam Free</span>
+    <span class="t-meta">beam-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">Flint 40B Free</span>
+    <span class="t-meta">flint-40b-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">LongCat 2.5 Free</span>
+    <span class="t-meta">longcat-2.5-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">Hy4 flash Free</span>
+    <span class="t-meta">hy4-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">MiMo-V2.6-Flash Free</span>
+    <span class="t-meta">mimo-v2.6-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">Nemotron 3.5 Lightning Free</span>
+    <span class="t-meta">nemotron-3.5-lightning-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#11</span>
+    <span class="t-name">Nemotron 3.5 Super VL Free</span>
+    <span class="t-meta">nemotron-3.5-super-vl-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#12</span>
+    <span class="t-name">Jev 1.13 Free</span>
+    <span class="t-meta">jev-1.13-free</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+    <section class="inbrief">
+  <div class="section-head">
+    <h2>In Brief</h2>
+    <span class="line"></span>
+    <span class="n">12</span>
+  </div>
+  <ul class="qh-list">
+    <li><a href="https://github.com/ggml-org/llama.cpp/releases/tag/b12532" target="_blank" rel="noopener"><span class="qh-title">llama.cpp b12528–b12532 fix realtime sleep state and KV padding in decomposed flash attention</span><span class="qh-src">GitHub</span></a></li>
+
+    <li><a href="https://x.com/GoogleDeepMind/status/2123167889976905966" target="_blank" rel="noopener"><span class="qh-title">Google DeepMind's Neon ranks #3 on the Artificial Analysis Intelligence Index</span><span class="qh-src">GoogleDeepMind</span></a></li>
+
+    <li><a href="https://x.com/NousResearch/status/2123135537087181191" target="_blank" rel="noopener"><span class="qh-title">Nous Portal offers Qwen4-Max free for 5 days (native vision, 1M context)</span><span class="qh-src">NousResearch</span></a></li>
+
+    <li><a href="https://x.com/OpenAI/status/2123100386638877054" target="_blank" rel="noopener"><span class="qh-title">OpenAI and AMD report up to 14% PPA improvement on flagship GPU IP</span><span class="qh-src">OpenAI</span></a></li>
+
+    <li><a href="https://x.com/DeepLearningAI/status/2123190787026325880" target="_blank" rel="noopener"><span class="qh-title">GPT-6 Astra edits 3.5% of network weights in one pass, lifting success from 0/256 to 1,024/1,024</span><span class="qh-src">DeepLearningAI</span></a></li>
+
+    <li><a href="https://arxiv.org/abs/2611.23716" target="_blank" rel="noopener"><span class="qh-title">On-the-job learning: when a small on-device model improves from user feedback, and when it decays</span><span class="qh-src">arXiv</span></a></li>
+
+    <li><a href="https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time" target="_blank" rel="noopener"><span class="qh-title">Learned predictors beat FLOP estimates for SFT duration: R² 0.98 vs 0.31 over 7,382 GPU-hours</span><span class="qh-src">Hugging Face</span></a></li>
+
+    <li><a href="https://techcrunch.com/2026-11-18/spend-management-platform-payhawk-announces-280m-raise-2b-valuation" target="_blank" rel="noopener"><span class="qh-title">Payhawk raises $280M Series C at a $2B valuation for AI-native spend management</span><span class="qh-src">TechCrunch</span></a></li>
+
+    <li><a href="https://techstartups.com/2026-11-18/linq-raises-90m-from-andreessen-horowitz-to-power-ai-agents-that-can-text-call-and-get-things-done/" target="_blank" rel="noopener"><span class="qh-title">Linq raises $90M from a16z for AI agents that text, call and get things done</span><span class="qh-src">Tech Startups</span></a></li>
+
+    <li><a href="https://techstartups.com/2026-11-18/brightai-raises-97m-to-bring-physical-ai-to-critical-infrastructure-using-robots-drones-and-smart-sensors/" target="_blank" rel="noopener"><span class="qh-title">BrightAI raises $97M to bring physical AI sensors, robots and drones to utilities</span><span class="qh-src">Tech Startups</span></a></li>
+
+    <li><a href="https://techcrunch.com/2026-11-18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/" target="_blank" rel="noopener"><span class="qh-title">India's Humyn Labs raises $47M to feed US robotics companies training data</span><span class="qh-src">TechCrunch</span></a></li>
+
+    <li><a href="https://startupitalia.eu/startup/invitalia-lancia-matchup-la-piattaforma-ai-startup/" target="_blank" rel="noopener"><span class="qh-title">Invitalia launches MatchUp, an AI platform matching Italian startups with investors</span><span class="qh-src">StartupItalia</span></a></li>
+
+  </ul>
+</section>
+
+
+    <footer class="colophon">
+      <p class="mark">Per aspera ad astra</p>
+      <p class="meta">Compiled by Hermes Agent · 2026-11-19 · <a href="https://github.com/MovieMaker93/local-ai-news" target="_blank" rel="noopener">source</a></p>
+      <p class="meta">Beta · <a href="making-of.html" title="Replay how this issue assembled itself">See how this issue made itself</a></p>
+    </footer>
+
+  </div>
+<div class="mo" id="mo" onclick="cm(event)"><div class="mb"><button class="mc" onclick="cm()">✕</button><h2 class="mh" id="mh"></h2><p class="mm">Source: <span id="ms"></span></p><div class="mbd" id="mbd"></div></div></div>
+<script>function openArt(el){var h=el.getAttribute('data-h'),b=el.getAttribute('data-b'),s=el.getAttribute('data-s'),u=el.getAttribute('data-u');document.getElementById('mh').textContent=h;var sl=document.getElementById('ms');if(u&&u!=='#'&&u!==''){sl.innerHTML='<a href="'+u+'" target="_blank" rel="noopener">'+s+'</a>';}else{sl.textContent=s;}var aiS='*— Written by AI (';var i=b.indexOf(aiS);if(i>=0){var bf=b.substring(0,i);var af=b.substring(i+aiS.length);var mdl=af.split(')')[0];bf=bf.split('\n').join('<br>');bf=bf.replace(/\*([^*]+)\*/g,'<em class="en">$1</em>');var sg='<div class="as"><span class="al">⬥ AI-GENERATED</span><br>Model: '+mdl+'</div>';document.getElementById('mbd').innerHTML=bf+sg;}else{document.getElementById('mbd').innerHTML=b.split('\n').join('<br>');}document.getElementById('mo').classList.add('a');document.body.style.overflow='hidden';}function cm(e){if(e&&e.target!=document.getElementById('mo'))return;document.getElementById('mo').classList.remove('a');document.body.style.overflow='';}document.addEventListener('keydown',function(e){if(e.key==='Escape')cm()});</script></body>
+</html>
