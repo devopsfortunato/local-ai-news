@@ -4,72 +4,6 @@
   },
   "headlines": [
     {
-      "text": "Qwen3.8-Flash-Next opens the door to the Qwen4 architecture",
-      "source": "Qwen",
-      "date": "2026-08-27",
-      "issue": 1
-    },
-    {
-      "text": "Mac Studio M5 Ultra ships with 512GB unified memory to run frontier AI models locally",
-      "source": "TechTimes",
-      "date": "2026-08-27",
-      "issue": 1
-    },
-    {
-      "text": "Perplexity Portable Computer runs its AI agent fully offline on 24GB+ GPUs",
-      "source": "SiliconSnark",
-      "date": "2026-08-27",
-      "issue": 1
-    },
-    {
-      "text": "Open WebUI v0.11.1 lets the model stop and ask before it acts",
-      "source": "Open WebUI",
-      "date": "2026-08-27",
-      "issue": 1
-    },
-    {
-      "text": "Ollama v0.33.1 adds Qwen3.8 Flash Next support on MLX",
-      "source": "GitHub",
-      "date": "2026-08-27",
-      "issue": 1
-    },
-    {
-      "text": "Low-rank ternary adaptation fine-tunes transformers without dequantizing",
-      "source": "arXiv",
-      "date": "2026-08-27",
-      "issue": 1
-    },
-    {
-      "text": "Systematic look at quantization's toll on low-resource languages",
-      "source": "arXiv",
-      "date": "2026-08-27",
-      "issue": 1
-    },
-    {
-      "text": "On-policy distillation merged with verifiable reward for post-training",
-      "source": "arXiv",
-      "date": "2026-08-27",
-      "issue": 1
-    },
-    {
-      "text": "Agent-hop: one terminal for every coding agent, fully local",
-      "source": "GitHub",
-      "date": "2026-08-27",
-      "issue": 1
-    },
-    {
-      "text": "Devx brings a terminal AI coding agent to Android Termux and desktop",
-      "source": "GitHub",
-      "date": "2026-08-27",
-      "issue": 1
-    },
-    {
-      "text": "llama.cpp pushes eight pre-release builds with Vulkan and Metal fixes",
-      "source": "GitHub",
-      "date": "2026-08-27",
-      "issue": 1
-    },
-    {
       "text": "n8n 2.37.0 refines AI Builder with MCP tools in the Agent Builder",
       "source": "n8n",
       "date": "2026-08-27",
@@ -11828,6 +11762,246 @@
       "source": "TechStartups",
       "date": "2026-11-20",
       "issue": 60
+    },
+    {
+      "text": "Inkling 2 Mini: a 26.4B looped MoE built for local setups",
+      "source": "Hugging Face",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "DeepSeek closes ~$15B round ahead of STAR Market IPO plans",
+      "source": "X (venturesintern)",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "NVIDIA ships JetPack 7.2.2 for Jetson with Jetson Linux 39.2.2",
+      "source": "NVIDIA Developer Forums",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "Hugging Face introduces harness adapters for open-weight models",
+      "source": "Hugging Face",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "ASUS ProArt GR1X RTX Spark mini PC goes on sale from 4,699 euros",
+      "source": "Mynewsdesk (ASUS press release)",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "NariQ: sub-3-bit quantization for long-horizon agentic tasks",
+      "source": "arXiv",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "VR-SparseQuant: accurate FP4 with 2:4 sparsity on Vera Rubin",
+      "source": "arXiv",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "QL-VLM: efficient latent reasoning for vision-language models",
+      "source": "arXiv",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "HADVQ: Hessian-aware directional vector quantization",
+      "source": "arXiv",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "FlashMorph2: on-policy morphing into hybrid attention models",
+      "source": "HuggingFace",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "Ayb 0.5: open Armenian language model family (0.8B / 4B / 9B)",
+      "source": "HuggingFace",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "WavLate: first open late-interaction model for audio-caption retrieval",
+      "source": "HuggingFace",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "OhanASR: open-weight Armenian speech recognition (offline + streaming)",
+      "source": "HuggingFace",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "TML-d24-varloop-research: variable-loop research twin of Inkling 2 Mini",
+      "source": "HuggingFace",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "llama.cpp b12602 released with SYCL GEMM improvements",
+      "source": "GitHub",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "Show HN: RigTune automatically finds the fastest LLM serving config for your GPU",
+      "source": "GitHub",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "Show HN: SaturnSQL context layer for AI database tools",
+      "source": "SaturnSQL",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "Show HN: Pangea runs coding agents with your whole team",
+      "source": "Pangea",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "Paperless-AI v4.1.0 returns after a long hiatus with built-in PaddleOCR and a prompt wizard",
+      "source": "r/selfhosted",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "LibreDB Studio 1.3: self-hosted SQL IDE for 42 engines adds a read-only MCP endpoint",
+      "source": "r/selfhosted",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "SpaceApp: self-hosted web workspace for running AI coding CLIs side by side",
+      "source": "r/selfhosted",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "n8n 2.48.7 released with memory-guard and scripting-node fixes",
+      "source": "n8n",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "GIGABYTE joins the RTX Spark desktop wave with the one-liter AI TOP AERO",
+      "source": "Tech Critter",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "MSI launches EdgeMesa N AI+ RTX Spark compact desktops",
+      "source": "Tech Critter",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "Raspberry Pi features DEEPX NPU for physical AI on the Pi 5",
+      "source": "DEEPX Newsroom",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "BaseRT adds AMD Ryzen AI GPU and NPU paths, claims up to 664% faster local LLMs",
+      "source": "Base Compute",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "LocalAI v5.0.1 ships with native Windows support and ROCm enhancements",
+      "source": "GitHub (mudler/LocalAI)",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "FastFlow v1.0.13 adds a HIP-based GPU path alongside the NPU flow on AMD hardware",
+      "source": "Dev48 (AMD developer article)",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "HiSA sparsifies the hidden dimension of the RoPE attention dot product",
+      "source": "arXiv",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "AutoMaster: autonomous post-training by making the same model a better teacher",
+      "source": "HuggingFace",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "Physics of Language Models 4.2: Canon layers save ~30% of pretraining tokens at 8B",
+      "source": "arXiv",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "Dory1.0-4B: a looped Normalized-GPT with full quantized checkpoint release",
+      "source": "arXiv",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "FINAL-Bench/POCKET-Darwin-180B-GGUF: on-device build of Darwin-180B",
+      "source": "HuggingFace",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "GLM-4.7-Flash-30B-A3B ships as Turbo Brilliance GGUF quants",
+      "source": "localmodelwatch",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "Cursor reportedly rebranded to Grok Build under xAI",
+      "source": "X (adityaa_behera)",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "MIT-IBM lab details multimodal foundation model advances",
+      "source": "X (arnaudmercier)",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "AI sector selloff: Anthropic IPO fails to revive confidence",
+      "source": "X (asharma)",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "Hoplite raises $5.5M led by Stripe's Collison brothers for cloud coding agents",
+      "source": "Tech.eu",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "Metano emerges from stealth with $12M seed for AI-agent security",
+      "source": "TechStartups",
+      "date": "2026-11-21",
+      "issue": 61
+    },
+    {
+      "text": "AI4I founds a center for physical intelligence systems in Turin",
+      "source": "la Repubblica",
+      "date": "2026-11-21",
+      "issue": 61
     }
   ]
 }
