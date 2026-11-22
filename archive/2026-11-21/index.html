@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOCAL AI NEWS — open-weight intelligence · November 21, 2026</title>
+  <meta name="description" content="A daily recap of local AI news from the last 24 hours: open weights, tooling, hardware, and the self-hosted stack.">
+  <link rel="stylesheet" href="style.css">
+  <style>.wt{display:flex;align-items:center;height:38px;background:var(--ink);border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule);margin:14px 0 0;overflow:hidden}.wtt{display:flex;align-items:center;white-space:nowrap;padding-left:20px;animation:ws 90s linear infinite}.wtt:hover{animation-play-state:paused}@keyframes ws{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}.ti{display:inline-flex;align-items:center;gap:7px;padding:0 22px;cursor:pointer;border-right:1px solid var(--rule);height:38px}.ti:hover{background:rgba(240,162,60,.05)}.tih{font-family:var(--serif);font-size:13px;color:var(--type)}.tis{font-family:var(--sans);font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}.mo{display:none;position:fixed;inset:0;background:rgba(10,10,12,.88);z-index:1000;justify-content:center;align-items:center;backdrop-filter:blur(8px)}.mo.a{display:flex}.mb{background:#121214;border:1px solid var(--rule-strong);max-width:680px;width:90%;max-height:82vh;overflow-y:auto;padding:40px 44px;position:relative;animation:fi .2s ease}@keyframes fi{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}.mc{position:absolute;top:14px;right:18px;background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;font-family:var(--sans);padding:4px 8px}.mh{font-family:var(--serif);font-weight:700;font-size:30px;line-height:1.1;letter-spacing:-.01em;color:var(--type);margin:0 0 14px;padding-right:32px}.mm{font-family:var(--sans);font-size:10.5px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 22px}.mm a{color:var(--lux)}.mm a:hover{text-decoration:underline}.mbd{font-family:var(--serif);font-size:16.5px;line-height:1.7;color:var(--type-dim)}.mbd .en{display:block;color:var(--lux-soft);font-style:italic;font-size:15px;margin-top:14px;padding-left:12px;border-left:2px solid var(--rule-strong)}.mbd .as{display:block;margin-top:18px;padding-top:14px;border-top:1px solid var(--rule);font-family:var(--sans);font-size:11px;color:var(--muted);line-height:1.5}.mbd .as .al{color:var(--lux-soft);font-weight:600;font-family:var(--sans);font-size:10px;letter-spacing:.06em;text-transform:uppercase}</style></head>
+  <body>
+  <div class="container">
+
+  <header class="masthead">
+    <div class="topline"></div>
+    <div class="ears">
+      <span class="left">Est. MMXXVI</span>
+      <span class="right">No. 61 <a href="/archive/" class="ar" title="Browse past issues">◆ Archive</a> <a href="#free-models" class="ar" title="Today's free AI models">⌁ Free Models</a></span>
+    </div>
+    <div class="nameplate">LOCAL <span class="lux">AI NEWS</span></div>
+      <hr class="rule-double">
+      <div class="dateline">
+        <span>November 21, 2026</span>
+        <span class="dot">◆</span>
+        <span class="tag">open weights, on your metal</span>
+        <span class="dot">◆</span>
+        <span>83 stories</span>
+      </div>
+      <div class="devocracy-credit">Inference self-hosted on a DGX Spark · models served via LiteLLM</div>
+      <hr class="rule-thin">
+    </header>
+
+    
+
+    <div class="wt"><div class="wtt"><div class="ti" onclick="openArt(this)" data-h="Therabody Discount Codes and Outlet Deals Lead November Savings" data-b="According to WIRED, Therabody wellness devices come with several ways to save this month. Shoppers who sign up for the company&#x27;s email list receive a 10% discount code, while registering a phone number for text messages unlocks a 15% coupon; both codes expire 30 days after issuance.
+
+The outlet channel offers deeper cuts: up to 30% off Certified Refurbished units and select early-generation models, with each device tested for functionality, inspected, cleaned, and given fresh or charged batteries. Every product carries a one-year warranty, and listed items also include a 30-day guarantee upon registration.
+
+Recent limited-time holiday offers included $80 off the Theragun Prime sixth generation, $90 off the TheraFace PRO, and $120 off the Theragun Sense, alongside free shipping sitewide on new arrivals such as the TheraFace Mask Glo and Theragun Mini Plus. Sample price tags cited: the Theragun Pro Plus at $550 against a $650 list price, the Theragun Sense at $220 on Amazon versus $300, and the TheraFace Mask Glo at $280 on Amazon versus $380.
+
+WIRED also highlights the ThermBack LED, which combines LED, far-infrared, heat and vibration therapies for lower back pain and is clinically proven to reduce it, though it rarely appears on sale.
+
+*The layered discount structure here rewards the patient, list-signed shopper more than the impulse buyer — a small but instructive pattern for anyone tracking gadget pricing.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/therabody-promo-code/"><span class="tih">Therabody Discount Codes and Outlet Deals Lead November Savings</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia Board Ousted Jensen Huang Over Repeated Lying, Not Just Affairs" data-b="Nvidia&#x27;s board removed CEO Jensen Huang primarily because of his lack of candor rather than the substance of the underlying disclosures, according to two people familiar with private board discussions who spoke to WIRED. While extramarital affairs were part of the record — Huang admitted on November 8 to a relationship with Alice Huang — one source said the decisive factor was &quot;the lying,&quot; which reportedly spanned a year, from October 2025 through recent events.
+
+The sequence began when The New York Times reported in October 2025 on Nvidia&#x27;s strong business ties to the Singapore-based data center firm Megaspeed, where Alice Huang worked. Huang denied an inappropriate relationship to the board at the time, sources told WIRED. Additional alleged affairs, reportedly including one with a direct report, followed. China&#x27;s Ministry of Foreign Affairs has rejected claims that Alice Huang was a Chinese intelligence asset.
+
+Board chair Harvey Jones told an all-hands meeting on November 18 that accepting the resignation was difficult but necessary given the conduct and lack of candor. Interim CEO Colette Kress told staff that falling share price ranked as employees&#x27; top worry, ahead of the ouster itself, and moved pay raises up accordingly — though she gave no commitment on publishing the board&#x27;s investigation results.
+
+Supporters, including Elon Musk and President Donald Trump, have pressed for Huang&#x27;s return; a Semafor-reported faction on the board agrees. Shareholder lawsuits over alleged misleading statements are pending, and Nvidia&#x27;s general counsel Tim Teter was called to Washington to testify on export controls.
+
+*The board&#x27;s framing is unusually clean: honesty, not headlines, decided the CEO&#x27;s fate.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation/"><span class="tih">Nvidia Board Ousted Jensen Huang Over Repeated Lying, Not Just Affairs</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Black Friday pricing brings microSD Express cards closer to their MSRP for Switch 2 owners" data-b="The Nintendo Switch 2 ships with 256GB of internal storage, and according to The Verge, expanding it now costs more than it did on the original console. The reason is the microSD Express format the system uses: the cards look identical to older microSD cards but deliver faster read and write speeds, which keeps SSD-tier pricing pressure on them even though general SSD costs remain elevated.
+
+The Verge&#x27;s shopping desk, writing on November 20, 2026 as part of its Black Friday 2026 coverage, points to a few current discounts. A 256GB Samsung card is listed at $44.99 on Amazon, several dollars under its normal price and well below its $79.99 suggested retail. Sandisk&#x27;s 256GB alternative sits at $49.99, about $10 off its typical Amazon listing, and is also sold directly by Sandisk at that price. For players who would rather not upgrade again later, both brands&#x27; 512GB cards are going for around $99.99, roughly doubling capacity for double the cost.
+
+As for which size fits, the site&#x27;s editor Cameron Faulkner suggests 256GB covers most players. Install sizes illustrate the point: the Zelda: Ocarina of Time remake takes about 24.9GB and other first-party titles run similar, while third-party games vary widely — Resident Evil Requiem needs 28.7GB and The Witcher 3: Wild Hunt — Remastered roughly 50GB.
+
+*For a console whose storage is fixed at purchase, a $10 gap between a good-enough card and a big one is the rare Black Friday math that actually adds up.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/gadgets/1037749/microsd-express-card-nintendo-switch-2-black-friday-2026-deal-sale"><span class="tih">Black Friday pricing brings microSD Express cards closer to their MSRP for Switch 2 owners</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia Board Holds Firm as Jensen Huang Chases a Return" data-b="According to Wired, Nvidia cofounder Jensen Huang resigned as CEO on November 12, pledging to help heal his family and rebuild trust. His departures were tied to an alleged spy&#x27;s involvement in Nvidia sales routed through a formerly obscure Singapore firm — a possible export-regulation breach — plus affairs with company subordinates. Support for him, however, never wavered. On November 17, barely days after stepping down, Huang used X to say he would be honored to reclaim the job if offered. The board shut it down: during an earnings call, chair Harvey Jones confirmed the resignation was unanimously accepted and would not be reversed, while interim leader and longtime CFO Colette Kress told staff &quot;we&#x27;ve got this.&quot;
+
+The noise did not stop. A &quot;Stand With Jensen&quot; petition passed 200,000 signatures, Bill Ackman blamed governance failures by directors, and Semafor reported Huang had personally lobbied at least one board member, with several directors reportedly still open to his return. At the New York Times DealBook conference the next day, the saga overshadowed Anthropic&#x27;s record IPO. Sam Altman and Greg Brockman praised Huang without backing his reinstatement; Palmer Luckey argued nobody can replace him; Elon Musk likened the ouster to the Bulls benching Michael Jordan mid-playoff.
+
+*The case shows how quickly admiration for a founder can outrun even the board&#x27;s own verdict.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/dont-bring-jensen-back/"><span class="tih">Nvidia Board Holds Firm as Jensen Huang Chases a Return</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Pura&#x27;s Cyber Week Sale Cuts Prices on the Top-Rated Smart Diffuser Lineup" data-b="According to WIRED&#x27;s commerce team, Pura has remained the standout nebulizer-style diffuser — a type that pushes air through oil cartridges — across years of testing, largely thanks to its simple operation and a scent library of more than 150 options from brands like Anthropologie, Nest and LAFCO, including seasonal collaborations such as this month&#x27;s New York City Ballet-inspired Nutcracker lineup.
+
+Cartridge prices run from $14 for Pura&#x27;s house line to $21 for name brands, and WIRED notes the website&#x27;s lower figures apply only to subscription buyers, so one-time prices deserve a second look. Through December 6, the sale offers 20 percent off all fragrances and 30 percent off diffusers.
+
+The reviewers&#x27; top pick is the new Pura Home ($35), which adds dual-band Wi-Fi, quicker diffusion, on-device buttons, a slide-out cartridge tray, QR-code scent tracking and near-silent operation. The Mini ($24) suits small rooms and its scents last over a month, though app-only control and a faint ringing are quirks. The Car model ($35) needs a USB port and constant power. A $175 Advent calendar bundles a Home unit with 12 best-selling scents, and the $80 Plus drops half price with a $50 spend, despite some buzzing issues.
+
+*The Home model&#x27;s silent, flush-to-the-wall design finally makes smart scenting feel less like a science experiment.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/pura-black-friday-2026/"><span class="tih">Pura&#x27;s Cyber Week Sale Cuts Prices on the Top-Rated Smart Diffuser Lineup</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Therabody Discount Codes and Outlet Deals Lead November Savings" data-b="According to WIRED, Therabody wellness devices come with several ways to save this month. Shoppers who sign up for the company&#x27;s email list receive a 10% discount code, while registering a phone number for text messages unlocks a 15% coupon; both codes expire 30 days after issuance.
+
+The outlet channel offers deeper cuts: up to 30% off Certified Refurbished units and select early-generation models, with each device tested for functionality, inspected, cleaned, and given fresh or charged batteries. Every product carries a one-year warranty, and listed items also include a 30-day guarantee upon registration.
+
+Recent limited-time holiday offers included $80 off the Theragun Prime sixth generation, $90 off the TheraFace PRO, and $120 off the Theragun Sense, alongside free shipping sitewide on new arrivals such as the TheraFace Mask Glo and Theragun Mini Plus. Sample price tags cited: the Theragun Pro Plus at $550 against a $650 list price, the Theragun Sense at $220 on Amazon versus $300, and the TheraFace Mask Glo at $280 on Amazon versus $380.
+
+WIRED also highlights the ThermBack LED, which combines LED, far-infrared, heat and vibration therapies for lower back pain and is clinically proven to reduce it, though it rarely appears on sale.
+
+*The layered discount structure here rewards the patient, list-signed shopper more than the impulse buyer — a small but instructive pattern for anyone tracking gadget pricing.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/therabody-promo-code/"><span class="tih">Therabody Discount Codes and Outlet Deals Lead November Savings</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia Board Ousted Jensen Huang Over Repeated Lying, Not Just Affairs" data-b="Nvidia&#x27;s board removed CEO Jensen Huang primarily because of his lack of candor rather than the substance of the underlying disclosures, according to two people familiar with private board discussions who spoke to WIRED. While extramarital affairs were part of the record — Huang admitted on November 8 to a relationship with Alice Huang — one source said the decisive factor was &quot;the lying,&quot; which reportedly spanned a year, from October 2025 through recent events.
+
+The sequence began when The New York Times reported in October 2025 on Nvidia&#x27;s strong business ties to the Singapore-based data center firm Megaspeed, where Alice Huang worked. Huang denied an inappropriate relationship to the board at the time, sources told WIRED. Additional alleged affairs, reportedly including one with a direct report, followed. China&#x27;s Ministry of Foreign Affairs has rejected claims that Alice Huang was a Chinese intelligence asset.
+
+Board chair Harvey Jones told an all-hands meeting on November 18 that accepting the resignation was difficult but necessary given the conduct and lack of candor. Interim CEO Colette Kress told staff that falling share price ranked as employees&#x27; top worry, ahead of the ouster itself, and moved pay raises up accordingly — though she gave no commitment on publishing the board&#x27;s investigation results.
+
+Supporters, including Elon Musk and President Donald Trump, have pressed for Huang&#x27;s return; a Semafor-reported faction on the board agrees. Shareholder lawsuits over alleged misleading statements are pending, and Nvidia&#x27;s general counsel Tim Teter was called to Washington to testify on export controls.
+
+*The board&#x27;s framing is unusually clean: honesty, not headlines, decided the CEO&#x27;s fate.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation/"><span class="tih">Nvidia Board Ousted Jensen Huang Over Repeated Lying, Not Just Affairs</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Black Friday pricing brings microSD Express cards closer to their MSRP for Switch 2 owners" data-b="The Nintendo Switch 2 ships with 256GB of internal storage, and according to The Verge, expanding it now costs more than it did on the original console. The reason is the microSD Express format the system uses: the cards look identical to older microSD cards but deliver faster read and write speeds, which keeps SSD-tier pricing pressure on them even though general SSD costs remain elevated.
+
+The Verge&#x27;s shopping desk, writing on November 20, 2026 as part of its Black Friday 2026 coverage, points to a few current discounts. A 256GB Samsung card is listed at $44.99 on Amazon, several dollars under its normal price and well below its $79.99 suggested retail. Sandisk&#x27;s 256GB alternative sits at $49.99, about $10 off its typical Amazon listing, and is also sold directly by Sandisk at that price. For players who would rather not upgrade again later, both brands&#x27; 512GB cards are going for around $99.99, roughly doubling capacity for double the cost.
+
+As for which size fits, the site&#x27;s editor Cameron Faulkner suggests 256GB covers most players. Install sizes illustrate the point: the Zelda: Ocarina of Time remake takes about 24.9GB and other first-party titles run similar, while third-party games vary widely — Resident Evil Requiem needs 28.7GB and The Witcher 3: Wild Hunt — Remastered roughly 50GB.
+
+*For a console whose storage is fixed at purchase, a $10 gap between a good-enough card and a big one is the rare Black Friday math that actually adds up.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/gadgets/1037749/microsd-express-card-nintendo-switch-2-black-friday-2026-deal-sale"><span class="tih">Black Friday pricing brings microSD Express cards closer to their MSRP for Switch 2 owners</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia Board Holds Firm as Jensen Huang Chases a Return" data-b="According to Wired, Nvidia cofounder Jensen Huang resigned as CEO on November 12, pledging to help heal his family and rebuild trust. His departures were tied to an alleged spy&#x27;s involvement in Nvidia sales routed through a formerly obscure Singapore firm — a possible export-regulation breach — plus affairs with company subordinates. Support for him, however, never wavered. On November 17, barely days after stepping down, Huang used X to say he would be honored to reclaim the job if offered. The board shut it down: during an earnings call, chair Harvey Jones confirmed the resignation was unanimously accepted and would not be reversed, while interim leader and longtime CFO Colette Kress told staff &quot;we&#x27;ve got this.&quot;
+
+The noise did not stop. A &quot;Stand With Jensen&quot; petition passed 200,000 signatures, Bill Ackman blamed governance failures by directors, and Semafor reported Huang had personally lobbied at least one board member, with several directors reportedly still open to his return. At the New York Times DealBook conference the next day, the saga overshadowed Anthropic&#x27;s record IPO. Sam Altman and Greg Brockman praised Huang without backing his reinstatement; Palmer Luckey argued nobody can replace him; Elon Musk likened the ouster to the Bulls benching Michael Jordan mid-playoff.
+
+*The case shows how quickly admiration for a founder can outrun even the board&#x27;s own verdict.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/dont-bring-jensen-back/"><span class="tih">Nvidia Board Holds Firm as Jensen Huang Chases a Return</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Pura&#x27;s Cyber Week Sale Cuts Prices on the Top-Rated Smart Diffuser Lineup" data-b="According to WIRED&#x27;s commerce team, Pura has remained the standout nebulizer-style diffuser — a type that pushes air through oil cartridges — across years of testing, largely thanks to its simple operation and a scent library of more than 150 options from brands like Anthropologie, Nest and LAFCO, including seasonal collaborations such as this month&#x27;s New York City Ballet-inspired Nutcracker lineup.
+
+Cartridge prices run from $14 for Pura&#x27;s house line to $21 for name brands, and WIRED notes the website&#x27;s lower figures apply only to subscription buyers, so one-time prices deserve a second look. Through December 6, the sale offers 20 percent off all fragrances and 30 percent off diffusers.
+
+The reviewers&#x27; top pick is the new Pura Home ($35), which adds dual-band Wi-Fi, quicker diffusion, on-device buttons, a slide-out cartridge tray, QR-code scent tracking and near-silent operation. The Mini ($24) suits small rooms and its scents last over a month, though app-only control and a faint ringing are quirks. The Car model ($35) needs a USB port and constant power. A $175 Advent calendar bundles a Home unit with 12 best-selling scents, and the $80 Plus drops half price with a $50 spend, despite some buzzing issues.
+
+*The Home model&#x27;s silent, flush-to-the-wall design finally makes smart scenting feel less like a science experiment.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/pura-black-friday-2026/"><span class="tih">Pura&#x27;s Cyber Week Sale Cuts Prices on the Top-Rated Smart Diffuser Lineup</span> <span class="tis">— wired.com</span></div></div></div>
+<div class="lead-zone">
+      <article class="lead">
+  <a href="https://huggingface.co/blog/inkling2mini" target="_blank" rel="noopener">
+    <img src="images/lead_2026-11-10.jpg" alt="" class="lead-image">
+    <div class="lead-grid">
+      <div class="lead-head">
+        <p class="kicker">Open Weights</p>
+        <h1>Inkling 2 Mini: a 26.4B looped MoE built for local setups</h1>
+      </div>
+      <div class="lead-body">
+        <p class="deck">Thinking Machines Lab released Inkling 2 Mini on November 20: a multimodal mixture-of-experts looped transformer with ~26.4B physical and 3B active parameters, a 1M-token context and image+text inputs, under Apache 2.0. Layers 6-17 run three times so 24 physical layers behave like 48 logical ones; the 4-bit GGUF needs about 17.6 GB RAM and fits consumer laptops, with day-zero support in transformers, llama.cpp, MLX and SGLang.</p>
+        <p class="byline"><span class="src">Hugging Face</span> · <span>2026-11-20</span> · <span class="more">Read the dispatch →</span></p>
+      </div>
+    </div>
+  </a>
+</article>
+
+    </div>
+
+    <div class="topstories">
+<article class="story">
+  <a href="https://x.com/venturesintern/status/2123584259764211790" target="_blank" rel="noopener">
+    <h3>DeepSeek closes ~$15B round ahead of STAR Market IPO plans</h3>
+    <p>DeepSeek closed a roughly 100B yuan (~$15B) round with Tencent and CATL involvement (~17.3% stake) ahead of a planned STAR Market listing.</p>
+    <p class="byline"><span class="src">X (venturesintern)</span> · 2026-11-21</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://forums.developer.nvidia.com/t/jetpack-7-2-2-zero-copy-express-data-path-available-with-jetson-linux-39-2-2/389638" target="_blank" rel="noopener">
+    <h3>NVIDIA ships JetPack 7.2.2 for Jetson with Jetson Linux 39.2.2</h3>
+    <p>The production release packages Linux kernel 6.8, Ubuntu 24.04, CUDA 13.2.2 and TensorRT 11.4.1, and adds zero-copy AF_XDP for low-latency packet processing on Jetson edge devices.</p>
+    <p class="byline"><span class="src">NVIDIA Developer Forums</span> · 2026-11-20</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://huggingface.co/blog/harness-adapters-at-scale" target="_blank" rel="noopener">
+    <h3>Hugging Face introduces harness adapters for open-weight models</h3>
+    <p>A method to adapt open-weight models to specific agent harnesses for better performance and lower cost, launched with four models, six datasets and five associated papers.</p>
+    <p class="byline"><span class="src">Hugging Face</span> · 2026-11-20</p>
+  </a>
+</article>
+
+</div>
+
+
+    <div class="sections">
+      <section class="section">
+  <div class="section-head">
+    <h2>Research &amp; Papers</h2>
+    <span class="line"></span>
+    <span class="n">05</span>
+  </div>
+  <a href="https://arxiv.org/abs/2611.26157" target="_blank" rel="noopener" class="section-hero"><img src="images/section_research_papers_2026-11-10.jpg" alt="" class="section-hero-img"><h4 class="hero-title">NariQ: sub-3-bit quantization for long-horizon agentic tasks</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://arxiv.org/abs/2611.26157" target="_blank" rel="noopener">
+    <h4>NariQ: sub-3-bit quantization for long-horizon agentic tasks</h4>
+    <p>Trellis-coded post-training quantization that matches BF16 Qwen3.8-27B on DeepSWE and Terminal Bench at 3.0 and 2.5 bits per weight, where prior sub-3-bit methods solved at most 72% as many tasks. Released as GGUF for llama.cpp.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-11-19</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2611.25703" target="_blank" rel="noopener">
+    <h4>VR-SparseQuant: accurate FP4 with 2:4 sparsity on Vera Rubin</h4>
+    <p>Combines FP4 activation quantization with native 2:4 structured sparsity; on Nemotron-3-Nano-30B-A3B, WikiText-2 perplexity drops from 6.85 to 5.57 versus dense 4-bit, with up to 3.1x GEMM and 2.7x MoE speedup over BF16.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-11-19</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2611.25670" target="_blank" rel="noopener">
+    <h4>QL-VLM: efficient latent reasoning for vision-language models</h4>
+    <p>Dynamics-guided 4-bit quantization plus dynamics-preserving distillation for latent chain-of-thought VLMs; the 4-bit Qwen2-VL-2B model reaches 90.43% on ScienceQA-IMG with 16.64x fewer bit-operations and 6.40x lower latency than explicit CoT.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-11-19</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2611.22721" target="_blank" rel="noopener">
+    <h4>HADVQ: Hessian-aware directional vector quantization</h4>
+    <p>Ultra-low-bit weight-only PTQ using random preconditioning, polar-coordinate direction/magnitude decoupling with an E8-lattice codebook, and 2-bit Lloyd-Max magnitudes with top-1% sensitive-channel preservation.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-11-17</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/papers/2611.24809" target="_blank" rel="noopener">
+    <h4>FlashMorph2: on-policy morphing into hybrid attention models</h4>
+    <p>On-policy layer selection plus joint weight adaptation converts pretrained Qwen3 Transformers (0.6B-8B) into hybrid full/linear-attention models, improving over FlashMorph by +2.42 on RULER and +1.08 on LongBench in only 0.72-3.57 GPU hours.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-11-20</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Open Weights &amp; Models</h2>
+    <span class="line"></span>
+    <span class="n">04</span>
+  </div>
+  <a href="https://huggingface.co/blog/Metric-AI/ayb-05-intro" target="_blank" rel="noopener" class="section-hero"><img src="images/section_open_weights_models_2026-11-10.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Ayb 0.5: open Armenian language model family (0.8B / 4B / 9B)</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://huggingface.co/blog/Metric-AI/ayb-05-intro" target="_blank" rel="noopener">
+    <h4>Ayb 0.5: open Armenian language model family (0.8B / 4B / 9B)</h4>
+    <p>Metric AI released three open-source models on the Qwen3.5 architecture with an Armenian-specific tokenizer; Ayb-9B posts the third-highest overall ArmBench score, beating much larger models, and supports tool calling and multimodal tasks.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-11-20</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/blog/chungimungi/wavlate-audio-retrieval-goes-multi-vector" target="_blank" rel="noopener">
+    <h4>WavLate: first open late-interaction model for audio-caption retrieval</h4>
+    <p>A ColBERT-style multi-vector model for text-to-audio and audio-to-text retrieval, keeping one vector per 0.31s of audio, scored with MaxSim and PLAID-compatible; best mean Recall@1 among nine open models on AudioCaps + Clotho.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-11-20</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/blog/Metric-AI/ohan-asr-v01" target="_blank" rel="noopener">
+    <h4>OhanASR: open-weight Armenian speech recognition (offline + streaming)</h4>
+    <p>Two CC BY-NC 4.0 ASR models: OhanASR-v0.1 (2B, fine-tuned on 820h of Armenian speech; 16.12% WER combined, 1st by CER on ArmBench-ASR) and a streaming variant for real-time transcription.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-11-20</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/thinkingmachines/TML-d24-varloop-research" target="_blank" rel="noopener">
+    <h4>TML-d24-varloop-research: variable-loop research twin of Inkling 2 Mini</h4>
+    <p>A 26.4B (3.4B active) multimodal MoE whose 12 middle layers can be looped 1-5 times at inference from a single ~20GB checkpoint, enabling clean studies of how extra looped computation changes capability.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-11-20</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Tools &amp; Runtimes</h2>
+    <span class="line"></span>
+    <span class="n">04</span>
+  </div>
+  <a href="https://github.com/ggml-org/llama.cpp/releases/tag/b12602" target="_blank" rel="noopener" class="section-hero"><img src="images/section_tools_runtimes_2026-11-10.jpg" alt="" class="section-hero-img"><h4 class="hero-title">llama.cpp b12602 released with SYCL GEMM improvements</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://github.com/ggml-org/llama.cpp/releases/tag/b12602" target="_blank" rel="noopener">
+    <h4>llama.cpp b12602 released with SYCL GEMM improvements</h4>
+    <p>Headlined by an improved grouped XMX GEMM for the SYCL backend that avoids SLM staging; binaries cover CUDA 12/13.5, Vulkan, ROCm 10.0, OpenVINO, SYCL and Snapdragon NPU targets.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-11-21</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/Aagam-Bothara/rigtune" target="_blank" rel="noopener">
+    <h4>Show HN: RigTune automatically finds the fastest LLM serving config for your GPU</h4>
+    <p>A new open-source tool that benchmarks vLLM, TGI and SGLang against your hardware, reporting throughput, p50/p99 latency and memory use per framework and batch size for data-driven config selection.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-11-21</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://saturnsql.com/context-layer" target="_blank" rel="noopener">
+    <h4>Show HN: SaturnSQL context layer for AI database tools</h4>
+    <p>A read-only context layer that tells AI coding tools and agents what a database schema means, so generated queries respect field semantics in local and self-hosted SQL work.</p>
+    <p class="byline"><span class="src">SaturnSQL</span> · 2026-11-20</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.pangea.build/" target="_blank" rel="noopener">
+    <h4>Show HN: Pangea runs coding agents with your whole team</h4>
+    <p>A team-oriented front end for driving coding agents across a shared codebase, launched as a lightweight way to coordinate agent-assisted work in small teams.</p>
+    <p class="byline"><span class="src">Pangea</span> · 2026-11-21</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Self-Hosted Stack</h2>
+    <span class="line"></span>
+    <span class="n">04</span>
+  </div>
+  <a href="https://www.reddit.com/r/selfhosted/comments/1xyim5h/release_paperlessai_v410_and_a_few_words_to_the/" target="_blank" rel="noopener" class="section-hero"><img src="images/section_self_hosted_stack_2026-11-10.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Paperless-AI v4.1.0 returns after a long hiatus with built-in PaddleOCR and a prompt wizard</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://www.reddit.com/r/selfhosted/comments/1xyim5h/release_paperlessai_v410_and_a_few_words_to_the/" target="_blank" rel="noopener">
+    <h4>Paperless-AI v4.1.0 returns after a long hiatus with built-in PaddleOCR and a prompt wizard</h4>
+    <p>The AI layer over Paperless-ngx now bundles PaddleOCR writing clean text back into paperless; upgrading from 3.x is automatic, migrating settings, users, processing state and history on first start.</p>
+    <p class="byline"><span class="src">r/selfhosted</span> · 2026-11-20</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.reddit.com/r/selfhosted/comments/1xyit5q/libredb_studio_13_selfhosted_sql_ide_for_42/" target="_blank" rel="noopener">
+    <h4>LibreDB Studio 1.3: self-hosted SQL IDE for 42 engines adds a read-only MCP endpoint</h4>
+    <p>Serves MCP at /api/mcp so local clients (Codex, Cursor, VS Code, Gemini CLI) can read schemas and run bounded read-only queries while credentials stay on your server; ships as a single Docker container, Helm chart, Snap and AppImage.</p>
+    <p class="byline"><span class="src">r/selfhosted</span> · 2026-11-20</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.reddit.com/r/selfhosted/comments/1xmwbwz/i_built_a_selfhosted_workspace_to_run_ai_coding/" target="_blank" rel="noopener">
+    <h4>SpaceApp: self-hosted web workspace for running AI coding CLIs side by side</h4>
+    <p>MIT-licensed; runs up to 16 persisted CLI panes per room for OpenCode, Codex, Claude Code, Gemini CLI and Qwen Code with no SaaS dependency, opt-in telemetry off by default, and checksummed backups.</p>
+    <p class="byline"><span class="src">r/selfhosted</span> · 2026-11-21</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/n8n-io/n8n/releases/tag/n8n%402.48.7" target="_blank" rel="noopener">
+    <h4>n8n 2.48.7 released with memory-guard and scripting-node fixes</h4>
+    <p>Patch release fixing the core memory guard hold not ending when the hold-limit stop frees no memory, and storing plain input data in the error output of scripting nodes.</p>
+    <p class="byline"><span class="src">n8n</span> · 2026-11-20</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Hardware &amp; Edge</h2>
+    <span class="line"></span>
+    <span class="n">06</span>
+  </div>
+  <a href="https://www.tech-critter.com/gigabyte-ai-top-aero-rtx-spark-personal-ai-studio/" target="_blank" rel="noopener" class="section-hero"><img src="images/section_hardware_edge_2026-11-10.jpg" alt="" class="section-hero-img"><h4 class="hero-title">GIGABYTE joins the RTX Spark desktop wave with the one-liter AI TOP AERO</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://www.tech-critter.com/gigabyte-ai-top-aero-rtx-spark-personal-ai-studio/" target="_blank" rel="noopener">
+    <h4>GIGABYTE joins the RTX Spark desktop wave with the one-liter AI TOP AERO</h4>
+    <p>A roughly one-liter compact desktop on the NVIDIA RTX Spark N1X superchip with up to 128GB LPDDR5x unified memory and a 4TB PCIe Gen5 SSD, aimed at local model running, fine-tuning and 24/7 agents, with 10GbE and Wi-Fi 7.</p>
+    <p class="byline"><span class="src">Tech Critter</span> · 2026-11-20</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.tech-critter.com/msi-edgemesa-n-ai-plus-rtx-spark-compact-desktop/" target="_blank" rel="noopener">
+    <h4>MSI launches EdgeMesa N AI+ RTX Spark compact desktops</h4>
+    <p>The 1.3-liter EdgeMesa N AI+ packs the RTX Spark chip (up to 1 petaflop FP4, up to 128GB unified memory) for continuously running local agents, RAG apps and coding assistants.</p>
+    <p class="byline"><span class="src">Tech Critter</span> · 2026-11-20</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://newsroom.deepx.ai/news/deepx-npu-raspberry-pi-physical-ai-2" target="_blank" rel="noopener">
+    <h4>Raspberry Pi features DEEPX NPU for physical AI on the Pi 5</h4>
+    <p>The Sixfab AI HAT+ for Raspberry Pi 5 builds on DEEPX's DX-M1M NPU, delivering up to 25 TOPS at about 3 watts for CNN, VLM and small language model inference; the 25 TOPS version ships now.</p>
+    <p class="byline"><span class="src">DEEPX Newsroom</span> · 2026-11-20</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.basecompute.co/blog/basert-amd-ryzen" target="_blank" rel="noopener">
+    <h4>BaseRT adds AMD Ryzen AI GPU and NPU paths, claims up to 664% faster local LLMs</h4>
+    <p>Base Compute claims up to 664% faster on-device LLM performance on Ryzen AI Max+ 395 and Ryzen AI 9 using GPU plus NPU, with the NPU adding a further 41% at 2-3x lower energy per token (vendor self-reported against an unnamed baseline).</p>
+    <p class="byline"><span class="src">Base Compute</span> · 2026-11-20</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/mudler/LocalAI/releases/tag/v5.0.1" target="_blank" rel="noopener">
+    <h4>LocalAI v5.0.1 ships with native Windows support and ROCm enhancements</h4>
+    <p>The open-source LocalAI runtime adds native Windows support and improved ROCm handling for running LLM, vision, audio, image and video models locally, including on GPU-less machines.</p>
+    <p class="byline"><span class="src">GitHub (mudler/LocalAI)</span> · 2026-11-21</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://dev48.org/en/articles/fastflow-now-runs-on-amd-gpus" target="_blank" rel="noopener">
+    <h4>FastFlow v1.0.13 adds a HIP-based GPU path alongside the NPU flow on AMD hardware</h4>
+    <p>AMD's FastFlow runtime gains a high-performance HIP GPU inference path complementing its XDNA NPU flow under one local API and CLI; AMD puts first-token latency about 43% sooner than llama.cpp on Vulkan at 16K context.</p>
+    <p class="byline"><span class="src">Dev48 (AMD developer article)</span> · 2026-11-21</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+    </div>
+
+    <div class="trending-wrap">
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Repos on GitHub</h1>
+      <div class="t-line"></div>
+      <a href="https://github.com/trending" target="_blank" rel="noopener" class="t-link">Go to GitHub trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://github.com/elementalsouls/Claude-BugHunter" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">elementalsouls/Claude-BugHunter</span>
+    <span class="t-meta">Python · 14.6k ★ · +1622 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/obra/superpowers" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">obra/superpowers</span>
+    <span class="t-meta">Shell · 323.0k ★ · +890 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/HKUDS/CLI-Anything" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">HKUDS/CLI-Anything</span>
+    <span class="t-meta">Python · 61.5k ★ · +773 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/jingyaogong/minimind" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">jingyaogong/minimind</span>
+    <span class="t-meta">Python · 67.8k ★ · +847 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/cursor/plugins" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">cursor/plugins</span>
+    <span class="t-meta">TypeScript · 17.9k ★ · +299 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/firecrawl/firecrawl" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">firecrawl/firecrawl</span>
+    <span class="t-meta">TypeScript · 205.5k ★ · +1241 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/openvinotoolkit/openvino" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">openvinotoolkit/openvino</span>
+    <span class="t-meta">C++ · 11.8k ★ · +217 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/mvanhorn/last30days-skill" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">mvanhorn/last30days-skill</span>
+    <span class="t-meta">Python · 71.5k ★ · +681 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/google-labs-code/stitch-skills" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">google-labs-code/stitch-skills</span>
+    <span class="t-meta">TypeScript · 11.1k ★ · +315 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/Tracer-Cloud/opensre" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">Tracer-Cloud/opensre</span>
+    <span class="t-meta">Python · 13.7k ★ · +466 today</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+  
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Trending on HF</h1>
+      <div class="t-line"></div>
+      <a href="https://huggingface.co/models?sort=trending" target="_blank" rel="noopener" class="t-link">Go to Hugging Face trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://huggingface.co/tencent/Hy4-flash" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">tencent/Hy4-flash</span>
+    <span class="t-meta">220B, image-text-to-text</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/higurashi-ai/Haru-4B" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">higurashi-ai/Haru-4B</span>
+    <span class="t-meta">5B, audio-to-audio</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/apple/FastFrames-L" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">apple/FastFrames-L</span>
+    <span class="t-meta">Text-to-video model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/inworld/voice-isolator" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">inworld/voice-isolator</span>
+    <span class="t-meta">Audio-to-audio voice isolation</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">harness-hub/Qwen3.8-27B-pi-adapted</span>
+    <span class="t-meta">27B, image-text-to-text, Pi-adapted Qwen3.8</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Qwen/Qwen3.8-27B" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">Qwen/Qwen3.8-27B</span>
+    <span class="t-meta">28B, image-text-to-text</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/MiniMaxAI/MiniMax-H3-Image" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">MiniMaxAI/MiniMax-H3-Image</span>
+    <span class="t-meta">Text-to-image model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Lightricks/LTX-2.5" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">Lightricks/LTX-2.5</span>
+    <span class="t-meta">Image-to-video model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized</span>
+    <span class="t-meta">7B, quantized text-to-image</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/sensenova/SenseNova-Loop-9B" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">sensenova/SenseNova-Loop-9B</span>
+    <span class="t-meta">10B, looped image-text-to-text</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+</div>
+
+
+    <section class="section" id="free-models">
+  <div class="section-head">
+    <h2>Free Models</h2>
+    <span class="line"></span>
+    <span class="n">23</span>
+  </div>
+
+  <p class="section-note">Free means $0 per token today, not unlimited or unconditional: both platforms rate-limit free use and require a free API key, some OpenRouter free endpoints may train on your prompts unless you opt out in account settings, and the roster changes daily. Verified against each provider's own pricing data at generation time — but pricing changes without notice, so confirm it's still free on the provider's own page before you rely on it.</p>
+
+  <div class="trending-wrap trending-wrap--in-section">
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenRouter</h1>
+        <div class="t-line"></div>
+        <a href="https://openrouter.ai/models?max_price=0" target="_blank" rel="noopener" class="t-link">Browse free models →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://openrouter.ai/baidu/ernie-5.5-flash-preview:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Baidu: ERNIE-5.5-Flash-Preview (free)</span>
+    <span class="t-meta">1.024M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-26b-a4b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Google: Gemma 4 26B A4B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-31b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Google: Gemma 4 31B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/inclusionai/ling-3.2-flash:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">inclusionAI: Ling 3.2 Flash (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/liquid/lfm-3-1.7b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">LiquidAI: LFM3-1.7B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Nano Omni (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Ultra (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-lightning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Lightning (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-super-vl:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Super VL (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/particle-ai/particle-1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">Particle AI: Particle-1 (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/recursive/flint-v1.0:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#11</span>
+    <span class="t-name">Recursive: Flint (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenCode Zen</h1>
+        <div class="t-line"></div>
+        <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener" class="t-link">See the full Zen catalog →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Big Pickle</span>
+    <span class="t-meta">big-pickle</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Iceman Free</span>
+    <span class="t-meta">iceman-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Inkling 2 Small Free</span>
+    <span class="t-meta">inkling-2-small-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">DeepSeek V4.1 Flash Free</span>
+    <span class="t-meta">deepseek-v4.1-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Beam Free</span>
+    <span class="t-meta">beam-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">Flint 40B Free</span>
+    <span class="t-meta">flint-40b-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">LongCat 2.5 Free</span>
+    <span class="t-meta">longcat-2.5-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">Hy4 flash Free</span>
+    <span class="t-meta">hy4-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">MiMo-V2.6-Flash Free</span>
+    <span class="t-meta">mimo-v2.6-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">Nemotron 3.5 Lightning Free</span>
+    <span class="t-meta">nemotron-3.5-lightning-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#11</span>
+    <span class="t-name">Nemotron 3.5 Super VL Free</span>
+    <span class="t-meta">nemotron-3.5-super-vl-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#12</span>
+    <span class="t-name">Jev 1.13 Free</span>
+    <span class="t-meta">jev-1.13-free</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+    <section class="inbrief">
+  <div class="section-head">
+    <h2>In Brief</h2>
+    <span class="line"></span>
+    <span class="n">12</span>
+  </div>
+  <ul class="qh-list">
+    <li><a href="https://arxiv.org/abs/2611.26363" target="_blank" rel="noopener"><span class="qh-title">HiSA sparsifies the hidden dimension of the RoPE attention dot product</span><span class="qh-src">arXiv</span></a></li>
+
+    <li><a href="https://huggingface.co/papers/2611.26510" target="_blank" rel="noopener"><span class="qh-title">AutoMaster: autonomous post-training by making the same model a better teacher</span><span class="qh-src">HuggingFace</span></a></li>
+
+    <li><a href="https://arxiv.org/abs/2611.24963" target="_blank" rel="noopener"><span class="qh-title">Physics of Language Models 4.2: Canon layers save ~30% of pretraining tokens at 8B</span><span class="qh-src">arXiv</span></a></li>
+
+    <li><a href="https://arxiv.org/html/2611.03998v1" target="_blank" rel="noopener"><span class="qh-title">Dory1.0-4B: a looped Normalized-GPT with full quantized checkpoint release</span><span class="qh-src">arXiv</span></a></li>
+
+    <li><a href="https://huggingface.co/FINAL-Bench/POCKET-Darwin-180B-GGUF" target="_blank" rel="noopener"><span class="qh-title">FINAL-Bench/POCKET-Darwin-180B-GGUF: on-device build of Darwin-180B</span><span class="qh-src">HuggingFace</span></a></li>
+
+    <li><a href="https://localmodelwatch.tsuchitsuchi.com/en/2026-11-18/glm-47-flash-30b-a3b-gguf-turbo-brilliance" target="_blank" rel="noopener"><span class="qh-title">GLM-4.7-Flash-30B-A3B ships as Turbo Brilliance GGUF quants</span><span class="qh-src">localmodelwatch</span></a></li>
+
+    <li><a href="https://x.com/adityaa_behera/status/2124018294328086702" target="_blank" rel="noopener"><span class="qh-title">Cursor reportedly rebranded to Grok Build under xAI</span><span class="qh-src">X (adityaa_behera)</span></a></li>
+
+    <li><a href="https://x.com/arnaudmercier/status/2124018458962592185" target="_blank" rel="noopener"><span class="qh-title">MIT-IBM lab details multimodal foundation model advances</span><span class="qh-src">X (arnaudmercier)</span></a></li>
+
+    <li><a href="https://x.com/asharma/status/2123915308566274287" target="_blank" rel="noopener"><span class="qh-title">AI sector selloff: Anthropic IPO fails to revive confidence</span><span class="qh-src">X (asharma)</span></a></li>
+
+    <li><a href="https://tech.eu/2026-11-20/ai-startup-founded-by-two-irish-yc-alumni-gets-backing-from-the-collison-brothers/" target="_blank" rel="noopener"><span class="qh-title">Hoplite raises $5.5M led by Stripe's Collison brothers for cloud coding agents</span><span class="qh-src">Tech.eu</span></a></li>
+
+    <li><a href="https://techstartups.com/2026-11-20/startup-funding-news-today-november-20-2026-archer-everful-metano-modern-industrials-satsure-more" target="_blank" rel="noopener"><span class="qh-title">Metano emerges from stealth with $12M seed for AI-agent security</span><span class="qh-src">TechStartups</span></a></li>
+
+    <li><a href="https://www.repubblica.it/tecnologia/2026-11-20/news/ai4i_torino_centro_ia_fisica_robot-425738382" target="_blank" rel="noopener"><span class="qh-title">AI4I founds a center for physical intelligence systems in Turin</span><span class="qh-src">la Repubblica</span></a></li>
+
+  </ul>
+</section>
+
+
+    <footer class="colophon">
+      <p class="mark">Per aspera ad astra</p>
+      <p class="meta">Compiled by Hermes Agent · 2026-11-21 · <a href="https://github.com/MovieMaker93/local-ai-news" target="_blank" rel="noopener">source</a></p>
+      <p class="meta">Beta · <a href="making-of.html" title="Replay how this issue assembled itself">See how this issue made itself</a></p>
+    </footer>
+
+  </div>
+<div class="mo" id="mo" onclick="cm(event)"><div class="mb"><button class="mc" onclick="cm()">✕</button><h2 class="mh" id="mh"></h2><p class="mm">Source: <span id="ms"></span></p><div class="mbd" id="mbd"></div></div></div>
+<script>function openArt(el){var h=el.getAttribute('data-h'),b=el.getAttribute('data-b'),s=el.getAttribute('data-s'),u=el.getAttribute('data-u');document.getElementById('mh').textContent=h;var sl=document.getElementById('ms');if(u&&u!=='#'&&u!==''){sl.innerHTML='<a href="'+u+'" target="_blank" rel="noopener">'+s+'</a>';}else{sl.textContent=s;}var aiS='*— Written by AI (';var i=b.indexOf(aiS);if(i>=0){var bf=b.substring(0,i);var af=b.substring(i+aiS.length);var mdl=af.split(')')[0];bf=bf.split('\n').join('<br>');bf=bf.replace(/\*([^*]+)\*/g,'<em class="en">$1</em>');var sg='<div class="as"><span class="al">⬥ AI-GENERATED</span><br>Model: '+mdl+'</div>';document.getElementById('mbd').innerHTML=bf+sg;}else{document.getElementById('mbd').innerHTML=b.split('\n').join('<br>');}document.getElementById('mo').classList.add('a');document.body.style.overflow='hidden';}function cm(e){if(e&&e.target!=document.getElementById('mo'))return;document.getElementById('mo').classList.remove('a');document.body.style.overflow='';}document.addEventListener('keydown',function(e){if(e.key==='Escape')cm()});</script></body>
+</html>

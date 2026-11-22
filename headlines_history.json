@@ -4,210 +4,6 @@
   },
   "headlines": [
     {
-      "text": "n8n 2.37.0 refines AI Builder with MCP tools in the Agent Builder",
-      "source": "n8n",
-      "date": "2026-08-27",
-      "issue": 1
-    },
-    {
-      "text": "r/LocalLLaMA walks through a fully local AI coding stack that works",
-      "source": "r/LocalLLaMA",
-      "date": "2026-08-27",
-      "issue": 1
-    },
-    {
-      "text": "\"2026 is the year of self-hosting\" after an agent takes over a homelab",
-      "source": "r/selfhosted",
-      "date": "2026-08-27",
-      "issue": 1
-    },
-    {
-      "text": "Hot Chips 2026: Intel details Crescent Island, an inference-first accelerator",
-      "source": "Tom's Hardware",
-      "date": "2026-08-27",
-      "issue": 1
-    },
-    {
-      "text": "Micron warns the HBM-to-DDR5 wafer penalty keeps memory prices high",
-      "source": "Tom's Hardware",
-      "date": "2026-08-27",
-      "issue": 1
-    },
-    {
-      "text": "Gemini 3.5 Transcribe: DeepMind's speech model hits 2.6% WER",
-      "source": "Google DeepMind",
-      "date": "2026-08-27",
-      "issue": 1
-    },
-    {
-      "text": "GLM-5.3-Flash NVFP4 weight-only quant released ahead of serving support",
-      "source": "HuggingFace",
-      "date": "2026-08-27",
-      "issue": 1
-    },
-    {
-      "text": "Hugging Face walks through training multi-vector embedding models",
-      "source": "Hugging Face",
-      "date": "2026-08-27",
-      "issue": 1
-    },
-    {
-      "text": "Maia 200: a software-defined dataflow accelerator crossing 5 Pflop/s FP8",
-      "source": "arXiv",
-      "date": "2026-08-27",
-      "issue": 1
-    },
-    {
-      "text": "WhisperBar: Mac menu-bar dictation and text-to-speech for AI prompts",
-      "source": "WhisperBar",
-      "date": "2026-08-27",
-      "issue": 1
-    },
-    {
-      "text": "Knack launches a HIPAA-compliant MCP server for AI builders",
-      "source": "Morningstar",
-      "date": "2026-08-27",
-      "issue": 1
-    },
-    {
-      "text": "Rook: a multi-agent harness that lives entirely inside a Chrome extension",
-      "source": "Chrome Web Store",
-      "date": "2026-08-27",
-      "issue": 1
-    },
-    {
-      "text": "Home Assistant publishes anonymized community survey data",
-      "source": "Home Assistant",
-      "date": "2026-08-27",
-      "issue": 1
-    },
-    {
-      "text": "Nvidia memory supply commitments soar to $279B as NVHBM cuts HBM power 15%",
-      "source": "TrendForce",
-      "date": "2026-08-28",
-      "issue": 2
-    },
-    {
-      "text": "singular-lite: multi-agent orchestration engine for software repos",
-      "source": "GitHub",
-      "date": "2026-08-28",
-      "issue": 2
-    },
-    {
-      "text": "Understudy: scenario testing for AI agents",
-      "source": "GitHub",
-      "date": "2026-08-28",
-      "issue": 2
-    },
-    {
-      "text": "Puro-2B: 2B model pretrained on a single RTX 5090 within a $5,090 budget",
-      "source": "arXiv",
-      "date": "2026-08-28",
-      "issue": 2
-    },
-    {
-      "text": "FOCUS & RePAIR: mitigating text degeneration in pruned LLMs",
-      "source": "arXiv",
-      "date": "2026-08-28",
-      "issue": 2
-    },
-    {
-      "text": "Beyond Parallel Blindness: information floors in speculative decoding",
-      "source": "arXiv",
-      "date": "2026-08-28",
-      "issue": 2
-    },
-    {
-      "text": "Kimi K3 open weights: first 3T-class open model (2.8T MoE, 1M context)",
-      "source": "HuggingFace",
-      "date": "2026-08-28",
-      "issue": 2
-    },
-    {
-      "text": "n8n: why static RBAC fails for AI agents and what replaces it",
-      "source": "n8n",
-      "date": "2026-08-28",
-      "issue": 2
-    },
-    {
-      "text": "NVIDIA earnings confirm memory crisis is inflating GPU prices, raising the cost of local rigs",
-      "source": "PC Gamer",
-      "date": "2026-08-28",
-      "issue": 2
-    },
-    {
-      "text": "Z.ai releases GLM-5.3, a 753B open-weights text model",
-      "source": "HuggingFace",
-      "date": "2026-08-28",
-      "issue": 2
-    },
-    {
-      "text": "OpenAI details its Jalape\u00f1o inference ASIC at Hot Chips 2026",
-      "source": "Tom's Hardware",
-      "date": "2026-08-28",
-      "issue": 2
-    },
-    {
-      "text": "Ollama v0.33.2-rc1 adds macOS app handoff sync",
-      "source": "GitHub",
-      "date": "2026-08-28",
-      "issue": 2
-    },
-    {
-      "text": "Watermarks Remover strips LLM watermarking from text and files",
-      "source": "GitHub",
-      "date": "2026-08-28",
-      "issue": 2
-    },
-    {
-      "text": "InferCrane: one stable endpoint for self-hosted AI inference",
-      "source": "InferCrane",
-      "date": "2026-08-28",
-      "issue": 2
-    },
-    {
-      "text": "Grith: syscall-level supervision for AI coding agents on Linux",
-      "source": "GitHub",
-      "date": "2026-08-28",
-      "issue": 2
-    },
-    {
-      "text": "dmx: an MCP server for configurable, gated loops in coding agents",
-      "source": "dmx",
-      "date": "2026-08-28",
-      "issue": 2
-    },
-    {
-      "text": "llama.cpp b10644 adds nanbeige4.2-3B support",
-      "source": "GitHub",
-      "date": "2026-08-28",
-      "issue": 2
-    },
-    {
-      "text": "OpenLayer: local Photoshop plugin for ComfyUI",
-      "source": "GitHub",
-      "date": "2026-08-28",
-      "issue": 2
-    },
-    {
-      "text": "StreamCore: open-source realtime voice infrastructure for AI",
-      "source": "GitHub",
-      "date": "2026-08-28",
-      "issue": 2
-    },
-    {
-      "text": "n8n 2.37.3/2.37.4 fix self-hosted runner images and AI Assistant credential bug",
-      "source": "n8n",
-      "date": "2026-08-28",
-      "issue": 2
-    },
-    {
-      "text": "Ollama v0.33.2-rc1 adds cross-app session handoff",
-      "source": "GitHub",
-      "date": "2026-08-28",
-      "issue": 2
-    },
-    {
       "text": "OpenAI details Jalape\u00f1o inference ASIC at Hot Chips 2026",
       "source": "Tom's Hardware",
       "date": "2026-08-28",
@@ -12002,6 +11798,210 @@
       "source": "la Repubblica",
       "date": "2026-11-21",
       "issue": 61
+    },
+    {
+      "text": "Inference Stack bundles vLLM, LiteLLM, llm-d and Grafana into one command",
+      "source": "Inference Stack",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "Tencent open-sources Hunyuan Hy4, a 770B MoE with 49B active parameters",
+      "source": "X (ZhihaoJu77910)",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "Cognition in talks to raise $2B+ at a $75B valuation",
+      "source": "AI Funding Tracker",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "Databricks in early talks for multibillion raise at about $225B valuation",
+      "source": "AI Funding Tracker",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "Amazon reportedly near acquisition of AI startup Decart for up to $7.5B",
+      "source": "X (masked_investor)",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "Posterior Matching Distillation compresses diffusion sampling into a few evaluations",
+      "source": "arXiv",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "A CPU inside an LLM: zero-gradient compilation of exact circuits into pretrained weights",
+      "source": "arXiv",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "Dynamic routing and KV-centric execution accelerate Mixture of Block Attention",
+      "source": "arXiv",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "Task-Calibrated Denoising Allocation adapts diffusion-LLM schedules per task",
+      "source": "arXiv",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "Qwen3.6-27B lands on Hugging Face as an Apache-2.0 multimodal release",
+      "source": "HuggingFace",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "Gemma 4 ships quantization-aware training checkpoints for llama.cpp and vLLM",
+      "source": "gemma.ai",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "APEX quantization method arrives for MoE models via Agents-A1-APEX-GGUF",
+      "source": "HuggingFace",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "WeChat releases open-source omni-modal WeMM-Video family in 2B to 35B-A3B sizes",
+      "source": "X (Zefan_Cai)",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "llama.cpp b12627 fits non-causal batches in one ubatch, fixes Vulkan memset",
+      "source": "GitHub",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "Show HN: DatabaseDMCP serves per-agent custom SQLite databases over remote MCP",
+      "source": "DatabaseDMCP",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "Show HN: Keepplain adds git-blame-style provenance for AI-generated code",
+      "source": "Keepplain",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "Show HN: Security Watch alerts when a new vulnerability hits your exact stack",
+      "source": "GitHub",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "Home Assistant 2026.11: custom integrations reported 'not found' after the HACS-to-Marketplace migration",
+      "source": "Home Assistant",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "r/LocalLLaMA proposal: keep private per-machine quality benchmarks instead of chasing tok/s",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "TokenMark snapshot: Strix Halo trades blows with DGX Spark on shared llama.cpp models",
+      "source": "TokenMark",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "Omarchy patch hands freed GPU memory back to the system on DGX Spark (GB10)",
+      "source": "Omarchy Central",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "Renesas pushes RZ/V system-on-modules for faster edge vision AI prototyping",
+      "source": "Renesas",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "InflEns: game-theoretic data allocation predicts best LoRA expert per prompt",
+      "source": "arXiv",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "Autoregressive decoding applied to neural-network parameter generation",
+      "source": "arXiv",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "Diffusion language models close the gap to autoregressive decoding at low inference budgets",
+      "source": "arXiv",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "In-training embedding pruning cuts the sparse-layer memory of recommendation models",
+      "source": "arXiv",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "LLMs are already confidence-aware zero-shot classifiers, black-box vs white-box compared",
+      "source": "arXiv",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "Yann LeCun revisits Energy-Based Models as a unifying deep learning framework",
+      "source": "X (ylecun)",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "Sync-Strata fork runs Qwen3.8-Flash-Next at up to ~144 tok/s on an RTX 3080 12GB",
+      "source": "X (ai_algoit)",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "EU AI Act compliance for high-risk enterprise systems discussed around MCP gateways",
+      "source": "X (andromeda_IX)",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "Instinct raises $1B at a $10B valuation for SMS-native AI agents",
+      "source": "TechCrunch",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "Turin-born Nebuly closes USD 21M Series A to measure the ROI of enterprise AI agents",
+      "source": "CODICEITALIA.com",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "Terna Forward invests ~EUR 2M in robotics firm Hibot and climate-data startup Hypermeteo",
+      "source": "Industria Italiana",
+      "date": "2026-11-22",
+      "issue": 62
+    },
+    {
+      "text": "Inail commits EUR 36M to 18 research projects, from AI prosthetics to regenerative medicine",
+      "source": "Ore 12",
+      "date": "2026-11-22",
+      "issue": 62
     }
   ]
 }
