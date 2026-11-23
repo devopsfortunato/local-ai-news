@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LOCAL AI NEWS — open-weight intelligence · November 22, 2026</title>
+  <title>LOCAL AI NEWS — open-weight intelligence · November 23, 2026</title>
   <meta name="description" content="A daily recap of local AI news from the last 24 hours: open weights, tooling, hardware, and the self-hosted stack.">
   <link rel="stylesheet" href="style.css">
   <style>.wt{display:flex;align-items:center;height:38px;background:var(--ink);border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule);margin:14px 0 0;overflow:hidden}.wtt{display:flex;align-items:center;white-space:nowrap;padding-left:20px;animation:ws 90s linear infinite}.wtt:hover{animation-play-state:paused}@keyframes ws{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}.ti{display:inline-flex;align-items:center;gap:7px;padding:0 22px;cursor:pointer;border-right:1px solid var(--rule);height:38px}.ti:hover{background:rgba(240,162,60,.05)}.tih{font-family:var(--serif);font-size:13px;color:var(--type)}.tis{font-family:var(--sans);font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}.mo{display:none;position:fixed;inset:0;background:rgba(10,10,12,.88);z-index:1000;justify-content:center;align-items:center;backdrop-filter:blur(8px)}.mo.a{display:flex}.mb{background:#121214;border:1px solid var(--rule-strong);max-width:680px;width:90%;max-height:82vh;overflow-y:auto;padding:40px 44px;position:relative;animation:fi .2s ease}@keyframes fi{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}.mc{position:absolute;top:14px;right:18px;background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;font-family:var(--sans);padding:4px 8px}.mh{font-family:var(--serif);font-weight:700;font-size:30px;line-height:1.1;letter-spacing:-.01em;color:var(--type);margin:0 0 14px;padding-right:32px}.mm{font-family:var(--sans);font-size:10.5px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 22px}.mm a{color:var(--lux)}.mm a:hover{text-decoration:underline}.mbd{font-family:var(--serif);font-size:16.5px;line-height:1.7;color:var(--type-dim)}.mbd .en{display:block;color:var(--lux-soft);font-style:italic;font-size:15px;margin-top:14px;padding-left:12px;border-left:2px solid var(--rule-strong)}.mbd .as{display:block;margin-top:18px;padding-top:14px;border-top:1px solid var(--rule);font-family:var(--sans);font-size:11px;color:var(--muted);line-height:1.5}.mbd .as .al{color:var(--lux-soft);font-weight:600;font-family:var(--sans);font-size:10px;letter-spacing:.06em;text-transform:uppercase}</style></head>
@@ -14,16 +14,16 @@
     <div class="topline"></div>
     <div class="ears">
       <span class="left">Est. MMXXVI</span>
-      <span class="right">No. 62 <a href="archive/" class="ar" title="Browse past issues">◆ Archive</a> <a href="#free-models" class="ar" title="Today's free AI models">⌁ Free Models</a></span>
+      <span class="right">No. 63 <a href="archive/" class="ar" title="Browse past issues">◆ Archive</a> <a href="#free-models" class="ar" title="Today's free AI models">⌁ Free Models</a></span>
     </div>
     <div class="nameplate">LOCAL <span class="lux">AI NEWS</span></div>
       <hr class="rule-double">
       <div class="dateline">
-        <span>November 22, 2026</span>
+        <span>November 23, 2026</span>
         <span class="dot">◆</span>
         <span class="tag">open weights, on your metal</span>
         <span class="dot">◆</span>
-        <span>77 stories</span>
+        <span>76 stories</span>
       </div>
       <div class="devocracy-credit">Inference self-hosted on a DGX Spark · models served via LiteLLM</div>
       <hr class="rule-thin">
@@ -31,107 +31,107 @@
 
     
 
-    <div class="wt"><div class="wtt"><div class="ti" onclick="openArt(this)" data-h="Nvidia&#x27;s week of split signals" data-b="This week offered two contrasting versions of Nvidia, as discussed on TechCrunch&#x27;s Equity podcast by Anthony Ha, Kirsten Korosec and Tim De Chant. On one side, the chipmaker&#x27;s earnings landed strongly: according to TechCrunch, revenue soared, guidance beat expectations and management pointed to a long order pipeline, with current executives repeatedly assuring investors the company has things in hand.
+    <div class="wt"><div class="wtt"><div class="ti" onclick="openArt(this)" data-h="A tale of two Nvidias" data-b="This week Nvidia presented two faces, and TechCrunch&#x27;s Equity podcast team broke down both. On one side, the chipmaker delivered an earnings report that, as Kirsten Korosec put it on the show, beat expectations &quot;in every possible way,&quot; with strong guidance and a long pipeline — and current executives closing with the reassurance that they have the situation handled.
 
-On the other side, several storylines kept the noise going. Interim CEO Colette Kress announced that the H200 will no longer be sold in China, aligning with a broader tightening of export rules under the Trump administration, including the closure of the remote-access workaround that let Chinese firms use chips hosted in nearby countries such as Malaysia. Critics cited by the podcast estimate that China ultimately accounts for roughly a fifth of Nvidia&#x27;s business, making the cutoff a possible blow to results.
+On the other side, the leadership saga kept generating noise. According to the TechCrunch discussion, Elon Musk and other prominent tech figures pushed a petition urging former CEO Jensen Huang&#x27;s return, while Huang himself indicated he is prepared to come back. The company&#x27;s official position remained that he will not — a firmer line than the confidence in his leadership the company voiced just a week and a half earlier, and one the falling stock price suggests did little to calm Wall Street.
 
-Meanwhile, the leadership saga continued: Elon Musk and others circulated a petition urging former CEO Jensen Huang&#x27;s return, and Huang himself said he is prepared to come back, even though the company&#x27;s public position was that it will not happen. The falling share price suggested Wall Street remained unconvinced, per the podcast, which also noted an ongoing investigation into allegedly secret chip sales to China.
+The China picture shifted too. Per interim CEO Colette Kress, Nvidia will stop selling H200 chips in China, aligning with the Trump administration&#x27;s tightening of export rules, including the closure of the remote-access workaround that routed chips through data centers in Malaysia and elsewhere. Critics peg China-linked sales at roughly 20% of the business, a possible hit to the bottom line.
 
-*Two Nvidias, one earnings call — the gap between the numbers and the drama is exactly what makes this worth following.*
+For the hosts, the episode&#x27;s real drama is whether the board&#x27;s firm &quot;no&quot; on Huang&#x27;s return holds under pressure from voices like Musk&#x27;s.
 
-*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/"><span class="tih">Nvidia&#x27;s week of split signals</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Therabody Discounts Stack Up This November: Up to 45 Percent Off in Black Friday Sale" data-b="According to WIRED, Therabody&#x27;s current promotions give wellness-device shoppers several ways to cut prices on the brand&#x27;s massage guns, LED masks and recovery gear. The headline offer is the Black Friday Sale, with discounts reaching 45 percent on massage guns, compression boots, LED masks, muscle rollers and back-pain products; the TheraFace Mask Glo and Theragun PRO Plus are each marked down by 100 dollars.
+*It is a neat case study in how quickly a company can look healthy on paper and unsettled everywhere else.*
 
-For smaller savings, WIRED notes that signing up for Therabody&#x27;s emails earns a 10 percent code valid for 30 days, while registering a phone number for texts yields a unique 15 percent code. The outlet channel adds another layer: up to 30 percent off certified refurbished and early-generation models, plus an extra 20 percent off, with every refurbished unit tested, cleaned and fitted with a like-new battery under a one-year warranty.
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/"><span class="tih">A tale of two Nvidias</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Therabody Discount Stack: 15% Off Codes, Warehouse Deals and Black Friday Cuts" data-b="According to Wired, Therabody&#x27;s wellness lineup — massage guns, eye masks, an LED skincare mask and a total-body recliner — comes with several layered discount routes this month. The headline promo path is registration-based: signing up for emails yields a 10% code, while registering a phone number for texts yields a unique 15% code. Wired notes these codes go only to existing customers, are uncommon, and expire 30 days after issuance.
 
-Recent rotating offers included up to 50 percent off sitewide, and holiday-sale cuts of 80 dollars on the Theragun Prime, 90 dollars on the TheraFace PRO and 120 dollars on the Theragun Sense remain available for a limited time, alongside free shipping sitewide. WIRED also highlights the ThermBack LED, which pairs LED, far-infrared, heat and vibration therapies for lower back pain, though it rarely goes on sale.
+Beyond codes, the Black Friday sale runs up to 45% off across massage guns, compression boots, LED masks and muscle rollers, with the TheraFace Mask Glo and Theragun PRO Plus each marked down $100. The Warehouse sale stacks up to 20% off Theragun models, and the Outlet adds up to 30% off Certified Refurbished and early-generation devices, each backed by a one-year warranty; refurbished units are function-tested, quality-inspected, sanitized and have batteries charged or replaced.
 
-*The layered discount structure makes Therabody one of the few hardware brands where comparing the email code, text code and outlet price is genuinely worth two minutes of effort.*
+Post-holiday offers remain: $80 off Theragun Prime (6th gen), $90 off TheraFace PRO and $120 off Theragun Sense, plus free shipping sitewide on new arrivals. Among recent rotating offers, Wired lists up to 50% off sitewide and up to 35% off by code. The ThermBack LED, clinically proven to ease lower back pain via LED, far-infrared, heat and vibration, rarely appears on sale.
 
-*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/therabody-promo-code/"><span class="tih">Therabody Discounts Stack Up This November: Up to 45 Percent Off in Black Friday Sale</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia Board Ousted Jensen Huang Over Years of Imprecise Answers, Sources Say" data-b="According to WIRED, two people familiar with Nvidia&#x27;s private board deliberations say the primary reason Jensen Huang lost his CEO role was not the China-related allegations themselves but what the board considered a year-long pattern of dishonesty from October 2025 onward.
+*Wired&#x27;s layered-code model rewards readers who memorize which discount stacks on which — a small tax on casual shoppers.*
 
-The story begins with a New York Times report last October linking Nvidia to Megaspeed, a Singapore-based data center firm where Alice Huang worked. Huang acknowledged an affair with her on November 8, while China&#x27;s foreign ministry denied she is an intelligence operative. When further affair allegations surfaced, including one involving a direct report, board members concluded his earlier denials to them were untrue. &quot;It was a matter of integrity and trust,&quot; one source told WIRED, adding that the lying, not the personal details, drove the ouster.
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/therabody-promo-code/"><span class="tih">Therabody Discount Stack: 15% Off Codes, Warehouse Deals and Black Friday Cuts</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia Board Ousted Jensen Huang Over Repeated Lying, Sources Say" data-b="According to WIRED, two people familiar with Nvidia&#x27;s private board discussions say the primary reason CEO Jensen Huang lost his position was a year-long pattern of dishonesty, not the underlying facts of his personal affairs. The sources said the untruths spanned from October 2025 through recent events, and one described the matter as one of &quot;integrity and trust.&quot;
 
-Board chair Harvey Jones told an all-hands meeting on November 18 that accepting the resignation was difficult but necessary given the lack of candor. Nvidia did not comment; Huang&#x27;s representative said he resigned voluntarily.
+The timeline traces to October 2025, when The New York Times reported Nvidia&#x27;s unusually strong business ties to Singapore-based data center firm Megaspeed, where Alice Huang worked. Huang, who acknowledged his affair with her on November 8, initially denied any improper relationship to the board. Later allegations included an affair with a direct report. China&#x27;s Ministry of Foreign Affairs rejected claims that Alice Huang was a Chinese intelligence asset, though the board could not immediately classify her role and opened an independent investigation the same day.
 
-Fallout continues: shareholder lawsuits allege misleading statements, general counsel Tim Teter was summoned to Washington over export-control questions, and interim CEO Colette Kress moved up pay raises after employees flagged the sliding share price. Musk, Trump and staff still push for Huang&#x27;s return.
+Board chair Harvey Jones, per remarks reviewed by WIRED, called accepting the resignation &quot;not an easy decision&quot; but necessary given the lack of candor versus company standards. Interim CEO Colette Kress told an all-hands meeting on November 18 that staff worried most about the slide in shares, then the ouster itself, and moved up pay raises without promising to publish the board&#x27;s findings.
 
-*The case is a clean illustration of how much weight a single number-one executive&#x27;s credibility carries in today&#x27;s market.*
+Supporters including Elon Musk, President Donald Trump, and a small board faction want Huang back; he said he would be &quot;honored&quot; to return. Nvidia spokesperson John Rizzo and Jones declined comment; Huang&#x27;s representative confirmed the resignation was voluntary.
 
-*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation/"><span class="tih">Nvidia Board Ousted Jensen Huang Over Years of Imprecise Answers, Sources Say</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia Board Keeps Jensen Huang Out Despite Founder&#x27;s Early Return Bid" data-b="According to WIRED, Nvidia cofounder Jensen Huang resigned as CEO on November 12, pledging to help heal his family and regain trust. His departures included an affair with an alleged Chinese spy linked to billions in Nvidia sales routed through her Singapore company — a possible breach of export rules for Chinese AI — plus an affair with at least one Nvidia subordinate.
+*The case is a clean lesson that in boardrooms, the number of contradictions matters more than the number of facts.*
 
-Huang moved quickly: on November 17, barely days after resigning, he posted on X that he would be honored to reclaim the role if offered. The board shut the door fast. During the earnings call, chair Harvey Jones said the board unanimously accepted the resignation and had no intention of reinstating him, while interim leader and longtime CFO Colette Kress closed with &quot;We&#x27;ve got this.&quot;
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation/"><span class="tih">Nvidia Board Ousted Jensen Huang Over Repeated Lying, Sources Say</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia&#x27;s board keeps its door shut on Jensen Huang" data-b="Nvidia cofounder Jensen Huang stepped down as CEO on November 12, per Wired, after a run of personal and regulatory missteps that included an affair with an alleged Chinese spy whose Singapore firm absorbed billions in Nvidia sales, possibly breaching export rules, plus tangled affairs with subordinates. His personal indiscretions reportedly cost shareholders almost a trillion dollars, and he is said to have misled his board.
 
-Support still swirled. A &quot;Stand With Jensen&quot; petition passed 200,000 signatures, Bill Ackman blasted the directors&#x27; governance, and Elon Musk compared the exit to the Bulls benching Michael Jordan mid-playoffs. At the DealBook conference, Sam Altman and Greg Brockman admired Huang without endorsing his return; Palmer Luckey argued nobody else could fill his role. Semafor reported Huang had already lobbied at least one director, and several may still be open to it.
+His exit barely settled before he tried back in. On November 17 he posted on X that he would be honored to reclaim the job. The board answered fast: chair Harvey Jones, on the earnings call, said directors unanimously accepted the resignation and would not restore him, while interim chief and longtime CFO Colette Kress told staff twice that &quot;we&#x27;ve got this.&quot;
 
-WIRED frames the saga as the cult of the founder colliding with real governance: a brilliant builder whose personal indiscretions reportedly cost shareholders nearly a trillion dollars and who, per the source, misled his own board.
+The crowd kept shouting anyway. A &quot;Stand With Jensen&quot; petition topped 200,000 signatures, Bill Ackman blasted &quot;major governance failures by directors,&quot; and at the New York Times DealBook conference — staged a day after the call, overlapping with Anthropic&#x27;s record IPO — Palmer Luckey called Huang irreplaceable and Elon Musk likened the ouster to the Bulls benching a prime Michael Jordan. Sam Altman and Greg Brockman admired him without endorsing a return. Semafor reported Huang had lobbied at least one director directly.
 
-*The Julius Caesar parallel fits perfectly — humility staged as a crown, and a crowd too eager to applaud it.*
+*The case shows how loudly a founder&#x27;s reputation can drown out the plain logic of governance.*
 
-*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/dont-bring-jensen-back/"><span class="tih">Nvidia Board Keeps Jensen Huang Out Despite Founder&#x27;s Early Return Bid</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Pura&#x27;s Cyber Week Sale Discounts Diffusers and 150+ Scents" data-b="WIRED&#x27;s commerce team reports that Pura remains its top pick among nebulizer-style essential oil diffusers — devices that push air through oil cartridges — thanks to simple operation and an unusually large scent library of more than 150 options from brands such as Anthropologie, Nest, LAFCO, and Brooklyn Candle Company. Seasonal tie-ins include Nutcracker-themed scents from the New York City Ballet.
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/dont-bring-jensen-back/"><span class="tih">Nvidia&#x27;s board keeps its door shut on Jensen Huang</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Pura&#x27;s Cyber Week Sale Puts Its Diffuser Lineup Up to 30 Percent Off" data-b="According to WIRED, Pura has remained its top pick among nebulizer-style essential oil diffusers — devices that disperse scent by blowing air through the oil — thanks to simple operation and an unusually large scent library of more than 150 fragrances from brands such as Anthropologie, Nest and LAFCO, including seasonal collaborations like this month&#x27;s Nutcracker-themed scents tied to the New York City Ballet.
 
-According to WIRED, the current Cyber Week event runs through December 6: all fragrances are 20 percent off and all diffusers 30 percent off. Individual cartridges cost between $14 for the house line and $21 for name brands, though the site shows lower prices tied to a subscription — buyers should check the one-time price.
+WIRED reports the current Cyber Week promotion runs through December 6: every fragrance is discounted 20 percent and every diffuser 30 percent. Cartridge prices are on the higher side, from $14 for the house line up to $21 for name-brand refills, and the site&#x27;s lower figures apply only to subscription purchases, so buyers should check one-time prices. Refill longevity varies by model — roughly a month or more in the Mini, but as little as two weeks in the larger Plus.
 
-For hardware, the new Pura Home (rebranded from the 5) is the recommended choice, adding dual-band Wi-Fi, quicker diffusion, on-device buttons, a slide-out cartridge loader, QR-coded refills with replacement reminders, and silent operation. The app-only Mini suits small rooms, and the Car model fits parents, though it needs near-constant USB power. The cylindrical Plus, half off with a $50 spend, covers large spaces but produced buzzing noises in two review units. WIRED&#x27;s editor also flags the $175 Advent Calendar, bundling a Home diffuser with 12 best-selling scents.
+For recommendations, WIRED&#x27;s top choice is the new Pura Home, citing dual-band Wi-Fi, quicker diffusion, on-device buttons, a slide-out cartridge loader, QR-code-based refill reminders and silent operation. The Mini suits small rooms despite an app-only design, and the Car model works well but needs near-constant USB power. The Plus, meanwhile, developed buzzing issues in both tested units.
 
-*WIRED&#x27;s verdict is pragmatic: the Home model&#x27;s silence and smarter cartridge handling make it the safe buy, while the Plus&#x27;s buzz is worth watching.*
+*A pragmatic sale for anyone who has already settled on the Pura ecosystem, where cartridge discounts matter most given how quickly refills burn through.*
 
-*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/pura-black-friday-2026/"><span class="tih">Pura&#x27;s Cyber Week Sale Discounts Diffusers and 150+ Scents</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia&#x27;s week of split signals" data-b="This week offered two contrasting versions of Nvidia, as discussed on TechCrunch&#x27;s Equity podcast by Anthony Ha, Kirsten Korosec and Tim De Chant. On one side, the chipmaker&#x27;s earnings landed strongly: according to TechCrunch, revenue soared, guidance beat expectations and management pointed to a long order pipeline, with current executives repeatedly assuring investors the company has things in hand.
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/pura-black-friday-2026/"><span class="tih">Pura&#x27;s Cyber Week Sale Puts Its Diffuser Lineup Up to 30 Percent Off</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="A tale of two Nvidias" data-b="This week Nvidia presented two faces, and TechCrunch&#x27;s Equity podcast team broke down both. On one side, the chipmaker delivered an earnings report that, as Kirsten Korosec put it on the show, beat expectations &quot;in every possible way,&quot; with strong guidance and a long pipeline — and current executives closing with the reassurance that they have the situation handled.
 
-On the other side, several storylines kept the noise going. Interim CEO Colette Kress announced that the H200 will no longer be sold in China, aligning with a broader tightening of export rules under the Trump administration, including the closure of the remote-access workaround that let Chinese firms use chips hosted in nearby countries such as Malaysia. Critics cited by the podcast estimate that China ultimately accounts for roughly a fifth of Nvidia&#x27;s business, making the cutoff a possible blow to results.
+On the other side, the leadership saga kept generating noise. According to the TechCrunch discussion, Elon Musk and other prominent tech figures pushed a petition urging former CEO Jensen Huang&#x27;s return, while Huang himself indicated he is prepared to come back. The company&#x27;s official position remained that he will not — a firmer line than the confidence in his leadership the company voiced just a week and a half earlier, and one the falling stock price suggests did little to calm Wall Street.
 
-Meanwhile, the leadership saga continued: Elon Musk and others circulated a petition urging former CEO Jensen Huang&#x27;s return, and Huang himself said he is prepared to come back, even though the company&#x27;s public position was that it will not happen. The falling share price suggested Wall Street remained unconvinced, per the podcast, which also noted an ongoing investigation into allegedly secret chip sales to China.
+The China picture shifted too. Per interim CEO Colette Kress, Nvidia will stop selling H200 chips in China, aligning with the Trump administration&#x27;s tightening of export rules, including the closure of the remote-access workaround that routed chips through data centers in Malaysia and elsewhere. Critics peg China-linked sales at roughly 20% of the business, a possible hit to the bottom line.
 
-*Two Nvidias, one earnings call — the gap between the numbers and the drama is exactly what makes this worth following.*
+For the hosts, the episode&#x27;s real drama is whether the board&#x27;s firm &quot;no&quot; on Huang&#x27;s return holds under pressure from voices like Musk&#x27;s.
 
-*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/"><span class="tih">Nvidia&#x27;s week of split signals</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Therabody Discounts Stack Up This November: Up to 45 Percent Off in Black Friday Sale" data-b="According to WIRED, Therabody&#x27;s current promotions give wellness-device shoppers several ways to cut prices on the brand&#x27;s massage guns, LED masks and recovery gear. The headline offer is the Black Friday Sale, with discounts reaching 45 percent on massage guns, compression boots, LED masks, muscle rollers and back-pain products; the TheraFace Mask Glo and Theragun PRO Plus are each marked down by 100 dollars.
+*It is a neat case study in how quickly a company can look healthy on paper and unsettled everywhere else.*
 
-For smaller savings, WIRED notes that signing up for Therabody&#x27;s emails earns a 10 percent code valid for 30 days, while registering a phone number for texts yields a unique 15 percent code. The outlet channel adds another layer: up to 30 percent off certified refurbished and early-generation models, plus an extra 20 percent off, with every refurbished unit tested, cleaned and fitted with a like-new battery under a one-year warranty.
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/"><span class="tih">A tale of two Nvidias</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Therabody Discount Stack: 15% Off Codes, Warehouse Deals and Black Friday Cuts" data-b="According to Wired, Therabody&#x27;s wellness lineup — massage guns, eye masks, an LED skincare mask and a total-body recliner — comes with several layered discount routes this month. The headline promo path is registration-based: signing up for emails yields a 10% code, while registering a phone number for texts yields a unique 15% code. Wired notes these codes go only to existing customers, are uncommon, and expire 30 days after issuance.
 
-Recent rotating offers included up to 50 percent off sitewide, and holiday-sale cuts of 80 dollars on the Theragun Prime, 90 dollars on the TheraFace PRO and 120 dollars on the Theragun Sense remain available for a limited time, alongside free shipping sitewide. WIRED also highlights the ThermBack LED, which pairs LED, far-infrared, heat and vibration therapies for lower back pain, though it rarely goes on sale.
+Beyond codes, the Black Friday sale runs up to 45% off across massage guns, compression boots, LED masks and muscle rollers, with the TheraFace Mask Glo and Theragun PRO Plus each marked down $100. The Warehouse sale stacks up to 20% off Theragun models, and the Outlet adds up to 30% off Certified Refurbished and early-generation devices, each backed by a one-year warranty; refurbished units are function-tested, quality-inspected, sanitized and have batteries charged or replaced.
 
-*The layered discount structure makes Therabody one of the few hardware brands where comparing the email code, text code and outlet price is genuinely worth two minutes of effort.*
+Post-holiday offers remain: $80 off Theragun Prime (6th gen), $90 off TheraFace PRO and $120 off Theragun Sense, plus free shipping sitewide on new arrivals. Among recent rotating offers, Wired lists up to 50% off sitewide and up to 35% off by code. The ThermBack LED, clinically proven to ease lower back pain via LED, far-infrared, heat and vibration, rarely appears on sale.
 
-*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/therabody-promo-code/"><span class="tih">Therabody Discounts Stack Up This November: Up to 45 Percent Off in Black Friday Sale</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia Board Ousted Jensen Huang Over Years of Imprecise Answers, Sources Say" data-b="According to WIRED, two people familiar with Nvidia&#x27;s private board deliberations say the primary reason Jensen Huang lost his CEO role was not the China-related allegations themselves but what the board considered a year-long pattern of dishonesty from October 2025 onward.
+*Wired&#x27;s layered-code model rewards readers who memorize which discount stacks on which — a small tax on casual shoppers.*
 
-The story begins with a New York Times report last October linking Nvidia to Megaspeed, a Singapore-based data center firm where Alice Huang worked. Huang acknowledged an affair with her on November 8, while China&#x27;s foreign ministry denied she is an intelligence operative. When further affair allegations surfaced, including one involving a direct report, board members concluded his earlier denials to them were untrue. &quot;It was a matter of integrity and trust,&quot; one source told WIRED, adding that the lying, not the personal details, drove the ouster.
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/therabody-promo-code/"><span class="tih">Therabody Discount Stack: 15% Off Codes, Warehouse Deals and Black Friday Cuts</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia Board Ousted Jensen Huang Over Repeated Lying, Sources Say" data-b="According to WIRED, two people familiar with Nvidia&#x27;s private board discussions say the primary reason CEO Jensen Huang lost his position was a year-long pattern of dishonesty, not the underlying facts of his personal affairs. The sources said the untruths spanned from October 2025 through recent events, and one described the matter as one of &quot;integrity and trust.&quot;
 
-Board chair Harvey Jones told an all-hands meeting on November 18 that accepting the resignation was difficult but necessary given the lack of candor. Nvidia did not comment; Huang&#x27;s representative said he resigned voluntarily.
+The timeline traces to October 2025, when The New York Times reported Nvidia&#x27;s unusually strong business ties to Singapore-based data center firm Megaspeed, where Alice Huang worked. Huang, who acknowledged his affair with her on November 8, initially denied any improper relationship to the board. Later allegations included an affair with a direct report. China&#x27;s Ministry of Foreign Affairs rejected claims that Alice Huang was a Chinese intelligence asset, though the board could not immediately classify her role and opened an independent investigation the same day.
 
-Fallout continues: shareholder lawsuits allege misleading statements, general counsel Tim Teter was summoned to Washington over export-control questions, and interim CEO Colette Kress moved up pay raises after employees flagged the sliding share price. Musk, Trump and staff still push for Huang&#x27;s return.
+Board chair Harvey Jones, per remarks reviewed by WIRED, called accepting the resignation &quot;not an easy decision&quot; but necessary given the lack of candor versus company standards. Interim CEO Colette Kress told an all-hands meeting on November 18 that staff worried most about the slide in shares, then the ouster itself, and moved up pay raises without promising to publish the board&#x27;s findings.
 
-*The case is a clean illustration of how much weight a single number-one executive&#x27;s credibility carries in today&#x27;s market.*
+Supporters including Elon Musk, President Donald Trump, and a small board faction want Huang back; he said he would be &quot;honored&quot; to return. Nvidia spokesperson John Rizzo and Jones declined comment; Huang&#x27;s representative confirmed the resignation was voluntary.
 
-*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation/"><span class="tih">Nvidia Board Ousted Jensen Huang Over Years of Imprecise Answers, Sources Say</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia Board Keeps Jensen Huang Out Despite Founder&#x27;s Early Return Bid" data-b="According to WIRED, Nvidia cofounder Jensen Huang resigned as CEO on November 12, pledging to help heal his family and regain trust. His departures included an affair with an alleged Chinese spy linked to billions in Nvidia sales routed through her Singapore company — a possible breach of export rules for Chinese AI — plus an affair with at least one Nvidia subordinate.
+*The case is a clean lesson that in boardrooms, the number of contradictions matters more than the number of facts.*
 
-Huang moved quickly: on November 17, barely days after resigning, he posted on X that he would be honored to reclaim the role if offered. The board shut the door fast. During the earnings call, chair Harvey Jones said the board unanimously accepted the resignation and had no intention of reinstating him, while interim leader and longtime CFO Colette Kress closed with &quot;We&#x27;ve got this.&quot;
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation/"><span class="tih">Nvidia Board Ousted Jensen Huang Over Repeated Lying, Sources Say</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia&#x27;s board keeps its door shut on Jensen Huang" data-b="Nvidia cofounder Jensen Huang stepped down as CEO on November 12, per Wired, after a run of personal and regulatory missteps that included an affair with an alleged Chinese spy whose Singapore firm absorbed billions in Nvidia sales, possibly breaching export rules, plus tangled affairs with subordinates. His personal indiscretions reportedly cost shareholders almost a trillion dollars, and he is said to have misled his board.
 
-Support still swirled. A &quot;Stand With Jensen&quot; petition passed 200,000 signatures, Bill Ackman blasted the directors&#x27; governance, and Elon Musk compared the exit to the Bulls benching Michael Jordan mid-playoffs. At the DealBook conference, Sam Altman and Greg Brockman admired Huang without endorsing his return; Palmer Luckey argued nobody else could fill his role. Semafor reported Huang had already lobbied at least one director, and several may still be open to it.
+His exit barely settled before he tried back in. On November 17 he posted on X that he would be honored to reclaim the job. The board answered fast: chair Harvey Jones, on the earnings call, said directors unanimously accepted the resignation and would not restore him, while interim chief and longtime CFO Colette Kress told staff twice that &quot;we&#x27;ve got this.&quot;
 
-WIRED frames the saga as the cult of the founder colliding with real governance: a brilliant builder whose personal indiscretions reportedly cost shareholders nearly a trillion dollars and who, per the source, misled his own board.
+The crowd kept shouting anyway. A &quot;Stand With Jensen&quot; petition topped 200,000 signatures, Bill Ackman blasted &quot;major governance failures by directors,&quot; and at the New York Times DealBook conference — staged a day after the call, overlapping with Anthropic&#x27;s record IPO — Palmer Luckey called Huang irreplaceable and Elon Musk likened the ouster to the Bulls benching a prime Michael Jordan. Sam Altman and Greg Brockman admired him without endorsing a return. Semafor reported Huang had lobbied at least one director directly.
 
-*The Julius Caesar parallel fits perfectly — humility staged as a crown, and a crowd too eager to applaud it.*
+*The case shows how loudly a founder&#x27;s reputation can drown out the plain logic of governance.*
 
-*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/dont-bring-jensen-back/"><span class="tih">Nvidia Board Keeps Jensen Huang Out Despite Founder&#x27;s Early Return Bid</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Pura&#x27;s Cyber Week Sale Discounts Diffusers and 150+ Scents" data-b="WIRED&#x27;s commerce team reports that Pura remains its top pick among nebulizer-style essential oil diffusers — devices that push air through oil cartridges — thanks to simple operation and an unusually large scent library of more than 150 options from brands such as Anthropologie, Nest, LAFCO, and Brooklyn Candle Company. Seasonal tie-ins include Nutcracker-themed scents from the New York City Ballet.
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/dont-bring-jensen-back/"><span class="tih">Nvidia&#x27;s board keeps its door shut on Jensen Huang</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Pura&#x27;s Cyber Week Sale Puts Its Diffuser Lineup Up to 30 Percent Off" data-b="According to WIRED, Pura has remained its top pick among nebulizer-style essential oil diffusers — devices that disperse scent by blowing air through the oil — thanks to simple operation and an unusually large scent library of more than 150 fragrances from brands such as Anthropologie, Nest and LAFCO, including seasonal collaborations like this month&#x27;s Nutcracker-themed scents tied to the New York City Ballet.
 
-According to WIRED, the current Cyber Week event runs through December 6: all fragrances are 20 percent off and all diffusers 30 percent off. Individual cartridges cost between $14 for the house line and $21 for name brands, though the site shows lower prices tied to a subscription — buyers should check the one-time price.
+WIRED reports the current Cyber Week promotion runs through December 6: every fragrance is discounted 20 percent and every diffuser 30 percent. Cartridge prices are on the higher side, from $14 for the house line up to $21 for name-brand refills, and the site&#x27;s lower figures apply only to subscription purchases, so buyers should check one-time prices. Refill longevity varies by model — roughly a month or more in the Mini, but as little as two weeks in the larger Plus.
 
-For hardware, the new Pura Home (rebranded from the 5) is the recommended choice, adding dual-band Wi-Fi, quicker diffusion, on-device buttons, a slide-out cartridge loader, QR-coded refills with replacement reminders, and silent operation. The app-only Mini suits small rooms, and the Car model fits parents, though it needs near-constant USB power. The cylindrical Plus, half off with a $50 spend, covers large spaces but produced buzzing noises in two review units. WIRED&#x27;s editor also flags the $175 Advent Calendar, bundling a Home diffuser with 12 best-selling scents.
+For recommendations, WIRED&#x27;s top choice is the new Pura Home, citing dual-band Wi-Fi, quicker diffusion, on-device buttons, a slide-out cartridge loader, QR-code-based refill reminders and silent operation. The Mini suits small rooms despite an app-only design, and the Car model works well but needs near-constant USB power. The Plus, meanwhile, developed buzzing issues in both tested units.
 
-*WIRED&#x27;s verdict is pragmatic: the Home model&#x27;s silence and smarter cartridge handling make it the safe buy, while the Plus&#x27;s buzz is worth watching.*
+*A pragmatic sale for anyone who has already settled on the Pura ecosystem, where cartridge discounts matter most given how quickly refills burn through.*
 
-*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/pura-black-friday-2026/"><span class="tih">Pura&#x27;s Cyber Week Sale Discounts Diffusers and 150+ Scents</span> <span class="tis">— wired.com</span></div></div></div>
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/pura-black-friday-2026/"><span class="tih">Pura&#x27;s Cyber Week Sale Puts Its Diffuser Lineup Up to 30 Percent Off</span> <span class="tis">— wired.com</span></div></div></div>
 <div class="lead-zone">
       <article class="lead">
-  <a href="https://www.inferencestack.io/" target="_blank" rel="noopener">
+  <a href="https://www.tomshardware.com/pc-components/gpus/moore-threads-next-lushan-gaming-gpu-could-pack-a-record-64gb-of-vram-doubles-the-rtx-5090s-32gb-lofty-claims-of-15x-gaming-and-50x-ray-tracing-over-mtt-s80" target="_blank" rel="noopener">
     <img src="images/lead_2026-11-10.jpg" alt="" class="lead-image">
     <div class="lead-grid">
       <div class="lead-head">
-        <p class="kicker">Tools &amp; Runtimes</p>
-        <h1>Inference Stack bundles vLLM, LiteLLM, llm-d and Grafana into one command</h1>
+        <p class="kicker">GPU &amp; Memory</p>
+        <h1>Moore Threads' next Lushan GPU could pack a record 64GB of VRAM</h1>
       </div>
       <div class="lead-body">
-        <p class="deck">Inference Stack v0.1.2 launched as a single-command Docker/Kubernetes bundle that wires the common self-hosted serving pieces together: vLLM for inference, LiteLLM as gateway, llm-d for distributed serving and Grafana for metrics. It ships a launcher that searches Hugging Face, estimates GPU requirements, and includes a built-in Playground and metrics dashboards, collapsing the usual multi-tool setup into one manifest.</p>
-        <p class="byline"><span class="src">Inference Stack</span> · <span>2026-11-22</span> · <span class="more">Read the dispatch →</span></p>
+        <p class="deck">A Moore Threads product manager says the next Lushan desktop GPU (Huagang architecture) will carry more VRAM than any current consumer card — implying 64GB, double the RTX 5090's 32GB — with company targets of 15x gaming and 64x AI compute over the MTT S80. The reveal is set for the MDC 2026 keynote on Dec. 29; the capacity figure is press math, not an official spec.</p>
+        <p class="byline"><span class="src">Tom's Hardware</span> · <span>2026-11-22</span> · <span class="more">Read the dispatch →</span></p>
       </div>
     </div>
   </a>
@@ -141,26 +141,26 @@ For hardware, the new Pura Home (rebranded from the 5) is the recommended choice
 
     <div class="topstories">
 <article class="story">
-  <a href="https://x.com/ZhihaoJu77910/status/2124362276127781366" target="_blank" rel="noopener">
-    <h3>Tencent open-sources Hunyuan Hy4, a 770B MoE with 49B active parameters</h3>
-    <p>Weights and system cards are public after Hy4 flash (224B/12B active) landed Nov 16; the team's AMA covered training efficiency and distillation-based reasoning.</p>
-    <p class="byline"><span class="src">X (ZhihaoJu77910)</span> · 2026-11-21</p>
+  <a href="https://news.ycombinator.com/item?id=50607257" target="_blank" rel="noopener">
+    <h3>Ignis brings browser-native LLM and multimodal inference to the Show HN front page</h3>
+    <p>Ignis is a browser-native inference engine that runs LLMs and multimodal models fully client-side.</p>
+    <p class="byline"><span class="src">Hacker News</span> · 2026-11-23</p>
   </a>
 </article>
 
 <article class="story">
-  <a href="https://aifundingtracker.com/ai-funding-news-november-21-2026/" target="_blank" rel="noopener">
-    <h3>Cognition in talks to raise $2B+ at a $75B valuation</h3>
-    <p>Per Bloomberg Nov 21, up from the September Series E at $48B; no lead investor named for the Devin coding-agent maker.</p>
-    <p class="byline"><span class="src">AI Funding Tracker</span> · 2026-11-21</p>
+  <a href="https://videocardz.com/newz/jedec-announces-ddr6-memory-modules-are-44-shorter-than-ddr5-speeds-up-to-14-4-gt-s" target="_blank" rel="noopener">
+    <h3>JEDEC publishes DDR6 spec: modules 44% shorter than DDR5, speeds up to 14.4 GT/s</h3>
+    <p>The new JEDEC standard succeeds DDR5 in the on-device memory ladder relevant to local AI rigs.</p>
+    <p class="byline"><span class="src">VideoCardz</span> · 2026-11-22</p>
   </a>
 </article>
 
 <article class="story">
-  <a href="https://aifundingtracker.com/ai-funding-news-november-21-2026/" target="_blank" rel="noopener">
-    <h3>Databricks in early talks for multibillion raise at about $225B valuation</h3>
-    <p>First reported by WSJ and followed by Reuters; roughly 20% above the $190B set in the August 2026 round.</p>
-    <p class="byline"><span class="src">AI Funding Tracker</span> · 2026-11-21</p>
+  <a href="https://temperature2.com/p/2026-11-22-ai-server-makers-reprice-signed-deals-45-percent" target="_blank" rel="noopener">
+    <h3>AI server makers reprice signed contracts up to 45% as DRAM costs balloon 400%</h3>
+    <p>Dell, HPE, Lenovo and Supermicro are charging 25-45% above signed prices for NVIDIA-based servers; with DRAM up over 400% since early 2024, memory now exceeds half of an AI server's materials cost and the squeeze flows through to consumer GPU and RAM prices.</p>
+    <p class="byline"><span class="src">Financial Times (via Temperature2)</span> · 2026-11-22</p>
   </a>
 </article>
 
@@ -172,39 +172,31 @@ For hardware, the new Pura Home (rebranded from the 5) is the recommended choice
   <div class="section-head">
     <h2>Research &amp; Papers</h2>
     <span class="line"></span>
-    <span class="n">04</span>
+    <span class="n">03</span>
   </div>
-  <a href="https://arxiv.org/abs/2611.26629" target="_blank" rel="noopener" class="section-hero"><img src="images/section_research_papers_2026-11-10.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Posterior Matching Distillation compresses diffusion sampling into a few evaluations</h4></a>
+  <div class="section-hero"><img src="images/section_research_papers_2026-11-10.jpg" alt="" class="section-hero-img"></div>
   <div class="section-grid">
 <article class="item">
-  <a href="https://arxiv.org/abs/2611.26629" target="_blank" rel="noopener">
-    <h4>Posterior Matching Distillation compresses diffusion sampling into a few evaluations</h4>
-    <p>NVIDIA distills iterative diffusion sampling by matching student output distributions to the teacher, accelerating image/video generation under small evaluation budgets.</p>
-    <p class="byline"><span class="src">arXiv</span> · 2026-11-19</p>
+  <a href="https://arxiv.org/abs/2611.27759" target="_blank" rel="noopener">
+    <h4>DPMA: learning to compress Mixture-of-Experts models without retraining</h4>
+    <p>DPMA jointly handles expert pruning and merging with non-uniform compression ratios, cutting the memory footprint that limits MoE deployment on constrained hardware.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-11-20</p>
   </a>
 </article>
 
 <article class="item">
-  <a href="https://arxiv.org/abs/2611.26450" target="_blank" rel="noopener">
-    <h4>A CPU inside an LLM: zero-gradient compilation of exact circuits into pretrained weights</h4>
-    <p>Closed-form, zero-gradient circuit-grafting primitives compile deterministic computation such as exact multi-digit arithmetic directly into pretrained LM weights, no gradient fine-tuning or external interpreter needed.</p>
-    <p class="byline"><span class="src">arXiv</span> · 2026-11-19</p>
+  <a href="https://arxiv.org/abs/2611.27823" target="_blank" rel="noopener">
+    <h4>Mixture of Latent Recursions gives LoRA an adaptive recursion framework</h4>
+    <p>MoLR replaces LoRA's fixed low-rank modules with recursive adaptation, raising task-specific expressiveness without proportional parameter overhead.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-11-20</p>
   </a>
 </article>
 
 <article class="item">
-  <a href="https://arxiv.org/abs/2611.26268" target="_blank" rel="noopener">
-    <h4>Dynamic routing and KV-centric execution accelerate Mixture of Block Attention</h4>
-    <p>Extends FlashMoBA with dynamic Top-k budgets and a KV-centric schedule for long-context inference, cutting wasted KV-block computation versus fixed-budget MoBA.</p>
-    <p class="byline"><span class="src">arXiv</span> · 2026-11-19</p>
-  </a>
-</article>
-
-<article class="item">
-  <a href="https://arxiv.org/abs/2611.25895" target="_blank" rel="noopener">
-    <h4>Task-Calibrated Denoising Allocation adapts diffusion-LLM schedules per task</h4>
-    <p>Shows the cheapest quality-preserving denoising schedule depends on task, model and sampler, and proposes TCDA, a deployment rule with an explicit error guarantee.</p>
-    <p class="byline"><span class="src">arXiv</span> · 2026-11-19</p>
+  <a href="https://arxiv.org/abs/2611.27962" target="_blank" rel="noopener">
+    <h4>Model Carving: transformers that optimize their own topology during training</h4>
+    <p>Instead of a fixed uniform stack of attention/MLP sublayers, the model tunes its own layer topology for better quality-efficiency trade-offs.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-11-20</p>
   </a>
 </article>
 
@@ -217,37 +209,37 @@ For hardware, the new Pura Home (rebranded from the 5) is the recommended choice
     <span class="line"></span>
     <span class="n">04</span>
   </div>
-  <a href="https://huggingface.co/Qwen/Qwen3.6-27B" target="_blank" rel="noopener" class="section-hero"><img src="images/section_open_weights_models_2026-11-10.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Qwen3.6-27B lands on Hugging Face as an Apache-2.0 multimodal release</h4></a>
+  <div class="section-hero"><img src="images/section_open_weights_models_2026-11-10.jpg" alt="" class="section-hero-img"></div>
   <div class="section-grid">
 <article class="item">
-  <a href="https://huggingface.co/Qwen/Qwen3.6-27B" target="_blank" rel="noopener">
-    <h4>Qwen3.6-27B lands on Hugging Face as an Apache-2.0 multimodal release</h4>
-    <p>27B image-text-to-text model with safetensors weights and transformers support; the repo has passed 2.4M downloads.</p>
-    <p class="byline"><span class="src">HuggingFace</span> · 2026-11-20</p>
+  <a href="https://shattered.io/open-weight-vs-open-source-ai-4-models-4-licenses-kimi-mistral-qwen-deepseek-2026/" target="_blank" rel="noopener">
+    <h4>License landscape of the autumn 2026 open-weight flagships: four models, four licenses</h4>
+    <p>DeepSeek V4.1 Flash 1017 (MIT) and the Qwen3.8 family (Apache 2.0) are plainly open, while Mistral Large 4 and Kimi K3.1 Pro carry conditional clauses for MaaS resellers; Qwen4-Max remains API-only.</p>
+    <p class="byline"><span class="src">Shattered.io</span> · 2026-11-22</p>
   </a>
 </article>
 
 <article class="item">
-  <a href="https://gemma.ai/get-started/qat" target="_blank" rel="noopener">
-    <h4>Gemma 4 ships quantization-aware training checkpoints for llama.cpp and vLLM</h4>
-    <p>QAT builds (-qat-q4_0-gguf, -qat-w4a16-ct, mobile wNa8o8) across E2B/E4B/12B/26B-A4B/31B beat generic Q4 at the same size; the 12B sits at 6.7GB in Q4_0.</p>
-    <p class="byline"><span class="src">gemma.ai</span> · 2026-11-21</p>
+  <a href="https://huggingface.co/ibm-granite/granite-embedding-97m-multilingual-r2" target="_blank" rel="noopener">
+    <h4>IBM Granite Embedding Multilingual R2: a 97M ModernBERT embedder with 32K context</h4>
+    <p>Apache 2.0, 384-dim vectors, 200+ languages, +14.6 points over the previous generation; ships ONNX, OpenVINO and GGUF — a strong RAG pick for local stacks.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-11-22</p>
   </a>
 </article>
 
 <article class="item">
-  <a href="https://huggingface.co/mudler/Agents-A1-APEX-GGUF" target="_blank" rel="noopener">
-    <h4>APEX quantization method arrives for MoE models via Agents-A1-APEX-GGUF</h4>
-    <p>LocalAI team's Adaptive Precision for EXpert Models applies a layer-wise precision gradient by tensor role to the 35B (3B active) Agents-A1 MoE; 75 GGUF variants under Apache-2.0.</p>
-    <p class="byline"><span class="src">HuggingFace</span> · 2026-11-21</p>
+  <a href="https://huggingface.co/Manprot/MP-01-100M" target="_blank" rel="noopener">
+    <h4>Manprot MP-01-100M: a tiny 100.6M CPU-friendly language model</h4>
+    <p>Decoder-only, trained from scratch on ~11.35B tokens under Apache 2.0, with an associated open dataset — small enough for CPU or modest consumer GPUs.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-11-22</p>
   </a>
 </article>
 
 <article class="item">
-  <a href="https://x.com/Zefan_Cai/status/2124328168958107824" target="_blank" rel="noopener">
-    <h4>WeChat releases open-source omni-modal WeMM-Video family in 2B to 35B-A3B sizes</h4>
-    <p>Claims open-source SOTA on 120+ video-understanding benchmarks by processing both soundtrack and frames; already in use inside WeChat.</p>
-    <p class="byline"><span class="src">X (Zefan_Cai)</span> · 2026-11-21</p>
+  <a href="https://huggingface.co/ccore/CCORE-Web-Coder-4B" target="_blank" rel="noopener">
+    <h4>CCORE-Web-Coder-4B completes its full release with Safetensors and GGUF quants</h4>
+    <p>The 4B web-coding model moved from Q8_0 preview to full release on Nov 22 with extra quantizations; early downloaders should re-pull the checkpoint.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-11-22</p>
   </a>
 </article>
 
@@ -260,37 +252,37 @@ For hardware, the new Pura Home (rebranded from the 5) is the recommended choice
     <span class="line"></span>
     <span class="n">04</span>
   </div>
-  <a href="https://github.com/ggml-org/llama.cpp/releases/tag/b12627" target="_blank" rel="noopener" class="section-hero"><img src="images/section_tools_runtimes_2026-11-10.jpg" alt="" class="section-hero-img"><h4 class="hero-title">llama.cpp b12627 fits non-causal batches in one ubatch, fixes Vulkan memset</h4></a>
+  <div class="section-hero"><img src="images/section_tools_runtimes_2026-11-10.jpg" alt="" class="section-hero-img"></div>
   <div class="section-grid">
 <article class="item">
-  <a href="https://github.com/ggml-org/llama.cpp/releases/tag/b12627" target="_blank" rel="noopener">
-    <h4>llama.cpp b12627 fits non-causal batches in one ubatch, fixes Vulkan memset</h4>
-    <p>Nov 22 builds also fix a Vulkan memset for unaligned ranges on non-UMA devices; prebuilt binaries on the GitHub release page.</p>
+  <a href="https://github.com/ltrgoddard/gall" target="_blank" rel="noopener">
+    <h4>Gall runs Inkling 2 Mini on a 24GB M2 with RAM freed between messages</h4>
+    <p>A minimal local runner for Thinking Machines' looped 26B model that fits 24GB Macs by releasing memory between messages.</p>
     <p class="byline"><span class="src">GitHub</span> · 2026-11-22</p>
   </a>
 </article>
 
 <article class="item">
-  <a href="https://databasedmcp.com/" target="_blank" rel="noopener">
-    <h4>Show HN: DatabaseDMCP serves per-agent custom SQLite databases over remote MCP</h4>
-    <p>MCP-compatible clients query purpose-built databases without local setup.</p>
-    <p class="byline"><span class="src">DatabaseDMCP</span> · 2026-11-21</p>
+  <a href="https://github.com/mahmoud-emad/opennotebook" target="_blank" rel="noopener">
+    <h4>OpenNotebook: a self-hosted NotebookLM alternative with video overviews</h4>
+    <p>Open-source notebook-style summaries and video overviews from your own documents, running against local models.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-11-22</p>
   </a>
 </article>
 
 <article class="item">
-  <a href="https://keepplain.com/blame" target="_blank" rel="noopener">
-    <h4>Show HN: Keepplain adds git-blame-style provenance for AI-generated code</h4>
-    <p>Attributes each change to the specific agent session that produced it.</p>
-    <p class="byline"><span class="src">Keepplain</span> · 2026-11-21</p>
+  <a href="https://news.ycombinator.com/item?id=50601075" target="_blank" rel="noopener">
+    <h4>ListenNotes ships a Podcast MCP server for episode, transcript and metadata search</h4>
+    <p>Local agents can now fetch podcast data over the Model Context Protocol from the ListenNotes API.</p>
+    <p class="byline"><span class="src">Hacker News</span> · 2026-11-22</p>
   </a>
 </article>
 
 <article class="item">
-  <a href="https://github.com/ShieldaAI/security-watch" target="_blank" rel="noopener">
-    <h4>Show HN: Security Watch alerts when a new vulnerability hits your exact stack</h4>
-    <p>Open-source tool tracking dependencies against security advisories.</p>
-    <p class="byline"><span class="src">GitHub</span> · 2026-11-21</p>
+  <a href="https://github.com/ggml-org/llama.cpp/releases/tag/b12626" target="_blank" rel="noopener">
+    <h4>llama.cpp b12626 fits non-causal batches in one ubatch; Nov 23 builds add OpenCL q4_k coop-k GEMM</h4>
+    <p>Follow-up builds b12643-b12648 add a speculative-verification GEMM, a faster shared audio FFT in mtmd and a generic ggml_backend_tensor_memset fallback.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-11-22</p>
   </a>
 </article>
 
@@ -303,20 +295,20 @@ For hardware, the new Pura Home (rebranded from the 5) is the recommended choice
     <span class="line"></span>
     <span class="n">02</span>
   </div>
-  <a href="https://github.com/home-assistant/core/issues/193669" target="_blank" rel="noopener" class="section-hero"><img src="images/section_self_hosted_stack_2026-11-10.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Home Assistant 2026.11: custom integrations reported 'not found' after the HACS-to-Marketplace migration</h4></a>
+  <div class="section-hero"><img src="images/section_self_hosted_stack_2026-11-10.jpg" alt="" class="section-hero-img"></div>
   <div class="section-grid">
 <article class="item">
-  <a href="https://github.com/home-assistant/core/issues/193669" target="_blank" rel="noopener">
-    <h4>Home Assistant 2026.11: custom integrations reported 'not found' after the HACS-to-Marketplace migration</h4>
-    <p>Tracked issue: after upgrading to Core 2026.11.x, custom_components fail with 'Integration not found' even after Marketplace reinstall, while core integrations keep working.</p>
-    <p class="byline"><span class="src">Home Assistant</span> · 2026-11-21</p>
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1y2zrni/koboldcpp_v11251_released/" target="_blank" rel="noopener">
+    <h4>KoboldCpp v1.125.1 patches the single-file GGUF runner</h4>
+    <p>The zero-install local inference stack stays current alongside llama.cpp; community discussion centered on fit for small homelab GPUs.</p>
+    <p class="byline"><span class="src">r/LocalLLaMA</span> · 2026-11-22</p>
   </a>
 </article>
 
 <article class="item">
-  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1xlusil/proposal_a_community_revolution_for_private/" target="_blank" rel="noopener">
-    <h4>r/LocalLLaMA proposal: keep private per-machine quality benchmarks instead of chasing tok/s</h4>
-    <p>Highly upvoted proposal argues raw tok/s without KLD or output-quality data is of limited value; small private benchmark suites are emerging as consensus practice for picking quants.</p>
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1y2pi6o/locallyai_app_caught_exfiltrating_users_ios/" target="_blank" rel="noopener">
+    <h4>LocallyAI app caught exfiltrating iOS device IDs despite offline-only claims</h4>
+    <p>The 'fully offline' chatbot wrapper was sending device IDs to remote servers — a reminder to check Privacy Nutrition Labels on local-model app wrappers.</p>
     <p class="byline"><span class="src">r/LocalLLaMA</span> · 2026-11-22</p>
   </a>
 </article>
@@ -330,29 +322,29 @@ For hardware, the new Pura Home (rebranded from the 5) is the recommended choice
     <span class="line"></span>
     <span class="n">03</span>
   </div>
-  <a href="https://tokenmark.app/compare/strix-halo-vs-dgx-spark" target="_blank" rel="noopener" class="section-hero"><img src="images/section_hardware_edge_2026-11-10.jpg" alt="" class="section-hero-img"><h4 class="hero-title">TokenMark snapshot: Strix Halo trades blows with DGX Spark on shared llama.cpp models</h4></a>
+  <div class="section-hero"><img src="images/section_hardware_edge_2026-11-10.jpg" alt="" class="section-hero-img"></div>
   <div class="section-grid">
 <article class="item">
-  <a href="https://tokenmark.app/compare/strix-halo-vs-dgx-spark" target="_blank" rel="noopener">
-    <h4>TokenMark snapshot: Strix Halo trades blows with DGX Spark on shared llama.cpp models</h4>
-    <p>Across 10 shared model/bit-width pairs, Strix Halo led on three llama.cpp runs, Spark on one, three within 5%; biggest gap was Nemotron-3-Super-120B-A12B 4-bit at 24.5 vs 18.9 tok/s.</p>
-    <p class="byline"><span class="src">TokenMark</span> · 2026-11-21</p>
+  <a href="https://videocardz.com/newz/gpd-win-mini-ultra-with-intel-arc-g3-extreme-priced-at-1699-64gb-version-skips-indiegogo" target="_blank" rel="noopener">
+    <h4>GPD WIN Mini Ultra with Intel Arc G3 Extreme priced at $1,699; 64GB version skips Indiegogo</h4>
+    <p>The handheld's larger-memory option is notable for running small local models on the go.</p>
+    <p class="byline"><span class="src">VideoCardz</span> · 2026-11-23</p>
   </a>
 </article>
 
 <article class="item">
-  <a href="https://omarchycentral.com/news/omarchy-will-hand-freed-gpu-memory-straight-back-to-the-system-on-the-dgx-spark/" target="_blank" rel="noopener">
-    <h4>Omarchy patch hands freed GPU memory back to the system on DGX Spark (GB10)</h4>
-    <p>Sets NVreg_EnableSystemMemoryPools=0 on GB10 so memory from a stopped model returns immediately instead of sitting in NVIDIA 615 driver page pools (106.7 GiB was stuck as KReclaimable after a 100 GiB model).</p>
-    <p class="byline"><span class="src">Omarchy Central</span> · 2026-11-19</p>
+  <a href="https://videocardz.com/newz/gpu-z-2-72-adds-support-for-nvidia-rtx-4090-ti-es-rtx-5070-gb203-and-rtx-spark" target="_blank" rel="noopener">
+    <h4>GPU-Z 2.72 adds RTX 4090 Ti ES, RTX 5070 GB203 and RTX Spark identification</h4>
+    <p>The update tracks the current Blackwell-era consumer lineup for local inference builds.</p>
+    <p class="byline"><span class="src">VideoCardz</span> · 2026-11-22</p>
   </a>
 </article>
 
 <article class="item">
-  <a href="https://renesas.com/en/blogs/prototype-production-accelerate-vision-ai-development-renesas-rzv-system-modules" target="_blank" rel="noopener">
-    <h4>Renesas pushes RZ/V system-on-modules for faster edge vision AI prototyping</h4>
-    <p>Covers camera data processing, on-device inference, high-speed interfaces and power management to shorten the prototype-to-production path.</p>
-    <p class="byline"><span class="src">Renesas</span> · 2026-11-21</p>
+  <a href="https://www.tomshardware.com/pc-components/gpus/best-gaming-graphics-card-gpu-deals" target="_blank" rel="noopener">
+    <h4>Black Friday 2026 GPU deals: RTX 50 and RX 9000 cards still well above MSRP</h4>
+    <p>The AI buildout keeps squeezing consumer GPU supply; notable local-work picks include RTX 5060 Ti and RX 9070-series cards at 16GB.</p>
+    <p class="byline"><span class="src">Tom's Hardware</span> · 2026-11-22</p>
   </a>
 </article>
 
@@ -373,7 +365,7 @@ For hardware, the new Pura Home (rebranded from the 5) is the recommended choice
   <a href="https://github.com/elementalsouls/Claude-BugHunter" target="_blank" rel="noopener">
     <span class="t-ranking">#01</span>
     <span class="t-name">elementalsouls/Claude-BugHunter</span>
-    <span class="t-meta">Claude Code skill bundle for bug hunting: 82 skills, 15 slash commands, 681 disclosed-report patterns</span>
+    <span class="t-meta">Python · 18.2k ★ · +1716 today</span>
   </a>
 </li>
 
@@ -381,7 +373,7 @@ For hardware, the new Pura Home (rebranded from the 5) is the recommended choice
   <a href="https://github.com/obra/superpowers" target="_blank" rel="noopener">
     <span class="t-ranking">#02</span>
     <span class="t-name">obra/superpowers</span>
-    <span class="t-meta">Agentic skills framework &amp; software development methodology</span>
+    <span class="t-meta">Shell · 324k ★ · +788 today</span>
   </a>
 </li>
 
@@ -389,7 +381,7 @@ For hardware, the new Pura Home (rebranded from the 5) is the recommended choice
   <a href="https://github.com/HKUDS/CLI-Anything" target="_blank" rel="noopener">
     <span class="t-ranking">#03</span>
     <span class="t-name">HKUDS/CLI-Anything</span>
-    <span class="t-meta">Making ALL software agent-native, with CLI-Hub</span>
+    <span class="t-meta">Python · 62.9k ★ · +699 today</span>
   </a>
 </li>
 
@@ -397,55 +389,55 @@ For hardware, the new Pura Home (rebranded from the 5) is the recommended choice
   <a href="https://github.com/jingyaogong/minimind" target="_blank" rel="noopener">
     <span class="t-ranking">#04</span>
     <span class="t-name">jingyaogong/minimind</span>
-    <span class="t-meta">Train your own 64M LLM from scratch in 2 hours</span>
-  </a>
-</li>
-
-<li>
-  <a href="https://github.com/cursor/plugins" target="_blank" rel="noopener">
-    <span class="t-ranking">#05</span>
-    <span class="t-name">cursor/plugins</span>
-    <span class="t-meta">Cursor plugin specification and official plugins for the coding agent</span>
+    <span class="t-meta">Python · 68.9k ★ · +473 today</span>
   </a>
 </li>
 
 <li>
   <a href="https://github.com/firecrawl/firecrawl" target="_blank" rel="noopener">
-    <span class="t-ranking">#06</span>
+    <span class="t-ranking">#05</span>
     <span class="t-name">firecrawl/firecrawl</span>
-    <span class="t-meta">Knowledge infrastructure for agents: search, scrape, 550+ data providers via one API</span>
+    <span class="t-meta">TypeScript · 207k ★ · +915 today</span>
   </a>
 </li>
 
 <li>
   <a href="https://github.com/openvinotoolkit/openvino" target="_blank" rel="noopener">
-    <span class="t-ranking">#07</span>
+    <span class="t-ranking">#06</span>
     <span class="t-name">openvinotoolkit/openvino</span>
-    <span class="t-meta">Open source toolkit for optimizing and deploying AI inference</span>
+    <span class="t-meta">C++ · 12.1k ★ · +158 today</span>
   </a>
 </li>
 
 <li>
   <a href="https://github.com/cathrynlavery/diagram-design" target="_blank" rel="noopener">
-    <span class="t-ranking">#08</span>
+    <span class="t-ranking">#07</span>
     <span class="t-name">cathrynlavery/diagram-design</span>
-    <span class="t-meta">Editorial diagram design skill for Claude Code, Codex, Copilot, Cursor: 45 diagram types, HTML + SVG</span>
+    <span class="t-meta">HTML · 70.4k ★ · +518 today</span>
   </a>
 </li>
 
 <li>
   <a href="https://github.com/mvanhorn/last30days-skill" target="_blank" rel="noopener">
-    <span class="t-ranking">#09</span>
+    <span class="t-ranking">#08</span>
     <span class="t-name">mvanhorn/last30days-skill</span>
-    <span class="t-meta">AI agent skill that researches topics across Reddit, X, YouTube, HN and synthesizes grounded summaries</span>
+    <span class="t-meta">Python · 72.9k ★ · +668 today</span>
   </a>
 </li>
 
 <li>
   <a href="https://github.com/google-labs-code/stitch-skills" target="_blank" rel="noopener">
-    <span class="t-ranking">#10</span>
+    <span class="t-ranking">#09</span>
     <span class="t-name">google-labs-code/stitch-skills</span>
-    <span class="t-meta">Agent Skills library for the Stitch MCP server, following the Agent Skills open standard</span>
+    <span class="t-meta">TypeScript · 12.0k ★ · +494 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/Tracer-Cloud/opensre" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">Tracer-Cloud/opensre</span>
+    <span class="t-meta">Python · 14.5k ★ · +399 today</span>
   </a>
 </li>
 
@@ -463,7 +455,7 @@ For hardware, the new Pura Home (rebranded from the 5) is the recommended choice
   <a href="https://huggingface.co/thinkingmachines/Inkling-2-Mini" target="_blank" rel="noopener">
     <span class="t-ranking">#01</span>
     <span class="t-name">thinkingmachines/Inkling-2-Mini</span>
-    <span class="t-meta">26B looped transformer, open weights for local agentic work</span>
+    <span class="t-meta">26B looped MoE, multimodal, 1M context</span>
   </a>
 </li>
 
@@ -471,39 +463,39 @@ For hardware, the new Pura Home (rebranded from the 5) is the recommended choice
   <a href="https://huggingface.co/unsloth/Inkling-2-Mini-GGUF" target="_blank" rel="noopener">
     <span class="t-ranking">#02</span>
     <span class="t-name">unsloth/Inkling-2-Mini-GGUF</span>
-    <span class="t-meta">Unsloth GGUF quants of Inkling 2 Mini (IQ1_S to Q8_K_XL)</span>
-  </a>
-</li>
-
-<li>
-  <a href="https://huggingface.co/tencent/Hy4-flash" target="_blank" rel="noopener">
-    <span class="t-ranking">#03</span>
-    <span class="t-name">tencent/Hy4-flash</span>
-    <span class="t-meta">220B flash model</span>
+    <span class="t-meta">26B GGUF quant of Inkling-2-Mini</span>
   </a>
 </li>
 
 <li>
   <a href="https://huggingface.co/inworld/voice-isolator" target="_blank" rel="noopener">
-    <span class="t-ranking">#04</span>
+    <span class="t-ranking">#03</span>
     <span class="t-name">inworld/voice-isolator</span>
-    <span class="t-meta">Voice isolation model</span>
+    <span class="t-meta">Audio-to-Audio voice isolation</span>
   </a>
 </li>
 
 <li>
-  <a href="https://huggingface.co/apple/FastFrames-L" target="_blank" rel="noopener">
-    <span class="t-ranking">#05</span>
-    <span class="t-name">apple/FastFrames-L</span>
-    <span class="t-meta">Frame interpolation model</span>
+  <a href="https://huggingface.co/tencent/Hy4-flash" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">tencent/Hy4-flash</span>
+    <span class="t-meta">220B image-text-to-text</span>
   </a>
 </li>
 
 <li>
   <a href="https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted" target="_blank" rel="noopener">
-    <span class="t-ranking">#06</span>
+    <span class="t-ranking">#05</span>
     <span class="t-name">harness-hub/Qwen3.8-27B-pi-adapted</span>
-    <span class="t-meta">Qwen3.8-27B adapted for the Pi coding agent</span>
+    <span class="t-meta">Qwen3.8-27B adapted for pi agent harness</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">AtomicChat/Inkling-2-Mini-Uncensored-GGUF</span>
+    <span class="t-meta">26B uncensored GGUF quant</span>
   </a>
 </li>
 
@@ -511,31 +503,31 @@ For hardware, the new Pura Home (rebranded from the 5) is the recommended choice
   <a href="https://huggingface.co/higurashi-ai/Haru-4B" target="_blank" rel="noopener">
     <span class="t-ranking">#07</span>
     <span class="t-name">higurashi-ai/Haru-4B</span>
-    <span class="t-meta">5B compact model</span>
-  </a>
-</li>
-
-<li>
-  <a href="https://huggingface.co/Qwen/Qwen3.6-27B" target="_blank" rel="noopener">
-    <span class="t-ranking">#08</span>
-    <span class="t-name">Qwen/Qwen3.6-27B</span>
-    <span class="t-meta">27B image-text-to-text multimodal, Apache-2.0</span>
-  </a>
-</li>
-
-<li>
-  <a href="https://huggingface.co/sensenova/SenseNova-Loop-9B" target="_blank" rel="noopener">
-    <span class="t-ranking">#09</span>
-    <span class="t-name">sensenova/SenseNova-Loop-9B</span>
-    <span class="t-meta">10B looped model</span>
+    <span class="t-meta">5B audio-to-audio model</span>
   </a>
 </li>
 
 <li>
   <a href="https://huggingface.co/apple/DepthPro2" target="_blank" rel="noopener">
-    <span class="t-ranking">#10</span>
+    <span class="t-ranking">#08</span>
     <span class="t-name">apple/DepthPro2</span>
-    <span class="t-meta">Depth estimation model</span>
+    <span class="t-meta">Depth estimation</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Qwen/Qwen3.8-27B" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">Qwen/Qwen3.8-27B</span>
+    <span class="t-meta">28B dense Apache-2.0 base for many fine-tunes</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/sensenova/SenseNova-Loop-9B" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">sensenova/SenseNova-Loop-9B</span>
+    <span class="t-meta">10B looped image-text-to-text</span>
   </a>
 </li>
 
@@ -570,8 +562,16 @@ For hardware, the new Pura Home (rebranded from the 5) is the recommended choice
 </li>
 
 <li>
-  <a href="https://openrouter.ai/google/gemma-4-26b-a4b-it:free" target="_blank" rel="noopener">
+  <a href="https://openrouter.ai/dots-studio/dots-3-note-preview:free" target="_blank" rel="noopener">
     <span class="t-ranking">#02</span>
+    <span class="t-name">Dots Studio: Dots3-Note Preview (free)</span>
+    <span class="t-meta">512K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-26b-a4b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
     <span class="t-name">Google: Gemma 4 26B A4B (free)</span>
     <span class="t-meta">262K ctx</span>
   </a>
@@ -579,7 +579,7 @@ For hardware, the new Pura Home (rebranded from the 5) is the recommended choice
 
 <li>
   <a href="https://openrouter.ai/google/gemma-4-31b-it:free" target="_blank" rel="noopener">
-    <span class="t-ranking">#03</span>
+    <span class="t-ranking">#04</span>
     <span class="t-name">Google: Gemma 4 31B (free)</span>
     <span class="t-meta">262K ctx</span>
   </a>
@@ -587,7 +587,7 @@ For hardware, the new Pura Home (rebranded from the 5) is the recommended choice
 
 <li>
   <a href="https://openrouter.ai/inclusionai/ling-3.2-flash:free" target="_blank" rel="noopener">
-    <span class="t-ranking">#04</span>
+    <span class="t-ranking">#05</span>
     <span class="t-name">inclusionAI: Ling 3.2 Flash (free)</span>
     <span class="t-meta">1.04858M ctx</span>
   </a>
@@ -595,7 +595,7 @@ For hardware, the new Pura Home (rebranded from the 5) is the recommended choice
 
 <li>
   <a href="https://openrouter.ai/liquid/lfm-3-1.7b:free" target="_blank" rel="noopener">
-    <span class="t-ranking">#05</span>
+    <span class="t-ranking">#06</span>
     <span class="t-name">LiquidAI: LFM3-1.7B (free)</span>
     <span class="t-meta">262K ctx</span>
   </a>
@@ -603,7 +603,7 @@ For hardware, the new Pura Home (rebranded from the 5) is the recommended choice
 
 <li>
   <a href="https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free" target="_blank" rel="noopener">
-    <span class="t-ranking">#06</span>
+    <span class="t-ranking">#07</span>
     <span class="t-name">NVIDIA: Nemotron 3 Nano Omni (free)</span>
     <span class="t-meta">256K ctx</span>
   </a>
@@ -611,7 +611,7 @@ For hardware, the new Pura Home (rebranded from the 5) is the recommended choice
 
 <li>
   <a href="https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free" target="_blank" rel="noopener">
-    <span class="t-ranking">#07</span>
+    <span class="t-ranking">#08</span>
     <span class="t-name">NVIDIA: Nemotron 3 Ultra (free)</span>
     <span class="t-meta">1M ctx</span>
   </a>
@@ -619,7 +619,7 @@ For hardware, the new Pura Home (rebranded from the 5) is the recommended choice
 
 <li>
   <a href="https://openrouter.ai/nvidia/nemotron-3.5-lightning:free" target="_blank" rel="noopener">
-    <span class="t-ranking">#08</span>
+    <span class="t-ranking">#09</span>
     <span class="t-name">NVIDIA: Nemotron 3.5 Lightning (free)</span>
     <span class="t-meta">1M ctx</span>
   </a>
@@ -627,7 +627,7 @@ For hardware, the new Pura Home (rebranded from the 5) is the recommended choice
 
 <li>
   <a href="https://openrouter.ai/nvidia/nemotron-3.5-super-vl:free" target="_blank" rel="noopener">
-    <span class="t-ranking">#09</span>
+    <span class="t-ranking">#10</span>
     <span class="t-name">NVIDIA: Nemotron 3.5 Super VL (free)</span>
     <span class="t-meta">1M ctx</span>
   </a>
@@ -635,7 +635,7 @@ For hardware, the new Pura Home (rebranded from the 5) is the recommended choice
 
 <li>
   <a href="https://openrouter.ai/particle-ai/particle-1:free" target="_blank" rel="noopener">
-    <span class="t-ranking">#10</span>
+    <span class="t-ranking">#11</span>
     <span class="t-name">Particle AI: Particle-1 (free)</span>
     <span class="t-meta">1.04858M ctx</span>
   </a>
@@ -643,7 +643,7 @@ For hardware, the new Pura Home (rebranded from the 5) is the recommended choice
 
 <li>
   <a href="https://openrouter.ai/recursive/flint-v1.0:free" target="_blank" rel="noopener">
-    <span class="t-ranking">#11</span>
+    <span class="t-ranking">#12</span>
     <span class="t-name">Recursive: Flint (free)</span>
     <span class="t-meta">262K ctx</span>
   </a>
@@ -710,14 +710,6 @@ For hardware, the new Pura Home (rebranded from the 5) is the recommended choice
 <li>
   <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
     <span class="t-ranking">#07</span>
-    <span class="t-name">LongCat 2.5 Free</span>
-    <span class="t-meta">longcat-2.5-free</span>
-  </a>
-</li>
-
-<li>
-  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
-    <span class="t-ranking">#08</span>
     <span class="t-name">Hy4 flash Free</span>
     <span class="t-meta">hy4-flash-free</span>
   </a>
@@ -725,7 +717,7 @@ For hardware, the new Pura Home (rebranded from the 5) is the recommended choice
 
 <li>
   <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
-    <span class="t-ranking">#09</span>
+    <span class="t-ranking">#08</span>
     <span class="t-name">MiMo-V2.6-Flash Free</span>
     <span class="t-meta">mimo-v2.6-flash-free</span>
   </a>
@@ -733,7 +725,7 @@ For hardware, the new Pura Home (rebranded from the 5) is the recommended choice
 
 <li>
   <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
-    <span class="t-ranking">#10</span>
+    <span class="t-ranking">#09</span>
     <span class="t-name">Nemotron 3.5 Lightning Free</span>
     <span class="t-meta">nemotron-3.5-lightning-free</span>
   </a>
@@ -741,7 +733,7 @@ For hardware, the new Pura Home (rebranded from the 5) is the recommended choice
 
 <li>
   <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
-    <span class="t-ranking">#11</span>
+    <span class="t-ranking">#10</span>
     <span class="t-name">Nemotron 3.5 Super VL Free</span>
     <span class="t-meta">nemotron-3.5-super-vl-free</span>
   </a>
@@ -749,7 +741,7 @@ For hardware, the new Pura Home (rebranded from the 5) is the recommended choice
 
 <li>
   <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
-    <span class="t-ranking">#12</span>
+    <span class="t-ranking">#11</span>
     <span class="t-name">Jev 1.13 Free</span>
     <span class="t-meta">jev-1.13-free</span>
   </a>
@@ -768,29 +760,29 @@ For hardware, the new Pura Home (rebranded from the 5) is the recommended choice
     <span class="n">12</span>
   </div>
   <ul class="qh-list">
-    <li><a href="https://arxiv.org/abs/2611.25167" target="_blank" rel="noopener"><span class="qh-title">InflEns: game-theoretic data allocation predicts best LoRA expert per prompt</span><span class="qh-src">arXiv</span></a></li>
+    <li><a href="https://github.com/codex-config/codexed" target="_blank" rel="noopener"><span class="qh-title">Codexed adds a local GUI settings editor for the Codex CLI</span><span class="qh-src">GitHub</span></a></li>
 
-    <li><a href="https://arxiv.org/abs/2611.25538" target="_blank" rel="noopener"><span class="qh-title">Autoregressive decoding applied to neural-network parameter generation</span><span class="qh-src">arXiv</span></a></li>
+    <li><a href="https://github.com/AgentDE/agentde" target="_blank" rel="noopener"><span class="qh-title">AgentDE: a native macOS home for terminal coding agents</span><span class="qh-src">GitHub</span></a></li>
 
-    <li><a href="https://arxiv.org/abs/2611.25763" target="_blank" rel="noopener"><span class="qh-title">Diffusion language models close the gap to autoregressive decoding at low inference budgets</span><span class="qh-src">arXiv</span></a></li>
+    <li><a href="https://github.com/taskcue/taskcue" target="_blank" rel="noopener"><span class="qh-title">Taskcue shows which Claude Code / Codex session is waiting for you</span><span class="qh-src">GitHub</span></a></li>
 
-    <li><a href="https://arxiv.org/abs/2611.25288" target="_blank" rel="noopener"><span class="qh-title">In-training embedding pruning cuts the sparse-layer memory of recommendation models</span><span class="qh-src">arXiv</span></a></li>
+    <li><a href="https://github.com/buberlo/aaf-gate" target="_blank" rel="noopener"><span class="qh-title">Aaf-gate adds a policy gate and kill switch in front of agent runtimes</span><span class="qh-src">GitHub</span></a></li>
 
-    <li><a href="https://arxiv.org/abs/2611.25289" target="_blank" rel="noopener"><span class="qh-title">LLMs are already confidence-aware zero-shot classifiers, black-box vs white-box compared</span><span class="qh-src">arXiv</span></a></li>
+    <li><a href="https://github.com/ericwang915/agent-hive" target="_blank" rel="noopener"><span class="qh-title">agent-hive runs multiple local AI agents as one coordinated team</span><span class="qh-src">GitHub</span></a></li>
 
-    <li><a href="https://x.com/ylecun/status/2124269381525864773" target="_blank" rel="noopener"><span class="qh-title">Yann LeCun revisits Energy-Based Models as a unifying deep learning framework</span><span class="qh-src">X (ylecun)</span></a></li>
+    <li><a href="https://www.reddit.com/r/selfhosted/comments/1y0njjb/new_project_megathread_week_of_19_nov_2026/" target="_blank" rel="noopener"><span class="qh-title">r/selfhosted project megathread spotlights CodeOtter, a self-hosted AI PR reviewer</span><span class="qh-src">r/selfhosted</span></a></li>
 
-    <li><a href="https://x.com/ai_algoit/status/2124357318284640759" target="_blank" rel="noopener"><span class="qh-title">Sync-Strata fork runs Qwen3.8-Flash-Next at up to ~144 tok/s on an RTX 3080 12GB</span><span class="qh-src">X (ai_algoit)</span></a></li>
+    <li><a href="https://arxiv.org/abs/2611.27721" target="_blank" rel="noopener"><span class="qh-title">Decision models match fine-tuned encoders on multilingual emotion classification at lower latency</span><span class="qh-src">arXiv</span></a></li>
 
-    <li><a href="https://x.com/andromeda_IX/status/2124376000679268561" target="_blank" rel="noopener"><span class="qh-title">EU AI Act compliance for high-risk enterprise systems discussed around MCP gateways</span><span class="qh-src">X (andromeda_IX)</span></a></li>
+    <li><a href="https://x.com/sama/status/2124551883130114403" target="_blank" rel="noopener"><span class="qh-title">Sam Altman proposes shared evaluation, red-teaming and transparency norms for frontier labs</span><span class="qh-src">X (sama)</span></a></li>
 
-    <li><a href="https://techcrunch.com/2026-11-21/all-the-ai-agents-that-can-live-in-your-text-messages/" target="_blank" rel="noopener"><span class="qh-title">Instinct raises $1B at a $10B valuation for SMS-native AI agents</span><span class="qh-src">TechCrunch</span></a></li>
+    <li><a href="https://x.com/ylecun/status/2124566523528286212" target="_blank" rel="noopener"><span class="qh-title">Yann LeCun: fix the autoregressive flaw with search, backtracking and tool use</span><span class="qh-src">X (ylecun)</span></a></li>
 
-    <li><a href="https://codiceitalia.com/nebuly-torino-serie-a-21-milioni-dollari/" target="_blank" rel="noopener"><span class="qh-title">Turin-born Nebuly closes USD 21M Series A to measure the ROI of enterprise AI agents</span><span class="qh-src">CODICEITALIA.com</span></a></li>
+    <li><a href="https://x.com/omarsar0/status/2124584960464220408" target="_blank" rel="noopener"><span class="qh-title">Google's BuggyMLE injects controlled bugs into 222 repos to scale ML-engineering agents</span><span class="qh-src">X (omarsar0)</span></a></li>
 
-    <li><a href="https://www.industriaitaliana.it/robotica-climate-data-terna-forward-2-milioni-hibot-hypermeteo/" target="_blank" rel="noopener"><span class="qh-title">Terna Forward invests ~EUR 2M in robotics firm Hibot and climate-data startup Hypermeteo</span><span class="qh-src">Industria Italiana</span></a></li>
+    <li><a href="https://x.com/omarsar0/status/2124549311174427069" target="_blank" rel="noopener"><span class="qh-title">RoboQuest exposes planning bottlenecks: strongest models solve just 23.2% of physical tasks</span><span class="qh-src">X (omarsar0)</span></a></li>
 
-    <li><a href="https://www.ore12.net/inail-36-mln-per-18-progetti-da-protesi-con-ai-alla-medicina-rigenerativa/" target="_blank" rel="noopener"><span class="qh-title">Inail commits EUR 36M to 18 research projects, from AI prosthetics to regenerative medicine</span><span class="qh-src">Ore 12</span></a></li>
+    <li><a href="https://www.latechmadeinitaly.com/tech-italia-fatturato-100-miliardi-software-2026/" target="_blank" rel="noopener"><span class="qh-title">Italy's tech sector passes EUR 101.8B in 2025 revenue, SaaS now the main delivery model</span><span class="qh-src">La Tech Made in Italy</span></a></li>
 
   </ul>
 </section>
@@ -798,7 +790,7 @@ For hardware, the new Pura Home (rebranded from the 5) is the recommended choice
 
     <footer class="colophon">
       <p class="mark">Per aspera ad astra</p>
-      <p class="meta">Compiled by Hermes Agent · 2026-11-22 · <a href="https://github.com/MovieMaker93/local-ai-news" target="_blank" rel="noopener">source</a></p>
+      <p class="meta">Compiled by Hermes Agent · 2026-11-23 · <a href="https://github.com/MovieMaker93/local-ai-news" target="_blank" rel="noopener">source</a></p>
       <p class="meta">Beta · <a href="making-of.html" title="Replay how this issue assembled itself">See how this issue made itself</a></p>
     </footer>
 

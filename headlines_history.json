@@ -4,204 +4,6 @@
   },
   "headlines": [
     {
-      "text": "OpenAI details Jalape\u00f1o inference ASIC at Hot Chips 2026",
-      "source": "Tom's Hardware",
-      "date": "2026-08-28",
-      "issue": 2
-    },
-    {
-      "text": "Watermarks Remover strips LLM watermarking from files you own",
-      "source": "GitHub",
-      "date": "2026-08-28",
-      "issue": 2
-    },
-    {
-      "text": "InferCrane puts one stable endpoint in front of self-hosted inference",
-      "source": "InferCrane",
-      "date": "2026-08-28",
-      "issue": 2
-    },
-    {
-      "text": "Grith adds syscall-level supervision for AI coding agents on Linux",
-      "source": "GitHub",
-      "date": "2026-08-28",
-      "issue": 2
-    },
-    {
-      "text": "dmx ships an MCP server for gated loop control in coding agents",
-      "source": "dmx",
-      "date": "2026-08-28",
-      "issue": 2
-    },
-    {
-      "text": "GLM-5.3, a 753B open-weights model, lands from Z.ai",
-      "source": "HuggingFace",
-      "date": "2026-08-28",
-      "issue": 2
-    },
-    {
-      "text": "OpenLayer hooks ComfyUI inpainting into Photoshop locally",
-      "source": "GitHub",
-      "date": "2026-08-28",
-      "issue": 2
-    },
-    {
-      "text": "StreamCore serves open-source realtime voice infrastructure for AI",
-      "source": "GitHub",
-      "date": "2026-08-28",
-      "issue": 2
-    },
-    {
-      "text": "llama.cpp fixes a Vulkan bug that silently corrupted tokens on AMD and NVIDIA GPUs",
-      "source": "GitHub",
-      "date": "2026-08-29",
-      "issue": 3
-    },
-    {
-      "text": "llama.cpp OpenVINO backend gains Whisper support, Qwen3.5 on Intel NPUs",
-      "source": "GitHub",
-      "date": "2026-08-29",
-      "issue": 3
-    },
-    {
-      "text": "Fetchgate audits the official MCP registry: 15,329 servers probed",
-      "source": "Fetchgate",
-      "date": "2026-08-29",
-      "issue": 3
-    },
-    {
-      "text": "AI image generation on a $1 RP2350 microcontroller",
-      "source": "Tim's Blog (cpldcpu)",
-      "date": "2026-08-29",
-      "issue": 3
-    },
-    {
-      "text": "Conduct ships open-source guardrails for LLM and MCP tool calls",
-      "source": "GitHub",
-      "date": "2026-08-29",
-      "issue": 3
-    },
-    {
-      "text": "Forth MCP gives remote AI clients access to your local MCP servers",
-      "source": "Forth MCP",
-      "date": "2026-08-29",
-      "issue": 3
-    },
-    {
-      "text": "mcp-session-bridge drives the browser you're already signed into via MCP",
-      "source": "GitHub",
-      "date": "2026-08-29",
-      "issue": 3
-    },
-    {
-      "text": "Agentctl brings Terraform-style declarative config to agent harnesses",
-      "source": "GitHub",
-      "date": "2026-08-29",
-      "issue": 3
-    },
-    {
-      "text": "Leiolai pays users for the compute their devices provide to AI inference",
-      "source": "Leiolai",
-      "date": "2026-08-29",
-      "issue": 3
-    },
-    {
-      "text": "LLM Inference Calculator estimates VRAM, latency, and throughput",
-      "source": "LLM Inference Calculator",
-      "date": "2026-08-29",
-      "issue": 3
-    },
-    {
-      "text": "Rafter is an MCP server that shares one team's memory, skills and agents",
-      "source": "Rafter",
-      "date": "2026-08-29",
-      "issue": 3
-    },
-    {
-      "text": "Agentify Chat adds E2E-encrypted remote chat for Codex, Claude, and Grok CLIs",
-      "source": "Hacker News",
-      "date": "2026-08-29",
-      "issue": 3
-    },
-    {
-      "text": "Tokensift is an open-source token-efficiency linter for LLM prompts",
-      "source": "GitHub",
-      "date": "2026-08-29",
-      "issue": 3
-    },
-    {
-      "text": "Metis is an agent harness pushing DeepSeek toward Opus-tier coding scores",
-      "source": "GitHub",
-      "date": "2026-08-29",
-      "issue": 3
-    },
-    {
-      "text": "AgentBridge lets one AI think while another AI writes the code",
-      "source": "GitHub",
-      "date": "2026-08-29",
-      "issue": 3
-    },
-    {
-      "text": "Itsuki is an open-source memory engine for AI agents with API and MCP access",
-      "source": "Itsuki",
-      "date": "2026-08-29",
-      "issue": 3
-    },
-    {
-      "text": "Conduct ships open-source guardrails for LLM and MCP tool calls",
-      "source": "GitHub",
-      "date": "2026-08-29",
-      "issue": 3
-    },
-    {
-      "text": "Forth MCP gives remote AI clients access to your local MCP servers",
-      "source": "Forth MCP",
-      "date": "2026-08-29",
-      "issue": 3
-    },
-    {
-      "text": "LM Studio 0.4.22 adds speculative-decoding drafters and tool-image support",
-      "source": "LM Studio",
-      "date": "2026-08-29",
-      "issue": 3
-    },
-    {
-      "text": "NVIDIA Jetson Orin Nano 2: 78 TOPS of entry-level edge AI",
-      "source": "NVIDIA Newsroom",
-      "date": "2026-08-29",
-      "issue": 3
-    },
-    {
-      "text": "Pinea Pi debuts edge AI nodes with up to 275 TOPS for offline inference",
-      "source": "Nativo Ventures",
-      "date": "2026-08-29",
-      "issue": 3
-    },
-    {
-      "text": "AgentBridge: one agent thinks while another writes the code",
-      "source": "Hacker News",
-      "date": "2026-08-29",
-      "issue": 3
-    },
-    {
-      "text": "QLoRA's acquisition-retention frontier for learning new facts",
-      "source": "arXiv",
-      "date": "2026-08-29",
-      "issue": 3
-    },
-    {
-      "text": "DualOPSD: adaptive privileged teachers for on-policy self-distillation",
-      "source": "arXiv",
-      "date": "2026-08-29",
-      "issue": 3
-    },
-    {
-      "text": "How much rank does LoRA need? Error bounds for attention heads",
-      "source": "arXiv",
-      "date": "2026-08-29",
-      "issue": 3
-    },
-    {
       "text": "Itsuki: an open-source memory engine for AI agents with API and MCP",
       "source": "Hacker News",
       "date": "2026-08-29",
@@ -12002,6 +11804,204 @@
       "source": "Ore 12",
       "date": "2026-11-22",
       "issue": 62
+    },
+    {
+      "text": "Moore Threads' next Lushan GPU could pack a record 64GB of VRAM",
+      "source": "Tom's Hardware",
+      "date": "2026-11-23",
+      "issue": 63
+    },
+    {
+      "text": "Ignis brings browser-native LLM and multimodal inference to the Show HN front page",
+      "source": "Hacker News",
+      "date": "2026-11-23",
+      "issue": 63
+    },
+    {
+      "text": "JEDEC publishes DDR6 spec: modules 44% shorter than DDR5, speeds up to 14.4 GT/s",
+      "source": "VideoCardz",
+      "date": "2026-11-23",
+      "issue": 63
+    },
+    {
+      "text": "AI server makers reprice signed contracts up to 45% as DRAM costs balloon 400%",
+      "source": "Financial Times (via Temperature2)",
+      "date": "2026-11-23",
+      "issue": 63
+    },
+    {
+      "text": "Inkling 2 Mini on 2x RTX 3090: 557K context plus vision at ~100 tok/s with NInfer-all",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-23",
+      "issue": 63
+    },
+    {
+      "text": "DPMA: learning to compress Mixture-of-Experts models without retraining",
+      "source": "arXiv",
+      "date": "2026-11-23",
+      "issue": 63
+    },
+    {
+      "text": "Mixture of Latent Recursions gives LoRA an adaptive recursion framework",
+      "source": "arXiv",
+      "date": "2026-11-23",
+      "issue": 63
+    },
+    {
+      "text": "Model Carving: transformers that optimize their own topology during training",
+      "source": "arXiv",
+      "date": "2026-11-23",
+      "issue": 63
+    },
+    {
+      "text": "License landscape of the autumn 2026 open-weight flagships: four models, four licenses",
+      "source": "Shattered.io",
+      "date": "2026-11-23",
+      "issue": 63
+    },
+    {
+      "text": "IBM Granite Embedding Multilingual R2: a 97M ModernBERT embedder with 32K context",
+      "source": "HuggingFace",
+      "date": "2026-11-23",
+      "issue": 63
+    },
+    {
+      "text": "Manprot MP-01-100M: a tiny 100.6M CPU-friendly language model",
+      "source": "HuggingFace",
+      "date": "2026-11-23",
+      "issue": 63
+    },
+    {
+      "text": "CCORE-Web-Coder-4B completes its full release with Safetensors and GGUF quants",
+      "source": "HuggingFace",
+      "date": "2026-11-23",
+      "issue": 63
+    },
+    {
+      "text": "Gall runs Inkling 2 Mini on a 24GB M2 with RAM freed between messages",
+      "source": "GitHub",
+      "date": "2026-11-23",
+      "issue": 63
+    },
+    {
+      "text": "OpenNotebook: a self-hosted NotebookLM alternative with video overviews",
+      "source": "GitHub",
+      "date": "2026-11-23",
+      "issue": 63
+    },
+    {
+      "text": "ListenNotes ships a Podcast MCP server for episode, transcript and metadata search",
+      "source": "Hacker News",
+      "date": "2026-11-23",
+      "issue": 63
+    },
+    {
+      "text": "llama.cpp b12626 fits non-causal batches in one ubatch; Nov 23 builds add OpenCL q4_k coop-k GEMM",
+      "source": "GitHub",
+      "date": "2026-11-23",
+      "issue": 63
+    },
+    {
+      "text": "KoboldCpp v1.125.1 patches the single-file GGUF runner",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-23",
+      "issue": 63
+    },
+    {
+      "text": "LocallyAI app caught exfiltrating iOS device IDs despite offline-only claims",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-23",
+      "issue": 63
+    },
+    {
+      "text": "GPD WIN Mini Ultra with Intel Arc G3 Extreme priced at $1,699; 64GB version skips Indiegogo",
+      "source": "VideoCardz",
+      "date": "2026-11-23",
+      "issue": 63
+    },
+    {
+      "text": "GPU-Z 2.72 adds RTX 4090 Ti ES, RTX 5070 GB203 and RTX Spark identification",
+      "source": "VideoCardz",
+      "date": "2026-11-23",
+      "issue": 63
+    },
+    {
+      "text": "Black Friday 2026 GPU deals: RTX 50 and RX 9000 cards still well above MSRP",
+      "source": "Tom's Hardware",
+      "date": "2026-11-23",
+      "issue": 63
+    },
+    {
+      "text": "Codexed adds a local GUI settings editor for the Codex CLI",
+      "source": "GitHub",
+      "date": "2026-11-23",
+      "issue": 63
+    },
+    {
+      "text": "AgentDE: a native macOS home for terminal coding agents",
+      "source": "GitHub",
+      "date": "2026-11-23",
+      "issue": 63
+    },
+    {
+      "text": "Taskcue shows which Claude Code / Codex session is waiting for you",
+      "source": "GitHub",
+      "date": "2026-11-23",
+      "issue": 63
+    },
+    {
+      "text": "Aaf-gate adds a policy gate and kill switch in front of agent runtimes",
+      "source": "GitHub",
+      "date": "2026-11-23",
+      "issue": 63
+    },
+    {
+      "text": "agent-hive runs multiple local AI agents as one coordinated team",
+      "source": "GitHub",
+      "date": "2026-11-23",
+      "issue": 63
+    },
+    {
+      "text": "r/selfhosted project megathread spotlights CodeOtter, a self-hosted AI PR reviewer",
+      "source": "r/selfhosted",
+      "date": "2026-11-23",
+      "issue": 63
+    },
+    {
+      "text": "Decision models match fine-tuned encoders on multilingual emotion classification at lower latency",
+      "source": "arXiv",
+      "date": "2026-11-23",
+      "issue": 63
+    },
+    {
+      "text": "Sam Altman proposes shared evaluation, red-teaming and transparency norms for frontier labs",
+      "source": "X (sama)",
+      "date": "2026-11-23",
+      "issue": 63
+    },
+    {
+      "text": "Yann LeCun: fix the autoregressive flaw with search, backtracking and tool use",
+      "source": "X (ylecun)",
+      "date": "2026-11-23",
+      "issue": 63
+    },
+    {
+      "text": "Google's BuggyMLE injects controlled bugs into 222 repos to scale ML-engineering agents",
+      "source": "X (omarsar0)",
+      "date": "2026-11-23",
+      "issue": 63
+    },
+    {
+      "text": "RoboQuest exposes planning bottlenecks: strongest models solve just 23.2% of physical tasks",
+      "source": "X (omarsar0)",
+      "date": "2026-11-23",
+      "issue": 63
+    },
+    {
+      "text": "Italy's tech sector passes EUR 101.8B in 2025 revenue, SaaS now the main delivery model",
+      "source": "La Tech Made in Italy",
+      "date": "2026-11-23",
+      "issue": 63
     }
   ]
 }
