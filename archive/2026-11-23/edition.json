@@ -1,0 +1,553 @@
+{
+  "issue_no": 63,
+  "date_iso": "2026-11-23",
+  "date_human": "November 23, 2026",
+  "notice": null,
+  "lead": {
+    "kicker": "GPU & Memory",
+    "title": "Moore Threads' next Lushan GPU could pack a record 64GB of VRAM",
+    "summary": "A Moore Threads product manager says the next Lushan desktop GPU (Huagang architecture) will carry more VRAM than any current consumer card — implying 64GB, double the RTX 5090's 32GB — with company targets of 15x gaming and 64x AI compute over the MTT S80. The reveal is set for the MDC 2026 keynote on Dec. 29; the capacity figure is press math, not an official spec.",
+    "source": "Tom's Hardware",
+    "date": "2026-11-22",
+    "url": "https://www.tomshardware.com/pc-components/gpus/moore-threads-next-lushan-gaming-gpu-could-pack-a-record-64gb-of-vram-doubles-the-rtx-5090s-32gb-lofty-claims-of-15x-gaming-and-50x-ray-tracing-over-mtt-s80",
+    "scout_source": "hardware",
+    "image": "images/lead_2026-11-10.jpg"
+  },
+  "top_stories": [
+    {
+      "title": "Ignis brings browser-native LLM and multimodal inference to the Show HN front page",
+      "summary": "Ignis is a browser-native inference engine that runs LLMs and multimodal models fully client-side.",
+      "source": "Hacker News",
+      "date": "2026-11-23",
+      "url": "https://news.ycombinator.com/item?id=50607257",
+      "scout_source": "tools"
+    },
+    {
+      "title": "JEDEC publishes DDR6 spec: modules 44% shorter than DDR5, speeds up to 14.4 GT/s",
+      "summary": "The new JEDEC standard succeeds DDR5 in the on-device memory ladder relevant to local AI rigs.",
+      "source": "VideoCardz",
+      "date": "2026-11-22",
+      "url": "https://videocardz.com/newz/jedec-announces-ddr6-memory-modules-are-44-shorter-than-ddr5-speeds-up-to-14-4-gt-s",
+      "scout_source": "hardware"
+    },
+    {
+      "title": "AI server makers reprice signed contracts up to 45% as DRAM costs balloon 400%",
+      "summary": "Dell, HPE, Lenovo and Supermicro are charging 25-45% above signed prices for NVIDIA-based servers; with DRAM up over 400% since early 2024, memory now exceeds half of an AI server's materials cost and the squeeze flows through to consumer GPU and RAM prices.",
+      "source": "Financial Times (via Temperature2)",
+      "date": "2026-11-22",
+      "url": "https://temperature2.com/p/2026-11-22-ai-server-makers-reprice-signed-deals-45-percent",
+      "scout_source": "hardware"
+    },
+    {
+      "title": "Inkling 2 Mini on 2x RTX 3090: 557K context plus vision at ~100 tok/s with NInfer-all",
+      "summary": "Community benchmarks put the 26B-A3B MoE at about 100 tok/s on dual 3090s, while other testers measured ~35 tok/s on a Mac Mini M6 versus ~50 tok/s for Qwen 3.6 35B A3B — useful numbers for dual-GPU homelab sizing.",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-22",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y2b459/inkling_2_mini_on_2_rtx_3090_557k_context_vision/",
+      "scout_source": "selfhost"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Research & Papers",
+      "items": [
+        {
+          "title": "DPMA: learning to compress Mixture-of-Experts models without retraining",
+          "summary": "DPMA jointly handles expert pruning and merging with non-uniform compression ratios, cutting the memory footprint that limits MoE deployment on constrained hardware.",
+          "source": "arXiv",
+          "date": "2026-11-20",
+          "url": "https://arxiv.org/abs/2611.27759",
+          "scout_source": "research"
+        },
+        {
+          "title": "Mixture of Latent Recursions gives LoRA an adaptive recursion framework",
+          "summary": "MoLR replaces LoRA's fixed low-rank modules with recursive adaptation, raising task-specific expressiveness without proportional parameter overhead.",
+          "source": "arXiv",
+          "date": "2026-11-20",
+          "url": "https://arxiv.org/abs/2611.27823",
+          "scout_source": "research"
+        },
+        {
+          "title": "Model Carving: transformers that optimize their own topology during training",
+          "summary": "Instead of a fixed uniform stack of attention/MLP sublayers, the model tunes its own layer topology for better quality-efficiency trade-offs.",
+          "source": "arXiv",
+          "date": "2026-11-20",
+          "url": "https://arxiv.org/abs/2611.27962",
+          "scout_source": "research"
+        }
+      ],
+      "image": "images/section_research_papers_2026-11-10.jpg"
+    },
+    {
+      "title": "Open Weights & Models",
+      "items": [
+        {
+          "title": "License landscape of the autumn 2026 open-weight flagships: four models, four licenses",
+          "summary": "DeepSeek V4.1 Flash 1017 (MIT) and the Qwen3.8 family (Apache 2.0) are plainly open, while Mistral Large 4 and Kimi K3.1 Pro carry conditional clauses for MaaS resellers; Qwen4-Max remains API-only.",
+          "source": "Shattered.io",
+          "date": "2026-11-22",
+          "url": "https://shattered.io/open-weight-vs-open-source-ai-4-models-4-licenses-kimi-mistral-qwen-deepseek-2026/",
+          "scout_source": "opensource"
+        },
+        {
+          "title": "IBM Granite Embedding Multilingual R2: a 97M ModernBERT embedder with 32K context",
+          "summary": "Apache 2.0, 384-dim vectors, 200+ languages, +14.6 points over the previous generation; ships ONNX, OpenVINO and GGUF — a strong RAG pick for local stacks.",
+          "source": "HuggingFace",
+          "date": "2026-11-22",
+          "url": "https://huggingface.co/ibm-granite/granite-embedding-97m-multilingual-r2",
+          "scout_source": "opensource"
+        },
+        {
+          "title": "Manprot MP-01-100M: a tiny 100.6M CPU-friendly language model",
+          "summary": "Decoder-only, trained from scratch on ~11.35B tokens under Apache 2.0, with an associated open dataset — small enough for CPU or modest consumer GPUs.",
+          "source": "HuggingFace",
+          "date": "2026-11-22",
+          "url": "https://huggingface.co/Manprot/MP-01-100M",
+          "scout_source": "opensource"
+        },
+        {
+          "title": "CCORE-Web-Coder-4B completes its full release with Safetensors and GGUF quants",
+          "summary": "The 4B web-coding model moved from Q8_0 preview to full release on Nov 22 with extra quantizations; early downloaders should re-pull the checkpoint.",
+          "source": "HuggingFace",
+          "date": "2026-11-22",
+          "url": "https://huggingface.co/ccore/CCORE-Web-Coder-4B",
+          "scout_source": "opensource"
+        }
+      ],
+      "image": "images/section_open_weights_models_2026-11-10.jpg"
+    },
+    {
+      "title": "Tools & Runtimes",
+      "items": [
+        {
+          "title": "Gall runs Inkling 2 Mini on a 24GB M2 with RAM freed between messages",
+          "summary": "A minimal local runner for Thinking Machines' looped 26B model that fits 24GB Macs by releasing memory between messages.",
+          "source": "GitHub",
+          "date": "2026-11-22",
+          "url": "https://github.com/ltrgoddard/gall",
+          "scout_source": "tools"
+        },
+        {
+          "title": "OpenNotebook: a self-hosted NotebookLM alternative with video overviews",
+          "summary": "Open-source notebook-style summaries and video overviews from your own documents, running against local models.",
+          "source": "GitHub",
+          "date": "2026-11-22",
+          "url": "https://github.com/mahmoud-emad/opennotebook",
+          "scout_source": "tools"
+        },
+        {
+          "title": "ListenNotes ships a Podcast MCP server for episode, transcript and metadata search",
+          "summary": "Local agents can now fetch podcast data over the Model Context Protocol from the ListenNotes API.",
+          "source": "Hacker News",
+          "date": "2026-11-22",
+          "url": "https://news.ycombinator.com/item?id=50601075",
+          "scout_source": "tools"
+        },
+        {
+          "title": "llama.cpp b12626 fits non-causal batches in one ubatch; Nov 23 builds add OpenCL q4_k coop-k GEMM",
+          "summary": "Follow-up builds b12643-b12648 add a speculative-verification GEMM, a faster shared audio FFT in mtmd and a generic ggml_backend_tensor_memset fallback.",
+          "source": "GitHub",
+          "date": "2026-11-22",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12626",
+          "scout_source": "tools"
+        }
+      ],
+      "image": "images/section_tools_runtimes_2026-11-10.jpg"
+    },
+    {
+      "title": "Self-Hosted Stack",
+      "items": [
+        {
+          "title": "KoboldCpp v1.125.1 patches the single-file GGUF runner",
+          "summary": "The zero-install local inference stack stays current alongside llama.cpp; community discussion centered on fit for small homelab GPUs.",
+          "source": "r/LocalLLaMA",
+          "date": "2026-11-22",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y2zrni/koboldcpp_v11251_released/",
+          "scout_source": "selfhost"
+        },
+        {
+          "title": "LocallyAI app caught exfiltrating iOS device IDs despite offline-only claims",
+          "summary": "The 'fully offline' chatbot wrapper was sending device IDs to remote servers — a reminder to check Privacy Nutrition Labels on local-model app wrappers.",
+          "source": "r/LocalLLaMA",
+          "date": "2026-11-22",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y2pi6o/locallyai_app_caught_exfiltrating_users_ios/",
+          "scout_source": "selfhost"
+        }
+      ],
+      "image": "images/section_self_hosted_stack_2026-11-10.jpg"
+    },
+    {
+      "title": "Hardware & Edge",
+      "items": [
+        {
+          "title": "GPD WIN Mini Ultra with Intel Arc G3 Extreme priced at $1,699; 64GB version skips Indiegogo",
+          "summary": "The handheld's larger-memory option is notable for running small local models on the go.",
+          "source": "VideoCardz",
+          "date": "2026-11-23",
+          "url": "https://videocardz.com/newz/gpd-win-mini-ultra-with-intel-arc-g3-extreme-priced-at-1699-64gb-version-skips-indiegogo",
+          "scout_source": "hardware"
+        },
+        {
+          "title": "GPU-Z 2.72 adds RTX 4090 Ti ES, RTX 5070 GB203 and RTX Spark identification",
+          "summary": "The update tracks the current Blackwell-era consumer lineup for local inference builds.",
+          "source": "VideoCardz",
+          "date": "2026-11-22",
+          "url": "https://videocardz.com/newz/gpu-z-2-72-adds-support-for-nvidia-rtx-4090-ti-es-rtx-5070-gb203-and-rtx-spark",
+          "scout_source": "hardware"
+        },
+        {
+          "title": "Black Friday 2026 GPU deals: RTX 50 and RX 9000 cards still well above MSRP",
+          "summary": "The AI buildout keeps squeezing consumer GPU supply; notable local-work picks include RTX 5060 Ti and RX 9070-series cards at 16GB.",
+          "source": "Tom's Hardware",
+          "date": "2026-11-22",
+          "url": "https://www.tomshardware.com/pc-components/gpus/best-gaming-graphics-card-gpu-deals",
+          "scout_source": "hardware"
+        }
+      ],
+      "image": "images/section_hardware_edge_2026-11-10.jpg"
+    }
+  ],
+  "trending": {
+    "github": {
+      "title": "GitHub Trending · AI",
+      "url": "https://github.com/trending",
+      "link_label": "github.com/trending",
+      "date": "2026-11-23",
+      "items": [
+        {
+          "name": "elementalsouls/Claude-BugHunter",
+          "url": "https://github.com/elementalsouls/Claude-BugHunter",
+          "meta": "Python · 18.2k ★ · +1716 today"
+        },
+        {
+          "name": "obra/superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "meta": "Shell · 324k ★ · +788 today"
+        },
+        {
+          "name": "HKUDS/CLI-Anything",
+          "url": "https://github.com/HKUDS/CLI-Anything",
+          "meta": "Python · 62.9k ★ · +699 today"
+        },
+        {
+          "name": "jingyaogong/minimind",
+          "url": "https://github.com/jingyaogong/minimind",
+          "meta": "Python · 68.9k ★ · +473 today"
+        },
+        {
+          "name": "firecrawl/firecrawl",
+          "url": "https://github.com/firecrawl/firecrawl",
+          "meta": "TypeScript · 207k ★ · +915 today"
+        },
+        {
+          "name": "openvinotoolkit/openvino",
+          "url": "https://github.com/openvinotoolkit/openvino",
+          "meta": "C++ · 12.1k ★ · +158 today"
+        },
+        {
+          "name": "cathrynlavery/diagram-design",
+          "url": "https://github.com/cathrynlavery/diagram-design",
+          "meta": "HTML · 70.4k ★ · +518 today"
+        },
+        {
+          "name": "mvanhorn/last30days-skill",
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "meta": "Python · 72.9k ★ · +668 today"
+        },
+        {
+          "name": "google-labs-code/stitch-skills",
+          "url": "https://github.com/google-labs-code/stitch-skills",
+          "meta": "TypeScript · 12.0k ★ · +494 today"
+        },
+        {
+          "name": "Tracer-Cloud/opensre",
+          "url": "https://github.com/Tracer-Cloud/opensre",
+          "meta": "Python · 14.5k ★ · +399 today"
+        }
+      ]
+    },
+    "huggingface": {
+      "title": "Models Trending (Hugging Face)",
+      "url": "https://huggingface.co/models?sort=trending",
+      "link_label": "huggingface.co/models",
+      "date": "2026-11-23",
+      "items": [
+        {
+          "name": "thinkingmachines/Inkling-2-Mini",
+          "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+          "meta": "26B looped MoE, multimodal, 1M context"
+        },
+        {
+          "name": "unsloth/Inkling-2-Mini-GGUF",
+          "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+          "meta": "26B GGUF quant of Inkling-2-Mini"
+        },
+        {
+          "name": "inworld/voice-isolator",
+          "url": "https://huggingface.co/inworld/voice-isolator",
+          "meta": "Audio-to-Audio voice isolation"
+        },
+        {
+          "name": "tencent/Hy4-flash",
+          "url": "https://huggingface.co/tencent/Hy4-flash",
+          "meta": "220B image-text-to-text"
+        },
+        {
+          "name": "harness-hub/Qwen3.8-27B-pi-adapted",
+          "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+          "meta": "Qwen3.8-27B adapted for pi agent harness"
+        },
+        {
+          "name": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+          "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+          "meta": "26B uncensored GGUF quant"
+        },
+        {
+          "name": "higurashi-ai/Haru-4B",
+          "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+          "meta": "5B audio-to-audio model"
+        },
+        {
+          "name": "apple/DepthPro2",
+          "url": "https://huggingface.co/apple/DepthPro2",
+          "meta": "Depth estimation"
+        },
+        {
+          "name": "Qwen/Qwen3.8-27B",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+          "meta": "28B dense Apache-2.0 base for many fine-tunes"
+        },
+        {
+          "name": "sensenova/SenseNova-Loop-9B",
+          "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B",
+          "meta": "10B looped image-text-to-text"
+        }
+      ]
+    }
+  },
+  "free_models": {
+    "openrouter": {
+      "title": "Free on OpenRouter",
+      "url": "https://openrouter.ai/models?max_price=0",
+      "link_label": "Browse free models on OpenRouter →",
+      "date": "2026-11-23",
+      "items": [
+        {
+          "name": "Baidu: ERNIE-5.5-Flash-Preview (free)",
+          "url": "https://openrouter.ai/baidu/ernie-5.5-flash-preview:free",
+          "meta": "1.024M ctx"
+        },
+        {
+          "name": "Dots Studio: Dots3-Note Preview (free)",
+          "url": "https://openrouter.ai/dots-studio/dots-3-note-preview:free",
+          "meta": "512K ctx"
+        },
+        {
+          "name": "Google: Gemma 4 26B A4B (free)",
+          "url": "https://openrouter.ai/google/gemma-4-26b-a4b-it:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "Google: Gemma 4 31B (free)",
+          "url": "https://openrouter.ai/google/gemma-4-31b-it:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "inclusionAI: Ling 3.2 Flash (free)",
+          "url": "https://openrouter.ai/inclusionai/ling-3.2-flash:free",
+          "meta": "1.04858M ctx"
+        },
+        {
+          "name": "LiquidAI: LFM3-1.7B (free)",
+          "url": "https://openrouter.ai/liquid/lfm-3-1.7b:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+          "meta": "256K ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3 Ultra (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free",
+          "meta": "1M ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3.5 Lightning (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3.5-lightning:free",
+          "meta": "1M ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3.5 Super VL (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3.5-super-vl:free",
+          "meta": "1M ctx"
+        },
+        {
+          "name": "Particle AI: Particle-1 (free)",
+          "url": "https://openrouter.ai/particle-ai/particle-1:free",
+          "meta": "1.04858M ctx"
+        },
+        {
+          "name": "Recursive: Flint (free)",
+          "url": "https://openrouter.ai/recursive/flint-v1.0:free",
+          "meta": "262K ctx"
+        }
+      ]
+    },
+    "opencode_zen": {
+      "title": "Free on OpenCode Zen",
+      "url": "https://opencode.ai/docs/zen/",
+      "link_label": "See the full Zen catalog →",
+      "date": "2026-11-23",
+      "items": [
+        {
+          "name": "Big Pickle",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "big-pickle"
+        },
+        {
+          "name": "Tidepool Alpha Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "tidepool-alpha-free"
+        },
+        {
+          "name": "Iceman Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "iceman-free"
+        },
+        {
+          "name": "DeepSeek V4.1 Flash Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "deepseek-v4.1-flash-free"
+        },
+        {
+          "name": "Beam Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "beam-free"
+        },
+        {
+          "name": "Flint 40B Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "flint-40b-free"
+        },
+        {
+          "name": "Hy4 flash Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "hy4-flash-free"
+        },
+        {
+          "name": "MiMo-V2.6-Flash Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "mimo-v2.6-flash-free"
+        },
+        {
+          "name": "Nemotron 3.5 Lightning Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "nemotron-3.5-lightning-free"
+        },
+        {
+          "name": "Nemotron 3.5 Super VL Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "nemotron-3.5-super-vl-free"
+        },
+        {
+          "name": "Jev 1.13 Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "jev-1.13-free"
+        }
+      ]
+    }
+  },
+  "quick_hits": [
+    {
+      "title": "Codexed adds a local GUI settings editor for the Codex CLI",
+      "source": "GitHub",
+      "date": "2026-11-23",
+      "url": "https://github.com/codex-config/codexed",
+      "scout_source": "tools"
+    },
+    {
+      "title": "AgentDE: a native macOS home for terminal coding agents",
+      "source": "GitHub",
+      "date": "2026-11-23",
+      "url": "https://github.com/AgentDE/agentde",
+      "scout_source": "tools"
+    },
+    {
+      "title": "Taskcue shows which Claude Code / Codex session is waiting for you",
+      "source": "GitHub",
+      "date": "2026-11-23",
+      "url": "https://github.com/taskcue/taskcue",
+      "scout_source": "tools"
+    },
+    {
+      "title": "Aaf-gate adds a policy gate and kill switch in front of agent runtimes",
+      "source": "GitHub",
+      "date": "2026-11-22",
+      "url": "https://github.com/buberlo/aaf-gate",
+      "scout_source": "tools"
+    },
+    {
+      "title": "agent-hive runs multiple local AI agents as one coordinated team",
+      "source": "GitHub",
+      "date": "2026-11-23",
+      "url": "https://github.com/ericwang915/agent-hive",
+      "scout_source": "tools"
+    },
+    {
+      "title": "r/selfhosted project megathread spotlights CodeOtter, a self-hosted AI PR reviewer",
+      "source": "r/selfhosted",
+      "date": "2026-11-19",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1y0njjb/new_project_megathread_week_of_19_nov_2026/",
+      "scout_source": "selfhost"
+    },
+    {
+      "title": "Decision models match fine-tuned encoders on multilingual emotion classification at lower latency",
+      "source": "arXiv",
+      "date": "2026-11-20",
+      "url": "https://arxiv.org/abs/2611.27721",
+      "scout_source": "research"
+    },
+    {
+      "title": "Sam Altman proposes shared evaluation, red-teaming and transparency norms for frontier labs",
+      "source": "X (sama)",
+      "date": "2026-11-22",
+      "url": "https://x.com/sama/status/2124551883130114403",
+      "scout_source": "x"
+    },
+    {
+      "title": "Yann LeCun: fix the autoregressive flaw with search, backtracking and tool use",
+      "source": "X (ylecun)",
+      "date": "2026-11-22",
+      "url": "https://x.com/ylecun/status/2124566523528286212",
+      "scout_source": "x"
+    },
+    {
+      "title": "Google's BuggyMLE injects controlled bugs into 222 repos to scale ML-engineering agents",
+      "source": "X (omarsar0)",
+      "date": "2026-11-22",
+      "url": "https://x.com/omarsar0/status/2124584960464220408",
+      "scout_source": "x"
+    },
+    {
+      "title": "RoboQuest exposes planning bottlenecks: strongest models solve just 23.2% of physical tasks",
+      "source": "X (omarsar0)",
+      "date": "2026-11-22",
+      "url": "https://x.com/omarsar0/status/2124549311174427069",
+      "scout_source": "x"
+    },
+    {
+      "title": "Italy's tech sector passes EUR 101.8B in 2025 revenue, SaaS now the main delivery model",
+      "source": "La Tech Made in Italy",
+      "date": "2026-11-22",
+      "url": "https://www.latechmadeinitaly.com/tech-italia-fatturato-100-miliardi-software-2026/",
+      "scout_source": "italia"
+    }
+  ],
+  "spiked": {
+    "low signal": 13,
+    "out of window": 1,
+    "duplicate url": 3,
+    "already ran": 12
+  }
+}
