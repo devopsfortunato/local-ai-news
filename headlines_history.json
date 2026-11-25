@@ -4,240 +4,6 @@
   },
   "headlines": [
     {
-      "text": "Qwen3.8-Max (2.4T-A95B) open weights land on Hugging Face",
-      "source": "HuggingFace",
-      "date": "2026-08-31",
-      "issue": 5
-    },
-    {
-      "text": "DeepSeek nears $7.4B round at $74B valuation ahead of a 2027 IPO",
-      "source": "TechStartups",
-      "date": "2026-08-31",
-      "issue": 5
-    },
-    {
-      "text": "Layer bit-width allocation tunes LLM quantization for latency under a quality budget",
-      "source": "arXiv",
-      "date": "2026-08-31",
-      "issue": 5
-    },
-    {
-      "text": "DAMP: decay-aware mixed-precision recurrent-state quantization",
-      "source": "arXiv",
-      "date": "2026-08-31",
-      "issue": 5
-    },
-    {
-      "text": "VISTA: verifier-informed student-to-teacher adaptation for self-distillation",
-      "source": "arXiv",
-      "date": "2026-08-31",
-      "issue": 5
-    },
-    {
-      "text": "Quantization-triggered backdoors expose a validation-deployment gap in LLMs",
-      "source": "arXiv",
-      "date": "2026-08-31",
-      "issue": 5
-    },
-    {
-      "text": "llama.cpp b10715 fuses the DFlash encoder into the KV-cache decode path",
-      "source": "GitHub",
-      "date": "2026-08-31",
-      "issue": 5
-    },
-    {
-      "text": "Open WebUI v0.11.2 adds richer terminal-file previews",
-      "source": "GitHub",
-      "date": "2026-08-31",
-      "issue": 5
-    },
-    {
-      "text": "Sonde: a local code graph for AI coding agents",
-      "source": "GitHub",
-      "date": "2026-08-31",
-      "issue": 5
-    },
-    {
-      "text": "Why distributed inference hasn't taken off for 1.5TB open-weight models",
-      "source": "r/LocalLLaMA",
-      "date": "2026-08-31",
-      "issue": 5
-    },
-    {
-      "text": "n8n community node plugs a free Pollinations AI chat model into Agent nodes",
-      "source": "n8n Community",
-      "date": "2026-08-31",
-      "issue": 5
-    },
-    {
-      "text": "RTX 50 Super GPUs reportedly built but held back by excessive GDDR7 pricing",
-      "source": "Tom's Hardware",
-      "date": "2026-08-31",
-      "issue": 5
-    },
-    {
-      "text": "NVIDIA and MediaTek pledge multiple generations of RTX Spark and DGX Spark PC chips",
-      "source": "MediaTek",
-      "date": "2026-09-01",
-      "issue": 6
-    },
-    {
-      "text": "Nvidia's RTX 5090 now costs at least $5,000 as Blackwell price hikes bite",
-      "source": "Tom's Hardware",
-      "date": "2026-09-01",
-      "issue": 6
-    },
-    {
-      "text": "Slotstream runs Qwen3.8-Flash-Next 4-bit on low-RAM Macs by streaming experts from SSD",
-      "source": "GitHub",
-      "date": "2026-09-01",
-      "issue": 6
-    },
-    {
-      "text": "ASUS RTX Spark laptops sell out channel pre-orders ahead of Q4 launch",
-      "source": "Yahoo Tech",
-      "date": "2026-09-01",
-      "issue": 6
-    },
-    {
-      "text": "A universal context-reuse layer for cross-model KV sharing",
-      "source": "arXiv",
-      "date": "2026-09-01",
-      "issue": 6
-    },
-    {
-      "text": "Q-Strata: hierarchical bit allocation for mixed-precision MoE quantization",
-      "source": "arXiv",
-      "date": "2026-09-01",
-      "issue": 6
-    },
-    {
-      "text": "NN-PPI calibrates small language models for claim check-worthiness at lower cost",
-      "source": "arXiv",
-      "date": "2026-09-01",
-      "issue": 6
-    },
-    {
-      "text": "DASC: decay-aware state compression for hybrid linear-attention serving",
-      "source": "arXiv",
-      "date": "2026-09-01",
-      "issue": 6
-    },
-    {
-      "text": "Sliding-window attention beats linear attention for long contexts",
-      "source": "HuggingFace",
-      "date": "2026-09-01",
-      "issue": 6
-    },
-    {
-      "text": "NVIDIA quantizes Qwen3.8-2.4T-A95B to 4-bit NVFP4 \u2014 roughly 2.5x smaller on vLLM",
-      "source": "HuggingFace",
-      "date": "2026-09-01",
-      "issue": 6
-    },
-    {
-      "text": "Unsloth ships 1-3-bit GGUFs of GLM-5.3-Flash \u2014 320B/18B now runs on 128GB RAM",
-      "source": "HuggingFace",
-      "date": "2026-09-01",
-      "issue": 6
-    },
-    {
-      "text": "shaide: K8s-native AI platform for distributed multi-model inference",
-      "source": "GitHub",
-      "date": "2026-09-01",
-      "issue": 6
-    },
-    {
-      "text": "llama.cpp b10729 adds Metal fa-vec tunings for M1 Ultra",
-      "source": "GitHub",
-      "date": "2026-09-01",
-      "issue": 6
-    },
-    {
-      "text": "Open WebUI v0.11.3: chat-branch reload fix, upgrade safety and MCP OAuth fix",
-      "source": "GitHub",
-      "date": "2026-09-01",
-      "issue": 6
-    },
-    {
-      "text": "extensible-mcp: a policy proxy between LLMs and MCP servers the model cannot reach",
-      "source": "GitHub",
-      "date": "2026-09-01",
-      "issue": 6
-    },
-    {
-      "text": "PromptLab: local-first Chrome side panel for LLM prompt testing",
-      "source": "GitHub",
-      "date": "2026-09-01",
-      "issue": 6
-    },
-    {
-      "text": "VAST raises $446M Series B and B+ for generative AI 3D creation",
-      "source": "TechStartups",
-      "date": "2026-09-01",
-      "issue": 6
-    },
-    {
-      "text": "AI media search startup Clipto raises $15M at $250M valuation",
-      "source": "TechCrunch",
-      "date": "2026-09-01",
-      "issue": 6
-    },
-    {
-      "text": "Deel Ventures takes a stake in Italian AI scaleup Contents above \u20ac100M",
-      "source": "StartupBusiness",
-      "date": "2026-09-01",
-      "issue": 6
-    },
-    {
-      "text": "Holifya raises \u20ac2M, led by CDP Venture Capital, for an AI-driven obesity clinic",
-      "source": "MilanoFinanza",
-      "date": "2026-09-01",
-      "issue": 6
-    },
-    {
-      "text": "n8n 2.38.1 ships broad AI-agent and self-host fixes",
-      "source": "n8n (GitHub releases)",
-      "date": "2026-09-01",
-      "issue": 6
-    },
-    {
-      "text": "Anthropic IPO could open the floodgates for AI listings",
-      "source": "Bloomberg Technology",
-      "date": "2026-09-01",
-      "issue": 6
-    },
-    {
-      "text": "Gridsight raises $26M Series B to find unused capacity in electricity grids",
-      "source": "TechStartups",
-      "date": "2026-09-01",
-      "issue": 6
-    },
-    {
-      "text": "@huggingface/kernels ships 207 WebGPU kernels for faster local browser inference",
-      "source": "Hugging Face",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "Perplexity brings Hybrid Compute to Mac, keeping sensitive AI work on-device",
-      "source": "MacDailyNews",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "DeepSeek opens weights for V4-Flash-Vision-Exp, its first V4 vision model",
-      "source": "TechTimes",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "Home Assistant 2026.9 adds active alerts, a Matter map, and local voice speech-to-text improvements",
-      "source": "Home Assistant",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
       "text": "DeepX links its DX-M1 NPU to AWS IoT Greengrass for remote edge-AI deployment",
       "source": "Chosun Biz",
       "date": "2026-09-02",
@@ -12002,6 +11768,240 @@
       "source": "AI4Business",
       "date": "2026-11-24",
       "issue": 64
+    },
+    {
+      "text": "Baidu opens weights for ERNIE-5.5-Flash-Preview, a 300B MoE with 1M-token context",
+      "source": "HuggingFace",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "MECHREVO ships a 1.25-liter RTX Spark mini PC with up to 128 GB unified memory",
+      "source": "VideoCardz",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "ASUS Turbo Radeon AI PRO R9700 reviewed as a ~$2,000 32 GB inference card for multi-card local rigs",
+      "source": "ServeTheHome",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "Laminar: ByteDance Seed and HKU open-source their decoupled RL post-training framework",
+      "source": "X (Marktechpost)",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "OpenAI internal model reportedly settles the 1979 VP vs VNP open problem with a Lean 4 formalization",
+      "source": "X (KKTech_X)",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "MXFP4 for LLM inference: how complementary post-training quantization techniques interact",
+      "source": "arXiv",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "Exact token importance is not enough: the limits of top-K selection in LLM attention",
+      "source": "arXiv",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "LEGOSpec: a composable framework for speculative draft design and training",
+      "source": "arXiv",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "Can a frontier LLM repair a quantized network by tool-free weight-space programming?",
+      "source": "arXiv",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "ReQOR: operator-discrepancy subspace repair for quantization-conditioned backdoors",
+      "source": "arXiv",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "KRAFTON releases Raon-1-mini, a 30B-A4B MoE trained from scratch",
+      "source": "HuggingFace",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "PrismML ships Ternary Bonsai 2.5 27B for local coding under Apache 2.0",
+      "source": "HuggingFace",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "NandiBERT: open bidirectional encoders for English and Indic languages",
+      "source": "HuggingFace",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "Gyro-S v2 quants of Qwen3.8-Flash-Next refresh for 32 GB cards",
+      "source": "HuggingFace",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "llama.cpp lands b12709-b12716 with fused CUDA kernels and Inkling 2 Mini speedups",
+      "source": "GitHub",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "Show HN: Rhebok \u2014 free local RAG for your coding agent",
+      "source": "GitHub",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "Product Hunt: Fleetify \u2014 open-source command center for AI coding agents",
+      "source": "Product Hunt",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "Show HN: TokenMargin \u2014 client-side LLM API cost simulator and CSV bill auditor",
+      "source": "Hacker News",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "n8n 3.4.0 and 2.50.0 fix the AI Agent node dropping empty chat-memory turns",
+      "source": "n8n GitHub Releases",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "PrintGuard 3.0: self-hosted 3D print failure detector with 13 MB models on a Pi 5",
+      "source": "r/selfhosted",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "Staaash 2.0 adds a two-way desktop sync app to this self-hosted Google Drive alternative",
+      "source": "r/selfhosted",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "Homelab + AI coding agent: lessons from running an agent on a live Proxmox server",
+      "source": "r/selfhosted",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "TornadoVM 8.2 ships a dedicated ROCm HIP backend for AMD GPUs",
+      "source": "Phoronix",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "ASUS co-CEO says budget PCs may drop from 16 GB to 8 GB RAM as memory prices climb",
+      "source": "VideoCardz",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "INNO3D's single-slot RTX 5060 Ti PRO lists in Japan for about $1,060",
+      "source": "TechPowerUp",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "AMD claims GPU frequency world record: RX 9060 XT at 4.837 GHz on LN2",
+      "source": "VideoCardz",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "AIDA64 adds support for unreleased RTX 4090 Ti and TITAN Ada engineering samples",
+      "source": "VideoCardz",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "NVIDIA publishes a Microduck obstacle-avoidance Sim2Real workflow with Isaac Lab and Newton",
+      "source": "Hugging Face",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "Ant Group open-sources a 560B-parameter medical AI model under MIT with 1M-token context",
+      "source": "X (PaoAI87)",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "LoopRes: fine-tuned LLMs reuse layers 2-3x per token, 4B beats a standard 8B at ~5% extra training cost",
+      "source": "X (shankar_aca)",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "Anthropic's 'Working with AI' paper: organizational change, not model size, drives AI value",
+      "source": "X (emollick)",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "First paper scales full-parameter Evolution Strategies to billion-parameter LLMs with a population of 30",
+      "source": "X (grok)",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "Draft calibration matches draft and target distributions to accelerate speculative decoding",
+      "source": "arXiv",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "Show HN: Adchestra \u2014 a Google Ads MCP server for AI agents",
+      "source": "Hacker News",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "Show HN: Carry \u2014 save every AI conversation as Markdown you own",
+      "source": "Hacker News",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "Marlowe emerges with $277M seed at $1.15B for lower-cost AI inference infrastructure",
+      "source": "Tech Startups",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "Embo launches with $110M seed from a16z and Nvidia for physical-AI robotics models",
+      "source": "Tech Startups",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "Assintel Report 2026: Italy's business ICT market at EUR 46.4B, AI growing 40.2% but only 29% of firms use it",
+      "source": "AI4Business",
+      "date": "2026-11-25",
+      "issue": 65
+    },
+    {
+      "text": "UNIMORE spin-off Revismart brings generative AI to statutory auditing, tested by 180+ professionals",
+      "source": "Startup News",
+      "date": "2026-11-25",
+      "issue": 65
     }
   ]
 }

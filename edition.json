@@ -1,50 +1,50 @@
 {
-  "issue_no": 64,
-  "date_iso": "2026-11-24",
-  "date_human": "November 24, 2026",
+  "issue_no": 65,
+  "date_iso": "2026-11-25",
+  "date_human": "November 25, 2026",
   "notice": null,
   "lead": {
-    "kicker": "Inference Bench",
-    "title": "aci-cpp beats llama.cpp v1.0.0 on eight of ten local workloads",
-    "summary": "Actual's aci-cpp fork reports 17-28% faster follow-up responses on DGX Spark and 12.6 tok/s decode at 250K context on M3 Ultra, winning on eight of ten tested workloads against llama.cpp v1.0.0. The gains come from new 8-bit integer tensor-core kernels that read GGUF weights in place on NVIDIA hardware, with the same kernel family reaching RTX Blackwell cards.",
-    "source": "TAO Media",
-    "date": "2026-11-23",
-    "url": "https://www.tao.media/actual-reports-faster-local-ai-inference-with-aci-cpp-beating-llama-cpp-on-eight-workloads/",
-    "scout_source": "hardware",
-    "image": "images/lead_2026-11-10.jpg"
+    "image": "images/lead_2026-11-10.jpg",
+    "kicker": "Open weights",
+    "title": "Baidu opens weights for ERNIE-5.5-Flash-Preview, a 300B MoE with 1M-token context",
+    "summary": "Baidu released ERNIE-5.5-Flash-Preview on November 24 with FP8 and BF16 variants on Hugging Face: a Mixture-of-Experts model with 280B total / 14B active parameters and a native 1M-token context window. Community runs report roughly 1,800 tok/s prefill and 65-87 tok/s decode on a 96 GB M5 Ultra using DankAttn, making it one of the more practical large open MoEs for high-RAM local rigs.",
+    "source": "HuggingFace",
+    "date": "2026-11-24",
+    "url": "https://huggingface.co/baidu",
+    "scout_source": "opensource"
   },
   "top_stories": [
     {
-      "title": "Gemini 4 agent teams plus Lean cut quantum simulation costs up to 10x",
-      "summary": "Google DeepMind used teams of Gemini 4 agents with the Lean proof assistant to develop new quantum circuits for fusion, chemistry and drug discovery, open-sourcing the verified solutions and a Lean library.",
-      "source": "GoogleDeepMind",
-      "date": "2026-11-23",
-      "url": "https://x.com/GoogleDeepMind/status/2124911075875258776",
-      "scout_source": "x"
-    },
-    {
-      "title": "GPT-6 Cyber validates 948 Linux kernel bugs and generates patches",
-      "summary": "OpenAI reports GPT-6 Cyber helped validate 948 Linux kernel bugs that could grant local root access, with maintainers working on upstream fixes.",
-      "source": "OpenAI",
-      "date": "2026-11-23",
-      "url": "https://x.com/OpenAI/status/2125007927098699827",
-      "scout_source": "x"
-    },
-    {
-      "title": "Sierra doubles valuation to $30B in six months on $1.75B Series F",
-      "summary": "Greenoaks and Lightspeed led the round at double its May valuation, with roughly half the Fortune 50 served and a $400M run-rate in AI customer experience.",
-      "source": "TechCrunch",
-      "date": "2026-11-23",
-      "url": "https://techcrunch.com/2026-11-23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
-      "scout_source": "funding"
-    },
-    {
-      "title": "M6 Mac mini cracks Apple's $899 price at $779 for Black Friday",
-      "summary": "The new M6 pairs a 12-core CPU/GPU with Apple's first dual 16-core Neural Engine and 170 GB/s memory bandwidth, up from 153 GB/s on M5, making the cheapest desk-side local-AI box cheaper still.",
-      "source": "NXPC",
-      "date": "2026-11-23",
-      "url": "https://www.nxplace.com/post/mac-mini-m6-vs-mini-pc-2026-black-friday-cracks-apples-899-price-who-wins-now-795446411281",
+      "title": "MECHREVO ships a 1.25-liter RTX Spark mini PC with up to 128 GB unified memory",
+      "summary": "The Master Road X10 packs NVIDIA's RTX Spark N1X (20-core Grace CPU, Blackwell GPU) into 1.25 L with a 140 W power limit, from about $4,950 (64 GB) to $7,500 (128 GB), using an SSD-offload scheme to run 80B-122B models locally.",
+      "source": "VideoCardz",
+      "date": "2026-11-24",
+      "url": "https://videocardz.com/newz/mechrevo-launches-1-25-liter-rtx-spark-mini-pc-with-140w-power-limit-starting-at-4950",
       "scout_source": "hardware"
+    },
+    {
+      "title": "ASUS Turbo Radeon AI PRO R9700 reviewed as a ~$2,000 32 GB inference card for multi-card local rigs",
+      "summary": "ServeTheHome's review positions the Navi 48 card as an affordable building block for local LLM work, with up to 128 GB poolable across four cards.",
+      "source": "ServeTheHome",
+      "date": "2026-11-24",
+      "url": "https://www.servethehome.com/asus-turbo-radeon-pro-ai-r9700-review/",
+      "scout_source": "hardware"
+    },
+    {
+      "title": "Laminar: ByteDance Seed and HKU open-source their decoupled RL post-training framework",
+      "summary": "Apache-2.0 Laminar separates rollout, experience buffer, training and weight sync, lifting Qwen3-Coder-30B from 46.6% to 52.2% on SWE-bench Verified with 33% fewer samples and up to 5.48x throughput on 1024 GPUs.",
+      "source": "X (Marktechpost)",
+      "date": "2026-11-25",
+      "url": "https://x.com/Marktechpost/status/2125465845212327969",
+      "scout_source": "x"
+    },
+    {
+      "title": "OpenAI internal model reportedly settles the 1979 VP vs VNP open problem with a Lean 4 formalization",
+      "summary": "The claimed breakthrough produces a 30-page paper with roughly 440k lines of Lean 4 formalization for one of complexity theory's central open questions.",
+      "source": "X (KKTech_X)",
+      "date": "2026-11-24",
+      "url": "https://x.com/KKTech_X/status/2125161313219555675",
+      "scout_source": "x"
     }
   ],
   "sections": [
@@ -52,44 +52,44 @@
       "title": "Research & Papers",
       "items": [
         {
-          "title": "Clover-35B-A3B: a diffusion language model built on Gated Delta Networks",
-          "summary": "A 35B-total / 3B-activated MoE diffusion LM with thinking-mode generation, combining recurrent context memory with bidirectional softmax attention for efficient local deployment.",
-          "source": "HuggingFace",
-          "date": "2026-11-23",
-          "url": "https://huggingface.co/papers/2611.24636",
-          "scout_source": "research",
-          "image": "images/section_research_papers_2026-11-10.jpg"
-        },
-        {
-          "title": "MemOnce replaces the layer-wise KV cache with reusable memory states",
-          "summary": "The architecture swaps linear-growth token-level KV caches for reusable memory states, cutting inference-time memory on long-horizon and continual interactions.",
-          "source": "HuggingFace",
-          "date": "2026-11-23",
-          "url": "https://huggingface.co/papers/2611.27973",
-          "scout_source": "research"
-        },
-        {
-          "title": "Yggdrasil: tree-routed recurrent experts for state tracking and fast CPU inference",
-          "summary": "Targets two limits of parallel-trainable recurrences — weak discrete state tracking and per-step full-parameter reads — aiming at faster CPU-side local inference.",
+          "image": "images/section_research_papers_2026-11-10.jpg",
+          "title": "MXFP4 for LLM inference: how complementary post-training quantization techniques interact",
+          "summary": "Studies microscaling numeric formats (shared scale per 16/32 elements) and shows aggressive 4-bit quantization with minimal accuracy loss when complementary techniques are combined.",
           "source": "arXiv",
-          "date": "2026-11-23",
-          "url": "https://arxiv.org/abs/2611.29954",
+          "date": "2026-11-24",
+          "url": "https://arxiv.org/abs/2611.32873",
           "scout_source": "research"
         },
         {
-          "title": "MobileGrail puts compact guardrails on-device for mobile GUI agents",
-          "summary": "Compact on-device guardrail models assess each proposed action before execution, keeping private screens local instead of shipping them to cloud multimodal models.",
+          "title": "Exact token importance is not enough: the limits of top-K selection in LLM attention",
+          "summary": "Top-K KV/token selection is suboptimal because attention renormalizes over the chosen set, so individually important positions need not form the best set — a direct result for KV-cache compression in long-context local inference.",
           "source": "arXiv",
-          "date": "2026-11-23",
-          "url": "https://arxiv.org/abs/2611.29847",
+          "date": "2026-11-24",
+          "url": "https://arxiv.org/abs/2611.32324",
           "scout_source": "research"
         },
         {
-          "title": "cmHC: better stream mixing in hyper-connections via geometric contraction",
-          "summary": "Shows how to mix Birkhoff-polytope-constrained residual streams more effectively in manifold-constrained Hyper-Connections for stable, low-overhead propagation.",
-          "source": "HuggingFace",
-          "date": "2026-11-23",
-          "url": "https://huggingface.co/papers/2611.27193",
+          "title": "LEGOSpec: a composable framework for speculative draft design and training",
+          "summary": "Ablates speculative-decoding draft components and their composition effects instead of whole recipes, giving practical guidance for cheap draft models in local serving.",
+          "source": "arXiv",
+          "date": "2026-11-24",
+          "url": "https://arxiv.org/abs/2611.33004",
+          "scout_source": "research"
+        },
+        {
+          "title": "Can a frontier LLM repair a quantized network by tool-free weight-space programming?",
+          "summary": "Frontier LLMs read a 20k-parameter CNN as text and propose weight edits to repair round-to-nearest 4-bit accuracy loss without tools — a compact probe of weight-space programming.",
+          "source": "arXiv",
+          "date": "2026-11-24",
+          "url": "https://arxiv.org/abs/2611.33031",
+          "scout_source": "research"
+        },
+        {
+          "title": "ReQOR: operator-discrepancy subspace repair for quantization-conditioned backdoors",
+          "summary": "Identifies which quantization operators carry information and repairs quantization-conditioned backdoor behavior in a subspace, targeting quantized LLMs that behave differently at low vs high precision.",
+          "source": "arXiv",
+          "date": "2026-11-24",
+          "url": "https://arxiv.org/abs/2611.32755",
           "scout_source": "research"
         }
       ]
@@ -98,28 +98,36 @@
       "title": "Open Weights & Models",
       "items": [
         {
-          "title": "Xing4.1-Preview: 285B/17B MoE trained on a fully domestic stack, 1M native context",
-          "summary": "A 256-routed-expert MoE (top-8 + 1 shared, MLA + DSA) built on MindSpore for agentic coding and long-horizon workflows, Apache 2.0, running on SGLang and vLLM with llama.cpp support pending.",
+          "image": "images/section_open_weights_models_2026-11-10.jpg",
+          "title": "KRAFTON releases Raon-1-mini, a 30B-A4B MoE trained from scratch",
+          "summary": "Strong in Korean conversation and agent tasks; ships safetensors plus imatrix GGUF (Q4_K_M 22.0 GB, fits 24 GB VRAM), MLX and NVFP4 builds.",
           "source": "HuggingFace",
-          "date": "2026-11-23",
-          "url": "https://huggingface.co/XingChen-AGI",
-          "scout_source": "opensource",
-          "image": "images/section_open_weights_models_2026-11-10.jpg"
-        },
-        {
-          "title": "IVE-4B and Ivonnet-0.8B: open decision models that score 255 options in one pass",
-          "summary": "Apache-2.0 decision models for reranking, page relevance, classification, KIE, chart reading and web actions; IVE-4B ranks first of 166 models up to 5B on the private Decision Index after ~13h of training on 4x H100.",
-          "source": "HuggingFace",
-          "date": "2026-11-23",
-          "url": "https://huggingface.co/blog/QuentinJG/ive-release",
+          "date": "2026-11-25",
+          "url": "https://huggingface.co/KRAFTON/Raon-1-mini",
           "scout_source": "opensource"
         },
         {
-          "title": "MoziAier-35B-V3.9: finance-focused multimodal MoE in a 12.99 GB hybrid-quantized GGUF",
-          "summary": "A Qwen3.6-35B-A3B-architecture MoE with vision and tool calling, 256K context and in-house MoziSmartBit quantization (PPL +0.47% vs BF16), running from 8 GB VRAM with offload.",
+          "title": "PrismML ships Ternary Bonsai 2.5 27B for local coding under Apache 2.0",
+          "summary": "A 27B model for local code editing and tool use in a 5.9 GB footprint (7.67 GB GGUF for stock llama.cpp), with optional 629 MB or 931 MB vision projectors.",
           "source": "HuggingFace",
-          "date": "2026-11-23",
-          "url": "https://huggingface.co/chenyumo/MoziAier-35B-A3B-MOE",
+          "date": "2026-11-24",
+          "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+          "scout_source": "opensource"
+        },
+        {
+          "title": "NandiBERT: open bidirectional encoders for English and Indic languages",
+          "summary": "NandiBERT-150M/450M (Apache 2.0) beat IndicBERT v2 on all seven reported IndicXTREME tasks (73.2 vs 65.9 average) at 450M, with 16K/32K context and a shared 100,352-token vocabulary.",
+          "source": "HuggingFace",
+          "date": "2026-11-24",
+          "url": "https://huggingface.co/blog/FrontiersMind/introducing-nandibert",
+          "scout_source": "opensource"
+        },
+        {
+          "title": "Gyro-S v2 quants of Qwen3.8-Flash-Next refresh for 32 GB cards",
+          "summary": "agentionai's v2 (TQ1_0, 27.64 GiB) cuts drift 18% on held-out text and 27% on tool-call transcripts versus v1, ranking below IQ2_XS at 16% smaller file size.",
+          "source": "HuggingFace",
+          "date": "2026-11-24",
+          "url": "https://huggingface.co/agentionai/Qwen3.8-Flash-Next-Gyro-GGUF",
           "scout_source": "opensource"
         }
       ]
@@ -128,28 +136,36 @@
       "title": "Tools & Runtimes",
       "items": [
         {
-          "title": "Show HN: Gal — local-first agent runtime with per-call permissions and rollback",
-          "summary": "Gal gives coding agents per-call permission grants and snapshot-based rollback, a minimal self-contained way to run agents with auditable tool permissions.",
-          "source": "Hacker News",
-          "date": "2026-11-24",
-          "url": "https://news.ycombinator.com/item?id=50621748",
-          "scout_source": "tools",
-          "image": "images/section_tools_runtimes_2026-11-10.jpg"
-        },
-        {
-          "title": "Show HN: FireVoice — open-source voice studio running on your own GPU",
-          "summary": "A free local TTS/voice studio that runs entirely on your GPU without cloud accounts, pairing with local LLM stacks.",
-          "source": "Hacker News",
-          "date": "2026-11-24",
-          "url": "https://news.ycombinator.com/item?id=50623038",
+          "image": "images/section_tools_runtimes_2026-11-10.jpg",
+          "title": "llama.cpp lands b12709-b12716 with fused CUDA kernels and Inkling 2 Mini speedups",
+          "summary": "New builds add fused CUDA RMS_NORM+MUL+MROPE/IMROPE kernels and a reworked weighted-sum path for Inkling 2 Mini that speeds prefill 14-37% on MI300X and B200.",
+          "source": "GitHub",
+          "date": "2026-11-25",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12716",
           "scout_source": "tools"
         },
         {
-          "title": "Show HN: Benchline — 61 free dev tools exposed as MCP tools",
-          "summary": "Benchline packages 61 developer utilities as Model Context Protocol tools so local agents can call them directly, without cloud dependencies.",
-          "source": "Hacker News",
+          "title": "Show HN: Rhebok — free local RAG for your coding agent",
+          "summary": "An open-source retrieval layer over local files for coding agents with no cloud dependency.",
+          "source": "GitHub",
           "date": "2026-11-24",
-          "url": "https://news.ycombinator.com/item?id=50623712",
+          "url": "https://github.com/Stellenbosch-Technologies/rhebok",
+          "scout_source": "tools"
+        },
+        {
+          "title": "Product Hunt: Fleetify — open-source command center for AI coding agents",
+          "summary": "Manages multiple AI coding agents from one dashboard; among today's top Product Hunt developer-tool launches.",
+          "source": "Product Hunt",
+          "date": "2026-11-25",
+          "url": "https://www.producthunt.com/products/fleetify",
+          "scout_source": "tools"
+        },
+        {
+          "title": "Show HN: TokenMargin — client-side LLM API cost simulator and CSV bill auditor",
+          "summary": "Simulates LLM API costs and audits CSV billing exports entirely client-side, for local or API model users tracking spend.",
+          "source": "Hacker News",
+          "date": "2026-11-25",
+          "url": "https://news.ycombinator.com/item?id=50637419",
           "scout_source": "tools"
         }
       ]
@@ -158,28 +174,36 @@
       "title": "Self-Hosted Stack",
       "items": [
         {
-          "title": "Community comparison: which self-hosted LLM tracing stacks survive a 2 GB memory limit",
-          "summary": "Identical-trace measurements of Langfuse, Opik, Phoenix, MLflow, Laminar, Agenta and AcruxCore show idle memory from 0.39 GiB up to 4.5 GiB — useful for picking a lightweight tracing backend on a small VPS or Pi.",
-          "source": "r/selfhosted",
+          "image": "images/section_self_hosted_stack_2026-11-10.jpg",
+          "title": "n8n 3.4.0 and 2.50.0 fix the AI Agent node dropping empty chat-memory turns",
+          "summary": "Both branches patch #43935; 3.4.0 also lets the AI Assistant run a single node for up to 10 minutes (#44472).",
+          "source": "n8n GitHub Releases",
           "date": "2026-11-24",
-          "url": "https://www.reddit.com/r/selfhosted/comments/1y416zm/selfhosted_llm_tracing_at_100k_traces_memory_disk/",
-          "scout_source": "selfhost",
-          "image": "images/section_self_hosted_stack_2026-11-10.jpg"
-        },
-        {
-          "title": "Songe: a local proxy that fine-tunes your model on agent traces while idle",
-          "summary": "The Apache-2.0 proxy sits between agents and model servers, records tool results and corrections, and trains small LoRA adapters via on-policy self-distillation with held-out checks and one-click rollback. No account, no telemetry.",
-          "source": "r/LocalLLaMA",
-          "date": "2026-11-23",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y3xhrh/songe_opensource_engine_that_finetunes_your_local/",
+          "url": "https://github.com/n8n-io/n8n/releases",
           "scout_source": "selfhost"
         },
         {
-          "title": "n8n 2.48.8 fixes Migration Report access and adds MCP trigger failure reporting",
-          "summary": "The current latest release also resolves an expression memory-limit throw on the quickjs engine for self-hosted instances.",
-          "source": "n8n GitHub Releases",
-          "date": "2026-11-23",
-          "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.48.8",
+          "title": "PrintGuard 3.0: self-hosted 3D print failure detector with 13 MB models on a Pi 5",
+          "summary": "Retrained on 9,385 community frames, it runs 12.9 MB / 9.5 MB models at ~40/60 fps with ~500 MB RAM on a Raspberry Pi 5, bundling ONNX Runtime and LiteRT and picking the faster backend at startup.",
+          "source": "r/selfhosted",
+          "date": "2026-11-25",
+          "url": "https://www.reddit.com/r/selfhosted/comments/1y3p9jb/printguard_30_selfhosted_3d_print_failure/",
+          "scout_source": "selfhost"
+        },
+        {
+          "title": "Staaash 2.0 adds a two-way desktop sync app to this self-hosted Google Drive alternative",
+          "summary": "Windows/macOS/Linux sync client, redesigned UI, and a Windows installer that runs the server without Docker; files stay as normal files on disk with PostgreSQL-backed metadata.",
+          "source": "r/selfhosted",
+          "date": "2026-11-25",
+          "url": "https://www.reddit.com/r/selfhosted/comments/1y1y483/staaash_20_a_selfhosted_google_drive_for_your/",
+          "scout_source": "selfhost"
+        },
+        {
+          "title": "Homelab + AI coding agent: lessons from running an agent on a live Proxmox server",
+          "summary": "Months of operating a shell-access coding agent on a live homelab distilled into command-level hook guardrails rather than trusting the agent to follow instructions, with concrete hook examples.",
+          "source": "r/selfhosted",
+          "date": "2026-11-24",
+          "url": "https://www.reddit.com/r/selfhosted/comments/1y25npk/ive_been_running_my_homelab_together_with_an_ai/",
           "scout_source": "selfhost"
         }
       ]
@@ -188,28 +212,44 @@
       "title": "Hardware & Edge",
       "items": [
         {
-          "title": "Nov 23 bench digest: 512GB M5 Ultra tops single-box decode; Mac Studio beats two DGX Sparks on 256K prefill",
-          "summary": "Community runs show TensorFold driving DeepSeek V4.1 Flash to 56-80 tok/s decode on one 512GB M5 Ultra, a Mac Studio M5 Max reaching 89.8 tok/s on GLM 5.3 Flash at 256K context, and Metal-kernel optimizations lifting Inkling 2 Small prefill 192%.",
-          "source": "diggtop",
-          "date": "2026-11-23",
-          "url": "https://www.diggtop.com/digests/x-local-model-bench-digest-2026-11-23",
-          "scout_source": "hardware",
-          "image": "images/section_hardware_edge_2026-11-10.jpg"
-        },
-        {
-          "title": "Black Friday RAM deals: DDR5 kits discounted amid the memory pricing crisis",
-          "summary": "Tom's Hardware's tracker lists cuts like the Corsair Vengeance RGB 32GB at $469.99 from $579.99, while Team Group's GM expects the DRAM shortage to worsen in 2026 before normalizing in 2027-2028.",
-          "source": "Tom's Hardware",
-          "date": "2026-11-23",
-          "url": "https://www.tomshardware.com/gift-guides-seasonal-sales/best-ram-memory-deals-ddr5-ddr4",
+          "image": "images/section_hardware_edge_2026-11-10.jpg",
+          "title": "TornadoVM 8.2 ships a dedicated ROCm HIP backend for AMD GPUs",
+          "summary": "Interfaces directly with AMD's HIP runtime on Windows and Linux alongside improved Apple Metal support, improving the Java-based GPU kernel path for local inference on Radeon/Instinct cards.",
+          "source": "Phoronix",
+          "date": "2026-11-24",
+          "url": "https://www.phoronix.com/news/TornadoVM-8.2",
           "scout_source": "hardware"
         },
         {
-          "title": "RigBase DGX Spark recipe table: 18 setups for 11 open models, up to 95.1 tok/s",
-          "summary": "Recipes span one to four 128GB Sparks, including Qwen3.6 35B-A3B at 95.1 tok/s (NVFP4 + MTP, vLLM) on a single Spark, with memory math for 27B-753B models.",
-          "source": "RigBase",
-          "date": "2026-11-23",
-          "url": "https://getrigbase.com/dgx-spark/",
+          "title": "ASUS co-CEO says budget PCs may drop from 16 GB to 8 GB RAM as memory prices climb",
+          "summary": "On its Q3 2026 earnings call, ASUS's S.Y. Hsu cited rising DRAM costs forcing 8 GB entry-level configs, with Microsoft adjusting Windows for the lower spec.",
+          "source": "VideoCardz",
+          "date": "2026-11-24",
+          "url": "https://videocardz.com/newz/asus-co-ceo-says-budget-pcs-may-drop-from-16gb-to-8gb-ram-due-to-rising-memory-prices",
+          "scout_source": "hardware"
+        },
+        {
+          "title": "INNO3D's single-slot RTX 5060 Ti PRO lists in Japan for about $1,060",
+          "summary": "The 20 mm-thick, 180 W card (4,608 CUDA cores, 16 GB GDDR7) surfaced at 169,400 yen — roughly $125 above dual-slot RTX 5060 Ti 16 GB cards in the VRAM-driven pricing squeeze.",
+          "source": "TechPowerUp",
+          "date": "2026-11-24",
+          "url": "https://techpowerup.com/355171/inno3ds-single-slot-rtx-5060-ti-pro-gets-listed-in-japan-for-about-usd-1-060",
+          "scout_source": "hardware"
+        },
+        {
+          "title": "AMD claims GPU frequency world record: RX 9060 XT at 4.837 GHz on LN2",
+          "summary": "The Navi 44 card hit 4,837 MHz, 54.5% above its 3,130 MHz boost clock, topping the previous 4,789 MHz record.",
+          "source": "VideoCardz",
+          "date": "2026-11-24",
+          "url": "https://videocardz.com/newz/amd-claims-gpu-frequency-world-record-with-radeon-rx-9060-xt-at-4-837-ghz",
+          "scout_source": "hardware"
+        },
+        {
+          "title": "AIDA64 adds support for unreleased RTX 4090 Ti and TITAN Ada engineering samples",
+          "summary": "FinalWire's 8.40.8544 beta recognizes the never-retailed AD102-based RTX 4090 Ti (18,176 cores) and TITAN Ada (18,432 cores, 48 GB GDDR6X).",
+          "source": "VideoCardz",
+          "date": "2026-11-24",
+          "url": "https://videocardz.com/newz/aida64-adds-support-for-unreleased-nvidia-geforce-rtx-4090-ti-and-titan-ada-gpus",
           "scout_source": "hardware"
         }
       ]
@@ -220,57 +260,57 @@
       "title": "GitHub Trending · AI",
       "url": "https://github.com/trending",
       "link_label": "github.com/trending",
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "items": [
         {
           "name": "elementalsouls/Claude-BugHunter",
           "url": "https://github.com/elementalsouls/Claude-BugHunter",
-          "meta": "Python · 20.1k ★ · +2029 today"
-        },
-        {
-          "name": "Tracer-Cloud/opensre",
-          "url": "https://github.com/Tracer-Cloud/opensre",
-          "meta": "Python · 14.9k ★ · +436 today"
-        },
-        {
-          "name": "firecrawl/firecrawl",
-          "url": "https://github.com/firecrawl/firecrawl",
-          "meta": "TypeScript · 208.1k ★ · +924 today"
-        },
-        {
-          "name": "zhouxiaoka/autoclip",
-          "url": "https://github.com/zhouxiaoka/autoclip",
-          "meta": "Python · 14.6k ★ · +907 today"
+          "meta": "Python · 21.7k ★ · +1826 today"
         },
         {
           "name": "obra/superpowers",
           "url": "https://github.com/obra/superpowers",
-          "meta": "Shell · 325.2k ★ · +840 today"
-        },
-        {
-          "name": "jingyaogong/minimind",
-          "url": "https://github.com/jingyaogong/minimind",
-          "meta": "Python · 69.6k ★ · +828 today"
-        },
-        {
-          "name": "mvanhorn/last30days-skill",
-          "url": "https://github.com/mvanhorn/last30days-skill",
-          "meta": "Python · 73.6k ★ · +797 today"
+          "meta": "Shell · 326.0k ★ · +1003 today"
         },
         {
           "name": "HKUDS/CLI-Anything",
           "url": "https://github.com/HKUDS/CLI-Anything",
-          "meta": "Python · 63.9k ★ · +790 today"
+          "meta": "Python · 65.0k ★ · +1074 today"
         },
         {
-          "name": "google-labs-code/stitch-skills",
-          "url": "https://github.com/google-labs-code/stitch-skills",
-          "meta": "TypeScript · 12.4k ★ · +422 today"
+          "name": "jingyaogong/minimind",
+          "url": "https://github.com/jingyaogong/minimind",
+          "meta": "Python · 70.4k ★ · +727 today"
+        },
+        {
+          "name": "cursor/plugins",
+          "url": "https://github.com/cursor/plugins",
+          "meta": "TypeScript · 19.3k ★ · +360 today"
+        },
+        {
+          "name": "firecrawl/firecrawl",
+          "url": "https://github.com/firecrawl/firecrawl",
+          "meta": "TypeScript · 209.1k ★ · +991 today"
         },
         {
           "name": "openvinotoolkit/openvino",
           "url": "https://github.com/openvinotoolkit/openvino",
-          "meta": "C++ · 12.3k ★ · +184 today"
+          "meta": "C++ · 12.5k ★ · +185 today"
+        },
+        {
+          "name": "mvanhorn/last30days-skill",
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "meta": "Python · 74.4k ★ · +703 today"
+        },
+        {
+          "name": "google-labs-code/stitch-skills",
+          "url": "https://github.com/google-labs-code/stitch-skills",
+          "meta": "TypeScript · 12.7k ★ · +403 today"
+        },
+        {
+          "name": "Tracer-Cloud/opensre",
+          "url": "https://github.com/Tracer-Cloud/opensre",
+          "meta": "Python · 15.3k ★ · +398 today"
         }
       ]
     },
@@ -278,42 +318,42 @@
       "title": "Models Trending (Hugging Face)",
       "url": "https://huggingface.co/models?sort=trending",
       "link_label": "huggingface.co/models",
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "items": [
         {
           "name": "thinkingmachines/Inkling-2-Mini",
           "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
-          "meta": "26B MoE, image-text-to-text, Apache-2.0"
+          "meta": "26B-A5.4B multimodal (image-text-to-text), agentic & coding"
         },
         {
           "name": "unsloth/Inkling-2-Mini-GGUF",
           "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
-          "meta": "26B GGUF quants of Inkling-2-Mini for llama.cpp"
+          "meta": "Unsloth GGUF quants of Inkling 2 Mini for llama.cpp"
         },
         {
           "name": "inworld/voice-isolator",
           "url": "https://huggingface.co/inworld/voice-isolator",
-          "meta": "Audio-to-Audio voice isolation model"
-        },
-        {
-          "name": "tencent/Hy4-flash",
-          "url": "https://huggingface.co/tencent/Hy4-flash",
-          "meta": "220B image-text-to-text flash model"
-        },
-        {
-          "name": "harness-hub/Qwen3.8-27B-pi-adapted",
-          "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
-          "meta": "Qwen3.8-27B adaptation for pi agents"
+          "meta": "Audio-to-audio voice isolation model"
         },
         {
           "name": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
           "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
-          "meta": "26B uncensored GGUF variant of Inkling-2-Mini"
+          "meta": "26B uncensored GGUF build of Inkling 2 Mini"
         },
         {
-          "name": "apple/DepthPro2",
-          "url": "https://huggingface.co/apple/DepthPro2",
-          "meta": "Depth estimation model"
+          "name": "harness-hub/Qwen3.8-27B-pi-adapted",
+          "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+          "meta": "Qwen3.8-27B adapted for pi harness, image-text-to-text"
+        },
+        {
+          "name": "SulphurAI/Sulphur-3",
+          "url": "https://huggingface.co/SulphurAI/Sulphur-3",
+          "meta": "Multimodal model, trending on HF"
+        },
+        {
+          "name": "tencent/Hy4-flash",
+          "url": "https://huggingface.co/tencent/Hy4-flash",
+          "meta": "220B MoE, image-text-to-text"
         },
         {
           "name": "higurashi-ai/Haru-4B",
@@ -321,14 +361,14 @@
           "meta": "5B audio-to-audio model"
         },
         {
-          "name": "Qwen/Qwen3.8-27B",
-          "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "meta": "28B image-text-to-text, 6.3M downloads"
+          "name": "apple/DepthPro2",
+          "url": "https://huggingface.co/apple/DepthPro2",
+          "meta": "Depth estimation model"
         },
         {
-          "name": "sensenova/SenseNova-Loop-9B",
-          "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B",
-          "meta": "10B image-text-to-text with mHC routing"
+          "name": "apple/FastFrames-L",
+          "url": "https://huggingface.co/apple/FastFrames-L",
+          "meta": "Text-to-video model"
         }
       ]
     }
@@ -338,17 +378,12 @@
       "title": "Free on OpenRouter",
       "url": "https://openrouter.ai/models?max_price=0",
       "link_label": "Browse free models on OpenRouter →",
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "items": [
         {
           "name": "Baidu: ERNIE-5.5-Flash-Preview (free)",
           "url": "https://openrouter.ai/baidu/ernie-5.5-flash-preview:free",
           "meta": "1.024M ctx"
-        },
-        {
-          "name": "Dots Studio: Dots3-Note Preview (free)",
-          "url": "https://openrouter.ai/dots-studio/dots-3-note-preview:free",
-          "meta": "512K ctx"
         },
         {
           "name": "Google: Gemma 4 26B A4B (free)",
@@ -406,7 +441,7 @@
       "title": "Free on OpenCode Zen",
       "url": "https://opencode.ai/docs/zen/",
       "link_label": "See the full Zen catalog →",
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "items": [
         {
           "name": "Big Pickle",
@@ -468,95 +503,94 @@
   },
   "quick_hits": [
     {
-      "title": "OpenAI and Cisco release Shirudo, an open-source eBPF AI-agent runtime",
-      "source": "OpenAI",
-      "date": "2026-11-23",
-      "url": "https://x.com/OpenAI/status/2124980590717911527",
+      "title": "NVIDIA publishes a Microduck obstacle-avoidance Sim2Real workflow with Isaac Lab and Newton",
+      "source": "Hugging Face",
+      "date": "2026-11-24",
+      "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "scout_source": "official"
+    },
+    {
+      "title": "Ant Group open-sources a 560B-parameter medical AI model under MIT with 1M-token context",
+      "source": "X (PaoAI87)",
+      "date": "2026-11-24",
+      "url": "https://x.com/PaoAI87/status/2125243101111324912",
       "scout_source": "x"
     },
     {
-      "title": "Hugging Face publishes a practical guide to building and maintaining agentic evaluations",
-      "source": "Hugging Face",
-      "date": "2026-11-23",
-      "url": "https://huggingface.co/blog/agentic-evals",
-      "scout_source": "official"
-    },
-    {
-      "title": "Allen AI releases RoboTrack: point tracking for real-world robotic manipulation",
-      "source": "Hugging Face",
-      "date": "2026-11-23",
-      "url": "https://huggingface.co/blog/allenai/robotrack",
-      "scout_source": "official"
-    },
-    {
-      "title": "Google Search adds opt-in Wallet, Drive and Gemini connections to Personal Intelligence in AI Mode",
-      "source": "Google",
-      "date": "2026-11-23",
-      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
-      "scout_source": "official"
-    },
-    {
-      "title": "Ollama v0.40.18-rc0 adds Metal optimizations for Inkling 2 Mini and bumps llama.cpp to b12651",
-      "source": "GitHub",
+      "title": "LoopRes: fine-tuned LLMs reuse layers 2-3x per token, 4B beats a standard 8B at ~5% extra training cost",
+      "source": "X (shankar_aca)",
       "date": "2026-11-24",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.18-rc0",
+      "url": "https://x.com/shankar_aca/status/2125261614333190458",
+      "scout_source": "x"
+    },
+    {
+      "title": "Anthropic's 'Working with AI' paper: organizational change, not model size, drives AI value",
+      "source": "X (emollick)",
+      "date": "2026-11-24",
+      "url": "https://x.com/emollick/status/2125098309928812898",
+      "scout_source": "x"
+    },
+    {
+      "title": "First paper scales full-parameter Evolution Strategies to billion-parameter LLMs with a population of 30",
+      "source": "X (grok)",
+      "date": "2026-11-24",
+      "url": "https://x.com/grok/status/2125286029141663927",
+      "scout_source": "x"
+    },
+    {
+      "title": "Draft calibration matches draft and target distributions to accelerate speculative decoding",
+      "source": "arXiv",
+      "date": "2026-11-24",
+      "url": "https://arxiv.org/abs/2611.33111",
+      "scout_source": "research"
+    },
+    {
+      "title": "Show HN: Adchestra — a Google Ads MCP server for AI agents",
+      "source": "Hacker News",
+      "date": "2026-11-24",
+      "url": "https://news.ycombinator.com/item?id=50636187",
       "scout_source": "tools"
     },
     {
-      "title": "llama.cpp continuous builds b12667-b12669 continue incremental backend updates after the v1.0.0 milestone",
-      "source": "GitHub",
-      "date": "2026-11-24",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12669",
+      "title": "Show HN: Carry — save every AI conversation as Markdown you own",
+      "source": "Hacker News",
+      "date": "2026-11-25",
+      "url": "https://news.ycombinator.com/item?id=50637995",
       "scout_source": "tools"
     },
     {
-      "title": "Yann LeCun updates on AMI Labs: world models and JEPA for robotics and industry",
-      "source": "ylecun",
-      "date": "2026-11-23",
-      "url": "https://x.com/ylecun/status/2125004057945502157",
-      "scout_source": "x"
+      "title": "Marlowe emerges with $277M seed at $1.15B for lower-cost AI inference infrastructure",
+      "source": "Tech Startups",
+      "date": "2026-11-24",
+      "url": "https://techstartups.com/2026-11-24/startup-funding-news-today-november-24-2026-sierra-marlowe-embo-more",
+      "scout_source": "funding"
     },
     {
-      "title": "Alibaba's CoEvoBench co-evolves models and harnesses; GPT-6 Astra closes most of the gap in 24 hours",
-      "source": "omarsar0",
-      "date": "2026-11-23",
-      "url": "https://x.com/omarsar0/status/2124869837545701845",
-      "scout_source": "x"
+      "title": "Embo launches with $110M seed from a16z and Nvidia for physical-AI robotics models",
+      "source": "Tech Startups",
+      "date": "2026-11-24",
+      "url": "https://techstartups.com/2026-11-24/startup-funding-news-today-november-24-2026-sierra-marlowe-embo-more",
+      "scout_source": "funding"
     },
     {
-      "title": "LMSYS details true on-policy RL with bit-exact rollout via SGLang and Miles at 0.90-0.93x throughput",
-      "source": "lmsysorg",
-      "date": "2026-11-23",
-      "url": "https://x.com/lmsysorg/status/2124926906109935925",
-      "scout_source": "x"
-    },
-    {
-      "title": "Lean and Mathlib certify Claude's formalized proof of the Riemann hypothesis",
+      "title": "Assintel Report 2026: Italy's business ICT market at EUR 46.4B, AI growing 40.2% but only 29% of firms use it",
       "source": "AI4Business",
-      "date": "2026-11-23",
-      "url": "https://www.ai4business.it/intelligenza-artificiale/claude-e-lipotesi-di-riemann-lean-certifica-la-dimostrazione/",
+      "date": "2026-11-24",
+      "url": "https://www.ai4business.it/intelligenza-artificiale/assintel-ai-a-40-ma-solo-il-29-delle-imprese-la-usa/",
       "scout_source": "italia"
     },
     {
-      "title": "SWE-CoWork benchmark: best agents fully complete only 8 of 101 real software tasks",
-      "source": "AI4Business",
-      "date": "2026-11-23",
-      "url": "https://www.ai4business.it/intelligenza-artificiale/agenti-ai-il-benchmark-swe-cowork-solo-8-incarichi-su-101-completati/",
-      "scout_source": "italia"
-    },
-    {
-      "title": "EU prepares a preference criterion for European firms in quantum public procurement",
-      "source": "AI4Business",
-      "date": "2026-11-23",
-      "url": "https://www.ai4business.it/quantum-computing/quantum-act-lue-vuole-appalti-per-le-sue-imprese/",
+      "title": "UNIMORE spin-off Revismart brings generative AI to statutory auditing, tested by 180+ professionals",
+      "source": "Startup News",
+      "date": "2026-11-24",
+      "url": "https://www.startup-news.it/revismart-ai-revisione-legale/",
       "scout_source": "italia"
     }
   ],
   "spiked": {
-    "low signal": 22,
-    "out of window": 5,
-    "duplicate url": 1,
-    "same story": 2,
-    "already ran": 5
+    "low signal": 16,
+    "out of window": 4,
+    "same story": 3,
+    "already ran": 8
   }
 }

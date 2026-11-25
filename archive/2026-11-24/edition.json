@@ -1,0 +1,562 @@
+{
+  "issue_no": 64,
+  "date_iso": "2026-11-24",
+  "date_human": "November 24, 2026",
+  "notice": null,
+  "lead": {
+    "kicker": "Inference Bench",
+    "title": "aci-cpp beats llama.cpp v1.0.0 on eight of ten local workloads",
+    "summary": "Actual's aci-cpp fork reports 17-28% faster follow-up responses on DGX Spark and 12.6 tok/s decode at 250K context on M3 Ultra, winning on eight of ten tested workloads against llama.cpp v1.0.0. The gains come from new 8-bit integer tensor-core kernels that read GGUF weights in place on NVIDIA hardware, with the same kernel family reaching RTX Blackwell cards.",
+    "source": "TAO Media",
+    "date": "2026-11-23",
+    "url": "https://www.tao.media/actual-reports-faster-local-ai-inference-with-aci-cpp-beating-llama-cpp-on-eight-workloads/",
+    "scout_source": "hardware",
+    "image": "images/lead_2026-11-10.jpg"
+  },
+  "top_stories": [
+    {
+      "title": "Gemini 4 agent teams plus Lean cut quantum simulation costs up to 10x",
+      "summary": "Google DeepMind used teams of Gemini 4 agents with the Lean proof assistant to develop new quantum circuits for fusion, chemistry and drug discovery, open-sourcing the verified solutions and a Lean library.",
+      "source": "GoogleDeepMind",
+      "date": "2026-11-23",
+      "url": "https://x.com/GoogleDeepMind/status/2124911075875258776",
+      "scout_source": "x"
+    },
+    {
+      "title": "GPT-6 Cyber validates 948 Linux kernel bugs and generates patches",
+      "summary": "OpenAI reports GPT-6 Cyber helped validate 948 Linux kernel bugs that could grant local root access, with maintainers working on upstream fixes.",
+      "source": "OpenAI",
+      "date": "2026-11-23",
+      "url": "https://x.com/OpenAI/status/2125007927098699827",
+      "scout_source": "x"
+    },
+    {
+      "title": "Sierra doubles valuation to $30B in six months on $1.75B Series F",
+      "summary": "Greenoaks and Lightspeed led the round at double its May valuation, with roughly half the Fortune 50 served and a $400M run-rate in AI customer experience.",
+      "source": "TechCrunch",
+      "date": "2026-11-23",
+      "url": "https://techcrunch.com/2026-11-23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+      "scout_source": "funding"
+    },
+    {
+      "title": "M6 Mac mini cracks Apple's $899 price at $779 for Black Friday",
+      "summary": "The new M6 pairs a 12-core CPU/GPU with Apple's first dual 16-core Neural Engine and 170 GB/s memory bandwidth, up from 153 GB/s on M5, making the cheapest desk-side local-AI box cheaper still.",
+      "source": "NXPC",
+      "date": "2026-11-23",
+      "url": "https://www.nxplace.com/post/mac-mini-m6-vs-mini-pc-2026-black-friday-cracks-apples-899-price-who-wins-now-795446411281",
+      "scout_source": "hardware"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Research & Papers",
+      "items": [
+        {
+          "title": "Clover-35B-A3B: a diffusion language model built on Gated Delta Networks",
+          "summary": "A 35B-total / 3B-activated MoE diffusion LM with thinking-mode generation, combining recurrent context memory with bidirectional softmax attention for efficient local deployment.",
+          "source": "HuggingFace",
+          "date": "2026-11-23",
+          "url": "https://huggingface.co/papers/2611.24636",
+          "scout_source": "research",
+          "image": "images/section_research_papers_2026-11-10.jpg"
+        },
+        {
+          "title": "MemOnce replaces the layer-wise KV cache with reusable memory states",
+          "summary": "The architecture swaps linear-growth token-level KV caches for reusable memory states, cutting inference-time memory on long-horizon and continual interactions.",
+          "source": "HuggingFace",
+          "date": "2026-11-23",
+          "url": "https://huggingface.co/papers/2611.27973",
+          "scout_source": "research"
+        },
+        {
+          "title": "Yggdrasil: tree-routed recurrent experts for state tracking and fast CPU inference",
+          "summary": "Targets two limits of parallel-trainable recurrences — weak discrete state tracking and per-step full-parameter reads — aiming at faster CPU-side local inference.",
+          "source": "arXiv",
+          "date": "2026-11-23",
+          "url": "https://arxiv.org/abs/2611.29954",
+          "scout_source": "research"
+        },
+        {
+          "title": "MobileGrail puts compact guardrails on-device for mobile GUI agents",
+          "summary": "Compact on-device guardrail models assess each proposed action before execution, keeping private screens local instead of shipping them to cloud multimodal models.",
+          "source": "arXiv",
+          "date": "2026-11-23",
+          "url": "https://arxiv.org/abs/2611.29847",
+          "scout_source": "research"
+        },
+        {
+          "title": "cmHC: better stream mixing in hyper-connections via geometric contraction",
+          "summary": "Shows how to mix Birkhoff-polytope-constrained residual streams more effectively in manifold-constrained Hyper-Connections for stable, low-overhead propagation.",
+          "source": "HuggingFace",
+          "date": "2026-11-23",
+          "url": "https://huggingface.co/papers/2611.27193",
+          "scout_source": "research"
+        }
+      ]
+    },
+    {
+      "title": "Open Weights & Models",
+      "items": [
+        {
+          "title": "Xing4.1-Preview: 285B/17B MoE trained on a fully domestic stack, 1M native context",
+          "summary": "A 256-routed-expert MoE (top-8 + 1 shared, MLA + DSA) built on MindSpore for agentic coding and long-horizon workflows, Apache 2.0, running on SGLang and vLLM with llama.cpp support pending.",
+          "source": "HuggingFace",
+          "date": "2026-11-23",
+          "url": "https://huggingface.co/XingChen-AGI",
+          "scout_source": "opensource",
+          "image": "images/section_open_weights_models_2026-11-10.jpg"
+        },
+        {
+          "title": "IVE-4B and Ivonnet-0.8B: open decision models that score 255 options in one pass",
+          "summary": "Apache-2.0 decision models for reranking, page relevance, classification, KIE, chart reading and web actions; IVE-4B ranks first of 166 models up to 5B on the private Decision Index after ~13h of training on 4x H100.",
+          "source": "HuggingFace",
+          "date": "2026-11-23",
+          "url": "https://huggingface.co/blog/QuentinJG/ive-release",
+          "scout_source": "opensource"
+        },
+        {
+          "title": "MoziAier-35B-V3.9: finance-focused multimodal MoE in a 12.99 GB hybrid-quantized GGUF",
+          "summary": "A Qwen3.6-35B-A3B-architecture MoE with vision and tool calling, 256K context and in-house MoziSmartBit quantization (PPL +0.47% vs BF16), running from 8 GB VRAM with offload.",
+          "source": "HuggingFace",
+          "date": "2026-11-23",
+          "url": "https://huggingface.co/chenyumo/MoziAier-35B-A3B-MOE",
+          "scout_source": "opensource"
+        }
+      ]
+    },
+    {
+      "title": "Tools & Runtimes",
+      "items": [
+        {
+          "title": "Show HN: Gal — local-first agent runtime with per-call permissions and rollback",
+          "summary": "Gal gives coding agents per-call permission grants and snapshot-based rollback, a minimal self-contained way to run agents with auditable tool permissions.",
+          "source": "Hacker News",
+          "date": "2026-11-24",
+          "url": "https://news.ycombinator.com/item?id=50621748",
+          "scout_source": "tools",
+          "image": "images/section_tools_runtimes_2026-11-10.jpg"
+        },
+        {
+          "title": "Show HN: FireVoice — open-source voice studio running on your own GPU",
+          "summary": "A free local TTS/voice studio that runs entirely on your GPU without cloud accounts, pairing with local LLM stacks.",
+          "source": "Hacker News",
+          "date": "2026-11-24",
+          "url": "https://news.ycombinator.com/item?id=50623038",
+          "scout_source": "tools"
+        },
+        {
+          "title": "Show HN: Benchline — 61 free dev tools exposed as MCP tools",
+          "summary": "Benchline packages 61 developer utilities as Model Context Protocol tools so local agents can call them directly, without cloud dependencies.",
+          "source": "Hacker News",
+          "date": "2026-11-24",
+          "url": "https://news.ycombinator.com/item?id=50623712",
+          "scout_source": "tools"
+        }
+      ]
+    },
+    {
+      "title": "Self-Hosted Stack",
+      "items": [
+        {
+          "title": "Community comparison: which self-hosted LLM tracing stacks survive a 2 GB memory limit",
+          "summary": "Identical-trace measurements of Langfuse, Opik, Phoenix, MLflow, Laminar, Agenta and AcruxCore show idle memory from 0.39 GiB up to 4.5 GiB — useful for picking a lightweight tracing backend on a small VPS or Pi.",
+          "source": "r/selfhosted",
+          "date": "2026-11-24",
+          "url": "https://www.reddit.com/r/selfhosted/comments/1y416zm/selfhosted_llm_tracing_at_100k_traces_memory_disk/",
+          "scout_source": "selfhost",
+          "image": "images/section_self_hosted_stack_2026-11-10.jpg"
+        },
+        {
+          "title": "Songe: a local proxy that fine-tunes your model on agent traces while idle",
+          "summary": "The Apache-2.0 proxy sits between agents and model servers, records tool results and corrections, and trains small LoRA adapters via on-policy self-distillation with held-out checks and one-click rollback. No account, no telemetry.",
+          "source": "r/LocalLLaMA",
+          "date": "2026-11-23",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y3xhrh/songe_opensource_engine_that_finetunes_your_local/",
+          "scout_source": "selfhost"
+        },
+        {
+          "title": "n8n 2.48.8 fixes Migration Report access and adds MCP trigger failure reporting",
+          "summary": "The current latest release also resolves an expression memory-limit throw on the quickjs engine for self-hosted instances.",
+          "source": "n8n GitHub Releases",
+          "date": "2026-11-23",
+          "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.48.8",
+          "scout_source": "selfhost"
+        }
+      ]
+    },
+    {
+      "title": "Hardware & Edge",
+      "items": [
+        {
+          "title": "Nov 23 bench digest: 512GB M5 Ultra tops single-box decode; Mac Studio beats two DGX Sparks on 256K prefill",
+          "summary": "Community runs show TensorFold driving DeepSeek V4.1 Flash to 56-80 tok/s decode on one 512GB M5 Ultra, a Mac Studio M5 Max reaching 89.8 tok/s on GLM 5.3 Flash at 256K context, and Metal-kernel optimizations lifting Inkling 2 Small prefill 192%.",
+          "source": "diggtop",
+          "date": "2026-11-23",
+          "url": "https://www.diggtop.com/digests/x-local-model-bench-digest-2026-11-23",
+          "scout_source": "hardware",
+          "image": "images/section_hardware_edge_2026-11-10.jpg"
+        },
+        {
+          "title": "Black Friday RAM deals: DDR5 kits discounted amid the memory pricing crisis",
+          "summary": "Tom's Hardware's tracker lists cuts like the Corsair Vengeance RGB 32GB at $469.99 from $579.99, while Team Group's GM expects the DRAM shortage to worsen in 2026 before normalizing in 2027-2028.",
+          "source": "Tom's Hardware",
+          "date": "2026-11-23",
+          "url": "https://www.tomshardware.com/gift-guides-seasonal-sales/best-ram-memory-deals-ddr5-ddr4",
+          "scout_source": "hardware"
+        },
+        {
+          "title": "RigBase DGX Spark recipe table: 18 setups for 11 open models, up to 95.1 tok/s",
+          "summary": "Recipes span one to four 128GB Sparks, including Qwen3.6 35B-A3B at 95.1 tok/s (NVFP4 + MTP, vLLM) on a single Spark, with memory math for 27B-753B models.",
+          "source": "RigBase",
+          "date": "2026-11-23",
+          "url": "https://getrigbase.com/dgx-spark/",
+          "scout_source": "hardware"
+        }
+      ]
+    }
+  ],
+  "trending": {
+    "github": {
+      "title": "GitHub Trending · AI",
+      "url": "https://github.com/trending",
+      "link_label": "github.com/trending",
+      "date": "2026-11-24",
+      "items": [
+        {
+          "name": "elementalsouls/Claude-BugHunter",
+          "url": "https://github.com/elementalsouls/Claude-BugHunter",
+          "meta": "Python · 20.1k ★ · +2029 today"
+        },
+        {
+          "name": "Tracer-Cloud/opensre",
+          "url": "https://github.com/Tracer-Cloud/opensre",
+          "meta": "Python · 14.9k ★ · +436 today"
+        },
+        {
+          "name": "firecrawl/firecrawl",
+          "url": "https://github.com/firecrawl/firecrawl",
+          "meta": "TypeScript · 208.1k ★ · +924 today"
+        },
+        {
+          "name": "zhouxiaoka/autoclip",
+          "url": "https://github.com/zhouxiaoka/autoclip",
+          "meta": "Python · 14.6k ★ · +907 today"
+        },
+        {
+          "name": "obra/superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "meta": "Shell · 325.2k ★ · +840 today"
+        },
+        {
+          "name": "jingyaogong/minimind",
+          "url": "https://github.com/jingyaogong/minimind",
+          "meta": "Python · 69.6k ★ · +828 today"
+        },
+        {
+          "name": "mvanhorn/last30days-skill",
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "meta": "Python · 73.6k ★ · +797 today"
+        },
+        {
+          "name": "HKUDS/CLI-Anything",
+          "url": "https://github.com/HKUDS/CLI-Anything",
+          "meta": "Python · 63.9k ★ · +790 today"
+        },
+        {
+          "name": "google-labs-code/stitch-skills",
+          "url": "https://github.com/google-labs-code/stitch-skills",
+          "meta": "TypeScript · 12.4k ★ · +422 today"
+        },
+        {
+          "name": "openvinotoolkit/openvino",
+          "url": "https://github.com/openvinotoolkit/openvino",
+          "meta": "C++ · 12.3k ★ · +184 today"
+        }
+      ]
+    },
+    "huggingface": {
+      "title": "Models Trending (Hugging Face)",
+      "url": "https://huggingface.co/models?sort=trending",
+      "link_label": "huggingface.co/models",
+      "date": "2026-11-24",
+      "items": [
+        {
+          "name": "thinkingmachines/Inkling-2-Mini",
+          "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+          "meta": "26B MoE, image-text-to-text, Apache-2.0"
+        },
+        {
+          "name": "unsloth/Inkling-2-Mini-GGUF",
+          "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+          "meta": "26B GGUF quants of Inkling-2-Mini for llama.cpp"
+        },
+        {
+          "name": "inworld/voice-isolator",
+          "url": "https://huggingface.co/inworld/voice-isolator",
+          "meta": "Audio-to-Audio voice isolation model"
+        },
+        {
+          "name": "tencent/Hy4-flash",
+          "url": "https://huggingface.co/tencent/Hy4-flash",
+          "meta": "220B image-text-to-text flash model"
+        },
+        {
+          "name": "harness-hub/Qwen3.8-27B-pi-adapted",
+          "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+          "meta": "Qwen3.8-27B adaptation for pi agents"
+        },
+        {
+          "name": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+          "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+          "meta": "26B uncensored GGUF variant of Inkling-2-Mini"
+        },
+        {
+          "name": "apple/DepthPro2",
+          "url": "https://huggingface.co/apple/DepthPro2",
+          "meta": "Depth estimation model"
+        },
+        {
+          "name": "higurashi-ai/Haru-4B",
+          "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+          "meta": "5B audio-to-audio model"
+        },
+        {
+          "name": "Qwen/Qwen3.8-27B",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+          "meta": "28B image-text-to-text, 6.3M downloads"
+        },
+        {
+          "name": "sensenova/SenseNova-Loop-9B",
+          "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B",
+          "meta": "10B image-text-to-text with mHC routing"
+        }
+      ]
+    }
+  },
+  "free_models": {
+    "openrouter": {
+      "title": "Free on OpenRouter",
+      "url": "https://openrouter.ai/models?max_price=0",
+      "link_label": "Browse free models on OpenRouter →",
+      "date": "2026-11-24",
+      "items": [
+        {
+          "name": "Baidu: ERNIE-5.5-Flash-Preview (free)",
+          "url": "https://openrouter.ai/baidu/ernie-5.5-flash-preview:free",
+          "meta": "1.024M ctx"
+        },
+        {
+          "name": "Dots Studio: Dots3-Note Preview (free)",
+          "url": "https://openrouter.ai/dots-studio/dots-3-note-preview:free",
+          "meta": "512K ctx"
+        },
+        {
+          "name": "Google: Gemma 4 26B A4B (free)",
+          "url": "https://openrouter.ai/google/gemma-4-26b-a4b-it:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "Google: Gemma 4 31B (free)",
+          "url": "https://openrouter.ai/google/gemma-4-31b-it:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "inclusionAI: Ling 3.2 Flash (free)",
+          "url": "https://openrouter.ai/inclusionai/ling-3.2-flash:free",
+          "meta": "1.04858M ctx"
+        },
+        {
+          "name": "LiquidAI: LFM3-1.7B (free)",
+          "url": "https://openrouter.ai/liquid/lfm-3-1.7b:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+          "meta": "256K ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3 Ultra (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free",
+          "meta": "1M ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3.5 Lightning (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3.5-lightning:free",
+          "meta": "1M ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3.5 Super VL (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3.5-super-vl:free",
+          "meta": "1M ctx"
+        },
+        {
+          "name": "Particle AI: Particle-1 (free)",
+          "url": "https://openrouter.ai/particle-ai/particle-1:free",
+          "meta": "1.04858M ctx"
+        },
+        {
+          "name": "Recursive: Flint (free)",
+          "url": "https://openrouter.ai/recursive/flint-v1.0:free",
+          "meta": "262K ctx"
+        }
+      ]
+    },
+    "opencode_zen": {
+      "title": "Free on OpenCode Zen",
+      "url": "https://opencode.ai/docs/zen/",
+      "link_label": "See the full Zen catalog →",
+      "date": "2026-11-24",
+      "items": [
+        {
+          "name": "Big Pickle",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "big-pickle"
+        },
+        {
+          "name": "Tidepool Alpha Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "tidepool-alpha-free"
+        },
+        {
+          "name": "Iceman Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "iceman-free"
+        },
+        {
+          "name": "DeepSeek V4.1 Flash Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "deepseek-v4.1-flash-free"
+        },
+        {
+          "name": "Beam Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "beam-free"
+        },
+        {
+          "name": "Flint 40B Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "flint-40b-free"
+        },
+        {
+          "name": "Hy4 flash Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "hy4-flash-free"
+        },
+        {
+          "name": "MiMo-V2.6-Flash Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "mimo-v2.6-flash-free"
+        },
+        {
+          "name": "Nemotron 3.5 Lightning Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "nemotron-3.5-lightning-free"
+        },
+        {
+          "name": "Nemotron 3.5 Super VL Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "nemotron-3.5-super-vl-free"
+        },
+        {
+          "name": "Jev 1.13 Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "jev-1.13-free"
+        }
+      ]
+    }
+  },
+  "quick_hits": [
+    {
+      "title": "OpenAI and Cisco release Shirudo, an open-source eBPF AI-agent runtime",
+      "source": "OpenAI",
+      "date": "2026-11-23",
+      "url": "https://x.com/OpenAI/status/2124980590717911527",
+      "scout_source": "x"
+    },
+    {
+      "title": "Hugging Face publishes a practical guide to building and maintaining agentic evaluations",
+      "source": "Hugging Face",
+      "date": "2026-11-23",
+      "url": "https://huggingface.co/blog/agentic-evals",
+      "scout_source": "official"
+    },
+    {
+      "title": "Allen AI releases RoboTrack: point tracking for real-world robotic manipulation",
+      "source": "Hugging Face",
+      "date": "2026-11-23",
+      "url": "https://huggingface.co/blog/allenai/robotrack",
+      "scout_source": "official"
+    },
+    {
+      "title": "Google Search adds opt-in Wallet, Drive and Gemini connections to Personal Intelligence in AI Mode",
+      "source": "Google",
+      "date": "2026-11-23",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "scout_source": "official"
+    },
+    {
+      "title": "Ollama v0.40.18-rc0 adds Metal optimizations for Inkling 2 Mini and bumps llama.cpp to b12651",
+      "source": "GitHub",
+      "date": "2026-11-24",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.18-rc0",
+      "scout_source": "tools"
+    },
+    {
+      "title": "llama.cpp continuous builds b12667-b12669 continue incremental backend updates after the v1.0.0 milestone",
+      "source": "GitHub",
+      "date": "2026-11-24",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12669",
+      "scout_source": "tools"
+    },
+    {
+      "title": "Yann LeCun updates on AMI Labs: world models and JEPA for robotics and industry",
+      "source": "ylecun",
+      "date": "2026-11-23",
+      "url": "https://x.com/ylecun/status/2125004057945502157",
+      "scout_source": "x"
+    },
+    {
+      "title": "Alibaba's CoEvoBench co-evolves models and harnesses; GPT-6 Astra closes most of the gap in 24 hours",
+      "source": "omarsar0",
+      "date": "2026-11-23",
+      "url": "https://x.com/omarsar0/status/2124869837545701845",
+      "scout_source": "x"
+    },
+    {
+      "title": "LMSYS details true on-policy RL with bit-exact rollout via SGLang and Miles at 0.90-0.93x throughput",
+      "source": "lmsysorg",
+      "date": "2026-11-23",
+      "url": "https://x.com/lmsysorg/status/2124926906109935925",
+      "scout_source": "x"
+    },
+    {
+      "title": "Lean and Mathlib certify Claude's formalized proof of the Riemann hypothesis",
+      "source": "AI4Business",
+      "date": "2026-11-23",
+      "url": "https://www.ai4business.it/intelligenza-artificiale/claude-e-lipotesi-di-riemann-lean-certifica-la-dimostrazione/",
+      "scout_source": "italia"
+    },
+    {
+      "title": "SWE-CoWork benchmark: best agents fully complete only 8 of 101 real software tasks",
+      "source": "AI4Business",
+      "date": "2026-11-23",
+      "url": "https://www.ai4business.it/intelligenza-artificiale/agenti-ai-il-benchmark-swe-cowork-solo-8-incarichi-su-101-completati/",
+      "scout_source": "italia"
+    },
+    {
+      "title": "EU prepares a preference criterion for European firms in quantum public procurement",
+      "source": "AI4Business",
+      "date": "2026-11-23",
+      "url": "https://www.ai4business.it/quantum-computing/quantum-act-lue-vuole-appalti-per-le-sue-imprese/",
+      "scout_source": "italia"
+    }
+  ],
+  "spiked": {
+    "low signal": 22,
+    "out of window": 5,
+    "duplicate url": 1,
+    "same story": 2,
+    "already ran": 5
+  }
+}
