@@ -1,255 +1,223 @@
 {
-  "issue_no": 65,
-  "date_iso": "2026-11-25",
-  "date_human": "November 25, 2026",
+  "issue_no": 66,
+  "date_iso": "2026-11-26",
+  "date_human": "November 26, 2026",
   "notice": null,
   "lead": {
-    "image": "images/lead_2026-11-10.jpg",
-    "kicker": "Open weights",
-    "title": "Baidu opens weights for ERNIE-5.5-Flash-Preview, a 300B MoE with 1M-token context",
-    "summary": "Baidu released ERNIE-5.5-Flash-Preview on November 24 with FP8 and BF16 variants on Hugging Face: a Mixture-of-Experts model with 280B total / 14B active parameters and a native 1M-token context window. Community runs report roughly 1,800 tok/s prefill and 65-87 tok/s decode on a 96 GB M5 Ultra using DankAttn, making it one of the more practical large open MoEs for high-RAM local rigs.",
-    "source": "HuggingFace",
-    "date": "2026-11-24",
-    "url": "https://huggingface.co/baidu",
-    "scout_source": "opensource"
+    "kicker": "Privacy",
+    "title": "MiniMax endpoints read OpenRouter prompts; OpenRouter strips Zero Data Retention labels",
+    "summary": "OpenRouter reported that a third party accessed unique test URLs from prompts sent to MiniMax models between July and October 2026, with resellers AtlasCloud, Novita and StreamLake forwarding requests to MiniMax. The ZDR label was removed from those endpoints while the investigation continues. For privacy-focused self-hosters the durable takeaway: ZDR labels are trust-based claims, so verify per-provider retention policy or run models fully local.",
+    "source": "r/LocalLLaMA",
+    "date": "2026-11-25",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y1we95/openrouter_requests_to_minimax_models_may_have",
+    "scout_source": "selfhost",
+    "image": "images/lead_2026-11-10.jpg"
   },
   "top_stories": [
     {
-      "title": "MECHREVO ships a 1.25-liter RTX Spark mini PC with up to 128 GB unified memory",
-      "summary": "The Master Road X10 packs NVIDIA's RTX Spark N1X (20-core Grace CPU, Blackwell GPU) into 1.25 L with a 140 W power limit, from about $4,950 (64 GB) to $7,500 (128 GB), using an SSD-offload scheme to run 80B-122B models locally.",
-      "source": "VideoCardz",
-      "date": "2026-11-24",
-      "url": "https://videocardz.com/newz/mechrevo-launches-1-25-liter-rtx-spark-mini-pc-with-140w-power-limit-starting-at-4950",
-      "scout_source": "hardware"
+      "title": "NVIDIA builds out the Nemotron 3.5 Parse ecosystem with open data and faster inference",
+      "summary": "NVIDIA details community work on the open Nemotron 3.5 Parse model: open training data, fine-tuning recipes and faster inference setups.",
+      "source": "Hugging Face",
+      "date": "2026-11-26",
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "scout_source": "official"
     },
     {
-      "title": "ASUS Turbo Radeon AI PRO R9700 reviewed as a ~$2,000 32 GB inference card for multi-card local rigs",
-      "summary": "ServeTheHome's review positions the Navi 48 card as an affordable building block for local LLM work, with up to 128 GB poolable across four cards.",
-      "source": "ServeTheHome",
-      "date": "2026-11-24",
-      "url": "https://www.servethehome.com/asus-turbo-radeon-pro-ai-r9700-review/",
-      "scout_source": "hardware"
+      "title": "llama.cpp ships b12752-b12756 and bumps the project to version 1.1.0",
+      "summary": "The new run of builds adopts the project's semantic-versioning scheme, adding the hy_v4_flash model on the DSA iSWA cache, a CUDA attention data-loading refactor, OpenVINO KV-cache decode fixes and Metaspace BPE tokenizer handling.",
+      "source": "GitHub",
+      "date": "2026-11-26",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12756",
+      "scout_source": "tools"
     },
     {
-      "title": "Laminar: ByteDance Seed and HKU open-source their decoupled RL post-training framework",
-      "summary": "Apache-2.0 Laminar separates rollout, experience buffer, training and weight sync, lifting Qwen3-Coder-30B from 46.6% to 52.2% on SWE-bench Verified with 33% fewer samples and up to 5.48x throughput on 1024 GPUs.",
-      "source": "X (Marktechpost)",
+      "title": "NVIDIA trims Q4 GPU supply again as B300 lead times hit 40 weeks",
+      "summary": "Board partners report a further 20-30% cut in consumer/gaming GPU allocations for Q4 after distributor price hikes of up to ~$500 on RTX 50 cards. ODMs put B300 lead times at 26-40 weeks as memory makers prioritize server DRAM, with the RTX 60 series possibly slipping to 2028.",
+      "source": "VideoCardz / TrendForce",
       "date": "2026-11-25",
-      "url": "https://x.com/Marktechpost/status/2125465845212327969",
-      "scout_source": "x"
+      "url": "https://videocardz.com/newz/nvidia-reportedly-cuts-gaming-gpu-supply-by-another-20-30-for-q4",
+      "scout_source": "hardware"
     },
     {
-      "title": "OpenAI internal model reportedly settles the 1979 VP vs VNP open problem with a Lean 4 formalization",
-      "summary": "The claimed breakthrough produces a 30-page paper with roughly 440k lines of Lean 4 formalization for one of complexity theory's central open questions.",
-      "source": "X (KKTech_X)",
-      "date": "2026-11-24",
-      "url": "https://x.com/KKTech_X/status/2125161313219555675",
-      "scout_source": "x"
+      "title": "KLD study settles the KV-cache quantization debate for Qwen3.8-27B: 8-bit nearly free, 4-bit costlier than expected",
+      "summary": "A per-token KL-divergence benchmark shows 8-bit KV-cache quantization barely changes Qwen3.8-27B output while saving ~2 GiB at 64k context, whereas 4-bit adds a measurable penalty. It also confirms vLLM NVFP4/FP8 checkpoints lag same-size GGUF/EXL3 quants, with W4A4 activations the main culprit; Marlin kernels with bf16 activations more than halve the NVFP4 KL gap.",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-26",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqbesv/effects_of_kv_cache_quantization_on_qwen38_27b/",
+      "scout_source": "selfhost"
     }
   ],
   "sections": [
     {
       "title": "Research & Papers",
+      "image": "images/section_research_papers_2026-11-10.jpg",
       "items": [
         {
-          "image": "images/section_research_papers_2026-11-10.jpg",
-          "title": "MXFP4 for LLM inference: how complementary post-training quantization techniques interact",
-          "summary": "Studies microscaling numeric formats (shared scale per 16/32 elements) and shows aggressive 4-bit quantization with minimal accuracy loss when complementary techniques are combined.",
+          "title": "Measurement artifacts in trustworthiness evaluations of quantized small language models",
+          "summary": "Across eight sub-2B instruction-tuned models, the study isolates instrument error from true quantization effects: LLM.int8() answers depend on batch composition and padding while NF4 is batch-invariant; the two largest reported calibration losses are response-bias shifts.",
           "source": "arXiv",
           "date": "2026-11-24",
-          "url": "https://arxiv.org/abs/2611.32873",
+          "url": "https://arxiv.org/abs/2611.32848",
           "scout_source": "research"
         },
         {
-          "title": "Exact token importance is not enough: the limits of top-K selection in LLM attention",
-          "summary": "Top-K KV/token selection is suboptimal because attention renormalizes over the chosen set, so individually important positions need not form the best set — a direct result for KV-cache compression in long-context local inference.",
+          "title": "Orthogonally mixed sign coding with progressive residual refinement for Transformer weight compression",
+          "summary": "Training-free, CDF-free progressive residual-sign quantization with randomized orthogonal mixing keeps near-baseline perplexity on GPT-2 Large and Llama-3-8B across five residual stages, with no learned codebooks.",
           "source": "arXiv",
-          "date": "2026-11-24",
-          "url": "https://arxiv.org/abs/2611.32324",
+          "date": "2026-11-23",
+          "url": "https://arxiv.org/abs/2611.31089",
           "scout_source": "research"
         },
         {
-          "title": "LEGOSpec: a composable framework for speculative draft design and training",
-          "summary": "Ablates speculative-decoding draft components and their composition effects instead of whole recipes, giving practical guidance for cheap draft models in local serving.",
+          "title": "Collect for coverage, replay with evidence: adaptive on-policy distillation for long-horizon agents",
+          "summary": "Prefix replay makes on-policy distillation practical for long-horizon agents: sampling current-student responses from stored histories cuts idle time on long-tail rollouts versus fully online distillation while preserving coverage.",
           "source": "arXiv",
-          "date": "2026-11-24",
-          "url": "https://arxiv.org/abs/2611.33004",
+          "date": "2026-11-25",
+          "url": "https://arxiv.org/abs/2611.34756",
           "scout_source": "research"
         },
         {
-          "title": "Can a frontier LLM repair a quantized network by tool-free weight-space programming?",
-          "summary": "Frontier LLMs read a 20k-parameter CNN as text and propose weight edits to repair round-to-nearest 4-bit accuracy loss without tools — a compact probe of weight-space programming.",
+          "title": "MolGPAO: autoregressive octree generation for 3D molecules",
+          "summary": "Autoregressive generation over adaptive 3D octrees gives an intrinsic O(N log N) sparsity advantage over dense O(N^2) diffusion/flow models on large drug-like molecules, with speculative decoding and sub-millisecond seam healing.",
           "source": "arXiv",
-          "date": "2026-11-24",
-          "url": "https://arxiv.org/abs/2611.33031",
+          "date": "2026-11-25",
+          "url": "https://arxiv.org/abs/2611.33985",
           "scout_source": "research"
         },
         {
-          "title": "ReQOR: operator-discrepancy subspace repair for quantization-conditioned backdoors",
-          "summary": "Identifies which quantization operators carry information and repairs quantization-conditioned backdoor behavior in a subspace, targeting quantized LLMs that behave differently at low vs high precision.",
-          "source": "arXiv",
+          "title": "Fractal Neural Synthesis: constant-storage procedural weight derivation for edge microcontrollers",
+          "summary": "Network weights are derived procedurally from complex quadratic boundary dynamics, giving constant storage versus the O(W) linear flash footprint of explicit tensors on resource-limited edge devices.",
+          "source": "HuggingFace",
           "date": "2026-11-24",
-          "url": "https://arxiv.org/abs/2611.32755",
+          "url": "https://huggingface.co/papers/2611.32393",
           "scout_source": "research"
         }
       ]
     },
     {
       "title": "Open Weights & Models",
+      "image": "images/section_open_weights_models_2026-11-10.jpg",
       "items": [
         {
-          "image": "images/section_open_weights_models_2026-11-10.jpg",
-          "title": "KRAFTON releases Raon-1-mini, a 30B-A4B MoE trained from scratch",
-          "summary": "Strong in Korean conversation and agent tasks; ships safetensors plus imatrix GGUF (Q4_K_M 22.0 GB, fits 24 GB VRAM), MLX and NVFP4 builds.",
+          "title": "SenseTime releases SenseNova-RoboRSI-27B, an open-weight robot agent mixing VLA policies with Code as Policy",
+          "summary": "The Apache-2.0 27B decision model gives every robot task the same tool set, choosing between a vision-language-action policy and self-written code; it scored 34.7 on the RoboDojo Agent protocol (vs 27.6 for GPT-6 Astra) and transferred simulation-trained weights to physical Piper arms.",
           "source": "HuggingFace",
           "date": "2026-11-25",
-          "url": "https://huggingface.co/KRAFTON/Raon-1-mini",
+          "url": "https://huggingface.co/blog/sensenova/roborsi",
           "scout_source": "opensource"
         },
         {
-          "title": "PrismML ships Ternary Bonsai 2.5 27B for local coding under Apache 2.0",
-          "summary": "A 27B model for local code editing and tool use in a 5.9 GB footprint (7.67 GB GGUF for stock llama.cpp), with optional 629 MB or 931 MB vision projectors.",
+          "title": "NVIDIA ships open weights for Nemotron-Labs-Image-30B-A3B, an autoregressive image generator",
+          "summary": "A text-to-image model with only ~3B active parameters on a hybrid Mamba-2 architecture, said to outpace GPT Image 2; it is the raster rendering engine of the Nemotron-Labs-VisualCreation framework and ready for standalone local image generation and agentic visual workflows.",
           "source": "HuggingFace",
-          "date": "2026-11-24",
-          "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+          "date": "2026-11-26",
+          "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B",
           "scout_source": "opensource"
         },
         {
-          "title": "NandiBERT: open bidirectional encoders for English and Indic languages",
-          "summary": "NandiBERT-150M/450M (Apache 2.0) beat IndicBERT v2 on all seven reported IndicXTREME tasks (73.2 vs 65.9 average) at 450M, with 16K/32K context and a shared 100,352-token vocabulary.",
+          "title": "Nari Labs' NariQ squeezes Qwen3.8-27B under 3 bits per weight with trellis coded quantization",
+          "summary": "GGUF files compress Qwen3.8-27B from 53.8 GB (BF16) to 6.8-10.1 GB at 2.0-3.0 bits per weight, keeping the vision projector and KV cache in higher precision; agent performance is largely preserved, but the custom tensor types need Nari Labs' llama.cpp fork rather than Ollama or LM Studio.",
           "source": "HuggingFace",
-          "date": "2026-11-24",
-          "url": "https://huggingface.co/blog/FrontiersMind/introducing-nandibert",
-          "scout_source": "opensource"
-        },
-        {
-          "title": "Gyro-S v2 quants of Qwen3.8-Flash-Next refresh for 32 GB cards",
-          "summary": "agentionai's v2 (TQ1_0, 27.64 GiB) cuts drift 18% on held-out text and 27% on tool-call transcripts versus v1, ranking below IQ2_XS at 16% smaller file size.",
-          "source": "HuggingFace",
-          "date": "2026-11-24",
-          "url": "https://huggingface.co/agentionai/Qwen3.8-Flash-Next-Gyro-GGUF",
+          "date": "2026-11-25",
+          "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
           "scout_source": "opensource"
         }
       ]
     },
     {
       "title": "Tools & Runtimes",
+      "image": "images/section_tools_runtimes_2026-11-10.jpg",
       "items": [
         {
-          "image": "images/section_tools_runtimes_2026-11-10.jpg",
-          "title": "llama.cpp lands b12709-b12716 with fused CUDA kernels and Inkling 2 Mini speedups",
-          "summary": "New builds add fused CUDA RMS_NORM+MUL+MROPE/IMROPE kernels and a reworked weighted-sum path for Inkling 2 Mini that speeds prefill 14-37% on MI300X and B200.",
+          "title": "Open WebUI v0.13.5 adds folder workspaces and project skills",
+          "summary": "Folder workspaces pair chat with a terminal and browser tab per project directory, plus AGENTS.md/CLAUDE.md project instructions and reusable skills via Open Terminal 0.18.0+; the release also reports a 34x faster message-send path on a 130 MB PostgreSQL test chat.",
           "source": "GitHub",
           "date": "2026-11-25",
-          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12716",
+          "url": "https://github.com/open-webui/open-webui/releases/tag/v0.13.5",
           "scout_source": "tools"
         },
         {
-          "title": "Show HN: Rhebok — free local RAG for your coding agent",
-          "summary": "An open-source retrieval layer over local files for coding agents with no cloud dependency.",
+          "title": "FreeToken adds GGUF and NVFP4 support for the new Qwen, Gemma, GLM and DeepSeek families",
+          "summary": "The inference engine added image input via llama.cpp mmproj for Qwen3.5/3.6/3.8, Gemma-4, GLM-5.3-Flash and DeepSeek-V4-Flash-Vision-Exp GGUFs, new architecture support, and W4A4 NVFP4 kernels that speed up MoE prefill up to 3.72x and time-to-first-token 1.6-2.7x on Blackwell cards.",
           "source": "GitHub",
-          "date": "2026-11-24",
-          "url": "https://github.com/Stellenbosch-Technologies/rhebok",
-          "scout_source": "tools"
-        },
-        {
-          "title": "Product Hunt: Fleetify — open-source command center for AI coding agents",
-          "summary": "Manages multiple AI coding agents from one dashboard; among today's top Product Hunt developer-tool launches.",
-          "source": "Product Hunt",
           "date": "2026-11-25",
-          "url": "https://www.producthunt.com/products/fleetify",
-          "scout_source": "tools"
+          "url": "https://github.com/FlashML-org/FreeToken/releases",
+          "scout_source": "opensource"
         },
         {
-          "title": "Show HN: TokenMargin — client-side LLM API cost simulator and CSV bill auditor",
-          "summary": "Simulates LLM API costs and audits CSV billing exports entirely client-side, for local or API model users tracking spend.",
+          "title": "Show HN: Openfal serves local image and video generation behind a fal-style API",
+          "summary": "A self-hosted tool letting existing fal-compatible code run against models on your own hardware.",
           "source": "Hacker News",
           "date": "2026-11-25",
-          "url": "https://news.ycombinator.com/item?id=50637419",
+          "url": "https://news.ycombinator.com/item?id=50647219",
           "scout_source": "tools"
         }
       ]
     },
     {
       "title": "Self-Hosted Stack",
+      "image": "images/section_self_hosted_stack_2026-11-10.jpg",
       "items": [
         {
-          "image": "images/section_self_hosted_stack_2026-11-10.jpg",
-          "title": "n8n 3.4.0 and 2.50.0 fix the AI Agent node dropping empty chat-memory turns",
-          "summary": "Both branches patch #43935; 3.4.0 also lets the AI Assistant run a single node for up to 10 minutes (#44472).",
-          "source": "n8n GitHub Releases",
-          "date": "2026-11-24",
-          "url": "https://github.com/n8n-io/n8n/releases",
+          "title": "Inkling 2 Mini hits ~200 tok/s on a single RTX 4090 with small vLLM patches",
+          "summary": "Seven one-line community changes raise throughput from ~117 to ~190-220 tok/s using NVFP4 experts (W4A16), FP8 attention/head/embeddings and the model's built-in drafter, fitting 24 GB with 35k context at ~0.4% perplexity loss; llama.cpp trails at 40-60 tok/s pending attention/MTP optimizations.",
+          "source": "r/LocalLLaMA",
+          "date": "2026-11-26",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y1n4k7/inkling_2_mini_on_rtx_4090_200_toks_with_vllm_fp8/",
           "scout_source": "selfhost"
         },
         {
-          "title": "PrintGuard 3.0: self-hosted 3D print failure detector with 13 MB models on a Pi 5",
-          "summary": "Retrained on 9,385 community frames, it runs 12.9 MB / 9.5 MB models at ~40/60 fps with ~500 MB RAM on a Raspberry Pi 5, bundling ONNX Runtime and LiteRT and picking the faster backend at startup.",
-          "source": "r/selfhosted",
+          "title": "n8n 2.49 beta: custom OpenAI-compatible model IDs, richer tool-call errors, 'Always allow' MCP approvals",
+          "summary": "The beta line (2.49.3, stable at 2.48.7) lets self-hosters pass arbitrary model IDs for local OpenAI-compatible endpoints, flows more error context back on failed tool calls, and adds one-time 'Always allow' MCP approvals; note the API now rejects edits to read-only credential nodes.",
+          "source": "n8n Community",
           "date": "2026-11-25",
-          "url": "https://www.reddit.com/r/selfhosted/comments/1y3p9jb/printguard_30_selfhosted_3d_print_failure/",
+          "url": "https://community.n8n.io/t/n8n-2-49-beta-four-changes-im-actually-testing-before-stable-hits/329907",
           "scout_source": "selfhost"
         },
         {
-          "title": "Staaash 2.0 adds a two-way desktop sync app to this self-hosted Google Drive alternative",
-          "summary": "Windows/macOS/Linux sync client, redesigned UI, and a Windows installer that runs the server without Docker; files stay as normal files on disk with PostgreSQL-backed metadata.",
-          "source": "r/selfhosted",
+          "title": "Home Assistant 2026.12.0b0 beta opens ahead of the December final",
+          "summary": "The beta follows the record-size 2026.11 release (built-in Marketplace replacing HACS, expanded LLM API with action-calling and integration reload); betas ship weekly with bug-fix-only patches aimed at Fridays.",
+          "source": "Home Assistant",
           "date": "2026-11-25",
-          "url": "https://www.reddit.com/r/selfhosted/comments/1y1y483/staaash_20_a_selfhosted_google_drive_for_your/",
+          "url": "https://rc.home-assistant.io/latest-release-notes",
           "scout_source": "selfhost"
         },
         {
-          "title": "Homelab + AI coding agent: lessons from running an agent on a live Proxmox server",
-          "summary": "Months of operating a shell-access coding agent on a live homelab distilled into command-level hook guardrails rather than trusting the agent to follow instructions, with concrete hook examples.",
-          "source": "r/selfhosted",
-          "date": "2026-11-24",
-          "url": "https://www.reddit.com/r/selfhosted/comments/1y25npk/ive_been_running_my_homelab_together_with_an_ai/",
+          "title": "Community quant shootout: Unsloth IQ4_XS, EXL3 4bpw and Q4K-with-BF16-sidecar top the QFN picks",
+          "summary": "A fast-moving r/LocalLLaMA poll of QFN quants on 24 GB cards converges on practical tips: Unsloth v3.1 IQ4_XS for steadier reasoning, an EXL3 4 bpw fork reportedly using ~20% fewer tokens, and raising the QSA indexer from 2048 to 4096 tokens for better long-context recall.",
+          "source": "r/LocalLLaMA",
+          "date": "2026-11-26",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y55vx5/which_qfn_quant_are_you_using_right_now/",
           "scout_source": "selfhost"
         }
       ]
     },
     {
       "title": "Hardware & Edge",
+      "image": "images/section_hardware_edge_2026-11-10.jpg",
       "items": [
         {
-          "image": "images/section_hardware_edge_2026-11-10.jpg",
-          "title": "TornadoVM 8.2 ships a dedicated ROCm HIP backend for AMD GPUs",
-          "summary": "Interfaces directly with AMD's HIP runtime on Windows and Linux alongside improved Apple Metal support, improving the Java-based GPU kernel path for local inference on Radeon/Instinct cards.",
-          "source": "Phoronix",
-          "date": "2026-11-24",
-          "url": "https://www.phoronix.com/news/TornadoVM-8.2",
+          "title": "Apple M5 family measured for local LLM inference across 13 unified-memory configurations",
+          "summary": "llamaperf aggregates 269 community runs across 13 M5 configurations, from the 16 GB M5 (154 GB/s) to the 512 GB M5 Ultra Mac Studio (1,229 GB/s); median plain-decode examples include 64.2 t/s for Gemma 3 12B 4-bit on an M5 Max 48 GB, with memory capacity deciding which models fit.",
+          "source": "llamaperf",
+          "date": "2026-11-26",
+          "url": "https://llamaperf.com/mac/m5",
           "scout_source": "hardware"
         },
         {
-          "title": "ASUS co-CEO says budget PCs may drop from 16 GB to 8 GB RAM as memory prices climb",
-          "summary": "On its Q3 2026 earnings call, ASUS's S.Y. Hsu cited rising DRAM costs forcing 8 GB entry-level configs, with Microsoft adjusting Windows for the lower spec.",
+          "title": "NVIDIA shows Cosmos 3 Nano running on GeForce RTX GPUs with as little as 12 GB of VRAM",
+          "summary": "A guide to running the Cosmos 3 Nano world foundation model on consumer RTX cards using a streaming adapter on Hugging Face Diffusers group offloading, with weights streamed from system RAM: 720p text-to-video took ~43.8 minutes on a 12 GB RTX 5070 versus ~16.9 on a 32 GB RTX 5090.",
+          "source": "my2cents.ai",
+          "date": "2026-11-25",
+          "url": "https://www.my2cents.ai/news/2026-11-25-nvidia/",
+          "scout_source": "hardware"
+        },
+        {
+          "title": "MSI launches $7,800 RTX 5090 Black Friday bundle at 3x the GPU's original MSRP",
+          "summary": "The RTX 5090 SUPRIM LIQUID bundle lists at $7,800 against the card's $1,999 launch MSRP, illustrating how the GPU pricing crisis is reshaping what local-inference cards cost at retail.",
           "source": "VideoCardz",
-          "date": "2026-11-24",
-          "url": "https://videocardz.com/newz/asus-co-ceo-says-budget-pcs-may-drop-from-16gb-to-8gb-ram-due-to-rising-memory-prices",
-          "scout_source": "hardware"
-        },
-        {
-          "title": "INNO3D's single-slot RTX 5060 Ti PRO lists in Japan for about $1,060",
-          "summary": "The 20 mm-thick, 180 W card (4,608 CUDA cores, 16 GB GDDR7) surfaced at 169,400 yen — roughly $125 above dual-slot RTX 5060 Ti 16 GB cards in the VRAM-driven pricing squeeze.",
-          "source": "TechPowerUp",
-          "date": "2026-11-24",
-          "url": "https://techpowerup.com/355171/inno3ds-single-slot-rtx-5060-ti-pro-gets-listed-in-japan-for-about-usd-1-060",
-          "scout_source": "hardware"
-        },
-        {
-          "title": "AMD claims GPU frequency world record: RX 9060 XT at 4.837 GHz on LN2",
-          "summary": "The Navi 44 card hit 4,837 MHz, 54.5% above its 3,130 MHz boost clock, topping the previous 4,789 MHz record.",
-          "source": "VideoCardz",
-          "date": "2026-11-24",
-          "url": "https://videocardz.com/newz/amd-claims-gpu-frequency-world-record-with-radeon-rx-9060-xt-at-4-837-ghz",
-          "scout_source": "hardware"
-        },
-        {
-          "title": "AIDA64 adds support for unreleased RTX 4090 Ti and TITAN Ada engineering samples",
-          "summary": "FinalWire's 8.40.8544 beta recognizes the never-retailed AD102-based RTX 4090 Ti (18,176 cores) and TITAN Ada (18,432 cores, 48 GB GDDR6X).",
-          "source": "VideoCardz",
-          "date": "2026-11-24",
-          "url": "https://videocardz.com/newz/aida64-adds-support-for-unreleased-nvidia-geforce-rtx-4090-ti-and-titan-ada-gpus",
+          "date": "2026-11-26",
+          "url": "https://videocardz.com/newz/msi-launches-7800-rtx-5090-black-friday-bundle-at-3x-the-gpus-original-msrp-gamers-ask-if-theyre-out-of-their-mind",
           "scout_source": "hardware"
         }
       ]
@@ -260,57 +228,57 @@
       "title": "GitHub Trending · AI",
       "url": "https://github.com/trending",
       "link_label": "github.com/trending",
-      "date": "2026-11-25",
+      "date": "2026-11-26",
       "items": [
-        {
-          "name": "elementalsouls/Claude-BugHunter",
-          "url": "https://github.com/elementalsouls/Claude-BugHunter",
-          "meta": "Python · 21.7k ★ · +1826 today"
-        },
-        {
-          "name": "obra/superpowers",
-          "url": "https://github.com/obra/superpowers",
-          "meta": "Shell · 326.0k ★ · +1003 today"
-        },
         {
           "name": "HKUDS/CLI-Anything",
           "url": "https://github.com/HKUDS/CLI-Anything",
-          "meta": "Python · 65.0k ★ · +1074 today"
+          "meta": "Python · 65.7k ★ · +1106 today"
         },
         {
           "name": "jingyaogong/minimind",
           "url": "https://github.com/jingyaogong/minimind",
-          "meta": "Python · 70.4k ★ · +727 today"
+          "meta": "Python · 71.0k ★ · +826 today"
         },
         {
           "name": "cursor/plugins",
           "url": "https://github.com/cursor/plugins",
-          "meta": "TypeScript · 19.3k ★ · +360 today"
+          "meta": "TypeScript · 19.5k ★ · +416 today"
         },
         {
           "name": "firecrawl/firecrawl",
           "url": "https://github.com/firecrawl/firecrawl",
-          "meta": "TypeScript · 209.1k ★ · +991 today"
+          "meta": "TypeScript · 210.1k ★ · +1135 today"
         },
         {
           "name": "openvinotoolkit/openvino",
           "url": "https://github.com/openvinotoolkit/openvino",
-          "meta": "C++ · 12.5k ★ · +185 today"
+          "meta": "C++ · 12.7k ★ · +191 today"
         },
         {
           "name": "mvanhorn/last30days-skill",
           "url": "https://github.com/mvanhorn/last30days-skill",
-          "meta": "Python · 74.4k ★ · +703 today"
+          "meta": "Python · 75.1k ★ · +945 today"
         },
         {
           "name": "google-labs-code/stitch-skills",
           "url": "https://github.com/google-labs-code/stitch-skills",
-          "meta": "TypeScript · 12.7k ★ · +403 today"
+          "meta": "TypeScript · 13.0k ★ · +355 today"
         },
         {
-          "name": "Tracer-Cloud/opensre",
-          "url": "https://github.com/Tracer-Cloud/opensre",
-          "meta": "Python · 15.3k ★ · +398 today"
+          "name": "elementalsouls/Claude-BugHunter",
+          "url": "https://github.com/elementalsouls/Claude-BugHunter",
+          "meta": "Claude Code skill bundle for bug hunting and red-team work"
+        },
+        {
+          "name": "obra/superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "meta": "Agentic skills framework & software development methodology"
+        },
+        {
+          "name": "cathrynlavery/diagram-design",
+          "url": "https://github.com/cathrynlavery/diagram-design",
+          "meta": "Editorial diagram design for Claude Code, Codex, Copilot & other coding agents"
         }
       ]
     },
@@ -318,17 +286,17 @@
       "title": "Models Trending (Hugging Face)",
       "url": "https://huggingface.co/models?sort=trending",
       "link_label": "huggingface.co/models",
-      "date": "2026-11-25",
+      "date": "2026-11-26",
       "items": [
         {
           "name": "thinkingmachines/Inkling-2-Mini",
           "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
-          "meta": "26B-A5.4B multimodal (image-text-to-text), agentic & coding"
+          "meta": "26B looped MoE (~3B active), multimodal, 1M-token context"
         },
         {
           "name": "unsloth/Inkling-2-Mini-GGUF",
           "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
-          "meta": "Unsloth GGUF quants of Inkling 2 Mini for llama.cpp"
+          "meta": "GGUF quants of Inkling 2 Mini for llama.cpp"
         },
         {
           "name": "inworld/voice-isolator",
@@ -338,27 +306,17 @@
         {
           "name": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
           "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
-          "meta": "26B uncensored GGUF build of Inkling 2 Mini"
-        },
-        {
-          "name": "harness-hub/Qwen3.8-27B-pi-adapted",
-          "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
-          "meta": "Qwen3.8-27B adapted for pi harness, image-text-to-text"
+          "meta": "Uncensored GGUF variant of Inkling 2 Mini"
         },
         {
           "name": "SulphurAI/Sulphur-3",
           "url": "https://huggingface.co/SulphurAI/Sulphur-3",
-          "meta": "Multimodal model, trending on HF"
+          "meta": "Trending open model on Hugging Face"
         },
         {
-          "name": "tencent/Hy4-flash",
-          "url": "https://huggingface.co/tencent/Hy4-flash",
-          "meta": "220B MoE, image-text-to-text"
-        },
-        {
-          "name": "higurashi-ai/Haru-4B",
-          "url": "https://huggingface.co/higurashi-ai/Haru-4B",
-          "meta": "5B audio-to-audio model"
+          "name": "prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+          "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+          "meta": "27B ternary-quantized text generation GGUF"
         },
         {
           "name": "apple/DepthPro2",
@@ -366,9 +324,19 @@
           "meta": "Depth estimation model"
         },
         {
-          "name": "apple/FastFrames-L",
-          "url": "https://huggingface.co/apple/FastFrames-L",
-          "meta": "Text-to-video model"
+          "name": "llamaindex/OCRia-nano-1",
+          "url": "https://huggingface.co/llamaindex/OCRia-nano-1",
+          "meta": "Nano OCR image-to-text model"
+        },
+        {
+          "name": "harness-hub/Qwen3.8-27B-pi-adapted",
+          "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+          "meta": "Adapted Qwen3.8-27B for pi harness use"
+        },
+        {
+          "name": "inclusionAI/Ling-3.2-air",
+          "url": "https://huggingface.co/inclusionAI/Ling-3.2-air",
+          "meta": "128B open language model"
         }
       ]
     }
@@ -378,7 +346,7 @@
       "title": "Free on OpenRouter",
       "url": "https://openrouter.ai/models?max_price=0",
       "link_label": "Browse free models on OpenRouter →",
-      "date": "2026-11-25",
+      "date": "2026-11-26",
       "items": [
         {
           "name": "Baidu: ERNIE-5.5-Flash-Preview (free)",
@@ -441,7 +409,7 @@
       "title": "Free on OpenCode Zen",
       "url": "https://opencode.ai/docs/zen/",
       "link_label": "See the full Zen catalog →",
-      "date": "2026-11-25",
+      "date": "2026-11-26",
       "items": [
         {
           "name": "Big Pickle",
@@ -452,6 +420,11 @@
           "name": "Tidepool Alpha Free",
           "url": "https://opencode.ai/docs/zen/",
           "meta": "tidepool-alpha-free"
+        },
+        {
+          "name": "Seaglass Alpha Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "seaglass-alpha-free"
         },
         {
           "name": "Iceman Free",
@@ -503,94 +476,100 @@
   },
   "quick_hits": [
     {
-      "title": "NVIDIA publishes a Microduck obstacle-avoidance Sim2Real workflow with Isaac Lab and Newton",
+      "title": "Xylolabs publishes layered GGUF quants of Tencent's Hy4 multimodal model",
+      "source": "HuggingFace",
+      "url": "https://huggingface.co/Xylolabs/Hy4-GGUF",
+      "scout_source": "opensource"
+    },
+    {
+      "title": "Show HN: StackMaestro — local management of agent-generated stacks",
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=50650650",
+      "scout_source": "tools"
+    },
+    {
+      "title": "Show HN: Hush — computer-use layer for AI agents",
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=50651523",
+      "scout_source": "tools"
+    },
+    {
+      "title": "Show HN: Talira — search engine for software built for AI agents",
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=50651470",
+      "scout_source": "tools"
+    },
+    {
+      "title": "Where scientists draw the line on AI agents (Allen AI survey)",
       "source": "Hugging Face",
-      "date": "2026-11-24",
-      "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
       "scout_source": "official"
     },
     {
-      "title": "Ant Group open-sources a 560B-parameter medical AI model under MIT with 1M-token context",
-      "source": "X (PaoAI87)",
-      "date": "2026-11-24",
-      "url": "https://x.com/PaoAI87/status/2125243101111324912",
+      "title": "IBM Research presents CUGA, an Indic voice agent",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+      "scout_source": "official"
+    },
+    {
+      "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+      "scout_source": "official"
+    },
+    {
+      "title": "Google DeepMind's Mass Spec Skills let Antigravity agents interpret tandem mass spectra",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+      "scout_source": "official"
+    },
+    {
+      "title": "OpenAI testing Private Inference with select customers",
+      "source": "X (sama)",
+      "url": "https://x.com/i/status/2125635627341561995",
       "scout_source": "x"
     },
     {
-      "title": "LoopRes: fine-tuned LLMs reuse layers 2-3x per token, 4B beats a standard 8B at ~5% extra training cost",
-      "source": "X (shankar_aca)",
-      "date": "2026-11-24",
-      "url": "https://x.com/shankar_aca/status/2125261614333190458",
+      "title": "Anthropic migrates the Messages API from Python to Rust using Claude agents",
+      "source": "X (AnthropicAI)",
+      "url": "https://x.com/i/status/2125627317263466739",
       "scout_source": "x"
     },
     {
-      "title": "Anthropic's 'Working with AI' paper: organizational change, not model size, drives AI value",
-      "source": "X (emollick)",
-      "date": "2026-11-24",
-      "url": "https://x.com/emollick/status/2125098309928812898",
+      "title": "NVIDIA's TimeTravelContainer adds live-forking sandboxes for agents",
+      "source": "X (omarsar0)",
+      "url": "https://x.com/omarsar0/status/2125599144102531334",
       "scout_source": "x"
     },
     {
-      "title": "First paper scales full-parameter Evolution Strategies to billion-parameter LLMs with a population of 30",
-      "source": "X (grok)",
-      "date": "2026-11-24",
-      "url": "https://x.com/grok/status/2125286029141663927",
-      "scout_source": "x"
-    },
-    {
-      "title": "Draft calibration matches draft and target distributions to accelerate speculative decoding",
-      "source": "arXiv",
-      "date": "2026-11-24",
-      "url": "https://arxiv.org/abs/2611.33111",
-      "scout_source": "research"
-    },
-    {
-      "title": "Show HN: Adchestra — a Google Ads MCP server for AI agents",
-      "source": "Hacker News",
-      "date": "2026-11-24",
-      "url": "https://news.ycombinator.com/item?id=50636187",
-      "scout_source": "tools"
-    },
-    {
-      "title": "Show HN: Carry — save every AI conversation as Markdown you own",
-      "source": "Hacker News",
-      "date": "2026-11-25",
-      "url": "https://news.ycombinator.com/item?id=50637995",
-      "scout_source": "tools"
-    },
-    {
-      "title": "Marlowe emerges with $277M seed at $1.15B for lower-cost AI inference infrastructure",
-      "source": "Tech Startups",
-      "date": "2026-11-24",
-      "url": "https://techstartups.com/2026-11-24/startup-funding-news-today-november-24-2026-sierra-marlowe-embo-more",
+      "title": "S&P considers Nvidia credit downgrade over governance and 'key man' risks",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026-11-25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
       "scout_source": "funding"
     },
     {
-      "title": "Embo launches with $110M seed from a16z and Nvidia for physical-AI robotics models",
-      "source": "Tech Startups",
-      "date": "2026-11-24",
-      "url": "https://techstartups.com/2026-11-24/startup-funding-news-today-november-24-2026-sierra-marlowe-embo-more",
+      "title": "Post-IPO: Amodei calls accusations of surrendering human control to AI 'absurd'",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026-11-25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
       "scout_source": "funding"
     },
     {
-      "title": "Assintel Report 2026: Italy's business ICT market at EUR 46.4B, AI growing 40.2% but only 29% of firms use it",
+      "title": "Sapienza launches MinervaE, an open Italian LLM trained on Cineca's Leonardo",
       "source": "AI4Business",
-      "date": "2026-11-24",
-      "url": "https://www.ai4business.it/intelligenza-artificiale/assintel-ai-a-40-ma-solo-il-29-delle-imprese-la-usa/",
+      "url": "https://www.ai4business.it/intelligenza-artificiale/coding/minervae-il-nuovo-modello-italiano-di-ai-aperto-e-pubblico/",
       "scout_source": "italia"
     },
     {
-      "title": "UNIMORE spin-off Revismart brings generative AI to statutory auditing, tested by 180+ professionals",
-      "source": "Startup News",
-      "date": "2026-11-24",
-      "url": "https://www.startup-news.it/revismart-ai-revisione-legale/",
+      "title": "Angelini Technologies takes a stake in humanoid maker Oversonic Robotics",
+      "source": "Il Sole 24 Ore",
+      "url": "https://en.ilsole24ore.com/art/oversonic-robotics-humanoids-are-growing-angelini-technologies-AJow83RC",
       "scout_source": "italia"
     }
   ],
   "spiked": {
-    "low signal": 16,
-    "out of window": 4,
+    "low signal": 5,
+    "duplicate url": 2,
     "same story": 3,
-    "already ran": 8
+    "already ran": 5
   }
 }

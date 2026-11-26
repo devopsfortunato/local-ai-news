@@ -4,234 +4,6 @@
   },
   "headlines": [
     {
-      "text": "DeepX links its DX-M1 NPU to AWS IoT Greengrass for remote edge-AI deployment",
-      "source": "Chosun Biz",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "The structure of quantization damage: why the next bit should be spent globally",
-      "source": "arXiv",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "SinkPruner: sink-free visual token pruning for multimodal LLMs",
-      "source": "arXiv",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "LatentPress compresses context beyond text and vision",
-      "source": "arXiv",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "Knowledge distillation during mid-training favors reasoning over factual recall",
-      "source": "arXiv",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "Behaviorally effective LoRA writes are sparse and structured",
-      "source": "arXiv",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "Openheim: Rust LLM agent runtime with ACP, MCP and multi-provider support",
-      "source": "Openheim",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "mcptunnels: ngrok for MCP with OAuth 2.1",
-      "source": "GitHub",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "vpipe: real-time multimodal AI pipelines on Apple Silicon",
-      "source": "GitHub",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "OpenAI bought tens of thousands of Mac minis and Studios for AI-agent training",
-      "source": "Kucoin Blog",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "LocalLM Lab 1.0.0-beta: one API across Apple on-device, Claude, and local MLX models",
-      "source": "Swift Forums",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "llama.cpp b10752 adds Metal metallib build support for XCFramework packaging",
-      "source": "GitHub",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "Ollama v0.33.3-rc0 begins honoring GGUF model-defined default parameters",
-      "source": "GitHub",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "burrito-core: a community fix for OpenAI's gpt-oss trained on a single RTX 3090",
-      "source": "GitHub",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "Shed: git repo management for terminal-based coding agents",
-      "source": "GitHub",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "BenchMIRT uses item response theory to audit what LLM benchmarks actually measure",
-      "source": "Hugging Face",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "AfterQuery reportedly becomes Y Combinator's fastest-ever unicorn at a $3.2B valuation",
-      "source": "TechCrunch",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "AIR raises $50M to vet the skills and add-ons AI agents use",
-      "source": "TechCrunch",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "Empirik launches with $21M to predict infrastructure outages before they happen",
-      "source": "TechCrunch",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "Cheap verifiers, large blind spots: the reliability cost of cost-saving cascades",
-      "source": "arXiv",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "A mathematical theory of reusable neural bases for network compression",
-      "source": "arXiv",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "87GB Qwen3.8-Flash-Next runs on CPU-only at 8 tokens/s",
-      "source": "PulseAugur (r/LocalLLaMA)",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "Qwen3.6-35B-A3B: first open-weight Qwen3.6 variant, Apache 2.0 sparse MoE",
-      "source": "HuggingFace",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "BenchMIRT audits what LLM benchmarks actually measure",
-      "source": "Hugging Face",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "Qualcomm and HUMAIN unveil Horizon Ultra AI PC at LEAP 2026",
-      "source": "TechPowerUp",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "Superagent: a local home for your coding agent on Mac",
-      "source": "Superagent",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "A mathematical theory of reusable neural bases for network compression",
-      "source": "arXiv",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "Breaking structural identity: personalized federated LoRA under rank heterogeneity",
-      "source": "arXiv",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "Fountain: open-source conversational API that gives your app a computer",
-      "source": "Fountain",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "Markdown Gatekeeper: local-first authority layer for agent-facing Markdown",
-      "source": "GitHub",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "Qwen3.6-27B: dense companion model in the Qwen3.6 open-weight release",
-      "source": "HuggingFace",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "llama.cpp merges qwen4exp follow-up fixes for Qwen3.8-Flash-Next",
-      "source": "llama.cpp",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "AIR raises $50M to vet the skills and add-ons AI agents use",
-      "source": "TechCrunch",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "AfterQuery becomes Y Combinator's fastest-ever unicorn at $3.2B",
-      "source": "TechCrunch",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "Sequoia-incubated Empirik launches with $21M to predict outages before they happen",
-      "source": "TechCrunch",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "Fambot introduces an 'AI chief of staff' for families",
-      "source": "TechCrunch",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "GPT-6 Astra goes viral \u2014 major new model release",
-      "source": "YouTube \u2014 Beyond AI News",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
-      "text": "@huggingface/kernels ships 200+ WebGPU kernels for browser-based local AI",
-      "source": "Hugging Face",
-      "date": "2026-09-02",
-      "issue": 7
-    },
-    {
       "text": "Qwen3.8-Flash-Next runs on CPU at ~8 tok/s \u2014 87GB GGUF benchmarked",
       "source": "PulseAugur (r/LocalLLaMA)",
       "date": "2026-09-02",
@@ -12002,6 +11774,234 @@
       "source": "Startup News",
       "date": "2026-11-25",
       "issue": 65
+    },
+    {
+      "text": "MiniMax endpoints read OpenRouter prompts; OpenRouter strips Zero Data Retention labels",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "NVIDIA builds out the Nemotron 3.5 Parse ecosystem with open data and faster inference",
+      "source": "Hugging Face",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "llama.cpp ships b12752-b12756 and bumps the project to version 1.1.0",
+      "source": "GitHub",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "NVIDIA trims Q4 GPU supply again as B300 lead times hit 40 weeks",
+      "source": "VideoCardz / TrendForce",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "KLD study settles the KV-cache quantization debate for Qwen3.8-27B: 8-bit nearly free, 4-bit costlier than expected",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "Measurement artifacts in trustworthiness evaluations of quantized small language models",
+      "source": "arXiv",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "Orthogonally mixed sign coding with progressive residual refinement for Transformer weight compression",
+      "source": "arXiv",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "Collect for coverage, replay with evidence: adaptive on-policy distillation for long-horizon agents",
+      "source": "arXiv",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "MolGPAO: autoregressive octree generation for 3D molecules",
+      "source": "arXiv",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "Fractal Neural Synthesis: constant-storage procedural weight derivation for edge microcontrollers",
+      "source": "HuggingFace",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "SenseTime releases SenseNova-RoboRSI-27B, an open-weight robot agent mixing VLA policies with Code as Policy",
+      "source": "HuggingFace",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "NVIDIA ships open weights for Nemotron-Labs-Image-30B-A3B, an autoregressive image generator",
+      "source": "HuggingFace",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "Nari Labs' NariQ squeezes Qwen3.8-27B under 3 bits per weight with trellis coded quantization",
+      "source": "HuggingFace",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "Open WebUI v0.13.5 adds folder workspaces and project skills",
+      "source": "GitHub",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "FreeToken adds GGUF and NVFP4 support for the new Qwen, Gemma, GLM and DeepSeek families",
+      "source": "GitHub",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "Show HN: Openfal serves local image and video generation behind a fal-style API",
+      "source": "Hacker News",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "Inkling 2 Mini hits ~200 tok/s on a single RTX 4090 with small vLLM patches",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "n8n 2.49 beta: custom OpenAI-compatible model IDs, richer tool-call errors, 'Always allow' MCP approvals",
+      "source": "n8n Community",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "Home Assistant 2026.12.0b0 beta opens ahead of the December final",
+      "source": "Home Assistant",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "Community quant shootout: Unsloth IQ4_XS, EXL3 4bpw and Q4K-with-BF16-sidecar top the QFN picks",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "Apple M5 family measured for local LLM inference across 13 unified-memory configurations",
+      "source": "llamaperf",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "NVIDIA shows Cosmos 3 Nano running on GeForce RTX GPUs with as little as 12 GB of VRAM",
+      "source": "my2cents.ai",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "MSI launches $7,800 RTX 5090 Black Friday bundle at 3x the GPU's original MSRP",
+      "source": "VideoCardz",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "Xylolabs publishes layered GGUF quants of Tencent's Hy4 multimodal model",
+      "source": "HuggingFace",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "Show HN: StackMaestro \u2014 local management of agent-generated stacks",
+      "source": "Hacker News",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "Show HN: Hush \u2014 computer-use layer for AI agents",
+      "source": "Hacker News",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "Show HN: Talira \u2014 search engine for software built for AI agents",
+      "source": "Hacker News",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "Where scientists draw the line on AI agents (Allen AI survey)",
+      "source": "Hugging Face",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "IBM Research presents CUGA, an Indic voice agent",
+      "source": "Hugging Face",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+      "source": "Hugging Face",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "Google DeepMind's Mass Spec Skills let Antigravity agents interpret tandem mass spectra",
+      "source": "Google DeepMind",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "OpenAI testing Private Inference with select customers",
+      "source": "X (sama)",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "Anthropic migrates the Messages API from Python to Rust using Claude agents",
+      "source": "X (AnthropicAI)",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "NVIDIA's TimeTravelContainer adds live-forking sandboxes for agents",
+      "source": "X (omarsar0)",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "S&P considers Nvidia credit downgrade over governance and 'key man' risks",
+      "source": "TechCrunch",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "Post-IPO: Amodei calls accusations of surrendering human control to AI 'absurd'",
+      "source": "TechCrunch",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "Sapienza launches MinervaE, an open Italian LLM trained on Cineca's Leonardo",
+      "source": "AI4Business",
+      "date": "2026-11-26",
+      "issue": 66
+    },
+    {
+      "text": "Angelini Technologies takes a stake in humanoid maker Oversonic Robotics",
+      "source": "Il Sole 24 Ore",
+      "date": "2026-11-26",
+      "issue": 66
     }
   ]
 }
