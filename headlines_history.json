@@ -4,168 +4,6 @@
   },
   "headlines": [
     {
-      "text": "TaRA: Training-Aware Low-Rank Adaptation Initialization",
-      "source": "arXiv",
-      "date": "2026-09-03",
-      "issue": 8
-    },
-    {
-      "text": "Paperclip v2026.831.1: open-source AI agent orchestration",
-      "source": "GitHub",
-      "date": "2026-09-03",
-      "issue": 8
-    },
-    {
-      "text": "Real-Time Intelligence with IBM Time Series Models on Confluent",
-      "source": "Hugging Face",
-      "date": "2026-09-03",
-      "issue": 8
-    },
-    {
-      "text": "TimesFM 3.0: Google time-series foundation model lands on the Hub",
-      "source": "Hugging Face",
-      "date": "2026-09-03",
-      "issue": 8
-    },
-    {
-      "text": "Wonderful more than doubles its valuation to $5B in under 6 months",
-      "source": "TechCrunch",
-      "date": "2026-09-03",
-      "issue": 8
-    },
-    {
-      "text": "HiddenLayer nabs $100M as enterprises rush to secure their AI deployments",
-      "source": "TechCrunch",
-      "date": "2026-09-03",
-      "issue": 8
-    },
-    {
-      "text": "Former Apple engineers' robotics startup Lyte raises $165M at $1.6B",
-      "source": "Crunchbase",
-      "date": "2026-09-03",
-      "issue": 8
-    },
-    {
-      "text": "MIMIT approves Quantia quantum-AI project at Naples' Federico II University",
-      "source": "Metropolisweb",
-      "date": "2026-09-03",
-      "issue": 8
-    },
-    {
-      "text": "SEAL reinforces global safety in MoE via shared expert alignment",
-      "source": "arXiv",
-      "date": "2026-09-03",
-      "issue": 8
-    },
-    {
-      "text": "DeepAffinity predicts long-term eCommerce preferences with small LMs",
-      "source": "arXiv",
-      "date": "2026-09-03",
-      "issue": 8
-    },
-    {
-      "text": "AMD launches Ryzen AI Max PRO 400 with 192GB unified memory - up to 160GB addressable as VRAM",
-      "source": "Tech Times",
-      "date": "2026-09-05",
-      "issue": 9
-    },
-    {
-      "text": "NVIDIA: new llama.cpp and vLLM optimizations lift local LLM throughput up to 1.9x on RTX 5090, RTX PRO 6000 and DGX Spark",
-      "source": "RuntimeWire",
-      "date": "2026-09-05",
-      "issue": 9
-    },
-    {
-      "text": "OpenAI rolls out GPT-6, codenamed 'Astra', reported as its most advanced model yet",
-      "source": "YouTube - Bloomberg Technology",
-      "date": "2026-09-05",
-      "issue": 9
-    },
-    {
-      "text": "Why Gated DeltaNet survives 4-bit quantization: NVFP4 W4A4 for the recurrent half of a hybrid 27B LLM",
-      "source": "arXiv",
-      "date": "2026-09-05",
-      "issue": 9
-    },
-    {
-      "text": "Random attention: scored token selection adds almost nothing to KV cache eviction",
-      "source": "arXiv",
-      "date": "2026-09-05",
-      "issue": 9
-    },
-    {
-      "text": "Rethinking on-policy distillation II: one training example is enough to go far",
-      "source": "arXiv",
-      "date": "2026-09-05",
-      "issue": 9
-    },
-    {
-      "text": "Hardware-aware FP4 FlashAttention-4 maps attention scores straight to FP4 probabilities",
-      "source": "arXiv",
-      "date": "2026-09-05",
-      "issue": 9
-    },
-    {
-      "text": "VestigeKV: the NoPE-MLA KV cache carries its own eviction signal in a vestigial branch",
-      "source": "arXiv",
-      "date": "2026-09-05",
-      "issue": 9
-    },
-    {
-      "text": "Unlocking lossless speedups in LLMs via discrete diffusion",
-      "source": "arXiv",
-      "date": "2026-09-05",
-      "issue": 9
-    },
-    {
-      "text": "IFM releases K2 Horizon: six fully open models (0.9B-375B) with weights, code and training data",
-      "source": "IFM",
-      "date": "2026-09-05",
-      "issue": 9
-    },
-    {
-      "text": "FastVideo publishes FastH3, a 4-step 35B text-to-video preview",
-      "source": "Hugging Face",
-      "date": "2026-09-05",
-      "issue": 9
-    },
-    {
-      "text": "Spark-X2.5-4B and 1.7B: claimed first edge models with native 1M-token context",
-      "source": "Hugging Face",
-      "date": "2026-09-05",
-      "issue": 9
-    },
-    {
-      "text": "llama.cpp ships v0.4.0, its second semver-stable release",
-      "source": "GitHub",
-      "date": "2026-09-05",
-      "issue": 9
-    },
-    {
-      "text": "ggml v0.23.0 lands sparse attention, async RPC and an Apple RDMA transport",
-      "source": "GitHub",
-      "date": "2026-09-05",
-      "issue": 9
-    },
-    {
-      "text": "Show HN: Sageling runs Qwen 3.5 9B in-process on Apple Silicon via MLX",
-      "source": "Hacker News",
-      "date": "2026-09-05",
-      "issue": 9
-    },
-    {
-      "text": "Show HN: Moadim is a local, cron-free scheduler daemon for coding agents",
-      "source": "Hacker News",
-      "date": "2026-09-05",
-      "issue": 9
-    },
-    {
-      "text": "Show HN: Personal Context MCP puts accounts, memory and skills behind one self-hostable endpoint",
-      "source": "Hacker News",
-      "date": "2026-09-05",
-      "issue": 9
-    },
-    {
       "text": "NVIDIA launches PAIR beta: a Personal AI Router that pools home PCs for local LLM inference",
       "source": "The Verge",
       "date": "2026-09-05",
@@ -12002,6 +11840,168 @@
       "source": "La Tech Made in Italy",
       "date": "2026-11-27",
       "issue": 67
+    },
+    {
+      "text": "llama.cpp ships builds b12820\u2013b12823 with CUDA and ggml-zdnn fixes",
+      "source": "GitHub",
+      "date": "2026-11-28",
+      "issue": 68
+    },
+    {
+      "text": "Beijing's AI ambitions under threat as models may fall behind by up to nine months",
+      "source": "Tom's Hardware",
+      "date": "2026-11-28",
+      "issue": 68
+    },
+    {
+      "text": "n8n 3.0 pre-release: self-hosters should prep via Migration Report before the stable jump",
+      "source": "n8n",
+      "date": "2026-11-28",
+      "issue": 68
+    },
+    {
+      "text": "Community benchmark: MTPLX beats mlx-serve and oMLX for Mac local inference, at a TTFT cost",
+      "source": "r/LocalLLaMA",
+      "date": "2026-11-28",
+      "issue": 68
+    },
+    {
+      "text": "Hugging Face launches AI Model Market Daily, a stock-board view of the model market",
+      "source": "Hugging Face",
+      "date": "2026-11-28",
+      "issue": 68
+    },
+    {
+      "text": "KVAE-3.0 tokenizer family released for audio, image and video",
+      "source": "HuggingFace",
+      "date": "2026-11-28",
+      "issue": 68
+    },
+    {
+      "text": "hs-decide-1-flash: 0.8B decision model with image input and 131K context",
+      "source": "HuggingFace",
+      "date": "2026-11-28",
+      "issue": 68
+    },
+    {
+      "text": "OpenThai 2.2 OCR: 0.6B Thai/English document-to-Markdown model, 3x faster",
+      "source": "HuggingFace",
+      "date": "2026-11-28",
+      "issue": 68
+    },
+    {
+      "text": "Inkling-2-Mini-Unbound v3: uncensored reasoning model trims over-thinking",
+      "source": "HuggingFace",
+      "date": "2026-11-28",
+      "issue": 68
+    },
+    {
+      "text": "Qwen3.8-27B GGUF ecosystem expands: GSQ re-optimized Q2_K and NariQ ternary quants",
+      "source": "HuggingFace",
+      "date": "2026-11-28",
+      "issue": 68
+    },
+    {
+      "text": "Show HN: A 52 KB WebAssembly engine that runs Qwen3.5-2B in a browser tab",
+      "source": "Hacker News",
+      "date": "2026-11-28",
+      "issue": 68
+    },
+    {
+      "text": "Show HN: Sentinel, a live monitoring tool for coding agent sabotage",
+      "source": "Hacker News",
+      "date": "2026-11-28",
+      "issue": 68
+    },
+    {
+      "text": "Show HN: WikiVectors makes any LLM smarter",
+      "source": "Hacker News",
+      "date": "2026-11-28",
+      "issue": 68
+    },
+    {
+      "text": "n8n still ships Node 26.13.0 in Docker images after November Node.js security release",
+      "source": "n8n community",
+      "date": "2026-11-28",
+      "issue": 68
+    },
+    {
+      "text": "TechRadar's Black Friday 2026 picks for AI mini PCs that run local LLMs",
+      "source": "TechRadar",
+      "date": "2026-11-28",
+      "issue": 68
+    },
+    {
+      "text": "Hugging Face joins White Circle post-training competition with $1.5M compute and $200k+ prizes",
+      "source": "Hugging Face",
+      "date": "2026-11-28",
+      "issue": 68
+    },
+    {
+      "text": "swyx: frontier lab count roughly doubling yearly since 2023",
+      "source": "X (swyx)",
+      "date": "2026-11-28",
+      "issue": 68
+    },
+    {
+      "text": "omarsar0: recursive collective intelligence paper on agent swarms",
+      "source": "X (omarsar0)",
+      "date": "2026-11-28",
+      "issue": 68
+    },
+    {
+      "text": "LMSYS/SGLang: Intel Xeon CPUs and Intel GPUs made first-class inference platforms",
+      "source": "X (lmsysorg)",
+      "date": "2026-11-28",
+      "issue": 68
+    },
+    {
+      "text": "_philschmid: experimental deep-research skill for Gemini 4 Neon turns coding agents into researchers",
+      "source": "X (_philschmid)",
+      "date": "2026-11-28",
+      "issue": 68
+    },
+    {
+      "text": "Karpathy on dynamic 'digital twin' virtual models of physical systems",
+      "source": "X (karpathy)",
+      "date": "2026-11-28",
+      "issue": 68
+    },
+    {
+      "text": "Two 2048-bit RSA keys, one GCD, both broken: check your own public keys in the browser",
+      "source": "Hugging Face",
+      "date": "2026-11-28",
+      "issue": 68
+    },
+    {
+      "text": "Organ-on-Chip: Italian deep tech opens new frontiers in oncology research",
+      "source": "La Tech Made in Italy",
+      "date": "2026-11-28",
+      "issue": 68
+    },
+    {
+      "text": "Data centers: Italy can triple its capacity by 2030, two years to attract investments",
+      "source": "AI4Business",
+      "date": "2026-11-28",
+      "issue": 68
+    },
+    {
+      "text": "European AI Gigafactories: new delay for the EUR 30 billion plan",
+      "source": "AI4Business",
+      "date": "2026-11-28",
+      "issue": 68
+    },
+    {
+      "text": "Zerith closes round worth several hundred million yuan for physical-AI robotics",
+      "source": "TechStartups",
+      "date": "2026-11-28",
+      "issue": 68
+    },
+    {
+      "text": "Pliant secures over \u20ac200M in debt financing to scale European AI-native ERP/payments",
+      "source": "Tech.eu",
+      "date": "2026-11-28",
+      "issue": 68
     }
   ]
 }
